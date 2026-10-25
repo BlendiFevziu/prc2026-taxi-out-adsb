@@ -1,0 +1,61 @@
+{
+  "note": "stage-one January/July screen, production encoding, fallback rows only in the evaluation; passing means take to six pairs, not build",
+  "rows": 5373,
+  "learn_fallback_rows": 17097,
+  "borrow_training_rows": 1739689,
+  "features_base": 35,
+  "features_masked": 28,
+  "dropped": [
+    "AIRCRAFT_OPERATOR_flt",
+    "FLIGHT_TYPE_flt",
+    "MARKET_SEGMENT_flt",
+    "WK_TBL_CAT_flt",
+    "eobt_sched_min",
+    "ersatz_eobt_s",
+    "ersatz_s"
+  ],
+  "arms": {
+    "base": {
+      "rmse": 1756.9116687364553,
+      "mse_gain_vs_base": 0.0,
+      "gain_without_best_100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    "borrow": {
+      "rmse": 1752.5495224804827,
+      "mse_gain_vs_base": 15308.782995747946,
+      "gain_without_best_100": -34263.20811316676,
+      "january_gain": 19914.361676609562,
+      "july_gain": 13630.518545002285
+    },
+    "borrow_eq_101": {
+      "rmse": 1750.5845532311066,
+      "mse_gain_vs_base": 22192.333730962324,
+      "gain_without_best_100": -24390.12116852943,
+      "january_gain": 43999.4513277399,
+      "july_gain": 14245.85994950579
+    },
+    "borrow_eq_202": {
+      "rmse": 1753.3450544337525,
+      "mse_gain_vs_base": 12519.731835016592,
+      "gain_without_best_100": -30525.52221166588,
+      "january_gain": 13890.686322450752,
+      "july_gain": 12020.158526365498
+    },
+    "borrow_eq_303": {
+      "rmse": 1752.1185712033366,
+      "mse_gain_vs_base": 16819.12418669303,
+      "gain_without_best_100": -27092.55781577034,
+      "january_gain": 24491.36976943436,
+      "july_gain": 14023.371923809887
+    }
+  },
+  "checks": {
+    "1_pooled_gain_positive": true,
+    "2_survives_top100_removal": false,
+    "3_both_months_gain": true,
+    "4_beats_equal_size_controls": false
+  },
+  "take_to_six_pairs": false
+}

@@ -1,0 +1,146 @@
+{
+  "validation": "fallback-only six-pair screen with production categorical encoding; not full ensemble; not a leaderboard forecast",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "research_v44_rmse": 1759.2774594972313,
+      "reference_rmse": 1759.2774594972313,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "research_v44_rmse": 1365.8532801384467,
+      "reference_rmse": 1365.8532801384467,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "research_v44_rmse": 1104.6775044611127,
+      "reference_rmse": 1104.6775044611127,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "research_v44_rmse": 784.0200284769749,
+      "reference_rmse": 784.0200284769749,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "research_v44_rmse": 1912.549817631745,
+      "reference_rmse": 1912.549817631745,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "research_v44_rmse": 1633.5378799633672,
+      "reference_rmse": 1633.5378675668649,
+      "passed": true
+    }
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "code_sha256": {
+    "fallback_anchor_production.py": "68a4fa2fc5d7f9c611a33863740c7f47321a7980e2aae72c2e7070b788c53b3c",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+  },
+  "rmse": {
+    "research_v44": 1508.3928707422867,
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521
+  },
+  "prod_anchor_vs_prod_v44": {
+    "pooled_mse_gain": 54231.04119530708,
+    "mse_gain_without_top100_rows": 10914.997731706786,
+    "positive_sse_mass": 2208064296.4781036,
+    "negative_sse_mass": -989492800.8195534,
+    "pair_gains": {
+      "1_7": 14254.66733513128,
+      "2_8": 249747.03198185228,
+      "3_9": 19696.3308483157,
+      "4_10": 1940.5981773518522,
+      "5_11": 12835.832948870393,
+      "6_12": 40863.353224597166
+    },
+    "pairs_positive": 6,
+    "january_gain_1_7": 17292.70429115107,
+    "july_gain_1_7": 13147.612222919897,
+    "disrupted_rows": 381,
+    "disrupted_net_gain_share": 0.8215576513711165,
+    "airport_day_bootstrap_mse_gain_95pct": [
+      9782.618980545216,
+      118741.42058952514
+    ],
+    "airport_contributions": {
+      "EDDF": -157.43671938937038,
+      "EDDM": 799.2647190174328,
+      "EGLL": 5993.843694718773,
+      "EHAM": 165.4407457743308,
+      "LEBL": -18.54226535394513,
+      "LEMD": -164.40670374313368,
+      "LFPG": 4429.687278557525,
+      "LIRF": 3882.8460773779266,
+      "LSZH": -633.7421895534859,
+      "LTFM": 39934.08655790101
+    },
+    "permuted_pooled_mse_gains": {
+      "101": -8647.188563940283,
+      "202": -14331.959696616568,
+      "303": -9652.230782299615,
+      "404": -9173.394606896883,
+      "505": -4518.484891405947
+    },
+    "checks": {
+      "1_pooled_gain_positive": true,
+      "2_survives_top100_removal": true,
+      "3_at_least_4_of_6_pairs": true,
+      "4_january_and_july_gain_in_1_7": true,
+      "5_beats_every_permutation": true
+    },
+    "advance": true,
+    "mechanical_overall_rmse_if_transfer_from_v45_not_forecast": 267.92724995609495
+  },
+  "prod_v44_vs_research_v44_descriptive": {
+    "pooled_mse_gain": 12578.773972444002,
+    "mse_gain_without_top100_rows": -48609.374191577816,
+    "positive_sse_mass": 1871940230.9914262,
+    "negative_sse_mass": -1589295179.8306096,
+    "pair_gains": {
+      "1_7": 8318.567752717603,
+      "2_8": 67081.6244825395,
+      "3_9": -32591.26962156597,
+      "4_10": 16438.449117226428,
+      "5_11": 18563.632070004493,
+      "6_12": 4514.5248202128805
+    },
+    "pairs_positive": 5,
+    "january_gain_1_7": 37928.595424116334,
+    "july_gain_1_7": -2471.2721935640434,
+    "disrupted_rows": 381,
+    "disrupted_net_gain_share": -0.07186693993508175,
+    "airport_day_bootstrap_mse_gain_95pct": [
+      -10386.46599029908,
+      36881.87297026548
+    ],
+    "airport_contributions": {
+      "EDDF": -9.314168355780426,
+      "EDDM": 217.1789369805043,
+      "EGLL": -831.3023060555802,
+      "EHAM": 198.83028714997454,
+      "LEBL": 61.948387018474655,
+      "LEMD": -10.098157688896542,
+      "LFPG": 46.25690898977725,
+      "LIRF": 14199.740417773317,
+      "LSZH": -19.907838140637665,
+      "LTFM": -1274.5584952271543
+    }
+  },
+  "seconds": 67.36915397644043
+}

@@ -1,0 +1,272 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe, production categorical encoding; not full ensemble; not a leaderboard forecast",
+  "weather_source": "Iowa Environmental Mesonet ASOS/METAR archive (public domain), research_240/fetch_metar.py",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 1.8189894035458565e-12,
+      "prod_anchor_max_diff": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 9.094947017729282e-13,
+      "prod_anchor_max_diff": 7.275957614183426e-12,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 2.7284841053187847e-12,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 1.1368683772161603e-13,
+      "passed": true
+    }
+  ],
+  "coverage": {
+    "held_out_2025": {
+      "1_7": {
+        "weather": 1.0,
+        "direction": 0.9817606551274893
+      },
+      "2_8": {
+        "weather": 1.0,
+        "direction": 0.9755671902268761
+      },
+      "3_9": {
+        "weather": 1.0,
+        "direction": 0.9718230487461257
+      },
+      "4_10": {
+        "weather": 1.0,
+        "direction": 0.9716477651767845
+      },
+      "5_11": {
+        "weather": 1.0,
+        "direction": 0.9702803107058426
+      },
+      "6_12": {
+        "weather": 1.0,
+        "direction": 0.9773548542519874
+      }
+    },
+    "pooled_2025": {
+      "weather": 1.0,
+      "direction": 0.9755674232309747
+    },
+    "ranking_2026": {
+      "weather": 1.0,
+      "direction": 0.9809073724007561
+    },
+    "ranking_2026_rows": 5290,
+    "weather_gate_passed": true,
+    "direction_gate_passed": true
+  },
+  "distribution_2025_vs_2026": {
+    "wx_temp_c": {
+      "mean_2025_jan_jul": 18.500279173646007,
+      "mean_2026": 15.275047258979207,
+      "standardized_difference": -0.3389784019191224,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_dewpoint_spread_c": {
+      "mean_2025_jan_jul": 6.90787269681742,
+      "mean_2026": 7.3181474480151225,
+      "standardized_difference": 0.07187750240282598,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_wind_kt": {
+      "mean_2025_jan_jul": 8.316955146100875,
+      "mean_2026": 9.008506616257089,
+      "standardized_difference": 0.1523784032685642,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_gust_excess_kt": {
+      "mean_2025_jan_jul": 0.27433463614368137,
+      "mean_2026": 0.3136105860113422,
+      "standardized_difference": 0.022168373166813454,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_visibility_km": {
+      "mean_2025_jan_jul": 9.44182326244556,
+      "mean_2026": 9.279720883054818,
+      "standardized_difference": -0.08897216489818457,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_frozen": {
+      "mean_2025_jan_jul": 0.005583472920156337,
+      "mean_2026": 0.08241965973534972,
+      "standardized_difference": 1.0311680064494315,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_freezing": {
+      "mean_2025_jan_jul": 0.007072399032198027,
+      "mean_2026": 0.003402646502835539,
+      "standardized_difference": -0.0437919827372358,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "wx_icing_risk": {
+      "mean_2025_jan_jul": 0.09510515540666295,
+      "mean_2026": 0.23137996219281665,
+      "standardized_difference": 0.46453077185018404,
+      "missing_2025": 0.0,
+      "missing_2026": 0.0
+    },
+    "od_dir": {
+      "mean_2025_jan_jul": 21.89440758293839,
+      "mean_2026": 21.1566775872037,
+      "standardized_difference": -0.08296178175931665,
+      "missing_2025": 0.018239344872510665,
+      "missing_2026": 0.019092627599243905
+    },
+    "od_purity": {
+      "mean_2025_jan_jul": 0.8697096691567455,
+      "mean_2026": 0.8704676631879954,
+      "standardized_difference": 0.004174932385623179,
+      "missing_2025": 0.018239344872510665,
+      "missing_2026": 0.019092627599243905
+    },
+    "od_minutes_since_change": {
+      "mean_2025_jan_jul": 6510.07125235405,
+      "mean_2026": 4933.720834183154,
+      "standardized_difference": -0.04742587116753796,
+      "missing_2025": 0.011725293132328285,
+      "missing_2026": 0.07315689981096407
+    },
+    "od_headwind_kt": {
+      "mean_2025_jan_jul": 4.3235108822338555,
+      "mean_2026": 5.570050915206825,
+      "standardized_difference": 0.23904893357798732,
+      "missing_2025": 0.09212730318257956,
+      "missing_2026": 0.08638941398865785
+    }
+  },
+  "code_sha256": {
+    "fallback_weather_screen.py": "78943d7a8cb93396ac7067ff16354e206cbe0ffd800d914565b465a88db91d50",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_weather.py": "22199d0de978de2219f69847b9a4466816601496019ee96abac84c36e16c88f7",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "W1_weather_offset": 1484.9153184783243,
+    "W2_weather_all": 1490.3529641736422,
+    "O1_direction_offset": 1486.958613652087
+  },
+  "variants": {
+    "W1_weather_offset": {
+      "pooled_mse_gain": 3465.734286823125,
+      "mse_gain_without_top100_rows": -8288.283122510858,
+      "pair_gains": {
+        "1_7": 2120.787103798698,
+        "2_8": 630.7916509731333,
+        "3_9": 2553.1299112364145,
+        "4_10": -1532.8905591985322,
+        "5_11": 5922.675337125144,
+        "6_12": 10192.460801838393
+      },
+      "pairs_positive": 5,
+      "january_gain_1_7": 1329.5698064189203,
+      "july_gain_1_7": 2409.105240350243,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -1204.7265349297702,
+        8357.372988510024
+      ],
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": true
+      },
+      "passes_1_to_4": false,
+      "coverage_gate_passed": true,
+      "advance": false
+    },
+    "W2_weather_all": {
+      "pooled_mse_gain": -12712.720482755296,
+      "mse_gain_without_top100_rows": -98124.28589329621,
+      "pair_gains": {
+        "1_7": -13349.81020711772,
+        "2_8": -23851.606196029225,
+        "3_9": 61728.88733818278,
+        "4_10": -2895.757218156918,
+        "5_11": -95463.74746576438,
+        "6_12": -14370.190720252387
+      },
+      "pairs_positive": 1,
+      "january_gain_1_7": -110292.2295445788,
+      "july_gain_1_7": 21975.830155822,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -60124.38023337242,
+        36876.26628034231
+      ],
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "passes_1_to_4": false,
+      "coverage_gate_passed": true,
+      "advance": false
+    },
+    "O1_direction_offset": {
+      "pooled_mse_gain": -2606.6813757300556,
+      "mse_gain_without_top100_rows": -12147.467335294665,
+      "pair_gains": {
+        "1_7": -10318.950579173323,
+        "2_8": 648.2414824384354,
+        "3_9": -3039.814133585441,
+        "4_10": -2769.433324238542,
+        "5_11": -5026.308417259276,
+        "6_12": 6893.976733868271
+      },
+      "pairs_positive": 2,
+      "january_gain_1_7": -10269.26333163258,
+      "july_gain_1_7": -10337.056521332024,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -7162.850812952029,
+        2493.0173971364716
+      ],
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "passes_1_to_4": false,
+      "coverage_gate_passed": true,
+      "advance": false
+    }
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 116.6123321056366
+}

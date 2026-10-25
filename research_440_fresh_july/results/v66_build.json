@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "v65_is_scored_file": true,
+    "test_passed": true,
+    "cells_passed": true,
+    "stand_models": true,
+    "extraction_equals_codex": true,
+    "stand_rows_by_owner": {
+      "base": 3392,
+      "direct_detector": 1441
+    },
+    "base_owned_rows_not_at_comparator": 0,
+    "rows_by_cell": {
+      "EHAM/07": 2280,
+      "LSZH/07": 1112
+    },
+    "reverse_order_replay_equal": true,
+    "shrink": 0.5,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v65": true,
+    "all_finite": true,
+    "rows_changed": 3362,
+    "change_s": {
+      "mean": 4.837212230523664,
+      "rms": 36.05635038892742
+    }
+  },
+  "base": {
+    "version": "v65",
+    "score": 256.6145,
+    "sha256": "7a801b44e90a237f15872de6ce255b173a111d0b28037454523a5481f64abbb0"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "per-cell gains on the ten fresh July days (weight 0.5 included) times the eligible 2026 rows; central 0.8, worst 0.3, best 1.2 of full transfer",
+    "mse_per_scored_row_full": 51.19411924365885,
+    "central": 256.53,
+    "worst": 256.58,
+    "best": 256.49
+  },
+  "candidate_path": ".cache/research_440/v66/candidate_v66.parquet",
+  "candidate_sha256": "96d77ccc336217ab5c09d6b8cc03868fe8ed2c6869d62934faaf92c6c68d9c17",
+  "verdict": "built"
+}

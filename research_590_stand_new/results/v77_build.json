@@ -1,0 +1,46 @@
+{
+  "checks": {
+    "v76_is_built_file": true,
+    "test_passed": true,
+    "admitted_as_expected": true,
+    "context_recipe_reproduces_codex": true,
+    "lemd_extraction_equals_audit": true,
+    "rows": {
+      "EGLL/07": 9048,
+      "LEMD/01": 12478
+    },
+    "rows_as_tested": true,
+    "comparator_equals_pre_nm_base": true,
+    "rows_at_base_in_v76": true,
+    "reverse_replay": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v76": true,
+    "all_finite": true,
+    "rows_changed": 21526,
+    "change_by_cell": {
+      "EGLL/07": {
+        "mean": -6.469648003487862,
+        "rms": 145.59533475144605
+      },
+      "LEMD/01": {
+        "mean": -33.435995000184654,
+        "rms": 120.29973692140524
+      }
+    }
+  },
+  "base": {
+    "version": "v76",
+    "central": 248.22,
+    "sha256": "4c7afb2d70afad61c1b8648b531c614634c63751be59c78056c65a89b2db27f0"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "tested gain per row x rows per cell; sister months, central 0.6, best 1.0, worst -0.2",
+    "mse_per_scored_row_full": 895.8461586563344,
+    "central": 247.13,
+    "best": 246.41,
+    "worst": 248.58
+  },
+  "candidate_path": ".cache/research_590/v77/candidate_v77.parquet",
+  "candidate_sha256": "ce8cc7da1538783298fee120076bb39d8c311f180daa1b31722b7f8f83a2714f",
+  "verdict": "built"
+}

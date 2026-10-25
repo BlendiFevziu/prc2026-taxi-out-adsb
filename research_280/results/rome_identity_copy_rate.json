@@ -1,0 +1,58 @@
+{
+  "lirf_departures": 160704,
+  "fallback_rows": 1488,
+  "copies": 722,
+  "base_rate": 0.4852150537634409,
+  "prefix": {
+    "learn_1_6_test_7_12": {
+      "learn_rows": 531,
+      "test_rows": 957,
+      "unseen_key_share": 0.1013584117032393,
+      "base_rate_learn": 0.5574387947269304,
+      "auc_rate": 0.8071448149032298,
+      "auc_schedule_delay": 0.65567226333519,
+      "auc_hour": 0.5696002758547518,
+      "auc_occurrences": 0.7198836458803038,
+      "copy_rate_top_quintile": 0.84375,
+      "copy_rate_bottom_quintile": 0.057291666666666664
+    },
+    "learn_7_12_test_1_6": {
+      "learn_rows": 957,
+      "test_rows": 531,
+      "unseen_key_share": 0.1167608286252354,
+      "base_rate_learn": 0.445141065830721,
+      "auc_rate": 0.790497412305923,
+      "auc_schedule_delay": 0.6844738355376653,
+      "auc_hour": 0.5584675100632548,
+      "auc_occurrences": 0.7184445083381253,
+      "copy_rate_top_quintile": 0.8490566037735849,
+      "copy_rate_bottom_quintile": 0.34579439252336447
+    }
+  },
+  "identifier": {
+    "learn_1_6_test_7_12": {
+      "learn_rows": 531,
+      "test_rows": 957,
+      "unseen_key_share": 0.5579937304075235,
+      "base_rate_learn": 0.5574387947269304,
+      "auc_rate": 0.7359663315738751,
+      "auc_schedule_delay": 0.65567226333519,
+      "auc_hour": 0.5696002758547518,
+      "auc_occurrences": 0.7198836458803038,
+      "copy_rate_top_quintile": 0.8020833333333334,
+      "copy_rate_bottom_quintile": 0.0625
+    },
+    "learn_7_12_test_1_6": {
+      "learn_rows": 957,
+      "test_rows": 531,
+      "unseen_key_share": 0.512241054613936,
+      "base_rate_learn": 0.445141065830721,
+      "auc_rate": 0.7927113283496262,
+      "auc_schedule_delay": 0.6844738355376653,
+      "auc_hour": 0.5584675100632548,
+      "auc_occurrences": 0.7184445083381253,
+      "copy_rate_top_quintile": 0.9339622641509434,
+      "copy_rate_bottom_quintile": 0.12149532710280374
+    }
+  }
+}

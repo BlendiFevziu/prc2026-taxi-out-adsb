@@ -1,0 +1,12 @@
+{
+  "v76_sha_equals_build": true,
+  "v75_is_uploaded_file": true,
+  "ids_order_equal": true,
+  "schema_equal_v75": true,
+  "pruefe_errors": [],
+  "rows_changed": 15230,
+  "every_change_is_an_admitted_stand_row": true,
+  "values_equal": true,
+  "inputs_used": 27,
+  "verdict": "verified"
+}

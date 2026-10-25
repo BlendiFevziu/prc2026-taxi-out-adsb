@@ -1,0 +1,442 @@
+{
+  "note": "label-free; frozen v2 detector",
+  "days": {
+    "2026-01-14": {
+      "ground_coverage": {
+        "EDDF": {
+          "aircraft": 514,
+          "with_ground_points": 389,
+          "share": 0.757
+        },
+        "EDDM": {
+          "aircraft": 407,
+          "with_ground_points": 356,
+          "share": 0.875
+        },
+        "EGLL": {
+          "aircraft": 534,
+          "with_ground_points": 494,
+          "share": 0.925
+        },
+        "EHAM": {
+          "aircraft": 573,
+          "with_ground_points": 523,
+          "share": 0.913
+        },
+        "LEBL": {
+          "aircraft": 475,
+          "with_ground_points": 268,
+          "share": 0.564
+        },
+        "LEMD": {
+          "aircraft": 422,
+          "with_ground_points": 393,
+          "share": 0.931
+        },
+        "LFPG": {
+          "aircraft": 559,
+          "with_ground_points": 251,
+          "share": 0.449
+        },
+        "LIRF": {
+          "aircraft": 244,
+          "with_ground_points": 200,
+          "share": 0.82
+        },
+        "LSZH": {
+          "aircraft": 320,
+          "with_ground_points": 285,
+          "share": 0.891
+        },
+        "LTFM": {
+          "aircraft": 130,
+          "with_ground_points": 0,
+          "share": 0.0
+        }
+      },
+      "detector_reach": {
+        "EDDF": {
+          "scored_departures": 502,
+          "matched_unique": 169,
+          "status": {
+            "no_occupancy": 142,
+            "no_parked_onset": 14,
+            "ok": 6,
+            "gap_too_large": 4,
+            "unmapped": 3
+          },
+          "estimates_main": 6,
+          "estimates_per_departure": 0.012
+        },
+        "EDDM": {
+          "scored_departures": 345,
+          "matched_unique": 299,
+          "status": {
+            "no_parked_onset": 128,
+            "ok": 97,
+            "no_occupancy": 30,
+            "unmapped": 29,
+            "gap_too_large": 10,
+            "ambiguous_onsets": 4,
+            "arrival_transition": 1
+          },
+          "estimates_main": 97,
+          "estimates_per_departure": 0.2812
+        },
+        "EGLL": {
+          "scored_departures": 632,
+          "matched_unique": 595,
+          "status": {
+            "no_occupancy": 301,
+            "no_parked_onset": 126,
+            "ok": 80,
+            "gap_too_large": 75,
+            "unmapped": 6,
+            "ambiguous": 5,
+            "no_points": 1,
+            "arrival_transition": 1
+          },
+          "estimates_main": 80,
+          "estimates_per_departure": 0.1266
+        },
+        "EHAM": {
+          "scored_departures": 566,
+          "matched_unique": 180,
+          "status": {
+            "ok": 93,
+            "no_parked_onset": 41,
+            "no_occupancy": 31,
+            "gap_too_large": 10,
+            "unmapped": 5
+          },
+          "estimates_main": 92,
+          "estimates_per_departure": 0.1625
+        },
+        "LEBL": {
+          "scored_departures": 319,
+          "matched_unique": 291,
+          "status": {
+            "no_occupancy": 109,
+            "ok": 51,
+            "no_parked_onset": 48,
+            "unmapped": 46,
+            "ambiguous": 25,
+            "gap_too_large": 9,
+            "ambiguous_onsets": 3
+          },
+          "estimates_main": 51,
+          "estimates_per_departure": 0.1599
+        },
+        "LEMD": {
+          "scored_departures": 531,
+          "matched_unique": 486,
+          "status": {
+            "no_occupancy": 300,
+            "no_parked_onset": 93,
+            "ok": 74,
+            "gap_too_large": 12,
+            "unmapped": 5,
+            "ambiguous_onsets": 2
+          },
+          "estimates_main": 74,
+          "estimates_per_departure": 0.1394
+        },
+        "LFPG": {
+          "scored_departures": 563,
+          "matched_unique": 510,
+          "status": {
+            "no_occupancy": 409,
+            "no_points": 72,
+            "unmapped": 13,
+            "ambiguous": 12,
+            "no_parked_onset": 3,
+            "gap_too_large": 1
+          },
+          "estimates_main": 0,
+          "estimates_per_departure": 0.0
+        },
+        "LIRF": {
+          "scored_departures": 301,
+          "matched_unique": 258,
+          "status": {
+            "no_occupancy": 217,
+            "no_parked_onset": 25,
+            "ok": 10,
+            "gap_too_large": 4,
+            "unmapped": 2
+          },
+          "estimates_main": 10,
+          "estimates_per_departure": 0.0332
+        },
+        "LSZH": {
+          "scored_departures": 290,
+          "matched_unique": 82,
+          "status": {
+            "no_parked_onset": 32,
+            "no_occupancy": 24,
+            "ok": 16,
+            "gap_too_large": 5,
+            "unmapped": 4,
+            "ambiguous_onsets": 1
+          },
+          "estimates_main": 16,
+          "estimates_per_departure": 0.0552
+        },
+        "LTFM": {
+          "scored_departures": 710,
+          "matched_unique": 0,
+          "status": {},
+          "estimates_main": 0,
+          "estimates_per_departure": 0.0
+        }
+      }
+    },
+    "2026-07-15": {
+      "ground_coverage": {
+        "EDDF": {
+          "aircraft": 634,
+          "with_ground_points": 437,
+          "share": 0.689
+        },
+        "EDDM": {
+          "aircraft": 509,
+          "with_ground_points": 417,
+          "share": 0.819
+        },
+        "EGLL": {
+          "aircraft": 608,
+          "with_ground_points": 533,
+          "share": 0.877
+        },
+        "EHAM": {
+          "aircraft": 676,
+          "with_ground_points": 590,
+          "share": 0.873
+        },
+        "LEBL": {
+          "aircraft": 718,
+          "with_ground_points": 428,
+          "share": 0.596
+        },
+        "LEMD": {
+          "aircraft": 532,
+          "with_ground_points": 375,
+          "share": 0.705
+        },
+        "LFPG": {
+          "aircraft": 684,
+          "with_ground_points": 465,
+          "share": 0.68
+        },
+        "LIRF": {
+          "aircraft": 401,
+          "with_ground_points": 0,
+          "share": 0.0
+        },
+        "LSZH": {
+          "aircraft": 423,
+          "with_ground_points": 322,
+          "share": 0.761
+        },
+        "LTFM": {
+          "aircraft": 321,
+          "with_ground_points": 1,
+          "share": 0.003
+        }
+      },
+      "detector_reach": {
+        "EDDF": {
+          "scored_departures": 666,
+          "matched_unique": 200,
+          "status": {
+            "no_occupancy": 167,
+            "no_parked_onset": 21,
+            "unmapped": 6,
+            "ok": 3,
+            "gap_too_large": 3
+          },
+          "estimates_main": 3,
+          "estimates_per_departure": 0.0045
+        },
+        "EDDM": {
+          "scored_departures": 498,
+          "matched_unique": 404,
+          "status": {
+            "no_parked_onset": 143,
+            "ok": 129,
+            "unmapped": 59,
+            "no_occupancy": 53,
+            "gap_too_large": 14,
+            "ambiguous_onsets": 4,
+            "no_points": 1,
+            "arrival_transition": 1
+          },
+          "estimates_main": 129,
+          "estimates_per_departure": 0.259
+        },
+        "EGLL": {
+          "scored_departures": 661,
+          "matched_unique": 623,
+          "status": {
+            "ok": 279,
+            "no_parked_onset": 161,
+            "gap_too_large": 92,
+            "no_occupancy": 61,
+            "unmapped": 14,
+            "ambiguous_onsets": 11,
+            "ambiguous": 5
+          },
+          "estimates_main": 275,
+          "estimates_per_departure": 0.416
+        },
+        "EHAM": {
+          "scored_departures": 703,
+          "matched_unique": 239,
+          "status": {
+            "ok": 131,
+            "no_parked_onset": 63,
+            "no_occupancy": 20,
+            "gap_too_large": 14,
+            "unmapped": 7,
+            "ambiguous_onsets": 4
+          },
+          "estimates_main": 130,
+          "estimates_per_departure": 0.1849
+        },
+        "LEBL": {
+          "scored_departures": 577,
+          "matched_unique": 559,
+          "status": {
+            "ok": 154,
+            "no_parked_onset": 130,
+            "no_occupancy": 105,
+            "unmapped": 70,
+            "ambiguous": 61,
+            "gap_too_large": 27,
+            "ambiguous_onsets": 12
+          },
+          "estimates_main": 148,
+          "estimates_per_departure": 0.2565
+        },
+        "LEMD": {
+          "scored_departures": 639,
+          "matched_unique": 588,
+          "status": {
+            "no_occupancy": 449,
+            "no_parked_onset": 71,
+            "ok": 50,
+            "gap_too_large": 12,
+            "unmapped": 5,
+            "no_points": 1
+          },
+          "estimates_main": 49,
+          "estimates_per_departure": 0.0767
+        },
+        "LFPG": {
+          "scored_departures": 711,
+          "matched_unique": 629,
+          "status": {
+            "no_occupancy": 521,
+            "no_points": 72,
+            "ambiguous": 16,
+            "unmapped": 16,
+            "no_parked_onset": 3,
+            "ok": 1
+          },
+          "estimates_main": 1,
+          "estimates_per_departure": 0.0014
+        },
+        "LIRF": {
+          "scored_departures": 495,
+          "matched_unique": 230,
+          "status": {
+            "no_occupancy": 216,
+            "no_points": 9,
+            "unmapped": 4,
+            "ambiguous": 1
+          },
+          "estimates_main": 0,
+          "estimates_per_departure": 0.0
+        },
+        "LSZH": {
+          "scored_departures": 415,
+          "matched_unique": 115,
+          "status": {
+            "no_occupancy": 54,
+            "no_parked_onset": 29,
+            "ok": 11,
+            "unmapped": 10,
+            "gap_too_large": 9,
+            "ambiguous_onsets": 1,
+            "no_points": 1
+          },
+          "estimates_main": 10,
+          "estimates_per_departure": 0.0241
+        },
+        "LTFM": {
+          "scored_departures": 815,
+          "matched_unique": 3,
+          "status": {
+            "no_occupancy": 3
+          },
+          "estimates_main": 0,
+          "estimates_per_departure": 0.0
+        }
+      }
+    },
+    "2025-01-16": {
+      "ground_coverage": {
+        "EDDF": {
+          "aircraft": 522,
+          "with_ground_points": 367,
+          "share": 0.703
+        },
+        "EDDM": {
+          "aircraft": 430,
+          "with_ground_points": 394,
+          "share": 0.916
+        },
+        "EGLL": {
+          "aircraft": 515,
+          "with_ground_points": 442,
+          "share": 0.858
+        },
+        "EHAM": {
+          "aircraft": 550,
+          "with_ground_points": 506,
+          "share": 0.92
+        },
+        "LEBL": {
+          "aircraft": 444,
+          "with_ground_points": 272,
+          "share": 0.613
+        },
+        "LEMD": {
+          "aircraft": 352,
+          "with_ground_points": 0,
+          "share": 0.0
+        },
+        "LFPG": {
+          "aircraft": 551,
+          "with_ground_points": 0,
+          "share": 0.0
+        },
+        "LIRF": {
+          "aircraft": 144,
+          "with_ground_points": 0,
+          "share": 0.0
+        },
+        "LSZH": {
+          "aircraft": 307,
+          "with_ground_points": 253,
+          "share": 0.824
+        },
+        "LTFM": {
+          "aircraft": 33,
+          "with_ground_points": 0,
+          "share": 0.0
+        }
+      }
+    }
+  }
+}

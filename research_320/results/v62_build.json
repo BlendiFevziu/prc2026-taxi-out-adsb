@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "v61_is_scored_file": true,
+    "c1_passed": true,
+    "c1_models_as_tested": true,
+    "arm4_models_as_deployed": true,
+    "rows": {
+      "v56_overlay": 66292,
+      "nm_free_partial": 6685,
+      "total": 72977
+    },
+    "ids_unique": true,
+    "v61_rows_equal_arm4_formula": true,
+    "c1_reverse_replay": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v61": true,
+    "all_finite": true,
+    "rows_changed": 72447,
+    "rms_change_s": 26.819871950292605
+  },
+  "base": {
+    "version": "v61",
+    "score": 258.9401,
+    "sha256": "51bd6d5441cd12b84268eb51cc3a5bf860e9aaee1071fbd4b82092663bda1ff4"
+  },
+  "planning": {
+    "chosen": "c1",
+    "rows_2026": {
+      "EDDF/01": 10348,
+      "EGLL/01": 11852,
+      "EHAM/07": 14112,
+      "LEBL/01": 8767,
+      "LEBL/07": 11966,
+      "LSZH/01": 6172,
+      "LSZH/07": 9762
+    },
+    "mse_per_scored_row": 299.65490758822233,
+    "full_s": 0.5792661253165647,
+    "at_0_88_s": 0.5096856340969111,
+    "minimum_0_1_s": true
+  },
+  "candidate_path": ".cache/research_320/v62/candidate_v62.parquet",
+  "candidate_sha256": "b470b0473da79308f1d5831209b80da3c0b6e2f2beb1ad1b92ae86d1e03dca98",
+  "verdict": "built"
+}

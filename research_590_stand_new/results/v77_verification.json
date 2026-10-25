@@ -1,0 +1,11 @@
+{
+  "v77_sha_equals_build": true,
+  "v76_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v76": true,
+  "pruefe_errors": [],
+  "rows_changed": 21526,
+  "every_change_is_a_target_row": true,
+  "values_equal": true,
+  "verdict": "verified"
+}

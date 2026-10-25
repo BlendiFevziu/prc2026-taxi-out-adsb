@@ -1,0 +1,133 @@
+{
+  "prereg": "research_410_surface/PREREG_surface.md",
+  "pair": "1_7",
+  "rows": 339046,
+  "coverage": {
+    "learn": {
+      "gp_dep_surface": 1.0,
+      "gp_arr_surface": 1.0,
+      "ah_pier_moves_15": 1.0,
+      "sl_rel_delay_min": 1.0
+    },
+    "held_out": {
+      "gp_dep_surface": 1.0,
+      "gp_arr_surface": 1.0,
+      "ah_pier_moves_15": 1.0,
+      "sl_rel_delay_min": 1.0
+    }
+  },
+  "source": {
+    "raw": "data/training_2025-*.parquet"
+  },
+  "rmse": {
+    "real": 223.6183723969004,
+    "mean_control": 223.77836968558555,
+    "base_91": 223.65734116094256
+  },
+  "rmse_per_seed": {
+    "real_s177": 223.5875401224209,
+    "real_s277": 223.61891280343252,
+    "real_s377": 223.64866008749553,
+    "base_s177": 223.70760817043097,
+    "base_s277": 223.70400110097395,
+    "base_s377": 223.56038267910344,
+    "control_1_s177": 223.83889784594106,
+    "control_1_s277": 223.73630923013167,
+    "control_1_s377": 223.92208195685313,
+    "control_2_s177": 223.6125500171185,
+    "control_2_s277": 223.70763076303012,
+    "control_2_s377": 223.87330978842178,
+    "control_3_s177": 223.78058179320377,
+    "control_3_s277": 223.666522809246,
+    "control_3_s377": 223.86724631324708
+  },
+  "rmse_gain_vs_control_s": 0.1599972886851333,
+  "rmse_gain_vs_base_s": 0.03896876404215277,
+  "mse_gain_per_row": 71.58226569977404,
+  "per_seed_mse_gain": {
+    "177": 70.00306925440964,
+    "277": 37.83302164693305,
+    "377": 106.91070619799575
+  },
+  "months": {
+    "1": 100.67474293727356,
+    "7": 47.864205994613876
+  },
+  "without_best_100": -72.74192301665367,
+  "airport_day_bootstrap_95": [
+    -3.906426838718961,
+    135.7550310025599
+  ],
+  "airports": {
+    "EDDF": {
+      "rows": 36231,
+      "vs_control": 104.22148430159302,
+      "vs_base": 150.0036544027043
+    },
+    "EDDM": {
+      "rows": 26854,
+      "vs_control": 120.57644706066641,
+      "vs_base": 68.8920784373742
+    },
+    "EGLL": {
+      "rows": 39744,
+      "vs_control": 443.6730690287285,
+      "vs_base": 184.77801849082283
+    },
+    "EHAM": {
+      "rows": 40141,
+      "vs_control": 53.55725956124894,
+      "vs_base": -1.0019660814420797
+    },
+    "LEBL": {
+      "rows": 28490,
+      "vs_control": 132.52527158823943,
+      "vs_base": 84.88339004923705
+    },
+    "LEMD": {
+      "rows": 35019,
+      "vs_control": 39.7197795094139,
+      "vs_base": -36.271775864851925
+    },
+    "LFPG": {
+      "rows": 38732,
+      "vs_control": 248.90581724073422,
+      "vs_base": 232.26538358868294
+    },
+    "LIRF": {
+      "rows": 26131,
+      "vs_control": -733.5433729821692,
+      "vs_base": -565.9536068987394
+    },
+    "LSZH": {
+      "rows": 21822,
+      "vs_control": -12.323813770378257,
+      "vs_base": 44.6902654219723
+    },
+    "LTFM": {
+      "rows": 45882,
+      "vs_control": 45.82250167295653,
+      "vs_base": -109.18087078318784
+    }
+  },
+  "hubs_vs_control": -67.04748516204212,
+  "relative_delay_at_least_30_min": {
+    "rows": 38966,
+    "vs_control": 48.00793368540855,
+    "vs_base": -33.510315936228565
+  },
+  "elsewhere": {
+    "rows": 300080,
+    "vs_control": 74.64344079065569,
+    "vs_base": 24.044457317243005
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": true,
+    "2_both_held_out_months_positive": true,
+    "3_without_best_100_positive": false,
+    "4_airport_day_interval_above_zero": false,
+    "5_rmse_gain_vs_control_at_least_0_3_s": false,
+    "6_real_beats_the_91_feature_base": true
+  },
+  "verdict": "fail"
+}

@@ -1,0 +1,43 @@
+{
+  "winter_rows": 306650,
+  "rmse_winter": {
+    "real": 208.4418381227217,
+    "mean_control": 208.5527208494429,
+    "base": 208.76906909477034
+  },
+  "gain_vs_control_mse": 46.23749372673351,
+  "gain_vs_base_mse": 136.52433071807226,
+  "per_seed_vs_control": {
+    "177": -5.025312305079718,
+    "277": 90.12459330564391,
+    "377": 53.61320017963602
+  },
+  "months_vs_control": {
+    "02": -157.50677842831837,
+    "12": 223.39270858820723
+  },
+  "without_best_100_vs_control": -106.08681483255808,
+  "airport_day_ci_vs_control": [
+    -232.9874046550126,
+    319.8117098095632
+  ],
+  "reported_summer": {
+    "2_8": {
+      "rows": 188852,
+      "gain_vs_base_mse": -95.502680755321
+    },
+    "6_12": {
+      "rows": 180640,
+      "gain_vs_base_mse": 64.09800974989172
+    }
+  },
+  "rules": {
+    "every_seed_beats_mean_control": false,
+    "february_and_december_positive": false,
+    "without_best_100_positive": false,
+    "airport_day_ci_above_zero": false,
+    "beats_base": true,
+    "minimum_200_mse_vs_base": false
+  },
+  "verdict": "fail"
+}

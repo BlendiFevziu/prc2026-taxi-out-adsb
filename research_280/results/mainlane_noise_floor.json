@@ -1,0 +1,70 @@
+{
+  "note": "within-group spread of rest on non-copy main-lane holdout rows; bounds at each conditioning, not forecasts",
+  "ensemble_rmse": 216.773,
+  "single_tree_rmse": 223.731,
+  "levels": [
+    {
+      "levels": 1,
+      "rows_in_groups": 308886,
+      "share_of_rows": 1.0,
+      "pooled_within_sd_s": 415.79251097050246,
+      "conditioning": "unconditional"
+    },
+    {
+      "levels": 10,
+      "rows_in_groups": 308886,
+      "share_of_rows": 1.0,
+      "pooled_within_sd_s": 398.4580792292286,
+      "conditioning": "airport"
+    },
+    {
+      "levels": 2297,
+      "rows_in_groups": 308765,
+      "share_of_rows": 0.9996082697176305,
+      "pooled_within_sd_s": 387.2206287991931,
+      "conditioning": "airport + stand"
+    },
+    {
+      "levels": 7610,
+      "rows_in_groups": 307548,
+      "share_of_rows": 0.9956683048114838,
+      "pooled_within_sd_s": 381.50338431914196,
+      "conditioning": "airport + stand + runway"
+    },
+    {
+      "levels": 27766,
+      "rows_in_groups": 293838,
+      "share_of_rows": 0.9512829976107691,
+      "pooled_within_sd_s": 375.39110790778784,
+      "conditioning": "+ aircraft type"
+    },
+    {
+      "levels": 48151,
+      "rows_in_groups": 114275,
+      "share_of_rows": 0.3699584960147109,
+      "pooled_within_sd_s": 368.235479523434,
+      "conditioning": "+ day"
+    },
+    {
+      "levels": 207,
+      "rows_in_groups": 417,
+      "share_of_rows": 0.0013500126260173656,
+      "pooled_within_sd_s": 1139.593999340701,
+      "conditioning": "+ day + hour"
+    },
+    {
+      "levels": 12236,
+      "rows_in_groups": 308470,
+      "share_of_rows": 0.9986532248143328,
+      "pooled_within_sd_s": 370.9585473209667,
+      "conditioning": "airport + day + hour"
+    },
+    {
+      "levels": 908,
+      "rows_in_groups": 1835,
+      "share_of_rows": 0.0059407030425464415,
+      "pooled_within_sd_s": 832.8811378293351,
+      "conditioning": "airport + stand + day + hour"
+    }
+  ]
+}

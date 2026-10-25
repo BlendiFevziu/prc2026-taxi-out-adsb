@@ -1,0 +1,53 @@
+{
+  "submission": "upbeat-goblin_v57.parquet",
+  "submission_id": "prc-2026-upbeat-goblin/upbeat-goblin_v57.parquet",
+  "uploaded_at_utc": "2026-09-27T15:43:32.778131+00:00",
+  "file_sha256": "88245bfc3c40cce81feb0ed15c22a8c5d4613ca38ca293886aa6057ba626c638",
+  "remote_size": 4728002,
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v57.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 260.9292
+  },
+  "score": 260.9292,
+  "previous": {
+    "version": "v56",
+    "score": 261.2616,
+    "sha256": "1767cc0257ddebf6350f1349d3c5487303ffa2df64f4ef0f9852db0b63e7c04c"
+  },
+  "gain_s": 0.3324,
+  "recipe": "exact scored v56 (1767cc02...) with 8,676 stand-observed main-lane rows at EDDF (Jan, Jul), EGLL (Jan) and LEBL (Jan, Jul) corrected by the pre-registered stand model (v56 recipe plus the guarded stand detector); days 6/13/20 untouched; every other row byte-identical to v56. research_320/PREREG_stand.md.",
+  "cells": [
+    "EDDF/01",
+    "EDDF/07",
+    "EGLL/01",
+    "LEBL/01",
+    "LEBL/07"
+  ],
+  "rows_changed_vs_v56": 8676,
+  "validation": "research_320/PREREG_stand.md: development +6,246 MSE per row (14 dates) and confirmation +6,763 (8 unread reserve dates), all rules; kept cells +6,029 / +7,432",
+  "verification": "research_320/results/stand_candidate_verification.json: seven checks passed (commit ceb2b77)",
+  "prediction_fixed_before_upload": {
+    "central": 260.98,
+    "full_transfer_confirmation": 260.85,
+    "half_transfer_confirmation": 261.06
+  },
+  "inside_predicted_range": true,
+  "transfer": {
+    "realised_mse_gain": 173.6,
+    "predicted_full_transfer_confirmation": 212.7,
+    "predicted_full_transfer_development": 147.9,
+    "realised_over_confirmation": 0.82,
+    "realised_per_changed_row": 6899
+  },
+  "reading": "Inside the range fixed before the upload, between the development-based and the confirmation-based full-transfer estimates. No constant was adjusted from this score.",
+  "open_data_only": "Challenge rows, adsb.lol tracks (ODbL), OSM and X-Plane stand geometry; the existing NM component of v56 unchanged, no NM input to the new rows",
+  "authorised": "owner, 27 September 2026: 'Then submit exactly one strongest verified candidate to the competition and record the submission ID, timestamp, file hash, and returned RMSE' (after the seven-point verification passed)",
+  "recorded_at": "2026-09-27T15:44:31.480063+00:00"
+}

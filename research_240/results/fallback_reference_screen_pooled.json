@@ -1,0 +1,604 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe, production categorical encoding; not full ensemble; not a leaderboard forecast",
+  "gate_a_rebuilt_neighbours": [
+    {
+      "table": "2025 all months",
+      "rows": 22470,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "2026 ranking",
+      "rows": 5290,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [2, 3, 4, 5, 6, 8, 9, 10, 11, 12], references [2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",
+      "rows": 17097,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 7], references [2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",
+      "rows": 5373,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 3, 4, 5, 6, 7, 9, 10, 11, 12], references [1, 3, 4, 5, 6, 7, 9, 10, 11, 12]",
+      "rows": 19032,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [2, 8], references [1, 3, 4, 5, 6, 7, 9, 10, 11, 12]",
+      "rows": 3438,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 4, 5, 6, 7, 8, 10, 11, 12], references [1, 2, 4, 5, 6, 7, 8, 10, 11, 12]",
+      "rows": 18921,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [3, 9], references [1, 2, 4, 5, 6, 7, 8, 10, 11, 12]",
+      "rows": 3549,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 5, 6, 7, 8, 9, 11, 12], references [1, 2, 3, 5, 6, 7, 8, 9, 11, 12]",
+      "rows": 19472,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [4, 10], references [1, 2, 3, 5, 6, 7, 8, 9, 11, 12]",
+      "rows": 2998,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 4, 6, 7, 8, 9, 10, 12], references [1, 2, 3, 4, 6, 7, 8, 9, 10, 12]",
+      "rows": 19509,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [5, 11], references [1, 2, 3, 4, 6, 7, 8, 9, 10, 12]",
+      "rows": 2961,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 4, 5, 7, 8, 9, 10, 11], references [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]",
+      "rows": 18319,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    },
+    {
+      "table": "months [6, 12], references [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]",
+      "rows": 4151,
+      "nt_med60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_med180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n60": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_n180": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "nt_anchor": {
+        "missing_pattern_equal": true,
+        "max_abs_diff": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "gate_b_replication": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 3.637978807091713e-12,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 9.094947017729282e-13,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "gate_c_coverage": {
+    "held_out_2025": {
+      "1_7": {
+        "rows": 5373,
+        "stand_or_runway": 1.0,
+        "stand": 0.8053229108505491
+      },
+      "2_8": {
+        "rows": 3438,
+        "stand_or_runway": 0.9991273996509599,
+        "stand": 0.710587550901687
+      },
+      "3_9": {
+        "rows": 3549,
+        "stand_or_runway": 0.9954916877993801,
+        "stand": 0.7686672302056917
+      },
+      "4_10": {
+        "rows": 2998,
+        "stand_or_runway": 0.9996664442961974,
+        "stand": 0.7294863242161441
+      },
+      "5_11": {
+        "rows": 2961,
+        "stand_or_runway": 0.9986491050320837,
+        "stand": 0.7325227963525835
+      },
+      "6_12": {
+        "rows": 4151,
+        "stand_or_runway": 0.9959046013008913,
+        "stand": 0.769694049626596
+      }
+    },
+    "pooled_2025_stand_share": 0.7587449933244326,
+    "ranking_2026": {
+      "rows": 5290,
+      "stand_or_runway": 0.9975425330812855,
+      "stand": 0.7952741020793951
+    },
+    "passed": true
+  },
+  "build_tables_gate_a_passed": true,
+  "code_sha256": {
+    "fallback_reference_screen.py": "d99a633e4555b3cfe240dd2a00020223041b6a541f5590647834ee5123e1ff61",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "descriptive": {
+    "stage_anchor_minus_nt_anchor_s": {
+      "rows": 22456,
+      "median_abs": 88.5,
+      "p90_abs": 323.5,
+      "share_over_120s": 0.4136533665835411
+    },
+    "spearman_ref_p50_vs_strecke_m_by_airport": {
+      "EDDF": 0.6851878200434015,
+      "EDDM": 0.5781076272598165,
+      "EGLL": 0.7054331900499056,
+      "EHAM": 0.723728949781119,
+      "LEBL": 0.40971453907405847,
+      "LEMD": 0.7175997011661781,
+      "LFPG": 0.6045008568605897,
+      "LIRF": 0.8645169538836863,
+      "LSZH": 0.6072459618859027,
+      "LTFM": 0.5783159801193215
+    }
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "R1_reference_offset": 1485.2298343175796,
+    "R2_reference_all": 1476.3142112167181,
+    "S1_stage_anchor": 1487.500987011424
+  },
+  "variants": {
+    "R1_reference_offset": {
+      "pooled_mse_gain": 2531.5765913820014,
+      "mse_gain_without_top100_rows": -8187.654438725754,
+      "positive_sse_mass": 685990348.4942641,
+      "negative_sse_mass": -629105822.4859104,
+      "pair_gains": {
+        "1_7": 4239.660716492132,
+        "2_8": 3890.0518777169154,
+        "3_9": 4628.278600022634,
+        "4_10": 3266.355033720848,
+        "5_11": -1726.1527733473195,
+        "6_12": -90.65867445035069
+      },
+      "pairs_positive": 4,
+      "january_gain_1_7": 15260.152771993335,
+      "july_gain_1_7": 223.81356066576484,
+      "disrupted_rows": 381,
+      "disrupted_net_gain_share": 0.333490172581098,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -3992.801810766114,
+        9811.600909500521
+      ],
+      "airport_contributions": {
+        "EDDF": 421.6527409688303,
+        "EDDM": 231.76377437170612,
+        "EGLL": 383.93946017758475,
+        "EHAM": 108.91381928334059,
+        "LEBL": 404.4361284651645,
+        "LEMD": 132.2689938598403,
+        "LFPG": 350.30819601246674,
+        "LIRF": -502.1527770631665,
+        "LSZH": -239.4525140757789,
+        "LTFM": 1239.898769382015
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 268.16700077856126,
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": true
+      },
+      "advance": false
+    },
+    "R2_reference_all": {
+      "pooled_mse_gain": 28935.587097965537,
+      "mse_gain_without_top100_rows": -57378.183865231964,
+      "positive_sse_mass": 2614767206.3608074,
+      "negative_sse_mass": -1964584564.2695215,
+      "pair_gains": {
+        "1_7": 52601.9038208557,
+        "2_8": -14619.750308672312,
+        "3_9": 37946.26978645593,
+        "4_10": 14468.017519849926,
+        "5_11": 26106.86020341338,
+        "6_12": 39139.11668612242
+      },
+      "pairs_positive": 5,
+      "january_gain_1_7": -16030.265729144327,
+      "july_gain_1_7": 77611.34092198574,
+      "disrupted_rows": 381,
+      "disrupted_net_gain_share": 0.015065928237050613,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -9092.568371912343,
+        68873.73375090316
+      ],
+      "airport_contributions": {
+        "EDDF": 421.64408465841075,
+        "EDDM": 231.75090342083266,
+        "EGLL": 145.07015628865432,
+        "EHAM": 51.92124102994206,
+        "LEBL": 402.47730922779766,
+        "LEMD": 132.56438999198392,
+        "LFPG": 216.2298637201687,
+        "LIRF": 26022.761804452683,
+        "LSZH": -239.45283749863856,
+        "LTFM": 1550.6201826737015
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 267.4107180682202,
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "S1_stage_anchor": {
+      "pooled_mse_gain": -4219.949021553907,
+      "mse_gain_without_top100_rows": -19264.682084977572,
+      "positive_sse_mass": 962434314.6767426,
+      "negative_sse_mass": -1057256569.1910589,
+      "pair_gains": {
+        "1_7": 1419.2751505127255,
+        "2_8": -5346.242340266004,
+        "3_9": -9646.017964912104,
+        "4_10": 5283.677271934086,
+        "5_11": -25583.55707966189,
+        "6_12": 2427.975687040921
+      },
+      "pairs_positive": 3,
+      "january_gain_1_7": 27318.824184449444,
+      "july_gain_1_7": -8018.473164291539,
+      "disrupted_rows": 381,
+      "disrupted_net_gain_share": 0.2300972541081899,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -14760.223233779501,
+        5765.857401359024
+      ],
+      "airport_contributions": {
+        "EDDF": 722.2315319353158,
+        "EDDM": 1515.1564859473174,
+        "EGLL": -65.09417254839543,
+        "EHAM": 619.5570134730856,
+        "LEBL": 527.8050688520731,
+        "LEMD": 176.8113647781832,
+        "LFPG": -706.1397906277946,
+        "LIRF": -5337.538533027652,
+        "LSZH": -704.7945847028788,
+        "LTFM": -967.9434056331621
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 268.3600406768492,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 124.27896094322205
+}

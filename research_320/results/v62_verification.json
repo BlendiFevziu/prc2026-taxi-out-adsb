@@ -1,0 +1,18 @@
+{
+  "v62_sha_equals_build": true,
+  "v61_is_scored_file": true,
+  "ids_order_equal": true,
+  "schema_equal_v61": true,
+  "pruefe_errors": [],
+  "all_finite": true,
+  "nm_free_partial_rows": 6687,
+  "nm_free_partial_rows_equal_build": true,
+  "overlap_with_v56_overlay": 2,
+  "overlap_rows_at_comparator_floor": true,
+  "partial_set_rows": 72977,
+  "rows_changed": 72447,
+  "every_change_in_partial_set": true,
+  "values_equal_recomputed_c1": true,
+  "outside_set_identical_to_v61": true,
+  "verdict": "verified"
+}

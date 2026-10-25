@@ -1,0 +1,33 @@
+{
+  "note": "six pairs on the SHIPPED anchored recipe; nothing uploaded",
+  "rows": 22470,
+  "anchored_mse": 2172139.040915986,
+  "c6_mse": 2137545.2791920663,
+  "fires": 306,
+  "fires_share": 0.013618157543391188,
+  "precision_on_fires": 0.7647058823529411,
+  "pooled_seconds": 1.2186982641093844,
+  "pairs_positive": 6,
+  "ordinary": {
+    "rows": 21165,
+    "mse_per_row_gain": -31535.03078528022,
+    "seconds": -1.046422001891565
+  },
+  "copies": {
+    "rows": 1124,
+    "mse_per_row_gain": 1328006.6688806158,
+    "seconds": 2.340248079665262
+  },
+  "broken": {
+    "rows": 181,
+    "mse_per_row_gain": -264744.4382038019,
+    "seconds": -0.07512781366431152
+  },
+  "robustness_drop_best": {
+    "0": 1.2186982641093844,
+    "10": 0.3370126159723674,
+    "25": -0.25598535519993404,
+    "50": -0.7289950210833679,
+    "100": -1.0683379625159304
+  }
+}

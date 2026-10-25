@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "reference_sha": true,
+    "v60_sha": true,
+    "context_sha": true,
+    "features_sha": true,
+    "arm4_models": true,
+    "stand_models": true,
+    "eham_models": true,
+    "reference_ids_equal_v60": true,
+    "reference_differs_from_v60_on": 30009,
+    "partial_reverse_replay": true,
+    "stand_extraction_equals_codex": true,
+    "layers_disjoint": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_reference": true,
+    "all_finite": true,
+    "rows_changed": 8505,
+    "rows_by_layer": {
+      "partial": 6687,
+      "stand": 1073,
+      "eham_january": 784
+    },
+    "no_row_outside_days_6_13_20": true
+  },
+  "cells": {
+    "partial": {
+      "EHAM/07": 1290,
+      "LEBL/07": 1128,
+      "EGLL/01": 1058,
+      "EDDF/01": 1005,
+      "LSZH/07": 950,
+      "LEBL/01": 726,
+      "LSZH/01": 530
+    },
+    "stand": {
+      "LEBL/07": 406,
+      "EGLL/01": 403,
+      "LEBL/01": 186,
+      "EDDF/01": 42,
+      "EDDF/07": 36
+    }
+  },
+  "planning": {
+    "mse_per_scored_row": {
+      "partial": 260.4932479653781,
+      "stand": 26.4764381587278,
+      "eham_january": 15.86992997579084,
+      "total": 302.8396160998967
+    },
+    "seconds_at_260_full": 0.5830375941077932,
+    "seconds_at_260_at_0_88": 0.5130039138144298
+  },
+  "base": {
+    "reference": "research_330_nmfree (Codex), no official score",
+    "sha256": "5f6f8632156c56016e1f1294751babd9a23e6293dfa5970cf11b468b1a021003"
+  },
+  "candidate_sha256": "51bd6d5441cd12b84268eb51cc3a5bf860e9aaee1071fbd4b82092663bda1ff4",
+  "candidate_path": ".cache/research_320/nmfree_plus/candidate_nmfree_plus.parquet",
+  "verdict": "built_and_verified"
+}

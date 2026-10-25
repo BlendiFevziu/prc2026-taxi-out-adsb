@@ -1,0 +1,263 @@
+{
+  "prereg": "research_430_robust/PREREG_robust.md",
+  "dropped": [
+    "ground_points",
+    "stand_min_m",
+    "stand_first_m",
+    "stand_median_m"
+  ],
+  "rows": {
+    "E": 24093,
+    "B1": 16029,
+    "B2": 8894
+  },
+  "cross_season": {
+    "01_to_07": {
+      "M": -308.3169032480555,
+      "F": 337.4241578203657,
+      "MF": 25.48412040386452,
+      "rows": 11843
+    },
+    "07_to_01": {
+      "M": -59.39138618369392,
+      "F": 834.3066543339991,
+      "MF": 570.58235698031,
+      "rows": 13080
+    }
+  },
+  "M": {
+    "B1": {
+      "gain_mse": -442.7460757593576,
+      "without_best100": -852.4837765257204,
+      "interval": [
+        -660.4544050901429,
+        -237.08660690292962
+      ],
+      "by_month": {
+        "01": -462.97692918151074,
+        "07": -421.2527462808812
+      },
+      "by_cell": {
+        "EDDF/01": -545.9617780524555,
+        "EGLL/01": -597.999791556664,
+        "EHAM/07": -280.7807757478547,
+        "LEBL/01": -297.7414953786501,
+        "LEBL/07": -502.96931346727104,
+        "LSZH/01": -362.68610317979585,
+        "LSZH/07": -566.6484878183727
+      },
+      "seeds": {
+        "177": -442.28120603343297,
+        "277": -383.0765182168702,
+        "377": -502.5132281560557
+      },
+      "rules": {
+        "pooled_positive": false,
+        "both_months_positive": false,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": false,
+        "every_seed_positive": false,
+        "five_of_seven_cells_positive": false
+      }
+    },
+    "B2": {
+      "gain_mse": -280.88445485480673,
+      "without_best100": -864.281575492376,
+      "interval": [
+        -584.0339937368296,
+        -5.394661871094984
+      ],
+      "by_month": {
+        "01": -272.82351778728497,
+        "07": -290.4344178802691
+      },
+      "by_cell": {
+        "EDDF/01": -519.1060470714232,
+        "EGLL/01": -549.6500796569787,
+        "EHAM/07": -361.86298813076166,
+        "LEBL/01": -152.51873547136583,
+        "LEBL/07": -357.2615238282434,
+        "LSZH/01": 297.29811519938147,
+        "LSZH/07": -91.84710577509951
+      },
+      "seeds": {
+        "177": -235.93424243460683,
+        "277": -268.6422209097528,
+        "377": -334.01301968678075
+      },
+      "rules": {
+        "pooled_positive": false,
+        "both_months_positive": false,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": false,
+        "every_seed_positive": false,
+        "five_of_seven_cells_positive": false
+      }
+    },
+    "planning_full_s": -0.15691809990538458,
+    "rules": {
+      "1_development_B1": false,
+      "2_replication_B2": false,
+      "3_cross_season_both_directions": false,
+      "4_planning_at_least_0_1_s": false
+    },
+    "verdict": "fail"
+  },
+  "F": {
+    "B1": {
+      "gain_mse": 446.53921632979814,
+      "without_best100": -45.53109269012076,
+      "interval": [
+        178.34763799741367,
+        733.0886165454838
+      ],
+      "by_month": {
+        "01": 730.478391907135,
+        "07": 144.88124248238813
+      },
+      "by_cell": {
+        "EDDF/01": 924.5074403049643,
+        "EGLL/01": 1008.7531703205071,
+        "EHAM/07": 41.530774953756406,
+        "LEBL/01": 165.2373091155336,
+        "LEBL/07": 284.38097982019394,
+        "LSZH/01": 840.0430338782324,
+        "LSZH/07": 139.6786357867501
+      },
+      "seeds": {
+        "177": 496.6058658834422,
+        "277": 481.4021475523953,
+        "377": 419.1888662119169
+      },
+      "rules": {
+        "pooled_positive": true,
+        "both_months_positive": true,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": true,
+        "every_seed_positive": true,
+        "five_of_seven_cells_positive": true
+      }
+    },
+    "B2": {
+      "gain_mse": 356.0564746794495,
+      "without_best100": -248.66569155344814,
+      "interval": [
+        39.291376636748744,
+        720.4073613193762
+      ],
+      "by_month": {
+        "01": 523.9186323077204,
+        "07": 157.18661807391018
+      },
+      "by_cell": {
+        "EDDF/01": 852.9593982492212,
+        "EGLL/01": 1242.7031817566524,
+        "EHAM/07": 363.66830525522687,
+        "LEBL/01": 59.45445589553053,
+        "LEBL/07": -299.78916972386696,
+        "LSZH/01": -141.2806326792758,
+        "LSZH/07": 412.77964807471517
+      },
+      "seeds": {
+        "177": 401.9436686241604,
+        "277": 368.0951482817547,
+        "377": 362.30860349975717
+      },
+      "rules": {
+        "pooled_positive": true,
+        "both_months_positive": true,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": true,
+        "every_seed_positive": true,
+        "five_of_seven_cells_positive": true
+      }
+    },
+    "planning_full_s": 0.19899049165894667,
+    "rules": {
+      "1_development_B1": false,
+      "2_replication_B2": false,
+      "3_cross_season_both_directions": true,
+      "4_planning_at_least_0_1_s": true
+    },
+    "verdict": "fail"
+  },
+  "MF": {
+    "B1": {
+      "gain_mse": -48.73945689218902,
+      "without_best100": -631.075227587005,
+      "interval": [
+        -325.6052025280326,
+        221.39943607641595
+      ],
+      "by_month": {
+        "01": 233.47614535338315,
+        "07": -348.566300399869
+      },
+      "by_cell": {
+        "EDDF/01": 219.1614223553997,
+        "EGLL/01": 310.1908054771166,
+        "EHAM/07": -212.286879990752,
+        "LEBL/01": -22.045581923021253,
+        "LEBL/07": -312.2549462908853,
+        "LSZH/01": 558.8127755514336,
+        "LSZH/07": -652.9713793840021
+      },
+      "seeds": {
+        "177": -43.17980572272501,
+        "277": 6.646749556075573,
+        "377": -53.72675257012623
+      },
+      "rules": {
+        "pooled_positive": false,
+        "both_months_positive": false,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": false,
+        "every_seed_positive": false,
+        "five_of_seven_cells_positive": false
+      }
+    },
+    "B2": {
+      "gain_mse": -41.896029900433106,
+      "without_best100": -860.2601257993255,
+      "interval": [
+        -366.32908763811196,
+        314.6819178503328
+      ],
+      "by_month": {
+        "01": 145.52207330801338,
+        "07": -263.9342297958733
+      },
+      "by_cell": {
+        "EDDF/01": 130.87592847127377,
+        "EGLL/01": 610.7721454538621,
+        "EHAM/07": -137.70970827541166,
+        "LEBL/01": -99.80003986912838,
+        "LEBL/07": -617.5365762342057,
+        "LSZH/01": 21.03774464062475,
+        "LSZH/07": -12.940153916039353
+      },
+      "seeds": {
+        "177": -0.08667821296966548,
+        "277": -60.46178847611661,
+        "377": -2.3037403452452856
+      },
+      "rules": {
+        "pooled_positive": false,
+        "both_months_positive": false,
+        "best100_removed_positive": false,
+        "adjusted_interval_positive": false,
+        "every_seed_positive": false,
+        "five_of_seven_cells_positive": false
+      }
+    },
+    "planning_full_s": -0.023405515299710924,
+    "rules": {
+      "1_development_B1": false,
+      "2_replication_B2": false,
+      "3_cross_season_both_directions": true,
+      "4_planning_at_least_0_1_s": false
+    },
+    "verdict": "fail"
+  },
+  "chosen": null
+}

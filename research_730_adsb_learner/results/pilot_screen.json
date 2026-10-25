@@ -1,0 +1,139 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_pilot.md",
+  "rows": 339046,
+  "coverage": {
+    "EDDF": {
+      "rows": 36231,
+      "matched": 0.9819767602329497
+    },
+    "EDDM": {
+      "rows": 26854,
+      "matched": 0.9864079839130111
+    },
+    "EGLL": {
+      "rows": 39744,
+      "matched": 0.9873188405797102
+    },
+    "EHAM": {
+      "rows": 40141,
+      "matched": 0.988540395107247
+    },
+    "LEBL": {
+      "rows": 28490,
+      "matched": 0.9854685854685855
+    },
+    "LEMD": {
+      "rows": 35019,
+      "matched": 0.778777235215169
+    },
+    "LFPG": {
+      "rows": 38732,
+      "matched": 0.8938087369616854
+    },
+    "LIRF": {
+      "rows": 26131,
+      "matched": 0.6853162909953695
+    },
+    "LSZH": {
+      "rows": 21822,
+      "matched": 0.9781413252680781
+    },
+    "LTFM": {
+      "rows": 45882,
+      "matched": 4.3590078898042804e-05
+    }
+  },
+  "matched_share": 0.7969715023920058,
+  "rmse": {
+    "real": 223.16569419167854,
+    "mean_control": 236.49406186697155,
+    "base_91": 236.44227884332923
+  },
+  "rmse_gain_vs_control_s": 13.32836767529301,
+  "rmse_gain_vs_base_s": 13.276584651650694,
+  "mse_gain_per_row": 6126.5142342851805,
+  "per_seed_mse_gain": {
+    "177": 6126.8004035207705,
+    "277": 6126.228065049567
+  },
+  "months": {
+    "1": 5551.433109024409,
+    "7": 6595.357377235703
+  },
+  "without_best_100": 5701.945689261847,
+  "airport_day_bootstrap_95": [
+    5579.245643202664,
+    6744.513492722227
+  ],
+  "airports": {
+    "EDDF": {
+      "rows": 36231,
+      "vs_control": 10420.561466949948,
+      "vs_base": 10488.396644079367
+    },
+    "EDDM": {
+      "rows": 26854,
+      "vs_control": 9361.821663822626,
+      "vs_base": 9338.69899163739
+    },
+    "EGLL": {
+      "rows": 39744,
+      "vs_control": 3093.7531208800756,
+      "vs_base": 2951.2265568992007
+    },
+    "EHAM": {
+      "rows": 40141,
+      "vs_control": 11897.518016039769,
+      "vs_base": 11851.931896390453
+    },
+    "LEBL": {
+      "rows": 28490,
+      "vs_control": 10499.65352879256,
+      "vs_base": 10243.611940841874
+    },
+    "LEMD": {
+      "rows": 35019,
+      "vs_control": 1555.6632499709024,
+      "vs_base": 1626.7286534517034
+    },
+    "LFPG": {
+      "rows": 38732,
+      "vs_control": 207.33778038098237,
+      "vs_base": 172.19255006219217
+    },
+    "LIRF": {
+      "rows": 26131,
+      "vs_control": 8207.785072854607,
+      "vs_base": 8007.777666951996
+    },
+    "LSZH": {
+      "rows": 21822,
+      "vs_control": 12531.755793055756,
+      "vs_base": 12629.721892447014
+    },
+    "LTFM": {
+      "rows": 45882,
+      "vs_control": -41.52140404921142,
+      "vs_base": 102.54804435704882
+    }
+  },
+  "matched_rows": {
+    "rows": 270210,
+    "vs_control": 7756.08729967234,
+    "vs_base": 7702.254599600748
+  },
+  "unmatched_rows": {
+    "rows": 68836,
+    "vs_control": -270.2394701465594,
+    "vs_base": -179.54750148943052
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": true,
+    "2_both_months_positive": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": true,
+    "5_rmse_gain_vs_control_at_least_0_3_s": true,
+    "6_real_beats_the_base": true
+  },
+  "verdict": "pass"
+}

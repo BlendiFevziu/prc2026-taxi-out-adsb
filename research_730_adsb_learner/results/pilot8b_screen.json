@@ -1,0 +1,59 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_daily_reconcile_v2.md",
+  "rows": 323262,
+  "rmse": {
+    "reconciled": 198.3124541235797,
+    "mean_control": 199.66793805496906,
+    "corrector": 199.66793805496906
+  },
+  "rmse_gain_vs_corrector_s": 1.355483931389358,
+  "rmse_gain_vs_control_s": 1.355483931389358,
+  "lambda_chosen": {
+    "2": 0.75,
+    "6": 0.25
+  },
+  "control_lambdas": [
+    {
+      "2": 0.0,
+      "6": 0.0
+    },
+    {
+      "2": 0.0,
+      "6": 0.0
+    },
+    {
+      "2": 0.0,
+      "6": 0.0
+    }
+  ],
+  "months_gain": {
+    "2": 1009.5533497237466,
+    "6": 168.29670188458076
+  },
+  "without_best_100": 104.17196765678739,
+  "airport_day_bootstrap_95": [
+    -109.87261797536017,
+    1282.2085257899623
+  ],
+  "airports_gain": {
+    "EDDF": 115.64064083277148,
+    "EDDM": 138.31556385759598,
+    "EGLL": 184.13518484337928,
+    "EHAM": -197.17066904181127,
+    "LEBL": 180.20507346342245,
+    "LEMD": 237.33201661873852,
+    "LFPG": 425.8984236221072,
+    "LIRF": 0.0,
+    "LSZH": 67.206102129942,
+    "LTFM": 3331.8160542997234
+  },
+  "checks": {
+    "1_beats_mean_control": true,
+    "2_both_months_beat_corrector": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": false,
+    "5_gain_at_least_0_3_s": true,
+    "6_lambda_above_zero_both_months": true
+  },
+  "verdict": "fail"
+}

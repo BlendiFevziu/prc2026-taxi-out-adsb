@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-13",
+  "mapping_file": "adsb-lol/preferred/PREFERRED_RELEASES_2025.txt",
+  "mapping_sha256": "3414529a55b3521554e73643a1cebe10617358bd793c989c747f19f114c3079d",
+  "release": "v2025.10.13-planes-readsb-staging-0",
+  "size_source": "github release api",
+  "parts": [
+    {
+      "asset": "v2025.10.13-planes-readsb-staging-0.tar.aa",
+      "listed_size": 2000000000,
+      "size": 2000000000,
+      "sha256": "90edac806fc2b5b36147330e24d68839471a493e1c498005042267a4890be06b",
+      "size_matches_listing": true
+    },
+    {
+      "asset": "v2025.10.13-planes-readsb-staging-0.tar.ab",
+      "listed_size": 1324524032,
+      "size": 1324524032,
+      "sha256": "760632a09cfb3a383e97315731d2cffe0b04e7f0df32607515402fa7c1670a19",
+      "size_matches_listing": true
+    }
+  ],
+  "tracks": "adsb-lol/tracks/2025-10-13.parquet",
+  "tar_end_marker": true,
+  "extract": "extracted 2025-10-13 in 324s | traces 62,912, parsed 4,378 (7.0%), points 1,194,328, 323s -> adsb-lol/tracks/2025-10-13.parquet"
+}

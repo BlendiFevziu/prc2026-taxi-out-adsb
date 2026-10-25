@@ -1,0 +1,28 @@
+{
+  "prereg": "research_670_fallback_lfpg/PREREG_fallback_lfpg.md",
+  "fallback_rows": 996,
+  "covered": 0,
+  "share": 0.0,
+  "by_match": {},
+  "detector_rmse": null,
+  "shipped_rmse": null,
+  "gain_mse": 0.0,
+  "bootstrap_95": [
+    0.0,
+    0.0
+  ],
+  "airport_days": 0,
+  "by_month": {},
+  "rows_by_month": {},
+  "inside_support": 0,
+  "gain_inside_support": 0.0,
+  "planning_s": 0.0,
+  "rules": {
+    "pooled": false,
+    "bootstrap_lower_above_zero": false,
+    "january_and_july": false,
+    "twenty_rows": false,
+    "planning_0_05_s": false
+  },
+  "verdict": "fail"
+}

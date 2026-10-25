@@ -1,0 +1,122 @@
+{
+  "EDDM": {
+    "scored_departures": 25966,
+    "names_mapped_share": {
+      "osm": 0.8697527536008627,
+      "xplane": 0.999499345297697,
+      "either": 0.999499345297697,
+      "xplane_only": 0.12974659169683433,
+      "osm_only": 0.0
+    },
+    "map_agreement_m": {
+      "names_in_both": 183,
+      "median": 5.7462053868287875,
+      "p90": 16.276092493090065,
+      "share_within_30_m": 0.9781420765027322
+    },
+    "empirical": {
+      "flights_with_parked_position": 3126,
+      "stands": 150,
+      "stands_in_both_maps": 111,
+      "flights_on_those_stands": 2803,
+      "flight_weighted_median_m": {
+        "osm": 15.971199016778728,
+        "xplane": 5.803273415982681
+      },
+      "flight_weighted_p90_m": {
+        "osm": 26.364360179510797,
+        "xplane": 17.963522152005094
+      },
+      "flight_share_within_30_m": {
+        "osm": 0.9097395647520514,
+        "xplane": 0.9857295754548698
+      },
+      "stands_where_xplane_is_closer": 79
+    },
+    "heading": {
+      "pushbacks": 2150,
+      "median_diff_deg": 1.3058469347968185,
+      "share_within_30_deg": 0.9409302325581396
+    }
+  },
+  "EHAM": {
+    "scored_departures": 38182,
+    "names_mapped_share": {
+      "osm": 0.9561049709287098,
+      "xplane": 0.9617620868472055,
+      "either": 0.9936357445916925,
+      "xplane_only": 0.037530773662982554,
+      "osm_only": 0.03187365774448693
+    },
+    "map_agreement_m": {
+      "names_in_both": 195,
+      "median": 3.717935231180788,
+      "p90": 20.734372453539684,
+      "share_within_30_m": 0.9641025641025641
+    },
+    "empirical": {
+      "flights_with_parked_position": 915,
+      "stands": 153,
+      "stands_in_both_maps": 144,
+      "flights_on_those_stands": 895,
+      "flight_weighted_median_m": {
+        "osm": 6.622507155774562,
+        "xplane": 6.005762042484937
+      },
+      "flight_weighted_p90_m": {
+        "osm": 17.639513054721846,
+        "xplane": 14.558894065329135
+      },
+      "flight_share_within_30_m": {
+        "osm": 0.9910614525139665,
+        "xplane": 0.9620111731843576
+      },
+      "stands_where_xplane_is_closer": 69
+    },
+    "heading": {
+      "pushbacks": 905,
+      "median_diff_deg": 2.3393983804611196,
+      "share_within_30_deg": 0.8364640883977901
+    }
+  },
+  "EDDF": {
+    "scored_departures": 36317,
+    "names_mapped_share": {
+      "osm": 0.9598535121293058,
+      "xplane": 0.8620480766583143,
+      "either": 0.9737313104055951,
+      "xplane_only": 0.01387779827628934,
+      "osm_only": 0.11168323374728088
+    },
+    "map_agreement_m": {
+      "names_in_both": 184,
+      "median": 11.343296791875126,
+      "p90": 19.4534985478837,
+      "share_within_30_m": 0.9945652173913043
+    },
+    "empirical": {
+      "flights_with_parked_position": 38,
+      "stands": 25,
+      "stands_in_both_maps": 15,
+      "flights_on_those_stands": 18,
+      "flight_weighted_median_m": {
+        "osm": 16.508075625688246,
+        "xplane": 5.435720619293201
+      },
+      "flight_weighted_p90_m": {
+        "osm": 30.476956023402785,
+        "xplane": 31.954981584605953
+      },
+      "flight_share_within_30_m": {
+        "osm": 0.8888888888888888,
+        "xplane": 0.8888888888888888
+      },
+      "stands_where_xplane_is_closer": 12
+    },
+    "heading": {
+      "pushbacks": 18,
+      "median_diff_deg": 11.742357364344343,
+      "share_within_30_deg": 0.6111111111111112
+    }
+  }
+}

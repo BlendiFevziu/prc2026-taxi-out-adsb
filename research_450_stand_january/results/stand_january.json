@@ -1,0 +1,79 @@
+{
+  "prereg": "research_450_stand_january/PREREG_stand_january.md",
+  "checks": {
+    "comparator_bit_identical": true,
+    "rows": {
+      "LSZH/01": 856,
+      "EHAM/01": 623
+    },
+    "reverse_replay": true
+  },
+  "cells": {
+    "LSZH/01": {
+      "rows": 856,
+      "base_rmse": 138.85599437617176,
+      "gain_mse": 5131.179960256732,
+      "without_best100": 1115.4515936969312,
+      "halves": {
+        "first_half": 4859.047928268392,
+        "second_half": 5361.084607971017
+      },
+      "by_day": {
+        "2025-01-03": 4495.055239644095,
+        "2025-01-10": 3048.8945180740166,
+        "2025-01-11": 3629.2436058001795,
+        "2025-01-12": 5275.84936705879,
+        "2025-01-15": 8107.793068608291,
+        "2025-01-17": 5389.412320781,
+        "2025-01-22": 7596.308059060851,
+        "2025-01-27": 3861.909678601742,
+        "2025-01-29": 5692.302580823363,
+        "2025-01-31": 4086.288692511746
+      },
+      "planning_mse_per_scored_row": 42.69026973583931,
+      "rules": {
+        "1_pooled_positive": true,
+        "2_best100_removed_positive": true,
+        "3_each_half_positive": true,
+        "4_seven_of_ten_days_positive": true
+      },
+      "passes_1_to_4": true
+    },
+    "EHAM/01": {
+      "rows": 623,
+      "base_rmse": 177.49416545757686,
+      "gain_mse": 6885.651182903004,
+      "without_best100": 716.9393227586819,
+      "halves": {
+        "first_half": 6133.870166469152,
+        "second_half": 7523.6611849803985
+      },
+      "by_day": {
+        "2025-01-03": 11229.848387501857,
+        "2025-01-10": 5476.018679918493,
+        "2025-01-11": 3410.458018193887,
+        "2025-01-12": 6665.052291809991,
+        "2025-01-15": 1509.545492304124,
+        "2025-01-17": 12952.333030395757,
+        "2025-01-22": 5573.651907088405,
+        "2025-01-27": 4804.01214870337,
+        "2025-01-29": 3087.753453851438,
+        "2025-01-31": 10648.764917771241
+      },
+      "planning_mse_per_scored_row": 22.70317449189834,
+      "rules": {
+        "1_pooled_positive": true,
+        "2_best100_removed_positive": true,
+        "3_each_half_positive": true,
+        "4_seven_of_ten_days_positive": true
+      },
+      "passes_1_to_4": true
+    }
+  },
+  "joint_planning_s": 0.1275082206705065,
+  "passing_cells": [
+    "LSZH/01",
+    "EHAM/01"
+  ],
+  "verdict": "pass"
+}

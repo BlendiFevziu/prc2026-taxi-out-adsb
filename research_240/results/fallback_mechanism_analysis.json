@@ -1,0 +1,158 @@
+{
+  "note": "six-pair held-out fallback rows of the v46 recipe (prod_anchor); no fitting",
+  "rows": 22470,
+  "fallback_rmse": 1486.0818407269521,
+  "by_tag_versch_and_mechanism": {
+    "0|copied": {
+      "rows": 1377,
+      "se_share": 0.142568216005008
+    },
+    "0|date_shift": {
+      "rows": 2,
+      "se_share": 0.18461385031844088
+    },
+    "0|normal": {
+      "rows": 20694,
+      "se_share": 0.14414180975961294
+    },
+    "0|other": {
+      "rows": 137,
+      "se_share": 0.3016501940122442
+    },
+    "1|copied": {
+      "rows": 58,
+      "se_share": 0.011912891845347726
+    },
+    "1|date_shift": {
+      "rows": 11,
+      "se_share": 0.2024081715369041
+    },
+    "1|normal": {
+      "rows": 162,
+      "se_share": 0.004459134055255543
+    },
+    "1|other": {
+      "rows": 29,
+      "se_share": 0.008245732467186786
+    }
+  },
+  "tag_versch_1_by_airport": {
+    "EDDF": {
+      "rows": 20,
+      "date_shift_share": 0.0,
+      "copied_share": 0.0,
+      "normal_share": 1.0,
+      "other_share": 0.0,
+      "se_share": 0.00029561751245013357,
+      "block_date_equals_sched_date_share": 0.0,
+      "median_delay_h": 19.538194444444446
+    },
+    "EDDM": {
+      "rows": 3,
+      "date_shift_share": 0.0,
+      "copied_share": 0.0,
+      "normal_share": 1.0,
+      "other_share": 0.0,
+      "se_share": 9.228434172975969e-06,
+      "block_date_equals_sched_date_share": 0.0,
+      "median_delay_h": 16.70138888888889
+    },
+    "EHAM": {
+      "rows": 16,
+      "date_shift_share": 0.0,
+      "copied_share": 0.0,
+      "normal_share": 1.0,
+      "other_share": 0.0,
+      "se_share": 0.00017488485898398828,
+      "block_date_equals_sched_date_share": 0.0,
+      "median_delay_h": 18.675972222222224
+    },
+    "LEBL": {
+      "rows": 30,
+      "date_shift_share": 0.0,
+      "copied_share": 0.06666666666666667,
+      "normal_share": 0.9333333333333333,
+      "other_share": 0.0,
+      "se_share": 9.958222298900077e-05,
+      "block_date_equals_sched_date_share": 0.5,
+      "median_delay_h": 3.5826388888888885
+    },
+    "LEMD": {
+      "rows": 15,
+      "date_shift_share": 0.0,
+      "copied_share": 0.06666666666666667,
+      "normal_share": 0.9333333333333333,
+      "other_share": 0.0,
+      "se_share": 4.5040506470134294e-05,
+      "block_date_equals_sched_date_share": 0.8,
+      "median_delay_h": 2.128888888888889
+    },
+    "LFPG": {
+      "rows": 28,
+      "date_shift_share": 0.0,
+      "copied_share": 0.0,
+      "normal_share": 1.0,
+      "other_share": 0.0,
+      "se_share": 0.000124632878663663,
+      "block_date_equals_sched_date_share": 0.25,
+      "median_delay_h": 2.274444444444444
+    },
+    "LIRF": {
+      "rows": 68,
+      "date_shift_share": 0.16176470588235295,
+      "copied_share": 0.7941176470588235,
+      "normal_share": 0.04411764705882353,
+      "other_share": 0.0,
+      "se_share": 0.21621501388608344,
+      "block_date_equals_sched_date_share": 1.0,
+      "median_delay_h": 10.132222222222223
+    },
+    "LTFM": {
+      "rows": 80,
+      "date_shift_share": 0.0,
+      "copied_share": 0.0125,
+      "normal_share": 0.625,
+      "other_share": 0.3625,
+      "se_share": 0.010061929604880818,
+      "block_date_equals_sched_date_share": 0.6,
+      "median_delay_h": 1.8922222222222222
+    }
+  },
+  "lirf_date_shift_median_y_minus_86400_s": 961.0,
+  "conditional_mean_rule_tag_versch_1": {
+    "rows_replaced": 202,
+    "pooled_mse_gain": -191859.57888425182,
+    "mse_gain_without_top100_rows": -267862.0993735641,
+    "pair_gains": {
+      "1_7": -357579.31740312616,
+      "2_8": -457985.92397762183,
+      "3_9": -105033.81457375683,
+      "4_10": -82275.55147087108,
+      "5_11": -319108.31535704,
+      "6_12": 180450.82498603995
+    }
+  },
+  "tag_versch_1_rows": {
+    "held_out_2025": {
+      "LTFM": 80,
+      "LIRF": 68,
+      "LEBL": 30,
+      "LFPG": 28,
+      "EDDF": 20,
+      "EHAM": 16,
+      "LEMD": 15,
+      "EDDM": 3
+    },
+    "ranking_2026": {
+      "LIRF": 25,
+      "EHAM": 13,
+      "LTFM": 13,
+      "LEBL": 6,
+      "LEMD": 5,
+      "LFPG": 5,
+      "EDDF": 4,
+      "EDDM": 1
+    },
+    "ranking_2026_fallback_rows": 5290
+  }
+}

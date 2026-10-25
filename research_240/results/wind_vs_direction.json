@@ -1,0 +1,566 @@
+{
+  "note": "2025 training data; direction from arrival runways per airport-hour (at least five arrivals); METAR wind at half past the hour; descriptive, nothing fitted",
+  "hours_with_direction": 71631,
+  "share_of_direction_hours_with_wind_report": 0.9999581186916279,
+  "facing_wind_5kt": {
+    "EDDF": {
+      "hours": 4428,
+      "facing_wind_share": 0.9613821138211383,
+      "tailwind_over_5kt_share": 0.005871725383920506
+    },
+    "EDDM": {
+      "hours": 3393,
+      "facing_wind_share": 0.9581491305629236,
+      "tailwind_over_5kt_share": 0.004420866489832007
+    },
+    "EGLL": {
+      "hours": 5319,
+      "facing_wind_share": 0.9390862944162437,
+      "tailwind_over_5kt_share": 0.00338409475465313
+    },
+    "EHAM": {
+      "hours": 6159,
+      "facing_wind_share": 0.8803377171618769,
+      "tailwind_over_5kt_share": 0.012664393570384803
+    },
+    "LEBL": {
+      "hours": 5659,
+      "facing_wind_share": 0.8812511044354127,
+      "tailwind_over_5kt_share": 0.018024385933910585
+    },
+    "LEMD": {
+      "hours": 3165,
+      "facing_wind_share": 0.7965244865718799,
+      "tailwind_over_5kt_share": 0.03380726698262243
+    },
+    "LFPG": {
+      "hours": 6222,
+      "facing_wind_share": 0.9365155898424944,
+      "tailwind_over_5kt_share": 0.003053680488588878
+    },
+    "LIRF": {
+      "hours": 4989,
+      "facing_wind_share": 0.761876127480457,
+      "tailwind_over_5kt_share": 0.025055121266786932
+    },
+    "LSZH": {
+      "hours": 2671,
+      "facing_wind_share": 0.5900411830774991,
+      "tailwind_over_5kt_share": 0.08423811306626731
+    },
+    "LTFM": {
+      "hours": 7795,
+      "facing_wind_share": 0.8370750481077613,
+      "tailwind_over_5kt_share": 0.03964079538165491
+    },
+    "ALL": {
+      "hours": 49800,
+      "facing_wind_share": 0.866706827309237,
+      "tailwind_over_5kt_share": 0.020562248995983936
+    }
+  },
+  "facing_wind_10kt": {
+    "EDDF": {
+      "hours": 1465,
+      "facing_wind_share": 0.9931740614334471,
+      "tailwind_over_5kt_share": 0.00477815699658703
+    },
+    "EDDM": {
+      "hours": 871,
+      "facing_wind_share": 0.9942594718714122,
+      "tailwind_over_5kt_share": 0.001148105625717566
+    },
+    "EGLL": {
+      "hours": 2124,
+      "facing_wind_share": 0.9731638418079096,
+      "tailwind_over_5kt_share": 0.0023540489642184556
+    },
+    "EHAM": {
+      "hours": 3205,
+      "facing_wind_share": 0.9151326053042121,
+      "tailwind_over_5kt_share": 0.014664586583463339
+    },
+    "LEBL": {
+      "hours": 2211,
+      "facing_wind_share": 0.9543193125282677,
+      "tailwind_over_5kt_share": 0.003618272274988693
+    },
+    "LEMD": {
+      "hours": 877,
+      "facing_wind_share": 0.936145952109464,
+      "tailwind_over_5kt_share": 0.013683010262257697
+    },
+    "LFPG": {
+      "hours": 2559,
+      "facing_wind_share": 0.9613130128956624,
+      "tailwind_over_5kt_share": 0.003907776475185619
+    },
+    "LIRF": {
+      "hours": 1671,
+      "facing_wind_share": 0.8312387791741472,
+      "tailwind_over_5kt_share": 0.040694195092758824
+    },
+    "LSZH": {
+      "hours": 472,
+      "facing_wind_share": 0.8686440677966102,
+      "tailwind_over_5kt_share": 0.01694915254237288
+    },
+    "LTFM": {
+      "hours": 4814,
+      "facing_wind_share": 0.9283340257582052,
+      "tailwind_over_5kt_share": 0.007062733693394266
+    },
+    "ALL": {
+      "hours": 20269,
+      "facing_wind_share": 0.936405348068479,
+      "tailwind_over_5kt_share": 0.009867285016527703
+    }
+  },
+  "facing_wind_5kt_shuffled_mean": {
+    "EDDF": 0.5088075880758808,
+    "EDDM": 0.5195991747715886,
+    "EGLL": 0.5503290092122579,
+    "EHAM": 0.5102776424744278,
+    "LEBL": 0.585227071920834,
+    "LEMD": 0.5481832543443919,
+    "LFPG": 0.5197364191578271,
+    "LIRF": 0.5764281419122067,
+    "LSZH": 0.46319730438038187,
+    "LTFM": 0.5806799230275818,
+    "ALL": 0.542289156626506
+  },
+  "top_directions": {
+    "EDDF": {
+      "25": 0.61,
+      "7": 0.39
+    },
+    "EDDM": {
+      "26": 0.574,
+      "8": 0.426
+    },
+    "EGLL": {
+      "27": 0.637,
+      "9": 0.363
+    },
+    "EHAM": {
+      "18": 0.556,
+      "6": 0.321,
+      "36": 0.08
+    },
+    "LEBL": {
+      "24": 0.656,
+      "6": 0.183,
+      "2": 0.161
+    },
+    "LEMD": {
+      "32": 0.807,
+      "18": 0.193
+    },
+    "LFPG": {
+      "26": 0.458,
+      "8": 0.427,
+      "9": 0.076
+    },
+    "LIRF": {
+      "16": 0.839,
+      "34": 0.16,
+      "25": 0.001
+    },
+    "LSZH": {
+      "14": 0.692,
+      "28": 0.191,
+      "34": 0.116
+    },
+    "LTFM": {
+      "35": 0.526,
+      "34": 0.21,
+      "17": 0.134
+    }
+  },
+  "departures_with_weather_share": 0.9999630703768309,
+  "departures_with_direction_share": 0.9855466087814807,
+  "taxi_by_direction": {
+    "EDDF": {
+      "A": {
+        "direction": 25,
+        "departures": 140629,
+        "median_taxi_s": 842.0,
+        "median_mvt_minus_aobt3_s": 895.0,
+        "median_aobt3_minus_block_s": -78.0
+      },
+      "B": {
+        "direction": 7,
+        "departures": 88728,
+        "median_taxi_s": 828.0,
+        "median_mvt_minus_aobt3_s": 903.0,
+        "median_aobt3_minus_block_s": -102.0
+      },
+      "taxi_median_A_minus_B_s": 14.0,
+      "physical_median_A_minus_B_s": -8.0
+    },
+    "EDDM": {
+      "A": {
+        "direction": 26,
+        "departures": 96196,
+        "median_taxi_s": 727.0,
+        "median_mvt_minus_aobt3_s": 718.0,
+        "median_aobt3_minus_block_s": 2.0
+      },
+      "B": {
+        "direction": 8,
+        "departures": 70025,
+        "median_taxi_s": 787.0,
+        "median_mvt_minus_aobt3_s": 778.0,
+        "median_aobt3_minus_block_s": 2.0
+      },
+      "taxi_median_A_minus_B_s": -60.0,
+      "physical_median_A_minus_B_s": -60.0
+    },
+    "EGLL": {
+      "A": {
+        "direction": 27,
+        "departures": 150888,
+        "median_taxi_s": 1325.0,
+        "median_mvt_minus_aobt3_s": 1376.0,
+        "median_aobt3_minus_block_s": -55.0
+      },
+      "B": {
+        "direction": 9,
+        "departures": 87122,
+        "median_taxi_s": 1310.0,
+        "median_mvt_minus_aobt3_s": 1319.0,
+        "median_aobt3_minus_block_s": -6.0
+      },
+      "taxi_median_A_minus_B_s": 15.0,
+      "physical_median_A_minus_B_s": 57.0
+    },
+    "EHAM": {
+      "A": {
+        "direction": 18,
+        "departures": 139762,
+        "median_taxi_s": 658.0,
+        "median_mvt_minus_aobt3_s": 744.0,
+        "median_aobt3_minus_block_s": -102.0
+      },
+      "B": {
+        "direction": 6,
+        "departures": 76915,
+        "median_taxi_s": 898.0,
+        "median_mvt_minus_aobt3_s": 1040.0,
+        "median_aobt3_minus_block_s": -113.0
+      },
+      "taxi_median_A_minus_B_s": -240.0,
+      "physical_median_A_minus_B_s": -296.0
+    },
+    "LEBL": {
+      "A": {
+        "direction": 24,
+        "departures": 125498,
+        "median_taxi_s": 921.0,
+        "median_mvt_minus_aobt3_s": 763.0,
+        "median_aobt3_minus_block_s": 56.0
+      },
+      "B": {
+        "direction": 6,
+        "departures": 36392,
+        "median_taxi_s": 940.0,
+        "median_mvt_minus_aobt3_s": 751.0,
+        "median_aobt3_minus_block_s": 58.0
+      },
+      "taxi_median_A_minus_B_s": -19.0,
+      "physical_median_A_minus_B_s": 12.0
+    },
+    "LEMD": {
+      "A": {
+        "direction": 32,
+        "departures": 166000,
+        "median_taxi_s": 984.0,
+        "median_mvt_minus_aobt3_s": 988.0,
+        "median_aobt3_minus_block_s": -2.0
+      },
+      "B": {
+        "direction": 18,
+        "departures": 42661,
+        "median_taxi_s": 993.0,
+        "median_mvt_minus_aobt3_s": 982.0,
+        "median_aobt3_minus_block_s": -1.0
+      },
+      "taxi_median_A_minus_B_s": -9.0,
+      "physical_median_A_minus_B_s": 6.0
+    },
+    "LFPG": {
+      "A": {
+        "direction": 26,
+        "departures": 111764,
+        "median_taxi_s": 949.0,
+        "median_mvt_minus_aobt3_s": 896.0,
+        "median_aobt3_minus_block_s": 54.0
+      },
+      "B": {
+        "direction": 8,
+        "departures": 101345,
+        "median_taxi_s": 957.0,
+        "median_mvt_minus_aobt3_s": 902.0,
+        "median_aobt3_minus_block_s": 3.0
+      },
+      "taxi_median_A_minus_B_s": -8.0,
+      "physical_median_A_minus_B_s": -6.0
+    },
+    "LIRF": {
+      "A": {
+        "direction": 16,
+        "departures": 134746,
+        "median_taxi_s": 1023.0,
+        "median_mvt_minus_aobt3_s": 900.0,
+        "median_aobt3_minus_block_s": 117.0
+      },
+      "B": {
+        "direction": 34,
+        "departures": 24461,
+        "median_taxi_s": 1069.0,
+        "median_mvt_minus_aobt3_s": 898.0,
+        "median_aobt3_minus_block_s": 126.0
+      },
+      "taxi_median_A_minus_B_s": -46.0,
+      "physical_median_A_minus_B_s": 2.0
+    },
+    "LSZH": {
+      "A": {
+        "direction": 14,
+        "departures": 99623,
+        "median_taxi_s": 707.0,
+        "median_mvt_minus_aobt3_s": 672.0,
+        "median_aobt3_minus_block_s": 37.0
+      },
+      "B": {
+        "direction": 28,
+        "departures": 22100,
+        "median_taxi_s": 719.0,
+        "median_mvt_minus_aobt3_s": 703.0,
+        "median_aobt3_minus_block_s": 26.0
+      },
+      "taxi_median_A_minus_B_s": -12.0,
+      "physical_median_A_minus_B_s": -31.0
+    },
+    "LTFM": {
+      "A": {
+        "direction": 35,
+        "departures": 144102,
+        "median_taxi_s": 908.0,
+        "median_mvt_minus_aobt3_s": 1198.0,
+        "median_aobt3_minus_block_s": -296.0
+      },
+      "B": {
+        "direction": 34,
+        "departures": 64110,
+        "median_taxi_s": 959.0,
+        "median_mvt_minus_aobt3_s": 1199.0,
+        "median_aobt3_minus_block_s": -244.0
+      },
+      "taxi_median_A_minus_B_s": -51.0,
+      "physical_median_A_minus_B_s": -1.0
+    }
+  },
+  "taxi_by_weather": {
+    "EDDF": {
+      "icing_risk": {
+        "departures": 15675,
+        "median_taxi_s": 844.0,
+        "median_mvt_minus_aobt3_s": 896.0,
+        "median_aobt3_minus_block_s": -79.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 642,
+        "median_taxi_s": 1012.0,
+        "median_mvt_minus_aobt3_s": 948.0,
+        "median_aobt3_minus_block_s": 18.0
+      },
+      "neither": {
+        "departures": 214126,
+        "median_taxi_s": 836.0,
+        "median_mvt_minus_aobt3_s": 898.0,
+        "median_aobt3_minus_block_s": -88.0
+      }
+    },
+    "EDDM": {
+      "icing_risk": {
+        "departures": 26638,
+        "median_taxi_s": 833.0,
+        "median_mvt_minus_aobt3_s": 722.0,
+        "median_aobt3_minus_block_s": 55.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 2357,
+        "median_taxi_s": 1388.0,
+        "median_mvt_minus_aobt3_s": 779.0,
+        "median_aobt3_minus_block_s": 304.0
+      },
+      "neither": {
+        "departures": 140531,
+        "median_taxi_s": 771.0,
+        "median_mvt_minus_aobt3_s": 721.0,
+        "median_aobt3_minus_block_s": 1.0
+      }
+    },
+    "EGLL": {
+      "icing_risk": {
+        "departures": 11184,
+        "median_taxi_s": 1255.0,
+        "median_mvt_minus_aobt3_s": 1319.0,
+        "median_aobt3_minus_block_s": -62.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 198,
+        "median_taxi_s": 1434.0,
+        "median_mvt_minus_aobt3_s": 1556.0,
+        "median_aobt3_minus_block_s": -120.5
+      },
+      "neither": {
+        "departures": 228362,
+        "median_taxi_s": 1320.0,
+        "median_mvt_minus_aobt3_s": 1324.0,
+        "median_aobt3_minus_block_s": -54.0
+      }
+    },
+    "EHAM": {
+      "icing_risk": {
+        "departures": 16591,
+        "median_taxi_s": 795.0,
+        "median_mvt_minus_aobt3_s": 903.0,
+        "median_aobt3_minus_block_s": -105.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 1779,
+        "median_taxi_s": 845.0,
+        "median_mvt_minus_aobt3_s": 970.0,
+        "median_aobt3_minus_block_s": -109.0
+      },
+      "neither": {
+        "departures": 230853,
+        "median_taxi_s": 739.0,
+        "median_mvt_minus_aobt3_s": 861.0,
+        "median_aobt3_minus_block_s": -107.0
+      }
+    },
+    "LEBL": {
+      "icing_risk": {
+        "departures": 28,
+        "median_taxi_s": 930.0,
+        "median_mvt_minus_aobt3_s": 711.5,
+        "median_aobt3_minus_block_s": 116.5
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 24,
+        "median_taxi_s": 1127.5,
+        "median_mvt_minus_aobt3_s": 876.0,
+        "median_aobt3_minus_block_s": 150.0
+      },
+      "neither": {
+        "departures": 179653,
+        "median_taxi_s": 906.0,
+        "median_mvt_minus_aobt3_s": 764.0,
+        "median_aobt3_minus_block_s": 54.0
+      }
+    },
+    "LEMD": {
+      "icing_risk": {
+        "departures": 7454,
+        "median_taxi_s": 999.0,
+        "median_mvt_minus_aobt3_s": 991.0,
+        "median_aobt3_minus_block_s": -5.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 8,
+        "median_taxi_s": 1110.0,
+        "median_mvt_minus_aobt3_s": 896.0,
+        "median_aobt3_minus_block_s": 2.0
+      },
+      "neither": {
+        "departures": 204787,
+        "median_taxi_s": 984.0,
+        "median_mvt_minus_aobt3_s": 987.0,
+        "median_aobt3_minus_block_s": -2.0
+      }
+    },
+    "LFPG": {
+      "icing_risk": {
+        "departures": 16946,
+        "median_taxi_s": 1032.0,
+        "median_mvt_minus_aobt3_s": 964.0,
+        "median_aobt3_minus_block_s": 6.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 894,
+        "median_taxi_s": 2045.0,
+        "median_mvt_minus_aobt3_s": 1740.0,
+        "median_aobt3_minus_block_s": 245.0
+      },
+      "neither": {
+        "departures": 222535,
+        "median_taxi_s": 952.0,
+        "median_mvt_minus_aobt3_s": 899.0,
+        "median_aobt3_minus_block_s": 4.0
+      }
+    },
+    "LIRF": {
+      "icing_risk": {
+        "departures": 487,
+        "median_taxi_s": 958.0,
+        "median_mvt_minus_aobt3_s": 897.0,
+        "median_aobt3_minus_block_s": 55.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 0,
+        "median_taxi_s": null,
+        "median_mvt_minus_aobt3_s": null,
+        "median_aobt3_minus_block_s": null
+      },
+      "neither": {
+        "departures": 160212,
+        "median_taxi_s": 1025.0,
+        "median_mvt_minus_aobt3_s": 900.0,
+        "median_aobt3_minus_block_s": 118.0
+      }
+    },
+    "LSZH": {
+      "icing_risk": {
+        "departures": 17254,
+        "median_taxi_s": 726.0,
+        "median_mvt_minus_aobt3_s": 673.0,
+        "median_aobt3_minus_block_s": 45.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 1080,
+        "median_taxi_s": 956.5,
+        "median_mvt_minus_aobt3_s": 741.0,
+        "median_aobt3_minus_block_s": 128.0
+      },
+      "neither": {
+        "departures": 117458,
+        "median_taxi_s": 709.0,
+        "median_mvt_minus_aobt3_s": 677.0,
+        "median_aobt3_minus_block_s": 31.0
+      }
+    },
+    "LTFM": {
+      "icing_risk": {
+        "departures": 4660,
+        "median_taxi_s": 1135.0,
+        "median_mvt_minus_aobt3_s": 1498.0,
+        "median_aobt3_minus_block_s": -294.0
+      },
+      "frozen_or_freezing_precipitation": {
+        "departures": 3438,
+        "median_taxi_s": 1270.0,
+        "median_mvt_minus_aobt3_s": 1502.0,
+        "median_aobt3_minus_block_s": -242.0
+      },
+      "neither": {
+        "departures": 266985,
+        "median_taxi_s": 963.0,
+        "median_mvt_minus_aobt3_s": 1201.0,
+        "median_aobt3_minus_block_s": -296.0
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "prereg": "research_550_review/PREREG_fallback_detector.md",
+  "days": 71,
+  "covered_rows": 250,
+  "by_match": {
+    "callsign": 137,
+    "free": 113
+  },
+  "gain_mse": 107090.8847519444,
+  "without_best20": 10879.429114689929,
+  "by_month": {
+    "01": 396284.34281467734,
+    "07": 30855.02174641918,
+    "12": -45428.366488497646
+  },
+  "blocks": {
+    "EDDM/01": 241288.1495078182,
+    "EDDM/07": 67386.64410456778,
+    "EDDM/12": -40003.756878669854,
+    "EHAM/01": 491004.2387244245,
+    "EHAM/07": 23333.80537856506,
+    "EHAM/12": -45629.277955528305
+  },
+  "airports": {
+    "EHAM": {
+      "fallback_rows": 661,
+      "covered": 199,
+      "share": 0.3010590015128593,
+      "gain_per_covered_row": 98580.70161188376,
+      "detector_rmse": 172.14017580857666,
+      "shipped_rmse": 358.06834786014167
+    },
+    "EDDM": {
+      "fallback_rows": 251,
+      "covered": 51,
+      "share": 0.20318725099601595,
+      "gain_per_covered_row": 140297.28563178878,
+      "detector_rmse": 81.98583939544969,
+      "shipped_rmse": 383.4305197727031
+    }
+  },
+  "planning_s": 0.2443585602314613,
+  "rules": {
+    "pooled_positive": true,
+    "without_best20_positive": true,
+    "january_and_july": true,
+    "four_of_six_blocks": true,
+    "planning_at_least_0_1_s": true
+  },
+  "verdict": "pass"
+}

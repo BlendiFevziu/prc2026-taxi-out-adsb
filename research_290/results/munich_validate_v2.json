@@ -1,0 +1,120 @@
+{
+  "preregistration": "research_290/PREREG_stand_detector.md addendum B (last commit touching it: ffccea1)",
+  "dates": [
+    "2025-12-05",
+    "2025-12-08",
+    "2025-12-11",
+    "2025-12-14"
+  ],
+  "accuracy_vs_block": {
+    "n": 498,
+    "median_s": 23.827499866485596,
+    "mae_s": 36.66543173263351,
+    "rmse_s": 61.28453561109341,
+    "within_60": 443,
+    "within_60_share": 0.8895582329317269,
+    "within_120": 481,
+    "worst": [
+      -333.585000038147,
+      468.73999977111816
+    ],
+    "by_date": {
+      "2025-12-05": {
+        "n": 129,
+        "median_s": 25.485000133514404,
+        "mae_s": 33.57197676518167,
+        "within_60": 116
+      },
+      "2025-12-08": {
+        "n": 124,
+        "median_s": 26.72249984741211,
+        "mae_s": 39.500967750626224,
+        "within_60": 106
+      },
+      "2025-12-11": {
+        "n": 132,
+        "median_s": 21.425000071525574,
+        "mae_s": 35.61011363340147,
+        "within_60": 121
+      },
+      "2025-12-14": {
+        "n": 113,
+        "median_s": 24.170000076293945,
+        "mae_s": 38.318097340322176,
+        "within_60": 100
+      }
+    }
+  },
+  "comparison_on_identical_main_rows": {
+    "rows": 496,
+    "label_check_max_diff_s": 0.0,
+    "detector_rmse": 59.54654238336692,
+    "comparator_rmse": 158.63697895842964,
+    "ersatz_rmse": 447.2094930177146,
+    "blend_half_rmse_descriptive": 87.30004726078737,
+    "mse_gain_per_row": 21619.900383243134,
+    "mse_gain_without_top5pct": 11666.296698903123,
+    "bootstrap_95": [
+      17080.001518153073,
+      26740.148309735672
+    ],
+    "per_date": {
+      "2025-12-05": {
+        "rows": 128,
+        "detector_rmse": 41.16505909714119,
+        "comparator_rmse": 206.09865458561316,
+        "ersatz_rmse": 652.828257947678
+      },
+      "2025-12-08": {
+        "rows": 124,
+        "detector_rmse": 64.28213667947743,
+        "comparator_rmse": 117.08671644239098,
+        "ersatz_rmse": 273.0637258719964
+      },
+      "2025-12-11": {
+        "rows": 132,
+        "detector_rmse": 67.39105077870504,
+        "comparator_rmse": 146.5717038412951,
+        "ersatz_rmse": 413.99470242548233
+      },
+      "2025-12-14": {
+        "rows": 112,
+        "detector_rmse": 61.957013386157584,
+        "comparator_rmse": 149.6849934912106,
+        "ersatz_rmse": 337.75691279803164
+      }
+    }
+  },
+  "context": {
+    "departures_by_date": {
+      "2025-12-05": 433,
+      "2025-12-08": 423,
+      "2025-12-11": 432,
+      "2025-12-14": 400
+    },
+    "estimates_share_of_departures": 0.2938388625592417,
+    "munich_share_of_scored_main_rows": 0.07577065006434969,
+    "official_scale_upper_bound_s": 0.8948335239068115,
+    "why_an_upper_bound": "comparator is weaker than production; July 2026 detector coverage not measured; January 2026 coverage not checked; no transfer discount applied",
+    "fallback_rows": {
+      "n": 2,
+      "mae_s": 176.7225000858307
+    },
+    "status_counts": {
+      "no_parked_onset": 594,
+      "ok": 498,
+      "no_occupancy": 168,
+      "unmapped": 148,
+      "gap_too_large": 74,
+      "ambiguous_onsets": 11,
+      "arrival_transition": 3
+    }
+  },
+  "checks": {
+    "V1_accuracy_transfers": true,
+    "V2_beats_comparator_every_date": true,
+    "V3_not_concentrated": true,
+    "V4_interval_above_zero": true
+  },
+  "justifies_further_work": true
+}

@@ -1,0 +1,224 @@
+{
+  "test": "geometry",
+  "arms": {
+    "A": "osm|flight_mvt",
+    "B": "xplane_first|flight_mvt"
+  },
+  "dates": [
+    "2025-01-09",
+    "2025-01-13",
+    "2025-01-28",
+    "2025-01-30",
+    "2025-07-02",
+    "2025-07-09",
+    "2025-07-16",
+    "2025-07-23"
+  ],
+  "label_check_max_diff_s": 0.0,
+  "airports": {
+    "EDDF": {
+      "departures": 4669,
+      "changed_rows": 55,
+      "coverage": {
+        "osm|flight_mvt": 0.03362604412079674,
+        "xplane_first|flight_mvt": 0.027200685371599913
+      },
+      "accuracy[osm|flight_mvt]": {
+        "n": 157,
+        "median_s": 38.204999923706055,
+        "mae_s": 100.3369108263854,
+        "within_60": 89,
+        "policy_rmse_on_covered": 167.77832174083042,
+        "comparator_rmse_on_covered": 183.9287685870049
+      },
+      "accuracy[xplane_first|flight_mvt]": {
+        "n": 127,
+        "median_s": 18.65000009536743,
+        "mae_s": 71.05267716205026,
+        "within_60": 93,
+        "policy_rmse_on_covered": 141.0786598505983,
+        "comparator_rmse_on_covered": 192.02387559802472
+      },
+      "gain_per_departure": 270.5915487333044,
+      "gain_per_changed_row": 22970.76256428724,
+      "gain_per_changed_row_without_top5pct": 13739.3904098334,
+      "airport_day_bootstrap_95": [
+        -36.94015027346098,
+        505.2401986709198
+      ],
+      "months": {
+        "January": {
+          "departures": 1951,
+          "changed_rows": 23,
+          "gain_per_departure": 412.63530178381177
+        },
+        "July": {
+          "departures": 2718,
+          "changed_rows": 32,
+          "gain_per_departure": 168.6315184899123
+        }
+      },
+      "official_scale_s": 0.05310291190261296,
+      "checks": {
+        "pooled_gain_positive": true,
+        "each_month_with_data_positive": true,
+        "without_top5pct_positive": true,
+        "airport_day_interval_above_zero": false
+      },
+      "verdict": "fail"
+    },
+    "EDDM": {
+      "departures": 3478,
+      "changed_rows": 201,
+      "coverage": {
+        "osm|flight_mvt": 0.13772282921219092,
+        "xplane_first|flight_mvt": 0.15986198964922368
+      },
+      "accuracy[osm|flight_mvt]": {
+        "n": 479,
+        "median_s": 24.360000133514404,
+        "mae_s": 37.2595720271228,
+        "within_60": 423,
+        "policy_rmse_on_covered": 77.70388566869991,
+        "comparator_rmse_on_covered": 132.06039038725837
+      },
+      "accuracy[xplane_first|flight_mvt]": {
+        "n": 556,
+        "median_s": 22.46999990940094,
+        "mae_s": 30.25322841911865,
+        "within_60": 522,
+        "policy_rmse_on_covered": 44.03057579239639,
+        "comparator_rmse_on_covered": 133.23959263476652
+      },
+      "gain_per_departure": 957.7501025296745,
+      "gain_per_changed_row": 16572.41222188163,
+      "gain_per_changed_row_without_top5pct": 4577.777813040439,
+      "airport_day_bootstrap_95": [
+        132.65859024289304,
+        2234.0797389571258
+      ],
+      "months": {
+        "January": {
+          "departures": 1435,
+          "changed_rows": 181,
+          "gain_per_departure": 2119.2419748225248
+        },
+        "July": {
+          "departures": 2043,
+          "changed_rows": 20,
+          "gain_per_departure": 141.92003070381065
+        }
+      },
+      "official_scale_s": 0.13440586762271778,
+      "checks": {
+        "pooled_gain_positive": true,
+        "each_month_with_data_positive": true,
+        "without_top5pct_positive": true,
+        "airport_day_interval_above_zero": true
+      },
+      "verdict": "pass"
+    },
+    "EHAM": {
+      "departures": 5212,
+      "changed_rows": 297,
+      "coverage": {
+        "osm|flight_mvt": 0.1344973138910207,
+        "xplane_first|flight_mvt": 0.0942056792018419
+      },
+      "accuracy[osm|flight_mvt]": {
+        "n": 701,
+        "median_s": -18.875,
+        "mae_s": 84.46141940448831,
+        "within_60": 513,
+        "policy_rmse_on_covered": 303.1055507898173,
+        "comparator_rmse_on_covered": 149.5051012882911
+      },
+      "accuracy[xplane_first|flight_mvt]": {
+        "n": 491,
+        "median_s": -25.72000002861023,
+        "mae_s": 48.96151731893147,
+        "within_60": 442,
+        "policy_rmse_on_covered": 331.2547786507965,
+        "comparator_rmse_on_covered": 151.7705433394574
+      },
+      "gain_per_departure": 1183.2126868257237,
+      "gain_per_changed_row": 20763.988295406307,
+      "gain_per_changed_row_without_top5pct": 6220.366097514599,
+      "airport_day_bootstrap_95": [
+        319.8033744241999,
+        2556.114586388927
+      ],
+      "months": {
+        "January": {
+          "departures": 2390,
+          "changed_rows": 141,
+          "gain_per_departure": 924.2334110650343
+        },
+        "July": {
+          "departures": 2822,
+          "changed_rows": 156,
+          "gain_per_departure": 1402.546658855507
+        }
+      },
+      "official_scale_s": 0.24421522401792117,
+      "checks": {
+        "pooled_gain_positive": true,
+        "each_month_with_data_positive": true,
+        "without_top5pct_positive": true,
+        "airport_day_interval_above_zero": true
+      },
+      "verdict": "pass"
+    }
+  },
+  "pooled_descriptive": {
+    "departures": 13359,
+    "changed_rows": 553,
+    "coverage": {
+      "osm|flight_mvt": 0.1000823414926267,
+      "xplane_first|flight_mvt": 0.08788082940339846
+    },
+    "accuracy[osm|flight_mvt]": {
+      "n": 1337,
+      "median_s": 8.025000095367432,
+      "mae_s": 69.41487285211716,
+      "within_60": 1025,
+      "policy_rmse_on_covered": 231.5997313014042,
+      "comparator_rmse_on_covered": 148.12113313201598
+    },
+    "accuracy[xplane_first|flight_mvt]": {
+      "n": 1174,
+      "median_s": -5.28000009059906,
+      "mae_s": 42.49113288262837,
+      "within_60": 1057,
+      "policy_rmse_on_covered": 221.27652359507147,
+      "comparator_rmse_on_covered": 148.42524713027822
+    },
+    "gain_per_departure": 805.5506640743828,
+    "gain_per_changed_row": 19459.948139909007,
+    "gain_per_changed_row_without_top5pct": 6342.946346532247,
+    "airport_day_bootstrap_95": [
+      338.2081224896418,
+      1439.6718085195077
+    ],
+    "months": {
+      "January": {
+        "departures": 5776,
+        "changed_rows": 345,
+        "gain_per_departure": 1048.3174446149535
+      },
+      "July": {
+        "departures": 7583,
+        "changed_rows": 208,
+        "gain_per_departure": 620.634282114428
+      }
+    },
+    "official_scale_s": 0.4376409496505289,
+    "checks": {
+      "pooled_gain_positive": true,
+      "each_month_with_data_positive": true,
+      "without_top5pct_positive": true,
+      "airport_day_interval_above_zero": true
+    },
+    "verdict": "pass"
+  }
+}

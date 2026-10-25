@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "v78_is_built_file": true,
+    "test_passed": true,
+    "all_admitted": true,
+    "dr_stand_rows": 15230,
+    "dr_stand_rows_as_expected": true,
+    "dr_stand_comparator_equals_base": true,
+    "dr_stand_reproduce_v78": 15230,
+    "dr_c1_rows": 21526,
+    "dr_c1_rows_as_expected": true,
+    "dr_c1_comparator_equals_base": true,
+    "dr_c1_reproduce_v78": 21526,
+    "old_c1_rows": 21614,
+    "old_c1_rows_as_expected": true,
+    "old_c1_comparator_equals_base": true,
+    "old_c1_reproduce_v78": 21614,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v78": true,
+    "all_finite": true,
+    "rows_changed": 58309,
+    "change_s": {
+      "mean": 2.188054541892807,
+      "rms": 20.51888809755909
+    }
+  },
+  "base": {
+    "version": "v78",
+    "central": 246.16,
+    "sha256": "7c17917f304f533f3a486efd7cfaac0808e4e573cf80828203502dba48abcdcc"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "tested gain per row x admitted rows; central 0.7, worst 0.2, best 1.1",
+    "mse_per_scored_row_full": 207.1246568933097,
+    "central": 245.87,
+    "worst": 246.08,
+    "best": 245.7
+  },
+  "candidate_path": ".cache/research_640/v79/candidate_v79.parquet",
+  "candidate_sha256": "3799ee12f207cce1227ec51318f64b7924bb8e5523317e3a98c1d90c6e3d0383",
+  "verdict": "built"
+}

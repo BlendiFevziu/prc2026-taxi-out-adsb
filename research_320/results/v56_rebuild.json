@@ -1,0 +1,35 @@
+{
+  "commit": "9884150",
+  "code_hashes_equal": true,
+  "source_hash_values_equal": true,
+  "model_hashes_equal": "20 of 21",
+  "model_hashes_differing": [
+    "shuffle_3105_377.pkl"
+  ],
+  "real_models_identical": true,
+  "verdict_equal": true,
+  "rows_equal": true,
+  "arm_metrics_equal": {
+    "real": true,
+    "context": true,
+    "shuffle_3101": true,
+    "shuffle_3102": true,
+    "shuffle_3103": true,
+    "shuffle_3104": true,
+    "shuffle_3105": true
+  },
+  "seed_metrics_equal": true,
+  "faithful": true,
+  "real_arm": {
+    "rows": 21502,
+    "changed": 13854,
+    "base_rmse": 191.79371659266695,
+    "rmse": 183.05116480928254,
+    "gain_mse": 3277.100786393133,
+    "gain_without_best100": 2492.07659348515,
+    "by_month": {
+      "01": 3772.135604974923,
+      "07": 2882.2235015433007
+    }
+  }
+}

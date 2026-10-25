@@ -1,0 +1,115 @@
+{
+  "prereg": "research_590_stand_new/PREREG_drift_robust_c1.md",
+  "inputs": [
+    "comparator",
+    "ersatz_s",
+    "schedule",
+    "gate",
+    "hour_sin",
+    "hour_cos",
+    "unknown_ground_fraction",
+    "ground_span_s",
+    "first_ground_age_s",
+    "median_gap_s",
+    "max_gap_s",
+    "speed_p10",
+    "speed_p50",
+    "still_fraction",
+    "first_moving_age_s",
+    "stand_first_m",
+    "stand_min_m",
+    "near_stand_fraction",
+    "airport_EDDF",
+    "airport_EGLL",
+    "airport_EHAM",
+    "airport_LEBL",
+    "airport_LSZH",
+    "is_july"
+  ],
+  "cells": {
+    "EGLL/07": {
+      "test_EGLL/01": {
+        "rows": 3252,
+        "gain_mse": 22358.558898919175,
+        "without_best100": 9759.334485126321,
+        "blocks": {
+          "first_half": 33889.431036529575,
+          "second_half": 10598.501725033297
+        },
+        "seeds": {
+          "177": 22192.841744707162,
+          "277": 22273.791217159716,
+          "377": 22397.797785069386
+        },
+        "rules": {
+          "pooled": true,
+          "without_best100": true,
+          "both_blocks": true,
+          "every_seed": true
+        },
+        "pass": true
+      },
+      "drift_flags_kept": [],
+      "rows_2026": 9048,
+      "admitted": true
+    },
+    "LEMD/01": {
+      "test_LEMD/07_vs_base": {
+        "rows": 2777,
+        "gain_mse": 8544.978704903697,
+        "without_best100": 741.1767759941696,
+        "blocks": {
+          "first_half": 10965.919197045512,
+          "second_half": 6667.356699169667
+        },
+        "seeds": {
+          "177": 8461.657670129942,
+          "277": 8204.973296727367,
+          "377": 8692.762970566711
+        },
+        "rules": {
+          "pooled": true,
+          "without_best100": true,
+          "both_blocks": true,
+          "every_seed": true
+        },
+        "pass": true
+      },
+      "drift_flags_kept": [],
+      "rows_2026": 12478,
+      "admitted": true
+    },
+    "LEMD/07": {
+      "test_vs_c1": {
+        "rows": 2777,
+        "gain_mse": 139.50574494010604,
+        "without_best100": -2551.5110558687447,
+        "blocks": {
+          "first_half": -434.64948753601493,
+          "second_half": 584.8064463426214
+        },
+        "seeds": {
+          "177": 56.184710166353554,
+          "277": -200.49966323622365,
+          "377": 287.29001060312345
+        },
+        "rules": {
+          "pooled": true,
+          "without_best100": false,
+          "both_blocks": false,
+          "every_seed": false
+        },
+        "pass": false
+      },
+      "drift_flags_kept": [],
+      "rows_2026": 8692,
+      "admitted": false
+    }
+  },
+  "admitted": [
+    "EGLL/07",
+    "LEMD/01"
+  ],
+  "planning_s": 1.811148208219464,
+  "verdict": "pass"
+}

@@ -1,0 +1,33 @@
+{
+  "band": [
+    1800.0,
+    2700.0
+  ],
+  "band_rows": 9545,
+  "fits": {
+    "january_fitted": {
+      "intercept": -206.92999321493005,
+      "slope": 1.110038021439751,
+      "fitted_on_rows": 4723
+    },
+    "july_fitted": {
+      "intercept": -145.28928419918907,
+      "slope": 1.087765822249535,
+      "fitted_on_rows": 4822
+    }
+  },
+  "main_rmse_before": 216.7734634758806,
+  "main_rmse_after": 216.69527495503627,
+  "mse_gain": 33.8922794901796,
+  "gain_no_top100": -31.37772999446204,
+  "january_band_gain": 976.0448585283398,
+  "july_band_gain": 1427.038972459162,
+  "checks": {
+    "1_pooled_gain_positive": true,
+    "2_both_directions_improve": true,
+    "3_survives_top100_removal": false,
+    "4_slope_above_one_in_both_months": true
+  },
+  "passes": false,
+  "mechanical_official": 265.22099318735536
+}

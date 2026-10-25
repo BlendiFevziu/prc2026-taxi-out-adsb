@@ -1,0 +1,44 @@
+{
+  "submission": "upbeat-goblin_v77.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v77.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 246.3837
+  },
+  "score": 246.3837,
+  "previous": {
+    "version": "v75",
+    "score": 249.3908
+  },
+  "gain_s": 3.0071,
+  "file_sha256": "ce8cc7da1538783298fee120076bb39d8c311f180daa1b31722b7f8f83a2714f",
+  "recipe": "v75 + v76 (drift-robust stand model on EGLL/07, LEMD/07, LEMD/01 stand rows) + v77 (drift-robust C1 on EGLL/07 and LEMD/01 partial rows); research_590_stand_new; each built and verified; NM-free",
+  "prediction_fixed_before_upload": {
+    "from": "v75 official 249.3908, the two steps' fixed central/best/worst added",
+    "steps_s": {
+      "v76": [
+        -1.17,
+        -1.95,
+        0.39
+      ],
+      "v77": [
+        -1.09,
+        -1.81,
+        0.36
+      ]
+    },
+    "central": 247.13,
+    "best": 245.63,
+    "worst": 250.14
+  },
+  "realised_mse_per_scored_row": 1490.8,
+  "predicted_central_mse_per_scored_row": 1122.5,
+  "realised_over_central": 1.33,
+  "note": "v76 was never uploaded alone; v77 carries both drift-robust steps. Uploaded 30 September 2026 about 21:40 UTC, once."
+}

@@ -1,0 +1,239 @@
+{
+  "official_best_rmse": 272.334,
+  "target_rmse": 250,
+  "official_score_unchanged": true,
+  "required_overall_mse_reduction": 11665.807556,
+  "validation": "paired local component predictions; no full-ensemble six-pair CV and no new submission",
+  "fallback": {
+    "rows": 22470,
+    "baseline_rmse": 1508.392868262219,
+    "candidate_rmse": 1504.071827397313,
+    "mse_gain": 13016.983054031618,
+    "positive_folds": 4,
+    "folds": [
+      {
+        "fold": "1_7",
+        "rows": 5373,
+        "baseline_rmse": 1759.2774594972313,
+        "candidate_rmse": 1755.5571992506116,
+        "rmse_gain": 3.720260246619773,
+        "mse_gain": 13076.099654381163
+      },
+      {
+        "fold": "2_8",
+        "rows": 3438,
+        "baseline_rmse": 1365.8532801384467,
+        "candidate_rmse": 1340.5730108285,
+        "rmse_gain": 25.28026930994679,
+        "mse_gain": 68419.18550316477
+      },
+      {
+        "fold": "3_9",
+        "rows": 3549,
+        "baseline_rmse": 1104.6775044611127,
+        "candidate_rmse": 1096.4981456386727,
+        "rmse_gain": 8.179358822440008,
+        "mse_gain": 18004.205473383656
+      },
+      {
+        "fold": "4_10",
+        "rows": 2998,
+        "baseline_rmse": 784.0200284769749,
+        "candidate_rmse": 775.7996684728251,
+        "rmse_gain": 8.220360004149711,
+        "mse_gain": 12822.27945049107
+      },
+      {
+        "fold": "5_11",
+        "rows": 2961,
+        "baseline_rmse": 1912.549817631745,
+        "candidate_rmse": 1919.9207263138999,
+        "rmse_gain": -7.370908682154777,
+        "mse_gain": -28248.790406471584
+      },
+      {
+        "fold": "6_12",
+        "rows": 4151,
+        "baseline_rmse": 1633.5378675668649,
+        "candidate_rmse": 1635.8725614890584,
+        "rmse_gain": -2.334693922193537,
+        "mse_gain": -7633.072657872923
+      }
+    ],
+    "airports": [
+      {
+        "airport": "EDDF",
+        "rows": 1956,
+        "mse_gain": -1660.8604901471845
+      },
+      {
+        "airport": "EDDM",
+        "rows": 1010,
+        "mse_gain": 798.6284109554836
+      },
+      {
+        "airport": "EGLL",
+        "rows": 1414,
+        "mse_gain": -22856.84281061741
+      },
+      {
+        "airport": "EHAM",
+        "rows": 4084,
+        "mse_gain": 1401.1340043398232
+      },
+      {
+        "airport": "LEBL",
+        "rows": 1862,
+        "mse_gain": 756.8622533108282
+      },
+      {
+        "airport": "LEMD",
+        "rows": 947,
+        "mse_gain": -2243.4345088638074
+      },
+      {
+        "airport": "LFPG",
+        "rows": 3773,
+        "mse_gain": 6877.517128540203
+      },
+      {
+        "airport": "LIRF",
+        "rows": 1488,
+        "mse_gain": 166439.2298937291
+      },
+      {
+        "airport": "LSZH",
+        "rows": 2291,
+        "mse_gain": -646.152332237456
+      },
+      {
+        "airport": "LTFM",
+        "rows": 3645,
+        "mse_gain": 13749.280070722685
+      }
+    ],
+    "airport_day_bootstrap_mse_gain_95pct": [
+      -33730.505541270555,
+      68395.40751395939
+    ],
+    "bootstrap_note": "descriptive resampling of observed airport-days; excludes future-year/model-selection uncertainty",
+    "baseline_top5_sse_share": 0.5253943987138916,
+    "candidate_top5_sse_share": 0.5248505045581289
+  },
+  "main_single_lightgbm": {
+    "rows": 2062577,
+    "baseline_rmse": 209.80769504510403,
+    "candidate_rmse": 209.13338189134194,
+    "mse_gain": 282.49747882949305,
+    "positive_folds": 6,
+    "folds": [
+      {
+        "fold": "1_7",
+        "rows": 339046,
+        "baseline_rmse": 226.55400792287065,
+        "candidate_rmse": 225.89704181338874,
+        "rmse_gain": 0.6569661094819139,
+        "mse_gain": 297.24500587623334
+      },
+      {
+        "fold": "2_8",
+        "rows": 331474,
+        "baseline_rmse": 219.7901366501209,
+        "candidate_rmse": 219.17319585761533,
+        "rmse_gain": 0.6169407925055737,
+        "mse_gain": 270.81438623821305
+      },
+      {
+        "fold": "3_9",
+        "rows": 344852,
+        "baseline_rmse": 203.36519296304448,
+        "candidate_rmse": 202.63887096596042,
+        "rmse_gain": 0.7263219970840566,
+        "mse_gain": 294.88968253715575
+      },
+      {
+        "fold": "4_10",
+        "rows": 357964,
+        "baseline_rmse": 201.44123304625722,
+        "candidate_rmse": 200.9862902348804,
+        "rmse_gain": 0.45494281137681014,
+        "mse_gain": 183.08150881692563
+      },
+      {
+        "fold": "5_11",
+        "rows": 344573,
+        "baseline_rmse": 196.8933267137396,
+        "candidate_rmse": 196.7764188577969,
+        "rmse_gain": 0.11690785594271347,
+        "mse_gain": 46.023085904285836
+      },
+      {
+        "fold": "6_12",
+        "rows": 344668,
+        "baseline_rmse": 210.2243948066208,
+        "candidate_rmse": 208.77693442381488,
+        "rmse_gain": 1.4474603828059287,
+        "mse_gain": 606.487824404081
+      }
+    ],
+    "airports": [
+      {
+        "airport": "EDDF",
+        "rows": 228185,
+        "mse_gain": 98.93179063547723
+      },
+      {
+        "airport": "EDDM",
+        "rows": 166324,
+        "mse_gain": 163.24943601354244
+      },
+      {
+        "airport": "EGLL",
+        "rows": 238132,
+        "mse_gain": 414.9382008912362
+      },
+      {
+        "airport": "EHAM",
+        "rows": 243867,
+        "mse_gain": 222.0509976265057
+      },
+      {
+        "airport": "LEBL",
+        "rows": 177843,
+        "mse_gain": 494.25861530565453
+      },
+      {
+        "airport": "LEMD",
+        "rows": 211295,
+        "mse_gain": -52.08025653767254
+      },
+      {
+        "airport": "LFPG",
+        "rows": 235779,
+        "mse_gain": 99.62534651818714
+      },
+      {
+        "airport": "LIRF",
+        "rows": 159216,
+        "mse_gain": 165.95175340971036
+      },
+      {
+        "airport": "LSZH",
+        "rows": 132616,
+        "mse_gain": 289.356137953866
+      },
+      {
+        "airport": "LTFM",
+        "rows": 269320,
+        "mse_gain": 797.5777833137181
+      }
+    ],
+    "airport_day_bootstrap_mse_gain_95pct": [
+      230.70129966410832,
+      338.54114454218904
+    ],
+    "bootstrap_note": "descriptive resampling of observed airport-days; excludes future-year/model-selection uncertainty",
+    "baseline_top5_sse_share": 0.0032897551959559113,
+    "candidate_top5_sse_share": 0.0033469103540432745
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2025-12-13",
+  "airport": "EDDM",
+  "departures": 359,
+  "matched": 308,
+  "uniquely_matched": 308,
+  "codex_replication_on_unique": {
+    "ground_within_60": 213,
+    "ground_within_120": 264,
+    "mapped_assigned_stand": 267,
+    "near_block_and_stand_60": 184,
+    "ground_both_sides_120": 112,
+    "old_detections": 149,
+    "old_error_vs_block": {
+      "n": 149,
+      "median_s": 262.3699998855591,
+      "mean_s": 244.76664430343064,
+      "mae_s": 244.98463088073987,
+      "rmse_s": 271.46091356855544,
+      "within_60": 17,
+      "within_120": 31
+    },
+    "codex_reported": {
+      "matched": 344,
+      "ground_within_60": 234,
+      "ground_within_120": 293,
+      "mapped": 190,
+      "near_block_and_stand_60": 123,
+      "both_sides_120": 121,
+      "old_detections": 55,
+      "old_median_delay_s": 634.91
+    }
+  },
+  "stand_status": {
+    "ok": 165,
+    "ok_subdivided": 102,
+    "unmapped": 41
+  },
+  "detector_status": {
+    "ok": 149,
+    "no_occupancy": 58,
+    "gap_too_large": 58,
+    "unmapped": 41,
+    "no_points": 2
+  },
+  "estimates_vs_block_on_ok": {
+    "t_rest": {
+      "n": 149,
+      "median_s": 263.22000002861023,
+      "mean_s": 260.17657718082404,
+      "mae_s": 260.69456375685314,
+      "rmse_s": 273.8743369952506,
+      "within_60": 7,
+      "within_120": 11
+    },
+    "t_leave": {
+      "n": 149,
+      "median_s": 285.42000007629395,
+      "mean_s": 286.3906711347951,
+      "mae_s": 286.3906711347951,
+      "rmse_s": 297.8219258056921,
+      "within_60": 2,
+      "within_120": 7
+    },
+    "midpoint": {
+      "n": 149,
+      "median_s": 274.6050000190735,
+      "mean_s": 273.2836241530092,
+      "mae_s": 273.33845636828636,
+      "rmse_s": 285.5538634532415,
+      "within_60": 5,
+      "within_120": 10
+    }
+  },
+  "gap_s_on_ok": {
+    "n": 149,
+    "median_s": 18.950000047683716,
+    "mean_s": 26.214093953971094,
+    "mae_s": 26.214093953971094,
+    "rmse_s": 35.29969071634539,
+    "within_60": 133,
+    "within_120": 149
+  },
+  "onset_grid": {
+    "r_park_25": {
+      "status": {
+        "no_parked_onset": 145,
+        "ok": 74,
+        "no_occupancy": 25,
+        "gap_too_large": 18,
+        "ambiguous_onsets": 3,
+        "no_points": 2
+      },
+      "t_before": {
+        "n": 74,
+        "median_s": 8.940000057220459,
+        "mean_s": 12.234459454948837,
+        "mae_s": 32.14986485726124,
+        "rmse_s": 54.15978359375477,
+        "within_60": 66,
+        "within_120": 72
+      },
+      "t_after": {
+        "n": 74,
+        "median_s": 28.22000002861023,
+        "mean_s": 32.974729737719976,
+        "mae_s": 36.24608109448407,
+        "rmse_s": 57.67377824773507,
+        "within_60": 64,
+        "within_120": 72
+      },
+      "midpoint": {
+        "n": 74,
+        "median_s": 16.112499952316284,
+        "mean_s": 22.604594597945344,
+        "mae_s": 31.050675682119422,
+        "rmse_s": 54.19388387304011,
+        "within_60": 67,
+        "within_120": 72
+      }
+    },
+    "r_park_30": {
+      "status": {
+        "no_parked_onset": 125,
+        "ok": 90,
+        "no_occupancy": 25,
+        "gap_too_large": 20,
+        "ambiguous_onsets": 5,
+        "no_points": 2
+      },
+      "t_before": {
+        "n": 90,
+        "median_s": 9.52999997138977,
+        "mean_s": 16.321444447835287,
+        "mae_s": 34.85811111132304,
+        "rmse_s": 61.2571865572314,
+        "within_60": 80,
+        "within_120": 86
+      },
+      "t_after": {
+        "n": 90,
+        "median_s": 28.22000002861023,
+        "mean_s": 36.90544445514679,
+        "mae_s": 39.71966667970022,
+        "rmse_s": 66.38607307817983,
+        "within_60": 78,
+        "within_120": 86
+      },
+      "midpoint": {
+        "n": 90,
+        "median_s": 17.25250005722046,
+        "mean_s": 26.613444447517395,
+        "mae_s": 34.35022222465939,
+        "rmse_s": 62.37814963831088,
+        "within_60": 81,
+        "within_120": 86
+      }
+    }
+  },
+  "onset_choice": {
+    "r_park": "r_park_30",
+    "estimate": "midpoint",
+    "within_60": 81,
+    "mae_s": 34.35022222465939,
+    "criterion": "most detections within 60 s of block, then lowest MAE"
+  }
+}

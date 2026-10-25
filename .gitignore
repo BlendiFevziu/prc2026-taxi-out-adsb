@@ -1,0 +1,15 @@
+# Competition data is not part of this repository; see data/README.md.
+*.parquet
+
+# Trained models and generated state
+*.pkl
+.cache/
+submissions/
+__pycache__/
+.DS_Store
+dataset_state.json
+
+# Credentials never belong in a repository
+.env
+*.key
+*token*

@@ -1,0 +1,33 @@
+{
+  "submission": "upbeat-goblin_v60.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v60.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 258.2119
+  },
+  "score": 258.2119,
+  "previous": {
+    "version": "v59",
+    "score": 259.4958
+  },
+  "gain_s": 1.28389999999996,
+  "file_sha256": "ed9592271c5942f681376c305fc2680e6c6d1a877e785ffc25f0fa270c663b30",
+  "recipe": "Exact scored v59; replace only the 66292 deployed partial-track rows with max(original comparator + frozen arm4 mean correction, 300); s=1.0.",
+  "prediction_fixed_before_upload": {
+    "full_transfer": 258.0358217036094,
+    "half_transfer": 258.7668405146773
+  },
+  "rows_changed_vs_v59": 65879,
+  "nm_policy": "Existing v59 NM component inherited unchanged; no new NM data, rows, weights or fitted parameters.",
+  "limitations": "Validation blocks were previously inspected; scenarios are not confidence bounds or guarantees.",
+  "authorised": "Owner: run the final review and upload it",
+  "recorded_at": "2026-09-28T10:00:51.180525+00:00",
+  "uploaded_at_utc": "2026-09-28T10:00:20.534189+00:00",
+  "remote_sha256_verified": true
+}

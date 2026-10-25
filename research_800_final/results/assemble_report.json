@@ -1,0 +1,42 @@
+{
+  "file": ".cache/research_800/final/upbeat-goblin_final.parquet",
+  "sha256": "88d8a18eaf10a160ecefde11446d2d5ff218e64392d7f680b65ed4c6328b1915",
+  "rows": 670790,
+  "sources": {
+    "v80_plus_shift": 344841,
+    "base": 325949,
+    "layer_detectors_feb_jun_2026.parquet": 11320
+  },
+  "layers": [
+    "layer_detectors_feb_jun_2026.parquet"
+  ],
+  "v80_sha256": "e0fb35f0d0ab62322f8d8a1fd84287d9f52065ccebfae700530afa5f5d11ae2e",
+  "base_sha256": "ca2a8676669b0f5d99123a7a6d2f33137306adfc6f7c0fc6bbeefa569e8efc09",
+  "shift_mvt_s": {
+    "mean": 0.011750342911660737,
+    "sd": 4.923578599507313,
+    "max_abs": 12.0
+  },
+  "by_month": {
+    "2026-01": {
+      "size": 152719,
+      "mean": 1080.275,
+      "median": 968.914
+    },
+    "2026-02": {
+      "size": 144158,
+      "mean": 989.176,
+      "median": 927.099
+    },
+    "2026-06": {
+      "size": 181791,
+      "mean": 984.06,
+      "median": 930.223
+    },
+    "2026-07": {
+      "size": 192122,
+      "mean": 999.996,
+      "median": 938.649
+    }
+  }
+}

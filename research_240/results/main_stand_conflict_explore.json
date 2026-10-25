@@ -1,0 +1,161 @@
+{
+  "validation": "single-LightGBM January/July main diagnostic, research encoding; not full ensemble or leaderboard",
+  "rows_train": 1723531,
+  "rows_valid": 339046,
+  "coverage": {
+    "so_conflict_s1": {
+      "train": 0.055243566840399154,
+      "valid": 0.054842115819092395
+    },
+    "so_conflict_s2": {
+      "train": 0.055243566840399154,
+      "valid": 0.054842115819092395
+    }
+  },
+  "baseline": {
+    "rmse": 223.68022001367427,
+    "source": "local path removed: row-level baseline predictions of main_stage_diagnostic.py, not committed"
+  },
+  "candidate": {
+    "rmse": 223.51446273098625,
+    "best_iteration": 1143,
+    "seconds": 165.43540787696838
+  },
+  "rmse_gain": 0.1657572826880198,
+  "mse_gain": 74.12577544426698,
+  "mse_gain_without_top100_rows": -214.92109955834567,
+  "january_mse_gain": 220.38797028855785,
+  "july_mse_gain": -45.11657857064419,
+  "cell_mse_gain_contribution": {
+    "(-1800.0, -900.0] | b0": {
+      "rows": 328,
+      "contribution": 48.71660032938794
+    },
+    "(-1800.0, -900.0] | b1+": {
+      "rows": 862,
+      "contribution": -41.15117561147473
+    },
+    "(-1800.0, -900.0] | no2arr": {
+      "rows": 4,
+      "contribution": -0.18344874679016812
+    },
+    "(-300.0, 0.0] | b0": {
+      "rows": 857,
+      "contribution": 30.13402062177768
+    },
+    "(-300.0, 0.0] | b1+": {
+      "rows": 313,
+      "contribution": -12.708145882279567
+    },
+    "(-3600.0, -1800.0] | b0": {
+      "rows": 2001,
+      "contribution": -43.51086714890136
+    },
+    "(-3600.0, -1800.0] | b1+": {
+      "rows": 62005,
+      "contribution": 4.415603176032428
+    },
+    "(-3600.0, -1800.0] | no2arr": {
+      "rows": 300,
+      "contribution": -0.04469131317395422
+    },
+    "(-900.0, -300.0] | b0": {
+      "rows": 512,
+      "contribution": 56.74094855683878
+    },
+    "(-900.0, -300.0] | b1+": {
+      "rows": 264,
+      "contribution": -25.757520167921562
+    },
+    "(-900.0, -300.0] | no2arr": {
+      "rows": 3,
+      "contribution": 0.04574912822113942
+    },
+    "(-inf, -3600.0] | b0": {
+      "rows": 12683,
+      "contribution": 15.517668956389697
+    },
+    "(-inf, -3600.0] | b1+": {
+      "rows": 223792,
+      "contribution": -61.06726504937499
+    },
+    "(-inf, -3600.0] | no2arr": {
+      "rows": 2030,
+      "contribution": -0.8433973963790755
+    },
+    "(0.0, 300.0] | b0": {
+      "rows": 3275,
+      "contribution": 33.8472607710455
+    },
+    "(0.0, 300.0] | b1+": {
+      "rows": 1008,
+      "contribution": -1.8436684595252968
+    },
+    "(0.0, 300.0] | no2arr": {
+      "rows": 2,
+      "contribution": 1.2412238671391715
+    },
+    "(300.0, 900.0] | b0": {
+      "rows": 13622,
+      "contribution": 37.511901691235764
+    },
+    "(300.0, 900.0] | b1+": {
+      "rows": 4345,
+      "contribution": 2.7620961166451825
+    },
+    "(300.0, 900.0] | no2arr": {
+      "rows": 18,
+      "contribution": 0.1411118607885707
+    },
+    "(900.0, inf] | b0": {
+      "rows": 6791,
+      "contribution": 21.08371368554904
+    },
+    "(900.0, inf] | b1+": {
+      "rows": 2662,
+      "contribution": -1.0147656783876962
+    },
+    "(900.0, inf] | no2arr": {
+      "rows": 5,
+      "contribution": 0.0031411244903495825
+    },
+    "nan | no2arr": {
+      "rows": 1364,
+      "contribution": 10.089681012934129
+    }
+  },
+  "airport_mse_gain": {
+    "EDDF": -1.040871808704553,
+    "EDDM": 210.63581454180112,
+    "EGLL": -154.18069687959496,
+    "EHAM": 23.62483449608569,
+    "LEBL": -18.54300858855325,
+    "LEMD": -62.62059572694981,
+    "LFPG": -213.2015663102503,
+    "LIRF": 678.0400643910958,
+    "LSZH": 356.12149275369615,
+    "LTFM": 221.9291736334838
+  },
+  "importance_gain_share": {
+    "so_conflict_s1": 0.010795534680189038,
+    "so_conflict_s2": 0.0006042456594555012
+  },
+  "importance_rank": {
+    "so_conflict_s1": 15,
+    "so_conflict_s2": 64
+  },
+  "code_sha256": {
+    "main_stand_conflict_explore.py": "ecb9d4f3d8db2aad63cf4dc79d593a506a6289a7b7038e27254bc9c9cef7210c",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "candidate_features.py": "9a663d2fdda23cb035a28ef68668d16a6892e7c1b7696f02d13ba247ed6c154d"
+  },
+  "decision": {
+    "checks": {
+      "1_rmse_gain_at_least_0_3_s": false,
+      "2_survives_top100_removal": false,
+      "3_january_and_july_gain": false
+    },
+    "run_six_pair_screen": false
+  },
+  "seconds": 173.59206414222717
+}

@@ -1,0 +1,91 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_transfer.md",
+  "rows": 662308,
+  "rmse": {
+    "stack": 205.04107684963088,
+    "mean_control": 221.70230342398955,
+    "base": 220.24130051955922
+  },
+  "rmse_gain_vs_control_s": 16.661226574358665,
+  "rmse_gain_vs_base_s": 15.200223669928334,
+  "directions": {
+    "1_7->2_6": {
+      "rows": 323262,
+      "stack": 200.20471840870067,
+      "control": 217.2682581851861,
+      "base": 216.68237976656235
+    },
+    "2_6->1_7": {
+      "rows": 339046,
+      "stack": 209.54835953038898,
+      "control": 225.84887192873583,
+      "base": 223.58178946230515
+    }
+  },
+  "per_seed_mse_gain": {
+    "177": 7078.501493121679,
+    "277": 7141.634802571309
+  },
+  "months": {
+    "1": 7017.512471680149,
+    "2": 6509.555756195215,
+    "6": 7608.351256648721,
+    "7": 7162.162715714683
+  },
+  "without_best_100": 6760.329124128281,
+  "airport_day_bootstrap_95": [
+    6644.605960965633,
+    7580.813599903072
+  ],
+  "airports": {
+    "EDDF": {
+      "rows": 71673,
+      "vs_base": 10600.227026138888
+    },
+    "EDDM": {
+      "rows": 52710,
+      "vs_base": 12095.637841500324
+    },
+    "EGLL": {
+      "rows": 77598,
+      "vs_base": 4244.496698346248
+    },
+    "EHAM": {
+      "rows": 78583,
+      "vs_base": 13234.029167200655
+    },
+    "LEBL": {
+      "rows": 56716,
+      "vs_base": 10786.676190185373
+    },
+    "LEMD": {
+      "rows": 68281,
+      "vs_base": 3804.4904202031435
+    },
+    "LFPG": {
+      "rows": 75848,
+      "vs_base": -265.54314234063594
+    },
+    "LIRF": {
+      "rows": 51287,
+      "vs_base": 3039.95728294
+    },
+    "LSZH": {
+      "rows": 42570,
+      "vs_base": 12928.027141064438
+    },
+    "LTFM": {
+      "rows": 87042,
+      "vs_base": -492.8303570975042
+    }
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": true,
+    "2_each_of_four_months_positive": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": true,
+    "5_rmse_gain_vs_control_at_least_0_3_s": true,
+    "6_stack_beats_base": true
+  },
+  "verdict": "pass"
+}

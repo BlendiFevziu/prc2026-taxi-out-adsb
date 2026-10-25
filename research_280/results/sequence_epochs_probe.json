@@ -1,0 +1,22 @@
+[
+  {
+    "seed": 29,
+    "epochs": 20,
+    "component_rmse": 226.66875037524062,
+    "recorded_at_12_epochs": 224.30602527423758,
+    "gain_s": -2.3627251010030363,
+    "bar": 0.5,
+    "worth_a_full_refit": false,
+    "seconds": 1645.936770915985
+  },
+  {
+    "seed": 29,
+    "epochs": 8,
+    "component_rmse": 224.2848066068905,
+    "recorded_at_12_epochs": 224.30602527423758,
+    "gain_s": 0.02121866734708533,
+    "bar": 0.5,
+    "worth_a_full_refit": false,
+    "seconds": 588.3976571559906
+  }
+]

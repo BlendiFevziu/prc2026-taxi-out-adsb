@@ -1,0 +1,181 @@
+{
+  "note": "diagnostic; v46 fallback components rebuilt on six pairs, gate passed",
+  "rows": 22470,
+  "fallback_rmse": 1486.0818407269521,
+  "se_share_by_regime_and_gate": {
+    "copy_extreme": {
+      "q<0.1": {
+        "rows": 102,
+        "se_share": 0.0948651780498583
+      },
+      "0.1<=q<0.5": {
+        "rows": 34,
+        "se_share": 0.02865659070536936
+      },
+      "0.5<=q<0.9": {
+        "rows": 63,
+        "se_share": 0.0066427388772491765
+      },
+      "q>=0.9": {
+        "rows": 399,
+        "se_share": 0.01183289312964548
+      }
+    },
+    "copy_nonextreme": {
+      "q<0.1": {
+        "rows": 836,
+        "se_share": 0.012375118185044436
+      },
+      "0.1<=q<0.5": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "0.5<=q<0.9": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "q>=0.9": {
+        "rows": 1,
+        "se_share": 0.00010858890318897222
+      }
+    },
+    "day_shift": {
+      "q<0.1": {
+        "rows": 3,
+        "se_share": 0.4388574746974052
+      },
+      "0.1<=q<0.5": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "0.5<=q<0.9": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "q>=0.9": {
+        "rows": 11,
+        "se_share": 0.0887507511589648
+      }
+    },
+    "normal": {
+      "q<0.1": {
+        "rows": 20751,
+        "se_share": 0.06757840663510115
+      },
+      "0.1<=q<0.5": {
+        "rows": 47,
+        "se_share": 0.004967646364009795
+      },
+      "0.5<=q<0.9": {
+        "rows": 27,
+        "se_share": 0.02897228350750307
+      },
+      "q>=0.9": {
+        "rows": 31,
+        "se_share": 0.04708260730825446
+      }
+    },
+    "other_extreme": {
+      "q<0.1": {
+        "rows": 147,
+        "se_share": 0.16357607079709158
+      },
+      "0.1<=q<0.5": {
+        "rows": 10,
+        "se_share": 0.0033292707387924717
+      },
+      "0.5<=q<0.9": {
+        "rows": 4,
+        "se_share": 0.0017863230971316166
+      },
+      "q>=0.9": {
+        "rows": 4,
+        "se_share": 0.0006180578453902576
+      }
+    },
+    "other_nonextreme": {
+      "q<0.1": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "0.1<=q<0.5": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "0.5<=q<0.9": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "q>=0.9": {
+        "rows": 0,
+        "se_share": 0.0
+      }
+    }
+  },
+  "copy_extreme_detail": {
+    "rows": 598,
+    "mean_q": 0.7573277972245167,
+    "median_abs_height_minus_delay_s": 111.69042269635247,
+    "median_abs_height_model_minus_delay_s": 372.30140898784066
+  },
+  "oracles": {
+    "O1_copy_height": {
+      "rows": 598,
+      "fallback_mse_gain_per_row": 24758.716070421346,
+      "leaderboard_mse_equivalent": 379.80868867834425
+    },
+    "O2_copy_gate": {
+      "rows": 598,
+      "fallback_mse_gain_per_row": 286419.5622892015,
+      "leaderboard_mse_equivalent": 4393.791586585921
+    },
+    "O3_copy_exact_extreme": {
+      "rows": 598,
+      "fallback_mse_gain_per_row": 313592.1273487894,
+      "leaderboard_mse_equivalent": 4810.629692162754
+    },
+    "O4_copy_exact_nonextreme": {
+      "rows": 837,
+      "fallback_mse_gain_per_row": 27533.41781788107,
+      "leaderboard_mse_equivalent": 422.3737324059229
+    },
+    "O5_other_gate": {
+      "rows": 179,
+      "fallback_mse_gain_per_row": 147884.73874172335,
+      "leaderboard_mse_equivalent": 2268.611528048337
+    }
+  },
+  "achievability_auc": {
+    "copy_among_extremes": 0.9795687673997122,
+    "copy_among_nonextremes": 0.9343547768415061,
+    "extreme_classifier_p": 0.9723279594666678,
+    "copy_share_among_extremes": 0.7696267696267697,
+    "copy_share_among_nonextremes": 0.03858387498271332
+  },
+  "auc_by_fold": {
+    "1_7": {
+      "copy_among_extremes": 0.9844298245614035,
+      "copy_among_nonextremes": 0.9533307055577454
+    },
+    "2_8": {
+      "copy_among_extremes": 0.9834551750673336,
+      "copy_among_nonextremes": 0.9194877500204688
+    },
+    "3_9": {
+      "copy_among_extremes": 0.9356508875739645,
+      "copy_among_nonextremes": 0.9378718430743017
+    },
+    "4_10": {
+      "copy_among_extremes": 0.9935897435897436,
+      "copy_among_nonextremes": 0.9258631228692074
+    },
+    "5_11": {
+      "copy_among_extremes": 0.9642857142857143,
+      "copy_among_nonextremes": 0.9090165369756268
+    },
+    "6_12": {
+      "copy_among_extremes": 0.9465737514518002,
+      "copy_among_nonextremes": 0.943165954743415
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "summary": {
+    "days": 24,
+    "median_ratio": 1.0001,
+    "min_ratio": 1.0,
+    "max_ratio": 1.0388
+  },
+  "days": {
+    "2026-01-02": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3022356480,
+      "prod0_parts": 2,
+      "prod0_bytes": 3022169600,
+      "ratio": 1.0001
+    },
+    "2026-01-03": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3028623360,
+      "prod0_parts": 2,
+      "prod0_bytes": 3028439040,
+      "ratio": 1.0001
+    },
+    "2026-01-04": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3055369728,
+      "prod0_parts": 2,
+      "prod0_bytes": 3054988288,
+      "ratio": 1.0001
+    },
+    "2026-01-07": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 2983406592,
+      "prod0_parts": 2,
+      "prod0_bytes": 2983080960,
+      "ratio": 1.0001
+    },
+    "2026-01-08": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3086179840,
+      "prod0_parts": 2,
+      "prod0_bytes": 3085802496,
+      "ratio": 1.0001
+    },
+    "2026-01-09": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3126141952,
+      "prod0_parts": 2,
+      "prod0_bytes": 3125592576,
+      "ratio": 1.0002
+    },
+    "2026-01-12": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3201169920,
+      "prod0_parts": 2,
+      "prod0_bytes": 3200443904,
+      "ratio": 1.0002
+    },
+    "2026-01-25": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 2274604544,
+      "prod0_parts": 2,
+      "prod0_bytes": 2274075648,
+      "ratio": 1.0002
+    },
+    "2026-01-28": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3077214720,
+      "prod0_parts": 2,
+      "prod0_bytes": 3077126144,
+      "ratio": 1.0
+    },
+    "2026-01-29": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3285258240,
+      "prod0_parts": 2,
+      "prod0_bytes": 3285065728,
+      "ratio": 1.0001
+    },
+    "2026-07-04": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3248645120,
+      "prod0_parts": 2,
+      "prod0_bytes": 3248390144,
+      "ratio": 1.0001
+    },
+    "2026-07-07": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3896038400,
+      "prod0_parts": 2,
+      "prod0_bytes": 3895548416,
+      "ratio": 1.0001
+    },
+    "2026-07-08": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4030961664,
+      "prod0_parts": 3,
+      "prod0_bytes": 4029958656,
+      "ratio": 1.0002
+    },
+    "2026-07-09": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4000175104,
+      "prod0_parts": 2,
+      "prod0_bytes": 3999672832,
+      "ratio": 1.0001
+    },
+    "2026-07-10": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4084685824,
+      "prod0_parts": 3,
+      "prod0_bytes": 4082880512,
+      "ratio": 1.0004
+    },
+    "2026-07-11": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3776122880,
+      "prod0_parts": 2,
+      "prod0_bytes": 3634964480,
+      "ratio": 1.0388
+    },
+    "2026-07-16": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4099488768,
+      "prod0_parts": 3,
+      "prod0_bytes": 4098224640,
+      "ratio": 1.0003
+    },
+    "2026-07-20": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4017015808,
+      "prod0_parts": 3,
+      "prod0_bytes": 4016839168,
+      "ratio": 1.0
+    },
+    "2026-07-21": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3868767744,
+      "prod0_parts": 2,
+      "prod0_bytes": 3868503040,
+      "ratio": 1.0001
+    },
+    "2026-07-24": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4200392704,
+      "prod0_parts": 3,
+      "prod0_bytes": 4186181120,
+      "ratio": 1.0034
+    },
+    "2026-07-26": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3727481344,
+      "prod0_parts": 2,
+      "prod0_bytes": 3725839872,
+      "ratio": 1.0004
+    },
+    "2026-07-27": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3858770944,
+      "prod0_parts": 2,
+      "prod0_bytes": 3856857600,
+      "ratio": 1.0005
+    },
+    "2026-07-28": {
+      "preferred": "staging-0",
+      "preferred_parts": 2,
+      "preferred_bytes": 3863344640,
+      "prod0_parts": 2,
+      "prod0_bytes": 3863119360,
+      "ratio": 1.0001
+    },
+    "2026-07-31": {
+      "preferred": "staging-0",
+      "preferred_parts": 3,
+      "preferred_bytes": 4182276096,
+      "prod0_parts": 3,
+      "prod0_bytes": 4182084096,
+      "ratio": 1.0
+    }
+  }
+}

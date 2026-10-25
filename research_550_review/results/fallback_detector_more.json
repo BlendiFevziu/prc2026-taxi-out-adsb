@@ -1,0 +1,87 @@
+{
+  "prereg": "research_550_review/PREREG_fallback_detector_more.md",
+  "airports": {
+    "LEBL": {
+      "fallback_rows": 371,
+      "covered": 73,
+      "share": 0.1967654986522911,
+      "by_match": {
+        "callsign": 71,
+        "free": 2
+      },
+      "detector_rmse": 309.6088521199904,
+      "shipped_rmse": 408.6619022850488,
+      "gain_mse": 71146.90906817665,
+      "without_best10": 13057.032813106847,
+      "by_month": {
+        "01": 66551.42162105287,
+        "07": 75993.20328870727,
+        "12": 41929.806648655955
+      },
+      "rules": {
+        "pooled": true,
+        "without_best10": true,
+        "january_and_july": true,
+        "twenty_rows": true
+      },
+      "pass": true
+    },
+    "LSZH": {
+      "fallback_rows": 303,
+      "covered": 58,
+      "share": 0.19141914191419143,
+      "by_match": {
+        "free": 41,
+        "callsign": 17
+      },
+      "detector_rmse": 164.93510347195885,
+      "shipped_rmse": 298.21087518193684,
+      "gain_mse": 61726.13771947092,
+      "without_best10": 17674.58477233037,
+      "by_month": {
+        "01": 80222.19286940942,
+        "07": 61064.14768816278,
+        "12": -5969.177582855678
+      },
+      "rules": {
+        "pooled": true,
+        "without_best10": true,
+        "january_and_july": true,
+        "twenty_rows": true
+      },
+      "pass": true
+    },
+    "EDDF": {
+      "fallback_rows": 616,
+      "covered": 67,
+      "share": 0.10876623376623376,
+      "by_match": {
+        "callsign": 39,
+        "free": 28
+      },
+      "detector_rmse": 327.060379952564,
+      "shipped_rmse": 261.5643954510839,
+      "gain_mse": -38552.55916702452,
+      "without_best10": -87985.51907340568,
+      "by_month": {
+        "01": -193977.08280106788,
+        "07": 897.4527510156587,
+        "12": 11534.040153575308
+      },
+      "rules": {
+        "pooled": false,
+        "without_best10": false,
+        "january_and_july": false,
+        "twenty_rows": true
+      },
+      "pass": false
+    }
+  },
+  "reference_central": 252.56,
+  "planning_s": 0.08023803139869301,
+  "passing_airports": [
+    "LEBL",
+    "LSZH"
+  ],
+  "verdict": "pass"
+}

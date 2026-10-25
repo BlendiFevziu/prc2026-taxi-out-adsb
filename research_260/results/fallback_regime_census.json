@@ -1,0 +1,745 @@
+{
+  "note": "descriptive; six-pair held-out rows of the v46 fallback recipe; row-level details are printed only",
+  "rows": 22470,
+  "v46_fallback_rmse": 1486.0818407269521,
+  "nm_times_present_on_any_fallback_row": false,
+  "regimes": {
+    "copy": {
+      "rows": 1435,
+      "row_share": 0.06386292834890965,
+      "v46_se_share": 0.15448110785035574,
+      "v46_rmse": 2311.298304156772,
+      "median_y_s": 2017.0,
+      "median_delay_h": 0.575,
+      "tag_versch_share": 0.04041811846689895,
+      "block_date_equals_sched_date": 1.0,
+      "block_date_equals_mvt_date": 0.9595818815331011,
+      "block_clock_equals_sched_clock": 1.0,
+      "block_seconds_zero": 0.09477351916376307,
+      "sched_seconds_zero": 1.0,
+      "mvt_seconds_zero": 0.08571428571428572,
+      "nm_times_present": 0.0,
+      "callsign_present": 0.0,
+      "flight_rule": {
+        "I": 1152,
+        "V": 277,
+        "None": 6
+      },
+      "airports": {
+        "LIRF": 722,
+        "LTFM": 344,
+        "EHAM": 165,
+        "LSZH": 117,
+        "LEBL": 38,
+        "LFPG": 25
+      }
+    },
+    "day_shift": {
+      "rows": 14,
+      "row_share": 0.0006230529595015577,
+      "v46_se_share": 0.5276082258563701,
+      "v46_rmse": 43245.0122698278,
+      "median_y_s": 87351.0,
+      "median_delay_h": 16.76625,
+      "tag_versch_share": 0.7857142857142857,
+      "block_date_equals_sched_date": 0.7857142857142857,
+      "block_date_equals_mvt_date": 0.0,
+      "block_clock_equals_sched_clock": 0.07142857142857142,
+      "block_seconds_zero": 0.14285714285714285,
+      "sched_seconds_zero": 1.0,
+      "mvt_seconds_zero": 0.21428571428571427,
+      "nm_times_present": 0.0,
+      "callsign_present": 0.0,
+      "flight_rule": {
+        "I": 14
+      },
+      "airports": {
+        "LIRF": 12,
+        "LFPG": 1,
+        "LSZH": 1
+      }
+    },
+    "normal": {
+      "rows": 20856,
+      "row_share": 0.9281708945260347,
+      "v46_se_share": 0.14860094381486844,
+      "v46_rmse": 594.6200352796602,
+      "median_y_s": 923.0,
+      "median_delay_h": 1.4695833333333332,
+      "tag_versch_share": 0.0077675489067894135,
+      "block_date_equals_sched_date": 0.9953970080552359,
+      "block_date_equals_mvt_date": 0.9968354430379747,
+      "block_clock_equals_sched_clock": 4.794783275795934e-05,
+      "block_seconds_zero": 0.06218833908707327,
+      "sched_seconds_zero": 1.0,
+      "mvt_seconds_zero": 0.05168776371308017,
+      "nm_times_present": 0.0,
+      "callsign_present": 0.0,
+      "flight_rule": {
+        "I": 18173,
+        "V": 2649,
+        "None": 34
+      },
+      "airports": {
+        "EHAM": 3918,
+        "LFPG": 3734,
+        "LTFM": 3218,
+        "LSZH": 2169,
+        "EDDF": 1942,
+        "LEBL": 1824
+      }
+    },
+    "negative": {
+      "rows": 0
+    },
+    "other": {
+      "rows": 165,
+      "row_share": 0.007343124165554072,
+      "v46_se_share": 0.16930972247840592,
+      "v46_rmse": 7135.809383330563,
+      "median_y_s": 6730.0,
+      "median_delay_h": 2.115,
+      "tag_versch_share": 0.17575757575757575,
+      "block_date_equals_sched_date": 0.9030303030303031,
+      "block_date_equals_mvt_date": 0.896969696969697,
+      "block_clock_equals_sched_clock": 0.0,
+      "block_seconds_zero": 0.07878787878787878,
+      "sched_seconds_zero": 1.0,
+      "mvt_seconds_zero": 0.11515151515151516,
+      "nm_times_present": 0.0,
+      "callsign_present": 0.0,
+      "flight_rule": {
+        "I": 161,
+        "V": 4
+      },
+      "airports": {
+        "LTFM": 83,
+        "LIRF": 36,
+        "EGLL": 25,
+        "LFPG": 13,
+        "LSZH": 4,
+        "EDDM": 3
+      }
+    }
+  },
+  "by_tag_versch": {
+    "False": {
+      "copy": {
+        "rows": 1377,
+        "row_share": 0.061281708945260346,
+        "v46_se_share": 0.142568216005008,
+        "v46_rmse": 2266.671849402355,
+        "median_y_s": 1631.0,
+        "median_delay_h": 0.4513888888888889,
+        "tag_versch_share": 0.0,
+        "block_date_equals_sched_date": 1.0,
+        "block_date_equals_mvt_date": 1.0,
+        "block_clock_equals_sched_clock": 1.0,
+        "block_seconds_zero": 0.09368191721132897,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.08496732026143791,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 1094,
+          "V": 277,
+          "None": 6
+        },
+        "airports": {
+          "LIRF": 668,
+          "LTFM": 343,
+          "EHAM": 165,
+          "LSZH": 117,
+          "LEBL": 36,
+          "LFPG": 25
+        }
+      },
+      "day_shift": {
+        "rows": 3,
+        "row_share": 0.0001335113484646195,
+        "v46_se_share": 0.32520005431946597,
+        "v46_rmse": 73343.04570972109,
+        "median_y_s": 87341.0,
+        "median_delay_h": 0.48333333333333334,
+        "tag_versch_share": 0.0,
+        "block_date_equals_sched_date": 0.0,
+        "block_date_equals_mvt_date": 0.0,
+        "block_clock_equals_sched_clock": 0.3333333333333333,
+        "block_seconds_zero": 0.3333333333333333,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.3333333333333333,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 3
+        },
+        "airports": {
+          "LFPG": 1,
+          "LIRF": 1,
+          "LSZH": 1
+        }
+      },
+      "normal": {
+        "rows": 20694,
+        "row_share": 0.9209612817089453,
+        "v46_se_share": 0.14414180975961294,
+        "v46_rmse": 587.918364739846,
+        "median_y_s": 921.0,
+        "median_delay_h": 1.4677777777777778,
+        "tag_versch_share": 0.0,
+        "block_date_equals_sched_date": 1.0,
+        "block_date_equals_mvt_date": 1.0,
+        "block_clock_equals_sched_clock": 0.0,
+        "block_seconds_zero": 0.06185367739441384,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.05136754614864212,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 18011,
+          "V": 2649,
+          "None": 34
+        },
+        "airports": {
+          "EHAM": 3902,
+          "LFPG": 3706,
+          "LTFM": 3168,
+          "LSZH": 2169,
+          "EDDF": 1922,
+          "LEBL": 1796
+        }
+      },
+      "negative": {
+        "rows": 0
+      },
+      "other": {
+        "rows": 136,
+        "row_share": 0.006052514463729417,
+        "v46_se_share": 0.16106399001121913,
+        "v46_rmse": 7666.0921636435605,
+        "median_y_s": 6609.5,
+        "median_delay_h": 2.0091666666666668,
+        "tag_versch_share": 0.0,
+        "block_date_equals_sched_date": 0.9852941176470589,
+        "block_date_equals_mvt_date": 0.9852941176470589,
+        "block_clock_equals_sched_clock": 0.0,
+        "block_seconds_zero": 0.08088235294117647,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.11764705882352941,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 132,
+          "V": 4
+        },
+        "airports": {
+          "LTFM": 54,
+          "LIRF": 36,
+          "EGLL": 25,
+          "LFPG": 13,
+          "LSZH": 4,
+          "EDDM": 3
+        }
+      }
+    },
+    "True": {
+      "copy": {
+        "rows": 58,
+        "row_share": 0.00258121940364931,
+        "v46_se_share": 0.011912891845347726,
+        "v46_rmse": 3192.558516593939,
+        "median_y_s": 20611.5,
+        "median_delay_h": 5.725138888888889,
+        "tag_versch_share": 1.0,
+        "block_date_equals_sched_date": 1.0,
+        "block_date_equals_mvt_date": 0.0,
+        "block_clock_equals_sched_clock": 1.0,
+        "block_seconds_zero": 0.1206896551724138,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.10344827586206896,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 58
+        },
+        "airports": {
+          "LIRF": 54,
+          "LEBL": 2,
+          "LTFM": 1,
+          "LEMD": 1
+        }
+      },
+      "day_shift": {
+        "rows": 11,
+        "row_share": 0.0004895416110369382,
+        "v46_se_share": 0.2024081715369041,
+        "v46_rmse": 30217.737333486,
+        "median_y_s": 87361.0,
+        "median_delay_h": 18.184166666666666,
+        "tag_versch_share": 1.0,
+        "block_date_equals_sched_date": 1.0,
+        "block_date_equals_mvt_date": 0.0,
+        "block_clock_equals_sched_clock": 0.0,
+        "block_seconds_zero": 0.09090909090909091,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.18181818181818182,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 11
+        },
+        "airports": {
+          "LIRF": 11
+        }
+      },
+      "normal": {
+        "rows": 162,
+        "row_share": 0.007209612817089452,
+        "v46_se_share": 0.004459134055255543,
+        "v46_rmse": 1168.7241565787251,
+        "median_y_s": 1082.0,
+        "median_delay_h": 3.1245833333333333,
+        "tag_versch_share": 1.0,
+        "block_date_equals_sched_date": 0.4074074074074074,
+        "block_date_equals_mvt_date": 0.5925925925925926,
+        "block_clock_equals_sched_clock": 0.006172839506172839,
+        "block_seconds_zero": 0.10493827160493827,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.09259259259259259,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 162
+        },
+        "airports": {
+          "LTFM": 50,
+          "LEBL": 28,
+          "LFPG": 28,
+          "EDDF": 20,
+          "EHAM": 16,
+          "LEMD": 14
+        }
+      },
+      "negative": {
+        "rows": 0
+      },
+      "other": {
+        "rows": 29,
+        "row_share": 0.001290609701824655,
+        "v46_se_share": 0.008245732467186786,
+        "v46_rmse": 3756.296664185686,
+        "median_y_s": 7078.0,
+        "median_delay_h": 3.1344444444444446,
+        "tag_versch_share": 1.0,
+        "block_date_equals_sched_date": 0.5172413793103449,
+        "block_date_equals_mvt_date": 0.4827586206896552,
+        "block_clock_equals_sched_clock": 0.0,
+        "block_seconds_zero": 0.06896551724137931,
+        "sched_seconds_zero": 1.0,
+        "mvt_seconds_zero": 0.10344827586206896,
+        "nm_times_present": 0.0,
+        "callsign_present": 0.0,
+        "flight_rule": {
+          "I": 29
+        },
+        "airports": {
+          "LTFM": 29
+        }
+      }
+    }
+  },
+  "by_airport": {
+    "EDDF": {
+      "copy": {
+        "rows": 14,
+        "se_share": 0.0007077585455758434
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 1942,
+        "se_share": 0.003582849353744065
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 0,
+        "se_share": 0.0
+      }
+    },
+    "EDDM": {
+      "copy": {
+        "rows": 2,
+        "se_share": 0.0001393662278133049
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 1005,
+        "se_share": 0.004377899966981396
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 3,
+        "se_share": 0.0018370098883220345
+      }
+    },
+    "EGLL": {
+      "copy": {
+        "rows": 5,
+        "se_share": 0.001050890667961363
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 1384,
+        "se_share": 0.006309299775956876
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 25,
+        "se_share": 0.013572518176972848
+      }
+    },
+    "EHAM": {
+      "copy": {
+        "rows": 165,
+        "se_share": 0.00019027215127872236
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 3918,
+        "se_share": 0.006520794850839308
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 1,
+        "se_share": 0.002364617788483257
+      }
+    },
+    "LEBL": {
+      "copy": {
+        "rows": 38,
+        "se_share": 0.0003192227290407874
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 1824,
+        "se_share": 0.0035661236482979865
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 0,
+        "se_share": 0.0
+      }
+    },
+    "LEMD": {
+      "copy": {
+        "rows": 3,
+        "se_share": 1.017922758942191e-05
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 944,
+        "se_share": 0.0016382511331332916
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 0,
+        "se_share": 0.0
+      }
+    },
+    "LFPG": {
+      "copy": {
+        "rows": 25,
+        "se_share": 0.0011404314665617386
+      },
+      "day_shift": {
+        "rows": 1,
+        "se_share": 0.14058620400102503
+      },
+      "normal": {
+        "rows": 3734,
+        "se_share": 0.01335112175027836
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 13,
+        "se_share": 0.07311414033458989
+      }
+    },
+    "LIRF": {
+      "copy": {
+        "rows": 722,
+        "se_share": 0.14939884799373998
+      },
+      "day_shift": {
+        "rows": 12,
+        "se_share": 0.23483881712570054
+      },
+      "normal": {
+        "rows": 718,
+        "se_share": 0.08920606502076725
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 36,
+        "se_share": 0.04890053048751447
+      }
+    },
+    "LSZH": {
+      "copy": {
+        "rows": 117,
+        "se_share": 0.00011580217004338919
+      },
+      "day_shift": {
+        "rows": 1,
+        "se_share": 0.15218320472964447
+      },
+      "normal": {
+        "rows": 2169,
+        "se_share": 0.0034476295940229153
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 4,
+        "se_share": 0.00919164856051824
+      }
+    },
+    "LTFM": {
+      "copy": {
+        "rows": 344,
+        "se_share": 0.0014083366707511576
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "normal": {
+        "rows": 3218,
+        "se_share": 0.01660090872084701
+      },
+      "negative": {
+        "rows": 0,
+        "se_share": 0.0
+      },
+      "other": {
+        "rows": 83,
+        "se_share": 0.02032925724200519
+      }
+    }
+  },
+  "other_offsets": {
+    "rows": 165,
+    "y_minus_delay_quantiles_h": {
+      "0.05": -2.294722222222222,
+      "0.25": -0.7158333333333333,
+      "0.5": -0.2175,
+      "0.75": 0.06666666666666667,
+      "0.95": 2.026333333333333
+    },
+    "schedule_copy_with_day_offset": 0,
+    "schedule_copy_with_hour_offset": {
+      "-3": 0,
+      "-2": 1,
+      "-1": 0,
+      "1": 0,
+      "2": 4,
+      "3": 0
+    },
+    "block_clock_equals_sched_clock": 0,
+    "block_seconds_zero": 13
+  },
+  "day_shift_implied_taxi_s": {
+    "median": 951.0,
+    "quantiles": {
+      "0.1": 768.6,
+      "0.5": 951.0,
+      "0.9": 1573.9000000000005
+    }
+  },
+  "oracle": {
+    "v46_fallback_rmse": 1486.0818407269521,
+    "oracle_fallback_rmse": 838.2386650548451,
+    "fallback_mse_gain_per_row": {
+      "copy": 341124.53034691076,
+      "day_shift": 1164670.6473985668
+    },
+    "leaderboard_mse_equivalent_at_2026_fallback_share": {
+      "copy": 5232.9878568243275,
+      "day_shift": 17866.517394214778
+    }
+  },
+  "late_rows_shift_vs_copy": {
+    "rows_copy": 58,
+    "rows_shift": 11,
+    "medians": {
+      "delay_h": {
+        "copy": 5.725138888888889,
+        "day_shift": 18.184166666666666
+      },
+      "mvt_hour": {
+        "copy": 1.0,
+        "day_shift": 12.0
+      },
+      "sched_hour": {
+        "copy": 20.0,
+        "day_shift": 19.0
+      },
+      "sched_seconds_zero": {
+        "copy": 1.0,
+        "day_shift": 1.0
+      },
+      "mvt_seconds_zero": {
+        "copy": 0.0,
+        "day_shift": 0.0
+      },
+      "ruf_len": {
+        "copy": 7.0,
+        "day_shift": 8.0
+      },
+      "id_abw": {
+        "copy": -16.5,
+        "day_shift": -365.0
+      },
+      "callsign_present": {
+        "copy": 0.0,
+        "day_shift": 0.0
+      },
+      "ifr": {
+        "copy": 1.0,
+        "day_shift": 1.0
+      }
+    }
+  },
+  "exposure_2026": {
+    "fallback_rows": 5290,
+    "tag_versch_rows": 72,
+    "by_airport": {
+      "EDDF": {
+        "2025_tag_versch_rows": 20,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 4,
+        "2025_tag_versch_share_of_fallback": 0.010224948875255624,
+        "2026_tag_versch_share_of_fallback": 0.009501187648456057
+      },
+      "EDDM": {
+        "2025_tag_versch_rows": 3,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 1,
+        "2025_tag_versch_share_of_fallback": 0.0029702970297029703,
+        "2026_tag_versch_share_of_fallback": 0.004201680672268907
+      },
+      "EGLL": {
+        "2025_tag_versch_rows": 0,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 0,
+        "2025_tag_versch_share_of_fallback": 0.0,
+        "2026_tag_versch_share_of_fallback": 0.0
+      },
+      "EHAM": {
+        "2025_tag_versch_rows": 16,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 13,
+        "2025_tag_versch_share_of_fallback": 0.0039177277179236044,
+        "2026_tag_versch_share_of_fallback": 0.01077943615257048
+      },
+      "LEBL": {
+        "2025_tag_versch_rows": 30,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 6,
+        "2025_tag_versch_share_of_fallback": 0.01611170784103115,
+        "2026_tag_versch_share_of_fallback": 0.013574660633484163
+      },
+      "LEMD": {
+        "2025_tag_versch_rows": 15,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 5,
+        "2025_tag_versch_share_of_fallback": 0.01583949313621964,
+        "2026_tag_versch_share_of_fallback": 0.02100840336134454
+      },
+      "LFPG": {
+        "2025_tag_versch_rows": 28,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 5,
+        "2025_tag_versch_share_of_fallback": 0.0074211502782931356,
+        "2026_tag_versch_share_of_fallback": 0.006811989100817439
+      },
+      "LIRF": {
+        "2025_tag_versch_rows": 68,
+        "2025_day_shift_rate_among_them": 0.16176470588235295,
+        "2026_tag_versch_rows": 25,
+        "2025_tag_versch_share_of_fallback": 0.0456989247311828,
+        "2026_tag_versch_share_of_fallback": 0.06527415143603134
+      },
+      "LSZH": {
+        "2025_tag_versch_rows": 0,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 0,
+        "2025_tag_versch_share_of_fallback": 0.0,
+        "2026_tag_versch_share_of_fallback": 0.0
+      },
+      "LTFM": {
+        "2025_tag_versch_rows": 80,
+        "2025_day_shift_rate_among_them": 0.0,
+        "2026_tag_versch_rows": 13,
+        "2025_tag_versch_share_of_fallback": 0.02194787379972565,
+        "2026_tag_versch_share_of_fallback": 0.018030513176144243
+      }
+    },
+    "expected_day_shift_rows": 4.044117647058823,
+    "v46_mean_squared_error_on_2025_day_shift_rows": 1870131086.2175572,
+    "expected_leaderboard_mse_at_stake": 21931.93421920743,
+    "served_prediction_on_2026_tag_versch_rows_h": {
+      "0.1": 0.24606142815844825,
+      "0.5": 0.5893636611601945,
+      "0.9": 12.964208743279807
+    },
+    "delay_on_2026_tag_versch_rows_h": {
+      "0.1": 1.4469722222222223,
+      "0.5": 4.8429166666666665,
+      "0.9": 17.62113888888889
+    }
+  }
+}

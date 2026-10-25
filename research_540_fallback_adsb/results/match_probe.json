@@ -1,0 +1,93 @@
+{
+  "EDDF": {
+    "main_both_matched": 351,
+    "main_same_aircraft": 0.9686609686609686,
+    "fallback_rows": 39,
+    "fallback_callsign_matched": 15,
+    "fallback_free_matched": 8,
+    "fallback_error": {
+      "median": 92.24749994277954,
+      "mae": 137.9206250011921,
+      "rmse": 189.50534015078992,
+      "within60": 0.375
+    }
+  },
+  "EDDM": {
+    "main_both_matched": 1020,
+    "main_same_aircraft": 0.9950980392156863,
+    "fallback_rows": 15,
+    "fallback_callsign_matched": 13,
+    "fallback_free_matched": 4,
+    "fallback_error": {
+      "median": 16.257500052452087,
+      "mae": 105.74125003814697,
+      "rmse": 169.6077453317759,
+      "within60": 0.75
+    }
+  },
+  "EGLL": {
+    "main_both_matched": 784,
+    "main_same_aircraft": 0.9846938775510204,
+    "fallback_rows": 35,
+    "fallback_callsign_matched": 35,
+    "fallback_free_matched": 8,
+    "fallback_error": {
+      "median": 220.46999990940094,
+      "mae": 258.2712499201298,
+      "rmse": 293.6323548688348,
+      "within60": 0.0
+    }
+  },
+  "EHAM": {
+    "main_both_matched": 774,
+    "main_same_aircraft": 0.9961240310077519,
+    "fallback_rows": 97,
+    "fallback_callsign_matched": 23,
+    "fallback_free_matched": 33,
+    "fallback_error": {
+      "median": -23.204999923706055,
+      "mae": 122.94393941127893,
+      "rmse": 295.2697760554703,
+      "within60": 0.7272727272727273
+    }
+  },
+  "LEBL": {
+    "main_both_matched": 691,
+    "main_same_aircraft": 0.9927641099855282,
+    "fallback_rows": 31,
+    "fallback_callsign_matched": 31,
+    "fallback_free_matched": 8,
+    "fallback_error": {
+      "median": -9.649999856948853,
+      "mae": 23.25062495470047,
+      "rmse": 30.152622768726854,
+      "within60": 0.875
+    }
+  },
+  "LEMD": {
+    "main_both_matched": 913,
+    "main_same_aircraft": 0.9923329682365827,
+    "fallback_rows": 25,
+    "fallback_callsign_matched": 25,
+    "fallback_free_matched": 8,
+    "fallback_error": {
+      "median": 85.42499995231628,
+      "mae": 168.55499997735023,
+      "rmse": 243.25834651862033,
+      "within60": 0.25
+    }
+  },
+  "LSZH": {
+    "main_both_matched": 274,
+    "main_same_aircraft": 0.9963503649635036,
+    "fallback_rows": 38,
+    "fallback_callsign_matched": 14,
+    "fallback_free_matched": 3,
+    "fallback_error": {
+      "median": 36.954999923706055,
+      "mae": 135.68166661262512,
+      "rmse": 202.5812232092798,
+      "within60": 0.6666666666666666
+    }
+  }
+}

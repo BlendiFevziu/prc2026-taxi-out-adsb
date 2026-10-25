@@ -1,0 +1,15 @@
+{
+  "note": "out-of-sample comparator for December 2025; single LightGBM, weaker than production",
+  "rounds": 1200,
+  "train_rows": 1898549,
+  "december_rows": 164028,
+  "id_overlap": 0,
+  "replay_max_diff_s": 0.0,
+  "december_main_rmse": 197.54302914367568,
+  "december_main_rmse_ersatz_only": 374.59927281529446,
+  "munich_rows": 11905,
+  "munich_rmse": 199.2884510474207,
+  "prediction_sha256": "8bf58460f93392be6275a3d0a7b2d49eb67f1f9162d3257a0297d40f203bae46",
+  "model_sha256": "b1f339ef79f1b0c33b029cb297d5f8b0775830fea0835945e38837a494a38ac7",
+  "seconds": 222.0
+}

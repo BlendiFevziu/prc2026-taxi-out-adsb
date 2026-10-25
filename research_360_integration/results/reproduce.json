@@ -1,0 +1,127 @@
+{
+  "r1_owner_counts": {
+    "base": 234650,
+    "partial": 72977,
+    "direct_detector": 12423,
+    "eham_january": 9752,
+    "stand": 9749,
+    "fallback": 5290
+  },
+  "r1_rows": 344841,
+  "r1_base_equals_layer_comparator": true,
+  "r1_v62_base_rows_equal_base": true,
+  "r1_ids_order_equal": true,
+  "r1_values_identical_to_v62": true,
+  "r1_dtype_equal": true,
+  "r1_rows_differing": 0,
+  "r2_components_rows": 339046,
+  "r2_old_base_rmse": 214.68979573478165,
+  "r2_train_comparator_equal": true,
+  "r2_development_comparator_equal": true,
+  "r2_confirm_comparator_equal": true,
+  "r2_volume_extra_comparator_equal": true,
+  "r2_shrink_confirm_comparator_equal": true,
+  "r3_c1_vs_arm4_gain_b1": 1058.9794820505049,
+  "r3_recorded": 1058.9794820505049,
+  "r3_equal": true,
+  "r4_stand_rows": 1997,
+  "r4_by_cell": {
+    "EDDF/01": {
+      "replayed": 5673.1430399381115,
+      "recorded": 5673.1430399381115
+    },
+    "EDDF/07": {
+      "replayed": 7500.359332913168,
+      "recorded": 7500.359332913168
+    },
+    "EGLL/01": {
+      "replayed": 7414.3097622189725,
+      "recorded": 7414.3097622189725
+    },
+    "LEBL/01": {
+      "replayed": 3232.623906473034,
+      "recorded": 3232.623906473034
+    },
+    "LEBL/07": {
+      "replayed": 5561.664662530924,
+      "recorded": 5561.664662530924
+    }
+  },
+  "r4_equal": true,
+  "r5": {
+    "development": {
+      "dates": [
+        "2025-01-04",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-20",
+        "2025-01-21",
+        "2025-01-26",
+        "2025-01-28",
+        "2025-07-09",
+        "2025-07-11",
+        "2025-07-13",
+        "2025-07-14",
+        "2025-07-16",
+        "2025-07-25",
+        "2025-07-27"
+      ],
+      "main_rows": 76360,
+      "rmse_old_base_alone": 218.4637884883723,
+      "rmse_old_base_plus_v62_layers": 212.24042388069805,
+      "layer_mse_gain": 2680.42935163388,
+      "best100_removed": 2028.1724080974927,
+      "airport_day_ci95": [
+        1921.7819886686384,
+        3522.730236777585
+      ],
+      "rows_owned": {
+        "partial": 16029,
+        "stand": 1997
+      },
+      "fallback": {
+        "rows": 1178,
+        "rmse": 1152.709240239471,
+        "identical_in_both_arms": true
+      },
+      "combined_rmse_old_base_alone": 259.2070007115075,
+      "combined_rmse_old_base_plus_v62_layers": 254.06409117617588,
+      "note": "detector rows (Munich, Amsterdam) not set aside yet; EHAM January layer not applied in 2025 (features missing on NM days)"
+    },
+    "confirm": {
+      "dates": [
+        "2025-01-01",
+        "2025-01-02",
+        "2025-01-06",
+        "2025-01-18",
+        "2025-07-07",
+        "2025-07-12",
+        "2025-07-26",
+        "2025-07-31"
+      ],
+      "main_rows": 43742,
+      "rmse_old_base_alone": 221.45398155479347,
+      "rmse_old_base_plus_v62_layers": 214.24006034011424,
+      "layer_mse_gain": 3143.0624919350175,
+      "best100_removed": 2011.4123824249095,
+      "airport_day_ci95": [
+        2081.4829427146046,
+        4333.977989463392
+      ],
+      "rows_owned": {
+        "partial": 8894,
+        "stand": 1102
+      },
+      "fallback": {
+        "rows": 607,
+        "rmse": 976.8961861536258,
+        "identical_in_both_arms": true
+      },
+      "combined_rmse_old_base_alone": 247.85559270086745,
+      "combined_rmse_old_base_plus_v62_layers": 241.52091234493824,
+      "note": "detector rows (Munich, Amsterdam) not set aside yet; EHAM January layer not applied in 2025 (features missing on NM days)"
+    }
+  },
+  "all_reproduced": true,
+  "failed": []
+}

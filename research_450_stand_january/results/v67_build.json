@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "v66_is_scored_file": true,
+    "january_passed": true,
+    "weight_passed": true,
+    "stand_models": true,
+    "comparator_equals_pre_nm_base": true,
+    "extraction_equals_codex": true,
+    "reverse_replay": true,
+    "existing_rows_by_cell": {
+      "EGLL/01": 3658,
+      "LEBL/07": 3385,
+      "EHAM/07": 2280,
+      "LEBL/01": 1925,
+      "LSZH/07": 1112,
+      "EDDF/01": 430,
+      "EDDF/07": 351
+    },
+    "existing_rows_reproduce_v66_at_0_5": true,
+    "new_rows_by_cell": {
+      "LSZH/01": 2869,
+      "EHAM/01": 1137
+    },
+    "new_rows_at_comparator": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v66": true,
+    "all_finite": true,
+    "rows_changed": 17004,
+    "change_s": {
+      "mean": 4.368797085429646,
+      "rms": 56.16994711412141
+    }
+  },
+  "base": {
+    "version": "v66",
+    "score": 256.4921,
+    "sha256": "96d77ccc336217ab5c09d6b8cc03868fe8ed2c6869d62934faaf92c6c68d9c17"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "January cells at their weight-0.5 test gain plus the weight test's confirmation gain on all stand rows; central 0.8, worst 0.3, best 1.2 of full transfer",
+    "mse_per_scored_row_full": 240.37049696635893,
+    "central": 256.12,
+    "worst": 256.35,
+    "best": 255.93
+  },
+  "candidate_path": ".cache/research_450/v67/candidate_v67.parquet",
+  "candidate_sha256": "05be3083de8c9da4c59ef6618e97993dcecff5678631922947b762352b8b2fa6",
+  "verdict": "built"
+}

@@ -1,0 +1,183 @@
+{
+  "holdout_2025": {
+    "main_rows": 339046,
+    "main_rmse": 216.7734634758806,
+    "fallback_rows": 5373,
+    "fallback_rmse": 1752.8502344487918,
+    "overall_rmse": 306.90224376231424,
+    "fallback_share_of_rows": 0.015600184658802215,
+    "fallback_share_of_sse": 0.5088845129927415,
+    "main_by_month_rmse": {
+      "01": 196.9504432985477,
+      "07": 231.68281605813425
+    },
+    "main_top1pct_share_of_main_sse": 0.34616311190829113,
+    "main_rows_over_30min_error": 339,
+    "main_by_airport": {
+      "EDDF": {
+        "rows": 36231,
+        "rmse": 173.4912079406433,
+        "share_of_main_sse": 0.06844857395304568
+      },
+      "EDDM": {
+        "rows": 26854,
+        "rmse": 162.87667376630034,
+        "share_of_main_sse": 0.044715275388684673
+      },
+      "EGLL": {
+        "rows": 39744,
+        "rmse": 229.59199615316552,
+        "share_of_main_sse": 0.1314965031689992
+      },
+      "EHAM": {
+        "rows": 40141,
+        "rmse": 161.43552001389304,
+        "share_of_main_sse": 0.06566221417354243
+      },
+      "LEBL": {
+        "rows": 28490,
+        "rmse": 215.38956272727364,
+        "share_of_main_sse": 0.08296041201372863
+      },
+      "LEMD": {
+        "rows": 35019,
+        "rmse": 169.61592706538036,
+        "share_of_main_sse": 0.06323625512591344
+      },
+      "LFPG": {
+        "rows": 38732,
+        "rmse": 238.8518136066799,
+        "share_of_main_sse": 0.13869351391909884
+      },
+      "LIRF": {
+        "rows": 26131,
+        "rmse": 357.56852122424186,
+        "share_of_main_sse": 0.2097025582431002
+      },
+      "LSZH": {
+        "rows": 21822,
+        "rmse": 170.79115173118248,
+        "share_of_main_sse": 0.039953462962854715
+      },
+      "LTFM": {
+        "rows": 45882,
+        "rmse": 232.09398120000625,
+        "share_of_main_sse": 0.15513123105103235
+      }
+    }
+  },
+  "fallback_six_pair": {
+    "rows": 22470,
+    "rmse": 1486.0818407269521,
+    "largest_rows_share": {
+      "1": 0.15218320472964447,
+      "3": 0.4388574746974052,
+      "10": 0.6020685964806489,
+      "84": 0.7746149402322353
+    },
+    "classes": {
+      "copy": {
+        "rows": 1435,
+        "share_of_sse": 0.15448110785035574
+      },
+      "extreme": {
+        "rows": 84,
+        "share_of_sse": 0.6744004894173982
+      },
+      "normal": {
+        "rows": 20951,
+        "share_of_sse": 0.1711184027322462
+      }
+    },
+    "by_airport_share": {
+      "EDDF": 0.004290607899319908,
+      "EDDM": 0.0063542760831167356,
+      "EGLL": 0.020932708620891086,
+      "EHAM": 0.009075684790601286,
+      "LEBL": 0.003885346377338774,
+      "LEMD": 0.0016484303607227134,
+      "LFPG": 0.22819189755245506,
+      "LIRF": 0.5223442606277222,
+      "LSZH": 0.16493828505422903,
+      "LTFM": 0.038338502633603354
+    }
+  },
+  "scored_2026": {
+    "rows": 344841,
+    "fallback_rows": 5290,
+    "nm_changed_rows": 31160,
+    "open_adsb_changed_rows_vs_v52": 96038,
+    "either": 126015,
+    "main_rows_untouched_by_both": 213536,
+    "by_airport": {
+      "EDDF": {
+        "rows": 36317,
+        "fallback": 421,
+        "nm": 3278,
+        "open_adsb": 10012
+      },
+      "EDDM": {
+        "rows": 25966,
+        "fallback": 238,
+        "nm": 2464,
+        "open_adsb": 8235
+      },
+      "EGLL": {
+        "rows": 39840,
+        "fallback": 248,
+        "nm": 3752,
+        "open_adsb": 14049
+      },
+      "EHAM": {
+        "rows": 38182,
+        "fallback": 1206,
+        "nm": 3321,
+        "open_adsb": 25879
+      },
+      "LEBL": {
+        "rows": 30080,
+        "fallback": 442,
+        "nm": 2728,
+        "open_adsb": 23594
+      },
+      "LEMD": {
+        "rows": 36954,
+        "fallback": 238,
+        "nm": 3429,
+        "open_adsb": 0
+      },
+      "LFPG": {
+        "rows": 39872,
+        "fallback": 734,
+        "nm": 3530,
+        "open_adsb": 0
+      },
+      "LIRF": {
+        "rows": 26899,
+        "fallback": 383,
+        "nm": 2469,
+        "open_adsb": 0
+      },
+      "LSZH": {
+        "rows": 23150,
+        "fallback": 659,
+        "nm": 2010,
+        "open_adsb": 14269
+      },
+      "LTFM": {
+        "rows": 47581,
+        "fallback": 721,
+        "nm": 4179,
+        "open_adsb": 0
+      }
+    }
+  },
+  "current_split_estimate": {
+    "v60_official_rmse": 258.2119,
+    "fallback_share_of_sse": {
+      "at_jan_jul_2025_rmse": 0.7069258970229754,
+      "at_six_pair_rmse": 0.5081240185869914
+    },
+    "note": "Fallback unchanged since v50; its 2025 out-of-sample RMSE applied to 2026 fallback rows. Estimate, not measured."
+  }
+}

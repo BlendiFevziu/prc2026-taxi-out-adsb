@@ -1,0 +1,40 @@
+{
+  "v56": 261.2616,
+  "mse_per_scored_row_needed": {
+    "5": 2587.6159999999945,
+    "8": 4116.185599999997
+  },
+  "clean_stand_rows": {
+    "EDDF/01": 450,
+    "EDDF/07": 351,
+    "EGLL/01": 3658,
+    "EGLL/07": 10242,
+    "LEBL/01": 1925,
+    "LEBL/07": 3385,
+    "LSZH/01": 2869,
+    "LSZH/07": 1112
+  },
+  "withheld_rows": {
+    "EDDF/07": 10824,
+    "EGLL/07": 8136,
+    "EHAM/01": 8968
+  },
+  "pools": {
+    "clean_stand": 23992,
+    "withheld_partial": 27928
+  },
+  "main_rows_at_LTFM_LEMD_LFPG_LIRF": 149230,
+  "main_rows": 339551,
+  "seconds_by_gain_per_row": {
+    "clean_stand": {
+      "5000": 0.667,
+      "10000": 1.335,
+      "20000": 2.677
+    },
+    "withheld_partial": {
+      "2800": 0.434,
+      "6400": 0.994
+    }
+  },
+  "upper_bound_everything_s": 3.681
+}

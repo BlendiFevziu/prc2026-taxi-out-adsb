@@ -1,0 +1,46 @@
+{
+  "submission": "upbeat-goblin_v54.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v54.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 264.2328
+  },
+  "score": 264.2328,
+  "previous": {
+    "version": "v52",
+    "score": 265.2839
+  },
+  "gain_s": 1.0511,
+  "recipe": "v52 with 6,722 scored Munich main-lane predictions (1.95 % of scored rows) replaced by the ADS-B stand detector's taxi time: detector v2 (research_290/stand_detector.detect_onset_v2) plus a disclosed post-hoc arrival-and-stay guard that withdrew one row. Every other row byte-identical to v52. ADS-B from adsb.lol (ODbL), permitted by the organiser ruling of 19 September.",
+  "validation": "pre-registered, research_290/PREREG_stand_detector.md: v1 failed (addendum A); v2 passed on four fresh December 2025 days against one LightGBM (addendum C) and on four January 2025 days against the held-out v45 full ensemble, 65.6 s against 151.8 s (addendum E). The transfer to seven other airports failed (research_290/PREREG_transfer_2025.md).",
+  "prediction_fixed_before_upload": {
+    "central": 264.74,
+    "full_transfer": 264.65,
+    "transfer_0_74": 264.81
+  },
+  "actual": 264.2328,
+  "prediction_error_s": -0.5072,
+  "inside_predicted_range": false,
+  "transfer": {
+    "realised_mse_gain": 556.6,
+    "realised_per_covered_row": 28552,
+    "predicted_per_covered_row_vs_v52": 17323,
+    "validated_per_covered_row_vs_v45": 18744,
+    "realised_over_predicted": 1.65,
+    "realised_over_validated": 1.52
+  },
+  "reading": "Better than the whole predicted range. The detector saved 1.5 times as much per replaced row as in its January 2025 validation. The most likely reason is July, half the replacements, where the model's errors are larger (v45 held-out July 231.7 s against January 197.0 s); a single board number cannot split it. No constant was adjusted from this score.",
+  "upload": {
+    "at": "2026-09-25T07:02:22.462381+00:00",
+    "remote_size": 4730688,
+    "local_size": 4730688
+  },
+  "candidate_sha256": "5f20c51ab0c3bd5f0694e112d383d2546854cdf6aa72589b42bf2bf3b736c203",
+  "recorded_at": "2026-09-25T07:03:42.661681+00:00"
+}

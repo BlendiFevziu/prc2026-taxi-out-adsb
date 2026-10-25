@@ -1,0 +1,956 @@
+{
+  "note": "no training; January/July 2025 holdout of the v45 recipe with the v46 fallback; 2026 label-free",
+  "fallback_replication_max_abs_difference_s": 7.275957614183426e-12,
+  "error_map": {
+    "rmse_v45": 307.26432052716564,
+    "rmse_v46_style": 306.90224376231424,
+    "total_mse_v46_style": 94188.98722634294,
+    "classes": {
+      "fallback_extreme": {
+        "rows": 154,
+        "total_mse": 42061.89476382855,
+        "share_of_squared_error": 0.4465691372469138,
+        "rmse": 9699.014454104552
+      },
+      "fallback_normal": {
+        "rows": 5219,
+        "total_mse": 5869.422130128511,
+        "share_of_squared_error": 0.062315375745827545,
+        "rmse": 622.3684589412816
+      },
+      "main_copied": {
+        "rows": 15326,
+        "total_mse": 5121.455722690411,
+        "share_of_squared_error": 0.054374251953502616,
+        "rmse": 339.2546830261807
+      },
+      "main_ordinary": {
+        "rows": 323161,
+        "total_mse": 37865.91752283933,
+        "share_of_squared_error": 0.4020206463399463,
+        "rmse": 200.89000119740564
+      },
+      "main_over_1h_not_copied": {
+        "rows": 559,
+        "total_mse": 3270.2970868561233,
+        "share_of_squared_error": 0.03472058871380965,
+        "rmse": 1419.4864477118986
+      }
+    },
+    "top_airport_classes": [
+      {
+        "airport": "LFPG",
+        "class": "fallback_extreme",
+        "rows": 4,
+        "total_mse": 30006.80882052859,
+        "share": 0.3185808628393048
+      },
+      {
+        "airport": "LIRF",
+        "class": "fallback_extreme",
+        "rows": 127,
+        "total_mse": 9579.206204833632,
+        "share": 0.10170197691810942
+      },
+      {
+        "airport": "LTFM",
+        "class": "main_ordinary",
+        "rows": 43500,
+        "total_mse": 6511.963154336216,
+        "share": 0.06913720325591248
+      },
+      {
+        "airport": "LIRF",
+        "class": "main_ordinary",
+        "rows": 21716,
+        "total_mse": 5665.53396233992,
+        "share": 0.06015070476047516
+      },
+      {
+        "airport": "LFPG",
+        "class": "main_ordinary",
+        "rows": 37207,
+        "total_mse": 5362.536538359009,
+        "share": 0.05693379551340165
+      },
+      {
+        "airport": "EGLL",
+        "class": "main_ordinary",
+        "rows": 37862,
+        "total_mse": 5173.834042216595,
+        "share": 0.054930350082048315
+      },
+      {
+        "airport": "LIRF",
+        "class": "fallback_normal",
+        "rows": 270,
+        "total_mse": 3668.76793554931,
+        "share": 0.03895113477261409
+      },
+      {
+        "airport": "LIRF",
+        "class": "main_copied",
+        "rows": 4308,
+        "total_mse": 3382.5654875372384,
+        "share": 0.0359125369870332
+      },
+      {
+        "airport": "EDDF",
+        "class": "main_ordinary",
+        "rows": 35790,
+        "total_mse": 2962.333965284057,
+        "share": 0.031450958891461
+      },
+      {
+        "airport": "LEBL",
+        "class": "main_ordinary",
+        "rows": 26670,
+        "total_mse": 2960.0884222876075,
+        "share": 0.03142711806821217
+      },
+      {
+        "airport": "EHAM",
+        "class": "main_ordinary",
+        "rows": 39683,
+        "total_mse": 2843.7676926012123,
+        "share": 0.030192146410571687
+      },
+      {
+        "airport": "LEMD",
+        "class": "main_ordinary",
+        "rows": 33527,
+        "total_mse": 2794.5640109030087,
+        "share": 0.029669753260935586
+      },
+      {
+        "airport": "EDDM",
+        "class": "main_ordinary",
+        "rows": 25629,
+        "total_mse": 1920.3786358991294,
+        "share": 0.02038856868992891
+      },
+      {
+        "airport": "LSZH",
+        "class": "main_ordinary",
+        "rows": 21577,
+        "total_mse": 1670.917098612582,
+        "share": 0.017740047406999374
+      },
+      {
+        "airport": "EGLL",
+        "class": "fallback_extreme",
+        "rows": 13,
+        "total_mse": 1239.7888252143212,
+        "share": 0.01316277902250949
+      }
+    ],
+    "main_ordinary_share_from_errors_over_30_min": 0.036528632210475774
+  },
+  "main_bias": {
+    "airport_month": {
+      "in_sample_total_mse": 151.81297745292295,
+      "cross_fit_total_mse": 90.74865961452274,
+      "bins": 20
+    },
+    "airport_day": {
+      "in_sample_total_mse": 883.0989751270206,
+      "cross_fit_total_mse": 671.1520756062031,
+      "bins": 620
+    },
+    "airport_month_mean_residual_s": {
+      "EDDF|1": {
+        "rows": 15332,
+        "mean": -0.3036878228188194
+      },
+      "EDDF|7": {
+        "rows": 20899,
+        "mean": -10.998816554830238
+      },
+      "EDDM|1": {
+        "rows": 11201,
+        "mean": -0.4467238846202831
+      },
+      "EDDM|7": {
+        "rows": 15653,
+        "mean": 5.5559319271003025
+      },
+      "EGLL|1": {
+        "rows": 19292,
+        "mean": -18.569957142980222
+      },
+      "EGLL|7": {
+        "rows": 20452,
+        "mean": -17.70873669178495
+      },
+      "EHAM|1": {
+        "rows": 18167,
+        "mean": 3.739186570998319
+      },
+      "EHAM|7": {
+        "rows": 21974,
+        "mean": -6.742096962407449
+      },
+      "LEBL|1": {
+        "rows": 12168,
+        "mean": -8.653405244639842
+      },
+      "LEBL|7": {
+        "rows": 16322,
+        "mean": 2.985648589289764
+      },
+      "LEMD|1": {
+        "rows": 16478,
+        "mean": -10.888883597962886
+      },
+      "LEMD|7": {
+        "rows": 18541,
+        "mean": -13.239423491810857
+      },
+      "LFPG|1": {
+        "rows": 17684,
+        "mean": -3.401859304397543
+      },
+      "LFPG|7": {
+        "rows": 21048,
+        "mean": -7.830134252056242
+      },
+      "LIRF|1": {
+        "rows": 11257,
+        "mean": -13.369948830066821
+      },
+      "LIRF|7": {
+        "rows": 14874,
+        "mean": -17.234138529933567
+      },
+      "LSZH|1": {
+        "rows": 9556,
+        "mean": -4.140812682194397
+      },
+      "LSZH|7": {
+        "rows": 12266,
+        "mean": -2.3160941400015345
+      },
+      "LTFM|1": {
+        "rows": 21136,
+        "mean": -29.820745107402455
+      },
+      "LTFM|7": {
+        "rows": 24746,
+        "mean": 8.390173147379956
+      }
+    }
+  },
+  "label_free_2025_vs_2026": {
+    "EDDF|1": {
+      "2025": {
+        "departures": 15496,
+        "aobt3_share": 0.9894166236448115,
+        "median_mvt_minus_aobt3_s": 907.0,
+        "median_delay_min": 19.84166666666667,
+        "median_aobt3_minus_block_s": -104.0,
+        "arrivals": 15432,
+        "median_arvt3_minus_mvt_s": 11.0,
+        "median_taxi_in_s": 544.5,
+        "arrival_copied_share": 0.008553654743390357
+      },
+      "2026": {
+        "departures": 15667,
+        "aobt3_share": 0.9864683730133401,
+        "median_mvt_minus_aobt3_s": 954.0,
+        "median_delay_min": 26.05,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 15617,
+        "median_arvt3_minus_mvt_s": 18.0,
+        "median_taxi_in_s": 550.0,
+        "arrival_copied_share": 0.007491835819939809
+      },
+      "change": {
+        "aobt3_share": -0.0029482506314714163,
+        "median_mvt_minus_aobt3_s": 47.0,
+        "median_delay_min": 6.208333333333332,
+        "median_arvt3_minus_mvt_s": 7.0,
+        "median_taxi_in_s": 5.5,
+        "arrival_copied_share": -0.0010618189234505478
+      }
+    },
+    "EDDF|7": {
+      "2025": {
+        "departures": 21334,
+        "aobt3_share": 0.9796100121871192,
+        "median_mvt_minus_aobt3_s": 896.0,
+        "median_delay_min": 28.65,
+        "median_aobt3_minus_block_s": -83.0,
+        "arrivals": 21323,
+        "median_arvt3_minus_mvt_s": 11.0,
+        "median_taxi_in_s": 565.0,
+        "arrival_copied_share": 0.008957463771514327
+      },
+      "2026": {
+        "departures": 20650,
+        "aobt3_share": 0.9898789346246973,
+        "median_mvt_minus_aobt3_s": 929.0,
+        "median_delay_min": 24.45,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 20636,
+        "median_arvt3_minus_mvt_s": 16.0,
+        "median_taxi_in_s": 501.5,
+        "arrival_copied_share": 0.008141112618724558
+      },
+      "change": {
+        "aobt3_share": 0.010268922437578154,
+        "median_mvt_minus_aobt3_s": 33.0,
+        "median_delay_min": -4.199999999999999,
+        "median_arvt3_minus_mvt_s": 5.0,
+        "median_taxi_in_s": -63.5,
+        "arrival_copied_share": -0.0008163511527897686
+      }
+    },
+    "EDDM|1": {
+      "2025": {
+        "departures": 11266,
+        "aobt3_share": 0.9942304278359666,
+        "median_mvt_minus_aobt3_s": 720.0,
+        "median_delay_min": 17.09166666666667,
+        "median_aobt3_minus_block_s": -4.0,
+        "arrivals": 11215,
+        "median_arvt3_minus_mvt_s": 30.0,
+        "median_taxi_in_s": 312.0,
+        "arrival_copied_share": 0.028800713330361122
+      },
+      "2026": {
+        "departures": 10953,
+        "aobt3_share": 0.9891353966949694,
+        "median_mvt_minus_aobt3_s": 722.0,
+        "median_delay_min": 22.9,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 10927,
+        "median_arvt3_minus_mvt_s": 25.0,
+        "median_taxi_in_s": 353.0,
+        "arrival_copied_share": 0.026082181751624415
+      },
+      "change": {
+        "aobt3_share": -0.005095031140997186,
+        "median_mvt_minus_aobt3_s": 2.0,
+        "median_delay_min": 5.80833333333333,
+        "median_arvt3_minus_mvt_s": -5.0,
+        "median_taxi_in_s": 41.0,
+        "arrival_copied_share": -0.0027185315787367076
+      }
+    },
+    "EDDM|7": {
+      "2025": {
+        "departures": 15825,
+        "aobt3_share": 0.98913112164297,
+        "median_mvt_minus_aobt3_s": 721.0,
+        "median_delay_min": 22.95,
+        "median_aobt3_minus_block_s": 54.0,
+        "arrivals": 15831,
+        "median_arvt3_minus_mvt_s": 22.0,
+        "median_taxi_in_s": 364.0,
+        "arrival_copied_share": 0.03126776577600909
+      },
+      "2026": {
+        "departures": 15013,
+        "aobt3_share": 0.9920735362685672,
+        "median_mvt_minus_aobt3_s": 718.0,
+        "median_delay_min": 20.95,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 15008,
+        "median_arvt3_minus_mvt_s": 23.0,
+        "median_taxi_in_s": 359.0,
+        "arrival_copied_share": 0.031183368869936032
+      },
+      "change": {
+        "aobt3_share": 0.0029424146255971895,
+        "median_mvt_minus_aobt3_s": -3.0,
+        "median_delay_min": -2.0,
+        "median_arvt3_minus_mvt_s": 1.0,
+        "median_taxi_in_s": -5.0,
+        "arrival_copied_share": -8.43969060730608e-05
+      }
+    },
+    "EGLL|1": {
+      "2025": {
+        "departures": 19420,
+        "aobt3_share": 0.9934088568486097,
+        "median_mvt_minus_aobt3_s": 1320.0,
+        "median_delay_min": 24.933333333333334,
+        "median_aobt3_minus_block_s": -59.0,
+        "arrivals": 19427,
+        "median_arvt3_minus_mvt_s": 37.0,
+        "median_taxi_in_s": 426.0,
+        "arrival_copied_share": 0.01899418335306532
+      },
+      "2026": {
+        "departures": 19283,
+        "aobt3_share": 0.9941917751387233,
+        "median_mvt_minus_aobt3_s": 1317.0,
+        "median_delay_min": 25.0,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 19274,
+        "median_arvt3_minus_mvt_s": 6.0,
+        "median_taxi_in_s": 473.0,
+        "arrival_copied_share": 0.02028639618138425
+      },
+      "change": {
+        "aobt3_share": 0.0007829182901135656,
+        "median_mvt_minus_aobt3_s": -3.0,
+        "median_delay_min": 0.06666666666666643,
+        "median_arvt3_minus_mvt_s": -31.0,
+        "median_taxi_in_s": 47.0,
+        "arrival_copied_share": 0.0012922128283189283
+      }
+    },
+    "EGLL|7": {
+      "2025": {
+        "departures": 20790,
+        "aobt3_share": 0.9837421837421837,
+        "median_mvt_minus_aobt3_s": 1376.0,
+        "median_delay_min": 32.05,
+        "median_aobt3_minus_block_s": -5.0,
+        "arrivals": 20774,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 427.0,
+        "arrival_copied_share": 0.02214306344469048
+      },
+      "2026": {
+        "departures": 20557,
+        "aobt3_share": 0.9933842486744174,
+        "median_mvt_minus_aobt3_s": 1321.0,
+        "median_delay_min": 27.983333333333334,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 20563,
+        "median_arvt3_minus_mvt_s": 1.0,
+        "median_taxi_in_s": 427.0,
+        "arrival_copied_share": 0.023245635364489616
+      },
+      "change": {
+        "aobt3_share": 0.00964206493223374,
+        "median_mvt_minus_aobt3_s": -55.0,
+        "median_delay_min": -4.066666666666663,
+        "median_arvt3_minus_mvt_s": -1.0,
+        "median_taxi_in_s": 0.0,
+        "arrival_copied_share": 0.0011025719197991363
+      }
+    },
+    "EHAM|1": {
+      "2025": {
+        "departures": 18460,
+        "aobt3_share": 0.9841278439869989,
+        "median_mvt_minus_aobt3_s": 812.0,
+        "median_delay_min": 22.983333333333334,
+        "median_aobt3_minus_block_s": -100.0,
+        "arrivals": 18469,
+        "median_arvt3_minus_mvt_s": 54.0,
+        "median_taxi_in_s": 599.0,
+        "arrival_copied_share": 0.007742703990470518
+      },
+      "2026": {
+        "departures": 16232,
+        "aobt3_share": 0.9504066042385412,
+        "median_mvt_minus_aobt3_s": 863.0,
+        "median_delay_min": 25.183333333333334,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 16246,
+        "median_arvt3_minus_mvt_s": 50.0,
+        "median_taxi_in_s": 617.0,
+        "arrival_copied_share": 0.00818663055521359
+      },
+      "change": {
+        "aobt3_share": -0.033721239748457754,
+        "median_mvt_minus_aobt3_s": 51.0,
+        "median_delay_min": 2.1999999999999993,
+        "median_arvt3_minus_mvt_s": -4.0,
+        "median_taxi_in_s": 18.0,
+        "arrival_copied_share": 0.0004439265647430725
+      }
+    },
+    "EHAM|7": {
+      "2025": {
+        "departures": 22489,
+        "aobt3_share": 0.9770999155142515,
+        "median_mvt_minus_aobt3_s": 900.0,
+        "median_delay_min": 27.616666666666667,
+        "median_aobt3_minus_block_s": -114.0,
+        "arrivals": 22463,
+        "median_arvt3_minus_mvt_s": 43.0,
+        "median_taxi_in_s": 412.0,
+        "arrival_copied_share": 0.009126118505987624
+      },
+      "2026": {
+        "departures": 21950,
+        "aobt3_share": 0.9817312072892939,
+        "median_mvt_minus_aobt3_s": 964.0,
+        "median_delay_min": 24.15,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 21897,
+        "median_arvt3_minus_mvt_s": 6.0,
+        "median_taxi_in_s": 335.0,
+        "arrival_copied_share": 0.009270676348358223
+      },
+      "change": {
+        "aobt3_share": 0.004631291775042401,
+        "median_mvt_minus_aobt3_s": 64.0,
+        "median_delay_min": -3.4666666666666686,
+        "median_arvt3_minus_mvt_s": -37.0,
+        "median_taxi_in_s": -77.0,
+        "arrival_copied_share": 0.00014455784237059864
+      }
+    },
+    "LEBL|1": {
+      "2025": {
+        "departures": 12234,
+        "aobt3_share": 0.9946051986267779,
+        "median_mvt_minus_aobt3_s": 758.0,
+        "median_delay_min": 17.958333333333332,
+        "median_aobt3_minus_block_s": -1.0,
+        "arrivals": 12165,
+        "median_arvt3_minus_mvt_s": 21.0,
+        "median_taxi_in_s": 189.0,
+        "arrival_copied_share": 0.022770242498972464
+      },
+      "2026": {
+        "departures": 12201,
+        "aobt3_share": 0.993689041881813,
+        "median_mvt_minus_aobt3_s": 760.0,
+        "median_delay_min": 18.916666666666668,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 12164,
+        "median_arvt3_minus_mvt_s": -4.0,
+        "median_taxi_in_s": 201.0,
+        "arrival_copied_share": 0.021621177244327525
+      },
+      "change": {
+        "aobt3_share": -0.0009161567449649244,
+        "median_mvt_minus_aobt3_s": 2.0,
+        "median_delay_min": 0.9583333333333357,
+        "median_arvt3_minus_mvt_s": -25.0,
+        "median_taxi_in_s": 12.0,
+        "arrival_copied_share": -0.0011490652546449383
+      }
+    },
+    "LEBL|7": {
+      "2025": {
+        "departures": 16752,
+        "aobt3_share": 0.9743314231136581,
+        "median_mvt_minus_aobt3_s": 767.0,
+        "median_delay_min": 29.516666666666666,
+        "median_aobt3_minus_block_s": 60.0,
+        "arrivals": 16707,
+        "median_arvt3_minus_mvt_s": 16.0,
+        "median_taxi_in_s": 208.0,
+        "arrival_copied_share": 0.019333213623032263
+      },
+      "2026": {
+        "departures": 17879,
+        "aobt3_share": 0.9795849879747189,
+        "median_mvt_minus_aobt3_s": 765.0,
+        "median_delay_min": 26.916666666666668,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 17809,
+        "median_arvt3_minus_mvt_s": -10.0,
+        "median_taxi_in_s": 218.0,
+        "arrival_copied_share": 0.019709135830198215
+      },
+      "change": {
+        "aobt3_share": 0.005253564861060878,
+        "median_mvt_minus_aobt3_s": -2.0,
+        "median_delay_min": -2.599999999999998,
+        "median_arvt3_minus_mvt_s": -26.0,
+        "median_taxi_in_s": 10.0,
+        "arrival_copied_share": 0.0003759222071659518
+      }
+    },
+    "LEMD|1": {
+      "2025": {
+        "departures": 16510,
+        "aobt3_share": 0.9980617807389461,
+        "median_mvt_minus_aobt3_s": 984.0,
+        "median_delay_min": 22.475,
+        "median_aobt3_minus_block_s": -56.0,
+        "arrivals": 16643,
+        "median_arvt3_minus_mvt_s": -17.0,
+        "median_taxi_in_s": 489.0,
+        "arrival_copied_share": 0.01970798533918164
+      },
+      "2026": {
+        "departures": 16802,
+        "aobt3_share": 0.9962504463754315,
+        "median_mvt_minus_aobt3_s": 987.0,
+        "median_delay_min": 25.458333333333332,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 17097,
+        "median_arvt3_minus_mvt_s": -8.0,
+        "median_taxi_in_s": 471.0,
+        "arrival_copied_share": 0.02205065216119787
+      },
+      "change": {
+        "aobt3_share": -0.0018113343635146606,
+        "median_mvt_minus_aobt3_s": 3.0,
+        "median_delay_min": 2.9833333333333307,
+        "median_arvt3_minus_mvt_s": 9.0,
+        "median_taxi_in_s": -18.0,
+        "arrival_copied_share": 0.002342666822016233
+      }
+    },
+    "LEMD|7": {
+      "2025": {
+        "departures": 18818,
+        "aobt3_share": 0.9852800510149856,
+        "median_mvt_minus_aobt3_s": 985.0,
+        "median_delay_min": 28.85,
+        "median_aobt3_minus_block_s": 2.0,
+        "arrivals": 18665,
+        "median_arvt3_minus_mvt_s": -17.0,
+        "median_taxi_in_s": 520.0,
+        "arrival_copied_share": 0.01960889365121886
+      },
+      "2026": {
+        "departures": 20152,
+        "aobt3_share": 0.9913159984120683,
+        "median_mvt_minus_aobt3_s": 981.0,
+        "median_delay_min": 27.216666666666665,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 19996,
+        "median_arvt3_minus_mvt_s": -8.0,
+        "median_taxi_in_s": 496.0,
+        "arrival_copied_share": 0.020454090818163632
+      },
+      "change": {
+        "aobt3_share": 0.006035947397082686,
+        "median_mvt_minus_aobt3_s": -4.0,
+        "median_delay_min": -1.6333333333333364,
+        "median_arvt3_minus_mvt_s": 9.0,
+        "median_taxi_in_s": -24.0,
+        "arrival_copied_share": 0.0008451971669447729
+      }
+    },
+    "LFPG|1": {
+      "2025": {
+        "departures": 17900,
+        "aobt3_share": 0.9879329608938547,
+        "median_mvt_minus_aobt3_s": 899.0,
+        "median_delay_min": 27.066666666666666,
+        "median_aobt3_minus_block_s": 4.0,
+        "arrivals": 17816,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 544.0,
+        "arrival_copied_share": 0.022676246070947464
+      },
+      "2026": {
+        "departures": 18129,
+        "aobt3_share": 0.9820729218379393,
+        "median_mvt_minus_aobt3_s": 897.0,
+        "median_delay_min": 27.983333333333334,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 18070,
+        "median_arvt3_minus_mvt_s": 5.0,
+        "median_taxi_in_s": 547.0,
+        "arrival_copied_share": 0.02080796900940786
+      },
+      "change": {
+        "aobt3_share": -0.005860039055915478,
+        "median_mvt_minus_aobt3_s": -2.0,
+        "median_delay_min": 0.9166666666666679,
+        "median_arvt3_minus_mvt_s": 3.0,
+        "median_taxi_in_s": 3.0,
+        "arrival_copied_share": -0.0018682770615396048
+      }
+    },
+    "LFPG|7": {
+      "2025": {
+        "departures": 21712,
+        "aobt3_share": 0.9694178334561533,
+        "median_mvt_minus_aobt3_s": 898.0,
+        "median_delay_min": 32.06666666666667,
+        "median_aobt3_minus_block_s": 57.0,
+        "arrivals": 21638,
+        "median_arvt3_minus_mvt_s": 1.0,
+        "median_taxi_in_s": 550.0,
+        "arrival_copied_share": 0.022599131158147705
+      },
+      "2026": {
+        "departures": 21743,
+        "aobt3_share": 0.9811893482960033,
+        "median_mvt_minus_aobt3_s": 959.0,
+        "median_delay_min": 27.95,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 21663,
+        "median_arvt3_minus_mvt_s": 1.0,
+        "median_taxi_in_s": 541.0,
+        "arrival_copied_share": 0.024973457046577115
+      },
+      "change": {
+        "aobt3_share": 0.011771514839850061,
+        "median_mvt_minus_aobt3_s": 61.0,
+        "median_delay_min": -4.116666666666671,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": -9.0,
+        "arrival_copied_share": 0.00237432588842941
+      }
+    },
+    "LIRF|1": {
+      "2025": {
+        "departures": 11317,
+        "aobt3_share": 0.9946982415834585,
+        "median_mvt_minus_aobt3_s": 902.0,
+        "median_delay_min": 19.066666666666666,
+        "median_aobt3_minus_block_s": 59.0,
+        "arrivals": 11298,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 590.0,
+        "arrival_copied_share": 0.08736059479553904
+      },
+      "2026": {
+        "departures": 11061,
+        "aobt3_share": 0.9903263719374379,
+        "median_mvt_minus_aobt3_s": 900.0,
+        "median_delay_min": 19.916666666666668,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 11043,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 538.0,
+        "arrival_copied_share": 0.08566512722991941
+      },
+      "change": {
+        "aobt3_share": -0.004371869646020654,
+        "median_mvt_minus_aobt3_s": -2.0,
+        "median_delay_min": 0.8500000000000014,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": -52.0,
+        "arrival_copied_share": -0.0016954675656196266
+      }
+    },
+    "LIRF|7": {
+      "2025": {
+        "departures": 15211,
+        "aobt3_share": 0.9778449806061403,
+        "median_mvt_minus_aobt3_s": 901.0,
+        "median_delay_min": 34.9,
+        "median_aobt3_minus_block_s": 179.0,
+        "arrivals": 15185,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 595.0,
+        "arrival_copied_share": 0.08857425090549885
+      },
+      "2026": {
+        "departures": 15838,
+        "aobt3_share": 0.9825735572673318,
+        "median_mvt_minus_aobt3_s": 903.0,
+        "median_delay_min": 31.95,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 15796,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 598.0,
+        "arrival_copied_share": 0.10565966067358826
+      },
+      "change": {
+        "aobt3_share": 0.004728576661191419,
+        "median_mvt_minus_aobt3_s": 2.0,
+        "median_delay_min": -2.9499999999999993,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": 3.0,
+        "arrival_copied_share": 0.017085409768089407
+      }
+    },
+    "LSZH|1": {
+      "2025": {
+        "departures": 9735,
+        "aobt3_share": 0.9816127375449409,
+        "median_mvt_minus_aobt3_s": 667.0,
+        "median_delay_min": 20.533333333333335,
+        "median_aobt3_minus_block_s": 31.0,
+        "arrivals": 9702,
+        "median_arvt3_minus_mvt_s": 3.0,
+        "median_taxi_in_s": 318.0,
+        "arrival_copied_share": 0.01030715316429602
+      },
+      "2026": {
+        "departures": 9995,
+        "aobt3_share": 0.9699849924962481,
+        "median_mvt_minus_aobt3_s": 679.0,
+        "median_delay_min": 25.533333333333335,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 9963,
+        "median_arvt3_minus_mvt_s": 8.0,
+        "median_taxi_in_s": 345.0,
+        "arrival_copied_share": 0.009234166415738232
+      },
+      "change": {
+        "aobt3_share": -0.011627745048692795,
+        "median_mvt_minus_aobt3_s": 12.0,
+        "median_delay_min": 5.0,
+        "median_arvt3_minus_mvt_s": 5.0,
+        "median_taxi_in_s": 27.0,
+        "arrival_copied_share": -0.0010729867485577884
+      }
+    },
+    "LSZH|7": {
+      "2025": {
+        "departures": 12611,
+        "aobt3_share": 0.9726429307747205,
+        "median_mvt_minus_aobt3_s": 688.0,
+        "median_delay_min": 27.433333333333334,
+        "median_aobt3_minus_block_s": 36.0,
+        "arrivals": 12602,
+        "median_arvt3_minus_mvt_s": 2.0,
+        "median_taxi_in_s": 324.0,
+        "arrival_copied_share": 0.009284240596730678
+      },
+      "2026": {
+        "departures": 13155,
+        "aobt3_share": 0.9727099961991638,
+        "median_mvt_minus_aobt3_s": 670.0,
+        "median_delay_min": 25.666666666666668,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 13160,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": 329.0,
+        "arrival_copied_share": 0.010258358662613981
+      },
+      "change": {
+        "aobt3_share": 6.70654244432356e-05,
+        "median_mvt_minus_aobt3_s": -18.0,
+        "median_delay_min": -1.7666666666666657,
+        "median_arvt3_minus_mvt_s": -2.0,
+        "median_taxi_in_s": 5.0,
+        "arrival_copied_share": 0.0009741180658833035
+      }
+    },
+    "LTFM|1": {
+      "2025": {
+        "departures": 21368,
+        "aobt3_share": 0.9891426432047922,
+        "median_mvt_minus_aobt3_s": 1434.0,
+        "median_delay_min": 19.9,
+        "median_aobt3_minus_block_s": -355.0,
+        "arrivals": 21384,
+        "median_arvt3_minus_mvt_s": -1.0,
+        "median_taxi_in_s": 730.0,
+        "arrival_copied_share": 0.01996820052375608
+      },
+      "2026": {
+        "departures": 22396,
+        "aobt3_share": 0.985131273441686,
+        "median_mvt_minus_aobt3_s": 1444.0,
+        "median_delay_min": 26.916666666666668,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 22470,
+        "median_arvt3_minus_mvt_s": -1.0,
+        "median_taxi_in_s": 721.0,
+        "arrival_copied_share": 0.01838006230529595
+      },
+      "change": {
+        "aobt3_share": -0.004011369763106121,
+        "median_mvt_minus_aobt3_s": 10.0,
+        "median_delay_min": 7.016666666666669,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": -9.0,
+        "arrival_copied_share": -0.0015881382184601278
+      }
+    },
+    "LTFM|7": {
+      "2025": {
+        "departures": 25171,
+        "aobt3_share": 0.9831154900480712,
+        "median_mvt_minus_aobt3_s": 1198.0,
+        "median_delay_min": 23.95,
+        "median_aobt3_minus_block_s": -234.0,
+        "arrivals": 25259,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": 789.0,
+        "arrival_copied_share": 0.018448869709806404
+      },
+      "2026": {
+        "departures": 25185,
+        "aobt3_share": 0.9845940043676792,
+        "median_mvt_minus_aobt3_s": 1197.0,
+        "median_delay_min": 21.016666666666666,
+        "median_aobt3_minus_block_s": null,
+        "arrivals": 25294,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": 780.0,
+        "arrival_copied_share": 0.020360559816557287
+      },
+      "change": {
+        "aobt3_share": 0.001478514319607993,
+        "median_mvt_minus_aobt3_s": -1.0,
+        "median_delay_min": -2.9333333333333336,
+        "median_arvt3_minus_mvt_s": 0.0,
+        "median_taxi_in_s": -9.0,
+        "arrival_copied_share": 0.001911690106750883
+      }
+    }
+  },
+  "arrival_tracks_departure_drift_2025": {
+    "monthly_departure_rest_median_spread_s": {
+      "EDDF": 13.43220914162084,
+      "EDDM": 32.097389679574015,
+      "EGLL": 26.393295751119464,
+      "EHAM": 7.334022006230878,
+      "LEBL": 28.788676224999975,
+      "LEMD": 21.563682993459725,
+      "LFPG": 23.806511714234826,
+      "LIRF": 52.05671440987719,
+      "LSZH": 4.4438841187193505,
+      "LTFM": 42.25033620092163
+    },
+    "vs_arrival_arvt3_minus_mvt": {
+      "points": 120,
+      "pearson": -0.20558990099655897,
+      "spearman": -0.1509509550220885
+    },
+    "vs_arrival_taxi_in": {
+      "points": 120,
+      "pearson": 0.24768856597672284,
+      "spearman": 0.5252317807279733
+    },
+    "vs_departure_mvt_minus_aobt3": {
+      "points": 120,
+      "pearson": -0.1842336767228189,
+      "spearman": -0.10592431627212098
+    }
+  },
+  "day_bias_proxies": {
+    "airport_days": 620,
+    "row_weighted_day_bias_sd_s": 29.951524237134905,
+    "correlations_with_day_bias": {
+      "dep_n": {
+        "points": 620,
+        "pearson": -0.013770663674405275,
+        "spearman": -0.044046184230498074
+      },
+      "fallback_share": {
+        "points": 620,
+        "pearson": -0.056088079261341545,
+        "spearman": -0.07369508843531139
+      },
+      "ersatz_med": {
+        "points": 620,
+        "pearson": 0.08664511298282881,
+        "spearman": 0.028965932701852312
+      },
+      "delay_med": {
+        "points": 620,
+        "pearson": 0.07613296776323267,
+        "spearman": -0.054683068034834914
+      },
+      "arr_copied": {
+        "points": 620,
+        "pearson": -0.08461700466496111,
+        "spearman": -0.008741649929181708
+      },
+      "taxi_in_med": {
+        "points": 620,
+        "pearson": 0.049228735560378274,
+        "spearman": 0.0775976000372256
+      },
+      "arr_nm_med": {
+        "points": 620,
+        "pearson": 0.026092674794220394,
+        "spearman": 0.04093963579775715
+      }
+    },
+    "cross_fit_linear_removal_total_mse": 59.81873404165736
+  }
+}

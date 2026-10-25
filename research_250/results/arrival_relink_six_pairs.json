@@ -1,0 +1,188 @@
+{
+  "reports": [
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        1,
+        7
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 5373,
+      "fallback_matches": 239,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1501,
+      "known_anchor_exact_id_agreement": 0.9986675549633578,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 3960,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 2,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 1,
+      "baseline_fallback_rmse": 1759.2774594972313,
+      "raw_anchor_replacement_rmse": 1761.3120145770915,
+      "matched_rows_baseline_rmse": 486.4715295415802,
+      "matched_rows_raw_anchor_rmse": 630.6214640831242,
+      "mse_gain": -7162.833198580425
+    },
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        2,
+        8
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 3438,
+      "fallback_matches": 91,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1456,
+      "known_anchor_exact_id_agreement": 1,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 0,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 0,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 3,
+      "baseline_fallback_rmse": 1365.8532801384467,
+      "raw_anchor_replacement_rmse": 1362.8582490641197,
+      "matched_rows_baseline_rmse": 1074.6142557538153,
+      "matched_rows_raw_anchor_rmse": 919.8011132370344,
+      "oracle_max_fallback_mse_gain_on_matched_rows": 30566.14824866454,
+      "mse_gain": 8172.575822835555
+    },
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        3,
+        9
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 3549,
+      "fallback_matches": 135,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1583,
+      "known_anchor_exact_id_agreement": 0.9974731522425774,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 16800,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 4,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 1,
+      "baseline_fallback_rmse": 1104.6775044611127,
+      "raw_anchor_replacement_rmse": 1107.3144728111401,
+      "matched_rows_baseline_rmse": 500.5059099075365,
+      "matched_rows_raw_anchor_rmse": 635.4903735028681,
+      "oracle_max_fallback_mse_gain_on_matched_rows": 9528.975032423243,
+      "mse_gain": -5832.952834581491
+    },
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        4,
+        10
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 2998,
+      "fallback_matches": 81,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1519,
+      "known_anchor_exact_id_agreement": 0.9980250164581962,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 17239,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 3,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 0,
+      "baseline_fallback_rmse": 784.0200284769749,
+      "raw_anchor_replacement_rmse": 787.2740205179674,
+      "matched_rows_baseline_rmse": 608.403496392106,
+      "matched_rows_raw_anchor_rmse": 747.9292318143937,
+      "oracle_max_fallback_mse_gain_on_matched_rows": 10000.847220878348,
+      "mse_gain": -5112.978329488542
+    },
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        5,
+        11
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 2961,
+      "fallback_matches": 100,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1551,
+      "known_anchor_exact_id_agreement": 0.9987105093488072,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 15540,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 2,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 0,
+      "baseline_fallback_rmse": 1912.549817631745,
+      "raw_anchor_replacement_rmse": 1915.3707616558545,
+      "matched_rows_baseline_rmse": 403.20283467397905,
+      "matched_rows_raw_anchor_rmse": 694.4866161417367,
+      "oracle_max_fallback_mse_gain_on_matched_rows": 5490.460178626548,
+      "mse_gain": -10798.349682906643
+    },
+    {
+      "status": "unsupervised feasibility probe; raw anchor replacement only, no model trained or submitted",
+      "source_months": [
+        6,
+        12
+      ],
+      "matching_rule": "exact departure/destination/callsign/aircraft; one arrival candidate 10 min to 8 h later",
+      "fallback_rows": 4151,
+      "fallback_matches": 129,
+      "known_anchor_control_rows": 20000,
+      "known_anchor_control_matches": 1529,
+      "known_anchor_exact_id_agreement": 1,
+      "known_anchor_difference_seconds_quantiles": {
+        "0": 0,
+        "1": 0,
+        "0.5": 0,
+        "0.95": 0,
+        "0.99": 0
+      },
+      "known_anchor_disagreement_over_60s": 0,
+      "fallback_top10_error_rows_with_matches": 0,
+      "matched_fallback_truth_over_5400": 0,
+      "baseline_fallback_rmse": 1633.5378675668649,
+      "raw_anchor_replacement_rmse": 1636.5314424111286,
+      "matched_rows_baseline_rmse": 397.7005448727442,
+      "matched_rows_raw_anchor_rmse": 687.8701878616613,
+      "oracle_max_fallback_mse_gain_on_matched_rows": 4915.292295248859,
+      "mse_gain": -9789.197225349024
+    }
+  ],
+  "summary": {
+    "fallback_rows": 22470,
+    "matched_rows": 775,
+    "positive_pairs": 1,
+    "baseline_pooled_rmse": 1508.392868262219,
+    "raw_anchor_pooled_rmse": 1510.1477447198536,
+    "oracle_max_fallback_mse_gain_on_matched_rows": 11664.813447605458,
+    "top10_per_fold_errors_matched": 0,
+    "mechanical_overall_oracle_rmse_if_same_density": 272.0052657831843,
+    "oracle_note": "Impossible perfect prediction on the matched rows only, transferred at recorded 2026 fallback density; diagnostic ceiling for this matching rule, not a score forecast or a bound on richer linking methods."
+  }
+}

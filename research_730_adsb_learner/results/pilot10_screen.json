@@ -1,0 +1,66 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_daily_reconcile_v3.md",
+  "rows": 506385,
+  "rmse": {
+    "reconciled": 172.6810209669327,
+    "mean_control": 172.9515207610384,
+    "corrector": 172.9515207610384,
+    "stage1": 193.6340561255369
+  },
+  "rmse_gain_vs_corrector_s": 0.27049979410571723,
+  "rmse_gain_vs_control_s": 0.27049979410571723,
+  "lambda_chosen": {
+    "3": 0.25,
+    "5": 0.25,
+    "12": 0.5
+  },
+  "lambda_pooled_in_sample": 0.25,
+  "control_lambdas": [
+    {
+      "3": 0.0,
+      "5": 0.0,
+      "12": 0.0
+    },
+    {
+      "3": 0.0,
+      "5": 0.0,
+      "12": 0.0
+    },
+    {
+      "3": 0.0,
+      "5": 0.0,
+      "12": 0.0
+    }
+  ],
+  "months_gain": {
+    "3": 111.86458946750167,
+    "5": 117.32398775080726,
+    "12": 47.22343554505479
+  },
+  "without_best_100": 63.0118182848227,
+  "airport_day_bootstrap_95": [
+    5.534668810706651,
+    155.89698632885342
+  ],
+  "airports_gain": {
+    "EDDF": 82.2505592439921,
+    "EDDM": -401.3456602503756,
+    "EGLL": 256.7500171303126,
+    "EHAM": -66.54650279626694,
+    "LEBL": 152.30899762004063,
+    "LEMD": 146.67223999424903,
+    "LFPG": 164.73853440981205,
+    "LIRF": 0.0,
+    "LSZH": 29.908330006246285,
+    "LTFM": 345.7450870187908
+  },
+  "checks": {
+    "1_beats_mean_control": true,
+    "2_each_month_beats_corrector": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": true,
+    "5_gain_at_least_0_3_s": false,
+    "6_lambda_above_zero_each_month": true
+  },
+  "verdict": "fail"
+}

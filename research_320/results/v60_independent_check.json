@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "v60_file_is_scored_file": true,
+    "v59_file_is_scored_file": true,
+    "models_as_tested": true,
+    "same_ids_same_order": true,
+    "same_schema": true,
+    "old_correction_equals_codex_2026_file": true,
+    "v59_rows_equal_deployed_formula": true,
+    "v60_rows_equal_arm4_formula": true,
+    "every_other_row_identical_to_v59": true,
+    "rows_changed": 65879,
+    "rows_changed_outside_overlay": 0
+  },
+  "verdict": "v60 is the tested arm 4 on exact v59",
+  "transfer": {
+    "realised_mse_per_scored_row": 664.6849160299898,
+    "predicted_full_arm4": 755.5849353831028,
+    "ratio_to_full_arm4": 0.8796958288917922,
+    "realised_per_overlay_row": 3457.5908273803434,
+    "predicted_full_arm3_for_reference": 669.4274078916039
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "preregistration": "research_290/PREREG_stand_detector.md (commit 338885a)",
+  "dates": [
+    "2025-12-03",
+    "2025-12-10",
+    "2025-12-17",
+    "2025-12-20"
+  ],
+  "accuracy_vs_block": {
+    "n": 447,
+    "median_s": 26.93499994277954,
+    "mae_s": 47.17788590680833,
+    "rmse_s": 167.1263340163911,
+    "within_60": 392,
+    "within_60_share": 0.8769574944071589,
+    "within_120": 428,
+    "worst": [
+      -3178.914999961853,
+      683.5299999713898
+    ],
+    "by_date": {
+      "2025-12-03": {
+        "n": 117,
+        "median_s": 28.02500009536743,
+        "mae_s": 70.05709402377789,
+        "within_60": 103
+      },
+      "2025-12-10": {
+        "n": 106,
+        "median_s": 23.679999947547913,
+        "mae_s": 39.69462264708753,
+        "within_60": 93
+      },
+      "2025-12-17": {
+        "n": 108,
+        "median_s": 27.55999994277954,
+        "mae_s": 42.46569444073571,
+        "within_60": 95
+      },
+      "2025-12-20": {
+        "n": 116,
+        "median_s": 27.78000009059906,
+        "mae_s": 35.32681033940151,
+        "within_60": 101
+      }
+    }
+  },
+  "comparison_on_identical_main_rows": {
+    "rows": 446,
+    "label_check_max_diff_s": 0.0,
+    "detector_rmse": 167.2919223066614,
+    "comparator_rmse": 232.17116909358276,
+    "ersatz_rmse": 545.010326145644,
+    "blend_half_rmse_descriptive": 147.4715767522511,
+    "mse_gain_per_row": 25916.864489222953,
+    "mse_gain_without_top5pct": -9277.930495277764,
+    "bootstrap_95": [
+      -33884.58029236511,
+      73346.88371384914
+    ],
+    "per_date": {
+      "2025-12-03": {
+        "rows": 117,
+        "detector_rmse": 302.815074337929,
+        "comparator_rmse": 161.86096503170575,
+        "ersatz_rmse": 507.4535977270768
+      },
+      "2025-12-10": {
+        "rows": 106,
+        "detector_rmse": 73.33059049023828,
+        "comparator_rmse": 280.43418309069864,
+        "ersatz_rmse": 497.208623310517
+      },
+      "2025-12-17": {
+        "rows": 108,
+        "detector_rmse": 88.9506116194803,
+        "comparator_rmse": 204.5317558879163,
+        "ersatz_rmse": 607.7423156422648
+      },
+      "2025-12-20": {
+        "rows": 115,
+        "detector_rmse": 53.483186777195165,
+        "comparator_rmse": 265.74713118391804,
+        "ersatz_rmse": 561.4792651713786
+      }
+    }
+  },
+  "context": {
+    "departures_by_date": {
+      "2025-12-03": 410,
+      "2025-12-10": 412,
+      "2025-12-17": 411,
+      "2025-12-20": 393
+    },
+    "estimates_share_of_departures": 0.2742927429274293,
+    "munich_share_of_scored_main_rows": 0.07577065006434969,
+    "official_scale_upper_bound_s": 1.0015291413519094,
+    "why_an_upper_bound": "comparator is weaker than production; July 2026 detector coverage not measured; January 2026 coverage not checked; no transfer discount applied",
+    "fallback_rows": {
+      "n": 1,
+      "mae_s": 56.86500000953674
+    },
+    "status_counts": {
+      "no_parked_onset": 596,
+      "ok": 447,
+      "no_occupancy": 154,
+      "unmapped": 152,
+      "gap_too_large": 70,
+      "ambiguous_onsets": 14,
+      "no_points": 1
+    }
+  },
+  "checks": {
+    "V1_accuracy_transfers": true,
+    "V2_beats_comparator_every_date": false,
+    "V3_not_concentrated": false,
+    "V4_interval_above_zero": false
+  },
+  "justifies_further_work": false
+}

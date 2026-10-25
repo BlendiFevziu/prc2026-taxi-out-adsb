@@ -1,0 +1,40 @@
+{
+  "note": "decomposition by row class; pooled numbers on this lane are not adjudicable",
+  "class_sizes": {
+    "ordinary (bounded, trustworthy)": 21165,
+    "copies (the mechanism)": 1124,
+    "broken (unadjudicable)": 181
+  },
+  "arms": {
+    "A5_label": {
+      "ordinary (bounded, trustworthy)": {
+        "mse_per_row_gain": 22995.88560052681,
+        "seconds_contribution": 0.763068880738334
+      },
+      "copies (the mechanism)": {
+        "mse_per_row_gain": -13762851.359214697,
+        "seconds_contribution": -24.253256567807252
+      },
+      "broken (unadjudicable)": {
+        "mse_per_row_gain": -219125613.00798306,
+        "seconds_contribution": -62.18233831401176
+      },
+      "pooled_seconds_NOT_ADJUDICABLE": -85.67252600108064
+    },
+    "A6_lbl_w1": {
+      "ordinary (bounded, trustworthy)": {
+        "mse_per_row_gain": -89083.0371350811,
+        "seconds_contribution": -2.9560285096339367
+      },
+      "copies (the mechanism)": {
+        "mse_per_row_gain": -6593775.8920615595,
+        "seconds_contribution": -11.619724306164139
+      },
+      "broken (unadjudicable)": {
+        "mse_per_row_gain": -142555785.47390893,
+        "seconds_contribution": -40.453746868173475
+      },
+      "pooled_seconds_NOT_ADJUDICABLE": -55.02949968397157
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "fallback_rows_2025_out_of_sample": 22470,
+  "shipped_rmse": 1486.0818407269521,
+  "airport_median_rmse": 3181.693355762362,
+  "classes": {
+    "copy": {
+      "rows": 1435,
+      "share_of_shipped_sse": 0.15448110785035574,
+      "share_of_sse_about_median": 0.4651532001333345,
+      "shipped_rmse": 2311.298304156772
+    },
+    "extreme": {
+      "rows": 84,
+      "share_of_shipped_sse": 0.6744004894173982,
+      "share_of_sse_about_median": 0.4668212322005275,
+      "shipped_rmse": 19960.138887826404
+    },
+    "normal": {
+      "rows": 20951,
+      "share_of_shipped_sse": 0.1711184027322462,
+      "share_of_sse_about_median": 0.06802556766613799,
+      "shipped_rmse": 636.634608641751
+    }
+  },
+  "copy_rows_with_versp_over_2h": {
+    "rows": 397,
+    "share_of_shipped_sse": 0.10818331804066215,
+    "airports": {
+      "LIRF": 396,
+      "EGLL": 1
+    }
+  },
+  "oracle_perfect_copy_classifier": {
+    "rmse": 1366.4972400233728,
+    "sse_saved_share": 0.1544640778788332,
+    "official_scale_gain_s": 10.095072106214673
+  },
+  "largest_rows_share_of_shipped_sse": {
+    "1": 0.15218320472964447,
+    "3": 0.4388574746974052,
+    "10": 0.6020685964806489,
+    "84": 0.7746149402322353
+  },
+  "airports": {
+    "EDDF": {
+      "rows": 1956,
+      "share_of_shipped_sse": 0.004290607899319908,
+      "copy_rows": 14,
+      "copy_share_of_shipped_sse": 0.0007077585455758434,
+      "extreme_share_of_shipped_sse": 0.0
+    },
+    "EDDM": {
+      "rows": 1010,
+      "share_of_shipped_sse": 0.0063542760831167356,
+      "copy_rows": 2,
+      "copy_share_of_shipped_sse": 0.0001393662278133049,
+      "extreme_share_of_shipped_sse": 0.0
+    },
+    "EGLL": {
+      "rows": 1414,
+      "share_of_shipped_sse": 0.020932708620891086,
+      "copy_rows": 5,
+      "copy_share_of_shipped_sse": 0.001050890667961363,
+      "extreme_share_of_shipped_sse": 0.009155226498665509
+    },
+    "EHAM": {
+      "rows": 4084,
+      "share_of_shipped_sse": 0.009075684790601286,
+      "copy_rows": 165,
+      "copy_share_of_shipped_sse": 0.00019027215127872236,
+      "extreme_share_of_shipped_sse": 0.002364617788483257
+    },
+    "LEBL": {
+      "rows": 1862,
+      "share_of_shipped_sse": 0.003885346377338774,
+      "copy_rows": 38,
+      "copy_share_of_shipped_sse": 0.0003192227290407874,
+      "extreme_share_of_shipped_sse": 0.0
+    },
+    "LEMD": {
+      "rows": 947,
+      "share_of_shipped_sse": 0.0016484303607227134,
+      "copy_rows": 3,
+      "copy_share_of_shipped_sse": 1.017922758942191e-05,
+      "extreme_share_of_shipped_sse": 0.0
+    },
+    "LFPG": {
+      "rows": 3773,
+      "share_of_shipped_sse": 0.22819189755245506,
+      "copy_rows": 25,
+      "copy_share_of_shipped_sse": 0.0011404314665617386,
+      "extreme_share_of_shipped_sse": 0.21126033249256357
+    },
+    "LIRF": {
+      "rows": 1488,
+      "share_of_shipped_sse": 0.5223442606277222,
+      "copy_rows": 722,
+      "copy_share_of_shipped_sse": 0.14939884799373998,
+      "extreme_share_of_shipped_sse": 0.2821865586879723
+    },
+    "LSZH": {
+      "rows": 2291,
+      "share_of_shipped_sse": 0.16493828505422903,
+      "copy_rows": 117,
+      "copy_share_of_shipped_sse": 0.00011580217004338919,
+      "extreme_share_of_shipped_sse": 0.16091231969721573
+    },
+    "LTFM": {
+      "rows": 3645,
+      "share_of_shipped_sse": 0.038338502633603354,
+      "copy_rows": 344,
+      "copy_share_of_shipped_sse": 0.0014083366707511576,
+      "extreme_share_of_shipped_sse": 0.008521434252497805
+    }
+  }
+}

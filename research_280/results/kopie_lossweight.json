@@ -1,0 +1,26 @@
+{
+  "A0 z (shipped)": {
+    "w_big_copies": 0.9959049208372325,
+    "flagged_big": 51,
+    "w_big_noncopies": 0.23783113857349303,
+    "w_mid_copies": 0.7343323341901953
+  },
+  "A5 kopie": {
+    "w_big_copies": 0.7837039013553342,
+    "flagged_big": 41,
+    "w_big_noncopies": 0.10067630937807638,
+    "w_mid_copies": 0.7064439611994768
+  },
+  "A7 kopie, g=1": {
+    "w_big_copies": 0.8372997279826823,
+    "flagged_big": 44,
+    "w_big_noncopies": 0.12756832771624046,
+    "w_mid_copies": 0.7248233347537925
+  },
+  "A8 kopie, g=2": {
+    "w_big_copies": 0.8833585280501355,
+    "flagged_big": 46,
+    "w_big_noncopies": 0.09690579695085037,
+    "w_mid_copies": 0.7330642175168602
+  }
+}

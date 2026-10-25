@@ -1,0 +1,339 @@
+{
+  "scored_days": 62,
+  "scored_rows": 344841,
+  "eham_main_scored_rows": 36976,
+  "rows_replaced": 4188,
+  "share_of_eham_main": 0.11326265685850281,
+  "share_of_scored_rows": 0.012144727570097524,
+  "unguarded_estimates": 4205,
+  "withdrawn_by_tow_guard": 17,
+  "january_2026_replaced": 1697,
+  "july_2026_replaced": 2491,
+  "detector_statuses": {
+    "ok": 4188,
+    "gap_too_large": 448,
+    "no_occupancy": 2260,
+    "no_parked_onset": 4834,
+    "ambiguous_onsets": 29,
+    "long_stop": 16,
+    "false_onset": 1
+  },
+  "gain_per_replaced_row_fresh_dates": 17044.857407687694,
+  "naive_official_gain_s": {
+    "low_0.74": 0.2900244120494335,
+    "validated_1.0": 0.3920005656584067,
+    "munich_realised_1.52": 0.596071207680609
+  },
+  "per_day": {
+    "2026-01-01": {
+      "eham_main_scored": 609,
+      "unguarded": 55,
+      "replaced": 55
+    },
+    "2026-01-02": {
+      "eham_main_scored": 375,
+      "unguarded": 44,
+      "replaced": 44
+    },
+    "2026-01-03": {
+      "eham_main_scored": 283,
+      "unguarded": 43,
+      "replaced": 43
+    },
+    "2026-01-04": {
+      "eham_main_scored": 213,
+      "unguarded": 26,
+      "replaced": 23
+    },
+    "2026-01-05": {
+      "eham_main_scored": 124,
+      "unguarded": 17,
+      "replaced": 15
+    },
+    "2026-01-06": {
+      "eham_main_scored": 225,
+      "unguarded": 39,
+      "replaced": 36
+    },
+    "2026-01-07": {
+      "eham_main_scored": 176,
+      "unguarded": 33,
+      "replaced": 30
+    },
+    "2026-01-08": {
+      "eham_main_scored": 571,
+      "unguarded": 63,
+      "replaced": 63
+    },
+    "2026-01-09": {
+      "eham_main_scored": 448,
+      "unguarded": 57,
+      "replaced": 57
+    },
+    "2026-01-10": {
+      "eham_main_scored": 500,
+      "unguarded": 76,
+      "replaced": 76
+    },
+    "2026-01-11": {
+      "eham_main_scored": 580,
+      "unguarded": 63,
+      "replaced": 63
+    },
+    "2026-01-12": {
+      "eham_main_scored": 591,
+      "unguarded": 60,
+      "replaced": 60
+    },
+    "2026-01-13": {
+      "eham_main_scored": 542,
+      "unguarded": 67,
+      "replaced": 67
+    },
+    "2026-01-14": {
+      "eham_main_scored": 556,
+      "unguarded": 66,
+      "replaced": 66
+    },
+    "2026-01-15": {
+      "eham_main_scored": 583,
+      "unguarded": 69,
+      "replaced": 69
+    },
+    "2026-01-16": {
+      "eham_main_scored": 591,
+      "unguarded": 64,
+      "replaced": 64
+    },
+    "2026-01-17": {
+      "eham_main_scored": 521,
+      "unguarded": 62,
+      "replaced": 62
+    },
+    "2026-01-18": {
+      "eham_main_scored": 584,
+      "unguarded": 70,
+      "replaced": 70
+    },
+    "2026-01-19": {
+      "eham_main_scored": 594,
+      "unguarded": 60,
+      "replaced": 59
+    },
+    "2026-01-20": {
+      "eham_main_scored": 555,
+      "unguarded": 65,
+      "replaced": 65
+    },
+    "2026-01-21": {
+      "eham_main_scored": 563,
+      "unguarded": 76,
+      "replaced": 76
+    },
+    "2026-01-22": {
+      "eham_main_scored": 596,
+      "unguarded": 63,
+      "replaced": 63
+    },
+    "2026-01-23": {
+      "eham_main_scored": 608,
+      "unguarded": 41,
+      "replaced": 41
+    },
+    "2026-01-24": {
+      "eham_main_scored": 526,
+      "unguarded": 71,
+      "replaced": 71
+    },
+    "2026-01-25": {
+      "eham_main_scored": 561,
+      "unguarded": 67,
+      "replaced": 67
+    },
+    "2026-01-26": {
+      "eham_main_scored": 589,
+      "unguarded": 54,
+      "replaced": 54
+    },
+    "2026-01-27": {
+      "eham_main_scored": 549,
+      "unguarded": 56,
+      "replaced": 56
+    },
+    "2026-01-28": {
+      "eham_main_scored": 558,
+      "unguarded": 59,
+      "replaced": 59
+    },
+    "2026-01-29": {
+      "eham_main_scored": 519,
+      "unguarded": 38,
+      "replaced": 37
+    },
+    "2026-01-30": {
+      "eham_main_scored": 614,
+      "unguarded": 43,
+      "replaced": 43
+    },
+    "2026-01-31": {
+      "eham_main_scored": 523,
+      "unguarded": 43,
+      "replaced": 43
+    },
+    "2026-07-01": {
+      "eham_main_scored": 674,
+      "unguarded": 54,
+      "replaced": 54
+    },
+    "2026-07-02": {
+      "eham_main_scored": 696,
+      "unguarded": 87,
+      "replaced": 87
+    },
+    "2026-07-03": {
+      "eham_main_scored": 719,
+      "unguarded": 87,
+      "replaced": 87
+    },
+    "2026-07-04": {
+      "eham_main_scored": 678,
+      "unguarded": 77,
+      "replaced": 77
+    },
+    "2026-07-05": {
+      "eham_main_scored": 702,
+      "unguarded": 88,
+      "replaced": 87
+    },
+    "2026-07-06": {
+      "eham_main_scored": 703,
+      "unguarded": 74,
+      "replaced": 74
+    },
+    "2026-07-07": {
+      "eham_main_scored": 680,
+      "unguarded": 77,
+      "replaced": 77
+    },
+    "2026-07-08": {
+      "eham_main_scored": 714,
+      "unguarded": 75,
+      "replaced": 75
+    },
+    "2026-07-09": {
+      "eham_main_scored": 703,
+      "unguarded": 75,
+      "replaced": 75
+    },
+    "2026-07-10": {
+      "eham_main_scored": 690,
+      "unguarded": 75,
+      "replaced": 75
+    },
+    "2026-07-11": {
+      "eham_main_scored": 661,
+      "unguarded": 72,
+      "replaced": 72
+    },
+    "2026-07-12": {
+      "eham_main_scored": 708,
+      "unguarded": 78,
+      "replaced": 78
+    },
+    "2026-07-13": {
+      "eham_main_scored": 691,
+      "unguarded": 83,
+      "replaced": 82
+    },
+    "2026-07-14": {
+      "eham_main_scored": 672,
+      "unguarded": 85,
+      "replaced": 85
+    },
+    "2026-07-15": {
+      "eham_main_scored": 683,
+      "unguarded": 92,
+      "replaced": 92
+    },
+    "2026-07-16": {
+      "eham_main_scored": 699,
+      "unguarded": 85,
+      "replaced": 85
+    },
+    "2026-07-17": {
+      "eham_main_scored": 690,
+      "unguarded": 80,
+      "replaced": 79
+    },
+    "2026-07-18": {
+      "eham_main_scored": 674,
+      "unguarded": 75,
+      "replaced": 75
+    },
+    "2026-07-19": {
+      "eham_main_scored": 697,
+      "unguarded": 91,
+      "replaced": 91
+    },
+    "2026-07-20": {
+      "eham_main_scored": 715,
+      "unguarded": 84,
+      "replaced": 83
+    },
+    "2026-07-21": {
+      "eham_main_scored": 691,
+      "unguarded": 70,
+      "replaced": 70
+    },
+    "2026-07-22": {
+      "eham_main_scored": 708,
+      "unguarded": 86,
+      "replaced": 86
+    },
+    "2026-07-23": {
+      "eham_main_scored": 702,
+      "unguarded": 78,
+      "replaced": 78
+    },
+    "2026-07-24": {
+      "eham_main_scored": 716,
+      "unguarded": 82,
+      "replaced": 82
+    },
+    "2026-07-25": {
+      "eham_main_scored": 669,
+      "unguarded": 87,
+      "replaced": 87
+    },
+    "2026-07-26": {
+      "eham_main_scored": 710,
+      "unguarded": 84,
+      "replaced": 84
+    },
+    "2026-07-27": {
+      "eham_main_scored": 710,
+      "unguarded": 94,
+      "replaced": 94
+    },
+    "2026-07-28": {
+      "eham_main_scored": 687,
+      "unguarded": 70,
+      "replaced": 70
+    },
+    "2026-07-29": {
+      "eham_main_scored": 690,
+      "unguarded": 77,
+      "replaced": 77
+    },
+    "2026-07-30": {
+      "eham_main_scored": 705,
+      "unguarded": 78,
+      "replaced": 78
+    },
+    "2026-07-31": {
+      "eham_main_scored": 712,
+      "unguarded": 95,
+      "replaced": 95
+    }
+  }
+}

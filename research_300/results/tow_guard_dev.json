@@ -1,0 +1,146 @@
+{
+  "covered": 3468,
+  "covered_by_airport": {
+    "EHAM": 2164,
+    "EDDF": 746,
+    "EDDM": 558
+  },
+  "constants": {
+    "PARKED_SPOT_M": 20.0,
+    "REST_AT_SPOT_S": 300.0,
+    "STOP_RADIUS_M": 30.0,
+    "LONG_STOP_S": 1800.0
+  },
+  "withdrawn": [
+    {
+      "date": "2025-01-28",
+      "airport": "EHAM",
+      "callsign": "KL0641",
+      "stand": "F06",
+      "guard": "long_stop",
+      "taxi_det": 2327.2,
+      "taxi_true": 2294.0,
+      "err": 33.2,
+      "rest_at_spot_s": 0.0,
+      "longest_stop_s": 1882.7
+    },
+    {
+      "date": "2025-07-02",
+      "airport": "EDDF",
+      "callsign": "EY946",
+      "stand": "V328",
+      "guard": "false_onset",
+      "taxi_det": 1019.3,
+      "taxi_true": 1205.0,
+      "err": -185.7,
+      "rest_at_spot_s": 328.9,
+      "longest_stop_s": 5.0
+    },
+    {
+      "date": "2025-07-09",
+      "airport": "EHAM",
+      "callsign": "HV5679",
+      "stand": "D47",
+      "guard": "false_onset",
+      "taxi_det": 1422.2,
+      "taxi_true": 943.0,
+      "err": 479.2,
+      "rest_at_spot_s": 411.1,
+      "longest_stop_s": 207.2
+    },
+    {
+      "date": "2025-07-16",
+      "airport": "EHAM",
+      "callsign": "UA021",
+      "stand": "G73",
+      "guard": "long_stop",
+      "taxi_det": 7628.9,
+      "taxi_true": 363.0,
+      "err": 7265.9,
+      "rest_at_spot_s": 0.0,
+      "longest_stop_s": 3050.2
+    },
+    {
+      "date": "2025-07-16",
+      "airport": "EDDF",
+      "callsign": "OZ796",
+      "stand": "V328",
+      "guard": "false_onset",
+      "taxi_det": 1553.4,
+      "taxi_true": 1751.0,
+      "err": -197.6,
+      "rest_at_spot_s": 451.6,
+      "longest_stop_s": 10.2
+    },
+    {
+      "date": "2025-01-08",
+      "airport": "EHAM",
+      "callsign": "KL1713",
+      "stand": "A52",
+      "guard": "long_stop",
+      "taxi_det": 5012.3,
+      "taxi_true": 2433.0,
+      "err": 2579.3,
+      "rest_at_spot_s": 0.0,
+      "longest_stop_s": 2575.0
+    },
+    {
+      "date": "2025-01-16",
+      "airport": "EHAM",
+      "callsign": "QY1239",
+      "stand": "S92",
+      "guard": "false_onset",
+      "taxi_det": 3370.0,
+      "taxi_true": 530.0,
+      "err": 2840.0,
+      "rest_at_spot_s": 390.7,
+      "longest_stop_s": 177.0
+    },
+    {
+      "date": "2025-01-16",
+      "airport": "EHAM",
+      "callsign": "TK1954",
+      "stand": "G08",
+      "guard": "false_onset",
+      "taxi_det": 1507.5,
+      "taxi_true": 895.0,
+      "err": 612.5,
+      "rest_at_spot_s": 487.6,
+      "longest_stop_s": 378.3
+    },
+    {
+      "date": "2025-01-26",
+      "airport": "EHAM",
+      "callsign": "HV6005",
+      "stand": "D53",
+      "guard": "false_onset",
+      "taxi_det": 1096.5,
+      "taxi_true": 504.0,
+      "err": 592.5,
+      "rest_at_spot_s": 544.8,
+      "longest_stop_s": 188.2
+    },
+    {
+      "date": "2025-07-04",
+      "airport": "EDDF",
+      "callsign": "CX2068",
+      "stand": "V328",
+      "guard": "false_onset",
+      "taxi_det": 1278.1,
+      "taxi_true": 1397.0,
+      "err": -118.9,
+      "rest_at_spot_s": 327.8,
+      "longest_stop_s": 63.8
+    }
+  ],
+  "withdrawn_within_60_s": 1,
+  "errors_over_2000_s_not_withdrawn": [
+    {
+      "date": "2025-01-13",
+      "airport": "EDDF",
+      "callsign": "LH492",
+      "stand": "F233",
+      "err": 2065.6
+    }
+  ]
+}

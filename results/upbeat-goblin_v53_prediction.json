@@ -1,0 +1,19 @@
+{
+  "submission": "upbeat-goblin_v53.parquet",
+  "written_before_upload": "2026-09-23T10:38:13.194431+00:00",
+  "base": "v52 at 265.2839",
+  "recipe": "v52 plus a thresholded copy increment on the ANCHORED fallback lane; main lane untouched",
+  "formula": "yhat = yhat_v52 + max(p_kopie_thresholded**HOCH - p_z**HOCH, 0) * (versp - normal_anchor)",
+  "candidate_sha256": "f6c2fa097d5e7d723e13a44351c0587dd4c8d050452afc13c1a546ca8ea6eb58",
+  "rows_changed": 79,
+  "prediction_central_s": 0.4,
+  "prediction_central_score": 264.88,
+  "plausible_range_score": [
+    264.3,
+    265.8
+  ],
+  "reasoning": "The six-pair harness on the SHIPPED anchored recipe reads +1.219 s. That harness fails its own calibration probe and overstated the height apparatus by 2.7x (it said 17.363 s where the board said 6.53 s), so its magnitude is discounted: 1.219 / 2.7 = 0.45 s. The NM work measured 2025-to-2026 transfer at 0.72 to 0.74, giving about 0.33 s. Central estimate 0.4 s.",
+  "why_the_range_is_wide": "Only 79 of 344,841 rows change, and their errors reach 1e8 squared seconds each, so the realised outcome is genuinely a lottery. A negative result would not refute the design, and a large positive one would not confirm it.",
+  "what_would_falsify_the_design": "The evidence for the direction is the increment's precision, 0.765 +/- 0.048 holding in 6 of 6 folds. A single score cannot move that. Only a repeated pattern across several such increments would.",
+  "no_tuning_rule": "Whatever this scores, no constant is adjusted from it. The threshold 0.5, HOCH 2.5 and ANTEIL_HM 0.3 stay as they are."
+}

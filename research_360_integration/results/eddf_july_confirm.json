@@ -1,0 +1,103 @@
+{
+  "prereg": "research_360_integration/PREREG_eddf_july.md",
+  "days": [
+    "2025-07-06",
+    "2025-07-08",
+    "2025-07-10"
+  ],
+  "checks": {
+    "comparator_bit_identical": true,
+    "rows": 1633
+  },
+  "rows_by_day": {
+    "2025-07-06": 560,
+    "2025-07-08": 520,
+    "2025-07-10": 553
+  },
+  "base_rmse": 153.09677111173383,
+  "c1_rmse": 102.58251182623243,
+  "gain_mse": 12915.4495922595,
+  "without_best100": 4725.895534590623,
+  "by_day": {
+    "2025-07-06": 10037.103305006089,
+    "2025-07-08": 17964.95702417344,
+    "2025-07-10": 11082.050055671187
+  },
+  "degraded": {
+    "rows": 509,
+    "share_2025_days": 0.31169626454378446,
+    "gain_mse": 11937.638013773447
+  },
+  "well_observed": {
+    "rows": 1124,
+    "gain_mse": 13358.24860778388
+  },
+  "by_stratum": {
+    "dense/at_stand": {
+      "rows": 206,
+      "gain_mse": 13993.451602838619
+    },
+    "dense/late": {
+      "rows": 171,
+      "gain_mse": 20689.687907755433
+    },
+    "dense/near": {
+      "rows": 230,
+      "gain_mse": 12146.466765343495
+    },
+    "dense/no_stand": {
+      "rows": 31,
+      "gain_mse": 5864.035105455202
+    },
+    "medium/at_stand": {
+      "rows": 255,
+      "gain_mse": 20686.88302898919
+    },
+    "medium/late": {
+      "rows": 121,
+      "gain_mse": 13280.256078473747
+    },
+    "medium/near": {
+      "rows": 372,
+      "gain_mse": 9217.250375155752
+    },
+    "medium/no_stand": {
+      "rows": 30,
+      "gain_mse": 15085.854957200894
+    },
+    "sparse/at_stand": {
+      "rows": 42,
+      "gain_mse": 16473.14858189003
+    },
+    "sparse/late": {
+      "rows": 36,
+      "gain_mse": -3146.5125186334403
+    },
+    "sparse/near": {
+      "rows": 134,
+      "gain_mse": 2568.2696611906226
+    },
+    "sparse/no_stand": {
+      "rows": 5,
+      "gain_mse": 1732.8413842120062
+    }
+  },
+  "reweighted_to_2026_mix": 12321.486996275065,
+  "planning": {
+    "mse_per_scored_row": 428.5209518193221,
+    "full_s": 0.8298733012155708,
+    "half_s": 0.41460322185702125
+  },
+  "flight_bootstrap_within_day_95": [
+    10665.549176709334,
+    15337.31235921216
+  ],
+  "rules": {
+    "1_pooled_positive": true,
+    "2_best100_removed_positive": true,
+    "3_each_day_positive": true,
+    "4_degraded_and_well_observed_positive": true,
+    "5_reweighted_positive_and_at_least_0_1_s": true
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,53 @@
+{
+  "validation": "saved v45 candidate-stage checkpoints, January/July main lane; no training",
+  "rows": 339046,
+  "replication_gate": {
+    "max_abs_difference_s": 1.8189894035458565e-12,
+    "passed": true
+  },
+  "neural_mean_of_single_states_vs_combined_max_abs_s": 0.0,
+  "full_main_rmse": 216.7734634758806,
+  "families": {
+    "lightgbm": {
+      "mse_by_seed_count": {
+        "1": 47016.641997572806,
+        "2": 47000.45912079915,
+        "3": 46995.058331130895,
+        "4": 46992.357502706305,
+        "5": 46990.73446732893
+      },
+      "fit_a": 46984.26261396044,
+      "fit_b": 32.38175900836513,
+      "extrapolated_mse_gain_doubling": 3.2381759008349036
+    },
+    "catboost": {
+      "mse_by_seed_count": {
+        "1": 47078.911498118476,
+        "2": 47012.80497747535,
+        "3": 46990.73446732893
+      },
+      "fit_a": 46946.66210728741,
+      "fit_b": 132.25342966936566,
+      "extrapolated_mse_gain_doubling": 22.04223827822716
+    },
+    "neural": {
+      "mse_by_seed_count": {
+        "1": 47126.44970703996,
+        "2": 47041.61913841118,
+        "3": 47013.35902591123,
+        "4": 46999.22748943529,
+        "5": 46990.73446732893
+      },
+      "fit_a": 46956.81072697802,
+      "fit_b": 169.63628900863782,
+      "extrapolated_mse_gain_doubling": 16.963628900863114
+    }
+  },
+  "decision": {
+    "summed_main_mse_gain_doubling_all": 42.24404307992518,
+    "official_level_rmse_gain_s": 0.07753522119386184,
+    "bar_s": 0.15,
+    "pursue_extra_seeds": false
+  },
+  "seconds": 110.89709329605103
+}

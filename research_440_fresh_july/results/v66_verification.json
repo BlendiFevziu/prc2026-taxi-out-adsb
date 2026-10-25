@@ -1,0 +1,15 @@
+{
+  "v66_sha_equals_build": true,
+  "v65_is_scored_file": true,
+  "ids_order_equal": true,
+  "schema_equal_v65": true,
+  "pruefe_errors": [],
+  "all_finite": true,
+  "set_rows": 3392,
+  "set_equals_build_rows": true,
+  "rows_changed": 3362,
+  "every_change_in_set": true,
+  "outside_set_identical_to_v65": true,
+  "values_equal_recomputed_stand_model": true,
+  "verdict": "verified"
+}

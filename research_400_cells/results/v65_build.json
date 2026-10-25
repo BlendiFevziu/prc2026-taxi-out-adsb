@@ -1,0 +1,60 @@
+{
+  "checks": {
+    "v64_is_scored_file": true,
+    "partial_rows_by_owner": {
+      "base": 7525,
+      "direct_detector": 2014
+    },
+    "rules": {
+      "1_sister_month_passed": true,
+      "2_no_drift_flag": true,
+      "3_large_strata_positive": true,
+      "4_planning_at_least_0_1_s": true
+    },
+    "rule_detail": {
+      "drift_flags": [],
+      "mix": {
+        "dense/at_stand": 0.5344,
+        "dense/no_stand": 0.1557,
+        "dense/late": 0.1326,
+        "dense/near": 0.0841,
+        "medium/near": 0.0412,
+        "medium/at_stand": 0.0306,
+        "medium/no_stand": 0.0173,
+        "medium/late": 0.0021,
+        "sparse/late": 0.0008,
+        "sparse/no_stand": 0.0007,
+        "sparse/near": 0.0004,
+        "sparse/at_stand": 0.0001
+      },
+      "weighted_gain": 12969.443464454058,
+      "mse_per_scored_row_full": 283.0146707323572,
+      "full_s": 0.5509914529164348
+    },
+    "v64_rows_at_comparator": true,
+    "c1_reverse_replay": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v64": true,
+    "all_finite": true,
+    "rows_changed": 7519,
+    "change_s": {
+      "mean": -2.385952327134094,
+      "rms": 101.13869477785616
+    }
+  },
+  "base": {
+    "version": "v64",
+    "score": 257.0986,
+    "sha256": "fdbf45001515a74d2d4f762722ea57f2cd9290f4fd306be5cb4d3ea3f0ce3a88"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "sister-month per-stratum gains weighted to the 2026 mix (no same-month confirmation); central 0.8 of full transfer, worst 0.3, best 1.2 (v63 realised 1.46 and v64 1.16 of their stratum or registered values)",
+    "mse_per_scored_row_full": 283.0146707323572,
+    "central": 256.66,
+    "worst": 256.93,
+    "best": 256.44
+  },
+  "candidate_path": ".cache/research_400/v65/candidate_v65.parquet",
+  "candidate_sha256": "7a801b44e90a237f15872de6ce255b173a111d0b28037454523a5481f64abbb0",
+  "verdict": "built"
+}

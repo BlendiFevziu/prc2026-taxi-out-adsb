@@ -1,0 +1,40 @@
+{
+  "EHAM": {
+    "arm": "xplane_first|flight_mvt",
+    "covered": 498,
+    "matched_callsign_equals_filed": {
+      "n": 491,
+      "mae_s": 48.96151731893147,
+      "rmse_s": 331.2547786507965,
+      "beyond_600_s": 1
+    },
+    "differs_from_filed": {
+      "n": 7,
+      "mae_s": 42.37285723005022,
+      "rmse_s": 47.76219789432808,
+      "beyond_600_s": 0
+    },
+    "errors_beyond_600_s": 1,
+    "of_which_callsign_differs_from_filed": 0,
+    "share_of_squared_error_from_differs": 0.00029630034043480377
+  },
+  "EDDF": {
+    "arm": "osm|flight_mvt",
+    "covered": 160,
+    "matched_callsign_equals_filed": {
+      "n": 156,
+      "mae_s": 98.94381410189165,
+      "rmse_s": 166.3825886967923,
+      "beyond_600_s": 2
+    },
+    "differs_from_filed": {
+      "n": 4,
+      "mae_s": 621.6412500143051,
+      "rmse_s": 1046.1375592402185,
+      "beyond_600_s": 1
+    },
+    "errors_beyond_600_s": 3,
+    "of_which_callsign_differs_from_filed": 1,
+    "share_of_squared_error_from_differs": 0.50339466535273
+  }
+}

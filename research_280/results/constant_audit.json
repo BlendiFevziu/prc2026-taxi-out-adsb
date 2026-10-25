@@ -1,0 +1,341 @@
+{
+  "note": "heuristic on comments: a flag means nobody wrote down a reason, not that the value is wrong",
+  "constants": [
+    {
+      "file": "main_model.py",
+      "name": "PRUEFMONATE",
+      "value": "(1, 7)",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "FENSTER_S",
+      "value": "1800",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "MODEL_OUT",
+      "value": "os.environ.get(\"PRC_MODEL_OUT\", \"models.pkl\")",
+      "comment_lines": 2,
+      "evidenced": false,
+      "hint": "# A separate output keeps a full-retrain candidate from overwriting the known-good # submission model.  Exampl"
+    },
+    {
+      "file": "main_model.py",
+      "name": "SCHWELLE_EXTREM",
+      "value": "5400",
+      "comment_lines": 5,
+      "evidenced": true,
+      "hint": "# Schwelle, ab der eine Rollzeit als Extremfall gilt. Nie eingestellt gewesen, am # 04.09.2026 nachgeholt. Gru"
+    },
+    {
+      "file": "main_model.py",
+      "name": "ANTEIL_CB",
+      "value": "0.6",
+      "comment_lines": 8,
+      "evidenced": true,
+      "hint": "# Rueckfallweg, eingestellt 04.09.2026 auf Januar und Juli. Die Flaeche um das Optimum # ist flach (Anteil 0,4"
+    },
+    {
+      "file": "main_model.py",
+      "name": "ANTEIL_NETZ",
+      "value": "0.25",
+      "comment_lines": 16,
+      "evidenced": true,
+      "hint": "# Anteil des neuronalen Netzes am Gemisch der Hauptgruppe, eingebaut 07.09.2026. # Die Merkmale sind ausgereiz"
+    },
+    {
+      "file": "main_model.py",
+      "name": "ERF_HOCH",
+      "value": "2.5",
+      "comment_lines": 19,
+      "evidenced": true,
+      "hint": "# Weiche Korrektur der erfundenen Block-Zeiten in der Hauptgruppe, 07.09.2026. # 4,52 Prozent der Zeilen trage"
+    },
+    {
+      "file": "main_model.py",
+      "name": "ANTEIL_FLH",
+      "value": "0.2",
+      "comment_lines": 3,
+      "evidenced": true,
+      "hint": "# Eigene Modelle je Flughafen. Allein sind sie schlechter (237,6 gegen 231,3), als # Beimischung tragen sie: 2"
+    },
+    {
+      "file": "main_model.py",
+      "name": "SAATEN",
+      "value": "(0, 7, 13, 21, 29)",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "CB_RUNDEN",
+      "value": "7900",
+      "comment_lines": 7,
+      "evidenced": true,
+      "hint": "# 06.09.2026 NEU ABGELESEN. Die 6.100 stammten aus einem Pruefdurchlauf vom 04.09. mit # dem DAMALIGEN Merkmal"
+    },
+    {
+      "file": "main_model.py",
+      "name": "CB_SAATEN",
+      "value": "(0, 7, 13)",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "ANTEIL_HM",
+      "value": "0.3",
+      "comment_lines": 9,
+      "evidenced": true,
+      "hint": "# Anteil des Hoehenmodells gegenueber der blossen Verspaetung im Rueckfallweg. # Am 09.09.2026 auf der RANGLIS"
+    },
+    {
+      "file": "main_model.py",
+      "name": "HOCH",
+      "value": "2.5",
+      "comment_lines": 41,
+      "evidenced": true,
+      "hint": "# Scharfstellung der Wahrscheinlichkeit im Rueckfallweg, p -> p hoch HOCH. # Von 1,6 auf 0,8 gesenkt am 08.09."
+    },
+    {
+      "file": "main_model.py",
+      "name": "KAT",
+      "value": "[\"ADEP_mvt\", \"ADES_mvt\", \"RUNWAY_mvt\", \"STAND_mvt\", \"AIRCRAF",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "MERKMALE",
+      "value": "(KAT + [\"stunde\", \"minute_tag\", \"wtag\", \"monat\", \"auslast\", ",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "main_model.py",
+      "name": "ANKER",
+      "value": "[\"ersatz_lobt_s\", \"ersatz_iobt_s\", \"lobt_sched_min\", \"iobt_e",
+      "comment_lines": 3,
+      "evidenced": true,
+      "hint": "# Getrennte Saetze, gemessen am 03.09.2026. Die Hauptgruppe traegt die ganze # Umlauffamilie (247,2 statt 251,"
+    },
+    {
+      "file": "main_model.py",
+      "name": "MERKMALE_HAUPT",
+      "value": "(MERKMALE + MU.MERKMALE + ANKER + MA.MERKMALE + MD.MERKMALE",
+      "comment_lines": 3,
+      "evidenced": true,
+      "hint": "# Die Ankunftsauslastung bringt mit dem jetzigen Merkmalssatz 1,1 s (230,2 statt # 231,3 bei fuenf Saaten). Am"
+    },
+    {
+      "file": "main_model.py",
+      "name": "MERKMALE_RUECK",
+      "value": "([m for m in MERKMALE if m != \"STAND_mvt\"]",
+      "comment_lines": 3,
+      "evidenced": true,
+      "hint": "# Der Rueckfallweg bekommt die Erfindungsquote je Standplatz ANSTELLE von STAND_mvt. # 1.631 Auspraegungen sin"
+    },
+    {
+      "file": "neural_model.py",
+      "name": "BREITEN",
+      "value": "[1024, 512, 256]",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "neural_model.py",
+      "name": "DROP",
+      "value": "0.15",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "neural_model.py",
+      "name": "EPOCHEN",
+      "value": "12",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "neural_model.py",
+      "name": "STAPEL",
+      "value": "8192",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "neural_model.py",
+      "name": "LERNRATE",
+      "value": "2e-3",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "neural_model.py",
+      "name": "SAATEN",
+      "value": "(13, 21, 29, 37, 45)",
+      "comment_lines": 2,
+      "evidenced": true,
+      "hint": "# Fuenf Saaten. Die Halteprobe zeigt den Nutzen des Mittelns deutlich: zwei Saaten # 235,05 s, fuenf Saaten 23"
+    },
+    {
+      "file": "submission.py",
+      "name": "TEAM",
+      "value": "\"upbeat-goblin\"",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "submission.py",
+      "name": "RANKING",
+      "value": "\"data/ranking.parquet\"",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "submission.py",
+      "name": "VORLAGE",
+      "value": "\"data/submitting.parquet\"",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "submission.py",
+      "name": "MODELLE",
+      "value": "os.environ.get(\"PRC_MODELLE\", \"models.pkl\")",
+      "comment_lines": 3,
+      "evidenced": false,
+      "hint": "# A model path can be selected without touching the known-good baseline.  This is # deliberately an environmen"
+    },
+    {
+      "file": "submission.py",
+      "name": "UNTERE_KAPPUNG",
+      "value": "300",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "submission.py",
+      "name": "RAND_SCHWELLE",
+      "value": "3600.0",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "submission.py",
+      "name": "RAND_FAKTOR",
+      "value": "1.0",
+      "comment_lines": 9,
+      "evidenced": true,
+      "hint": "# Am 10.09.2026 auf der RANGLISTE ausgemessen, fuenf Punkte: # #   RAND_FAKTOR   0,70     0,85     1,00     1,"
+    },
+    {
+      "file": "submission.py",
+      "name": "ORDNER",
+      "value": "\"submissions\"",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_stand_rate.py",
+      "name": "SCHLUESSEL",
+      "value": "[\"ADEP_mvt\", \"STAND_mvt\"]",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_stand_rate.py",
+      "name": "GLAETTUNG",
+      "value": "20",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_stand_rate.py",
+      "name": "MERKMALE",
+      "value": "[\"q_stand\", \"q_stand_n\"]",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_target_encoding.py",
+      "name": "SCHLUESSEL",
+      "value": "[(\"ADEP_mvt\", \"STAND_mvt\", \"RUNWAY_mvt\"),",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_target_encoding.py",
+      "name": "MIND",
+      "value": "20",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "features_target_encoding.py",
+      "name": "MERKMALE",
+      "value": "[f(k) for k in SCHLUESSEL for f in (_nam, lambda k: _nam(k) ",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "research_250/release_common.py",
+      "name": "FALLBACK_KEYS",
+      "value": "[\"ohne_aobt\", \"ohne_aobt_klass\", \"ohne_aobt_hoehe\", \"anteil_",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "research_260/sequence_features.py",
+      "name": "SCHEMA",
+      "value": "\"sequence_airport_v1\"",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "research_260/sequence_features.py",
+      "name": "RAW",
+      "value": "[\"MVT_ID_mvt\", \"FLIGHT_ID_mvt\", \"ADEP_mvt\", \"ADES_mvt\", \"PHA",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    },
+    {
+      "file": "research_260/sequence_features.py",
+      "name": "FIELDS",
+      "value": "[\"relative_time\", \"departure\", \"arrival\", \"nm_taxi\", \"has_ao",
+      "comment_lines": 0,
+      "evidenced": false,
+      "hint": ""
+    }
+  ]
+}

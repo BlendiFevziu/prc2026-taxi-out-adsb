@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "v58_is_scored_file": true,
+    "test_passed": true,
+    "models_hash_identical": true,
+    "corrections_equal_codex": true,
+    "max_abs_correction_difference": 0.0,
+    "half_weight_reproduces_codex": true,
+    "comparator_equals_v58": true,
+    "no_nm_row": true,
+    "no_detector_row": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v58": true,
+    "all_finite": true,
+    "overlay_rows": 8968,
+    "rows_changed": 8919
+  },
+  "base": {
+    "version": "v58",
+    "score": 259.9035,
+    "sha256": "826e460928106ea20a17e9a7df8c1a0e921b8bf6eccd0cccd44b5c4ff0148178"
+  },
+  "planning": {
+    "full_s": 0.34946565282547226,
+    "half_s": 0.17467405056453345,
+    "prediction_fixed_before_upload": {
+      "full_transfer": 259.55,
+      "half_transfer": 259.73,
+      "central": 259.64
+    }
+  },
+  "candidate_path": ".cache/research_320/eham_candidate/candidate_v59_eham.parquet",
+  "candidate_sha256": "0faf9ba9ef455b3d6fa2236fa94a1760579a15788a3a5e4421c9fbf95a600893",
+  "verdict": "built"
+}

@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "main_gain_bar_seconds": 0.3,
+  "main_rmse_gain": 3.317791286102846,
+  "overall_rmse_gain": 2.3130967885084033,
+  "baseline": {
+    "rows": 344419,
+    "rmse": 309.57741731567404,
+    "mse": 95838.17731184301,
+    "main_rmse": 220.09125476198344,
+    "fallback_rmse": 1756.911668736455,
+    "top5_sse_share": 0.3441473163840985
+  },
+  "candidate": {
+    "rows": 344419,
+    "rmse": 307.26432052716564,
+    "mse": 94411.36266902079,
+    "main_rmse": 216.7734634758806,
+    "fallback_rmse": 1756.911668736455,
+    "top5_sse_share": 0.3493483262670533
+  },
+  "fallback_predictions_identical": true,
+  "airports": [
+    {
+      "airport": "EDDF",
+      "rows": 36830,
+      "baseline_rmse": 182.31531354073317,
+      "candidate_rmse": 177.8001025141475
+    },
+    {
+      "airport": "EDDM",
+      "rows": 27091,
+      "baseline_rmse": 175.17082419085423,
+      "candidate_rmse": 171.92791194122253
+    },
+    {
+      "airport": "EGLL",
+      "rows": 40210,
+      "baseline_rmse": 258.36536920344685,
+      "candidate_rmse": 257.3615543570302
+    },
+    {
+      "airport": "EHAM",
+      "rows": 40949,
+      "baseline_rmse": 180.9326842940586,
+      "candidate_rmse": 178.26703703483423
+    },
+    {
+      "airport": "LEBL",
+      "rows": 28986,
+      "baseline_rmse": 221.08613990959498,
+      "candidate_rmse": 217.63941142547608
+    },
+    {
+      "airport": "LEMD",
+      "rows": 35328,
+      "baseline_rmse": 172.99287393215354,
+      "candidate_rmse": 170.64906540293597
+    },
+    {
+      "airport": "LFPG",
+      "rows": 39612,
+      "baseline_rmse": 568.4017080461916,
+      "candidate_rmse": 566.5934443576263
+    },
+    {
+      "airport": "LIRF",
+      "rows": 26528,
+      "baseline_rmse": 547.951573663675,
+      "candidate_rmse": 547.8007232175304
+    },
+    {
+      "airport": "LSZH",
+      "rows": 22346,
+      "baseline_rmse": 195.8469014669647,
+      "candidate_rmse": 192.17883366408535
+    },
+    {
+      "airport": "LTFM",
+      "rows": 46539,
+      "baseline_rmse": 246.78179554805777,
+      "candidate_rmse": 240.1071497971677
+    }
+  ],
+  "baseline_worst_one_percent_mse_gain": 34906.57848288489,
+  "other_ninety_nine_percent_mse_gain": 1088.554873957108,
+  "validation_note": "One complete January/July paired ensemble holdout, plus prior six-pair single-LightGBM evidence. Not six-pair full-ensemble validation. Not an official score."
+}

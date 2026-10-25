@@ -1,0 +1,32 @@
+{
+  "submission": "upbeat-goblin_v67.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v67.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 256.0858
+  },
+  "score": 256.0858,
+  "previous": {
+    "version": "v66",
+    "score": 256.4921
+  },
+  "gain_s": 0.4063,
+  "file_sha256": "05be3083de8c9da4c59ef6618e97993dcecff5678631922947b762352b8b2fa6",
+  "recipe": "Exact scored v66 (NM-free) with the v57 stand model on the base-owned LSZH and EHAM January stand rows and at weight 1.0 on all 17,147 rows it corrects (PREREG_stand_january.md, PREREG_stand_weight.md); build_v67.py, verified by verify_v67.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "January cells at their weight-0.5 test gain plus the weight test's confirmation gain on all stand rows; central 0.8, worst 0.3, best 1.2 of full transfer",
+    "mse_per_scored_row_full": 240.37049696635893,
+    "central": 256.12,
+    "worst": 256.35,
+    "best": 255.93
+  },
+  "realised_mse_per_scored_row": 208.3,
+  "transfer_ratio_vs_full": 0.87,
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter"
+}

@@ -1,0 +1,171 @@
+{
+  "LIRF": {
+    "rows": 1488,
+    "copies": 722,
+    "non_copies": 766,
+    "mvt_second_zero": {
+      "copies": 0.07756232686980609,
+      "non_copies": 0.0835509138381201
+    },
+    "mvt_minute_mod5": {
+      "copies": 0.1731301939058172,
+      "non_copies": 0.18276762402088773
+    },
+    "sched_second_zero": {
+      "copies": 1.0,
+      "non_copies": 1.0
+    },
+    "stand_missing": {
+      "copies": 0.004155124653739612,
+      "non_copies": 0.006527415143603133
+    },
+    "runway_missing": {
+      "copies": 0.0,
+      "non_copies": 0.0
+    },
+    "flight_id_missing": {
+      "copies": 0.9986149584487535,
+      "non_copies": 1.0
+    },
+    "mvt_second_median": {
+      "copies": 6.0,
+      "non_copies": 5.0
+    },
+    "flight_len_median": {
+      "copies": 7.0,
+      "non_copies": 6.0
+    },
+    "flight_digits_median": {
+      "copies": 3.0,
+      "non_copies": 2.5
+    },
+    "identifier_days_seen_median": {
+      "copies": 44.0,
+      "non_copies": 188.0
+    },
+    "sched_delay_median": {
+      "copies": 7531.5,
+      "non_copies": 5995.5
+    },
+    "y_median": {
+      "copies": 7533.5,
+      "non_copies": 1070.0
+    }
+  },
+  "other_airports": {
+    "rows": 20982,
+    "copies": 713,
+    "non_copies": 20269,
+    "mvt_second_zero": {
+      "copies": 0.09396914446002805,
+      "non_copies": 0.0511125363856135
+    },
+    "mvt_minute_mod5": {
+      "copies": 0.21037868162692847,
+      "non_copies": 0.19897380235828113
+    },
+    "sched_second_zero": {
+      "copies": 1.0,
+      "non_copies": 1.0
+    },
+    "stand_missing": {
+      "copies": 0.0,
+      "non_copies": 0.00014800927524791552
+    },
+    "runway_missing": {
+      "copies": 0.0,
+      "non_copies": 0.0
+    },
+    "flight_id_missing": {
+      "copies": 0.9943899018232819,
+      "non_copies": 0.9979772065716118
+    },
+    "mvt_second_median": {
+      "copies": 24.0,
+      "non_copies": 28.0
+    },
+    "flight_len_median": {
+      "copies": 6.0,
+      "non_copies": 6.0
+    },
+    "flight_digits_median": {
+      "copies": 1.0,
+      "non_copies": 3.0
+    },
+    "identifier_days_seen_median": {
+      "copies": 145.0,
+      "non_copies": 180.0
+    },
+    "sched_delay_median": {
+      "copies": 780.0,
+      "non_copies": 5280.0
+    },
+    "y_median": {
+      "copies": 779.0,
+      "non_copies": 923.0
+    }
+  },
+  "LIRF_main_lane_control": {
+    "rows": 159216,
+    "copies": 32584,
+    "non_copies": 126632,
+    "mvt_second_zero": {
+      "copies": 0.0868217530076111,
+      "non_copies": 0.08311485248594352
+    },
+    "mvt_minute_mod5": {
+      "copies": 0.19644610851951877,
+      "non_copies": 0.20109451007644197
+    },
+    "sched_second_zero": {
+      "copies": 1.0,
+      "non_copies": 1.0
+    },
+    "stand_missing": {
+      "copies": 6.137981831573779e-05,
+      "non_copies": 0.0
+    },
+    "runway_missing": {
+      "copies": 0.0,
+      "non_copies": 0.0
+    },
+    "flight_id_missing": {
+      "copies": 0.0,
+      "non_copies": 0.0
+    },
+    "mvt_second_median": {
+      "copies": 54.0,
+      "non_copies": 5.0
+    },
+    "flight_len_median": {
+      "copies": 7.0,
+      "non_copies": 7.0
+    },
+    "flight_digits_median": {
+      "copies": 3.0,
+      "non_copies": 3.0
+    },
+    "identifier_days_seen_median": {
+      "copies": 207.0,
+      "non_copies": 208.0
+    },
+    "sched_delay_median": {
+      "copies": 1081.0,
+      "non_copies": 1618.0
+    },
+    "y_median": {
+      "copies": 1084.0,
+      "non_copies": 1018.0
+    }
+  },
+  "LIRF_second_buckets": {
+    "[0, 10)": {
+      "False": 0.5313315926892951,
+      "True": 0.5110803324099723
+    },
+    "[50, 60)": {
+      "False": 0.46866840731070497,
+      "True": 0.4889196675900277
+    }
+  }
+}

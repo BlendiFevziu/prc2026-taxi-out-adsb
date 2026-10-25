@@ -1,0 +1,202 @@
+{
+  "departures": 2085047,
+  "fallback_rows": 22470,
+  "day_shifts_all_rows": 15,
+  "day_shifts_fallback": 14,
+  "day_shifts_by_airport": {
+    "LIRF": 13,
+    "LFPG": 1,
+    "LSZH": 1
+  },
+  "day_shifts_in_main_lane": 1,
+  "subsets": {
+    "A date_cross (fallback)": {
+      "rows": 260,
+      "shifts": 11,
+      "rate": 0.04230769230769231,
+      "recall_of_fallback_shifts": 0.7857142857142857,
+      "ev_gain_per_row": 13361836.686390534,
+      "ev_gain_total": 3474077538.461539,
+      "ev_shift_seconds": 3655.3846153846157
+    },
+    "B sched_previous_day (fallback)": {
+      "rows": 256,
+      "shifts": 11,
+      "rate": 0.04296875,
+      "recall_of_fallback_shifts": 0.7857142857142857,
+      "ev_gain_per_row": 13782656.25,
+      "ev_gain_total": 3528360000.0,
+      "ev_shift_seconds": 3712.5
+    },
+    "C night 00-06 UTC (fallback)": {
+      "rows": 1089,
+      "shifts": 2,
+      "rate": 0.0018365472910927456,
+      "recall_of_fallback_shifts": 0.14285714285714285,
+      "ev_gain_per_row": 25178.608018577965,
+      "ev_gain_total": 27419504.132231403,
+      "ev_shift_seconds": 158.67768595041323
+    },
+    "D Rome (fallback)": {
+      "rows": 1488,
+      "shifts": 12,
+      "rate": 0.008064516129032258,
+      "recall_of_fallback_shifts": 0.8571428571428571,
+      "ev_gain_per_row": 485494.27679500513,
+      "ev_gain_total": 722415483.8709676,
+      "ev_shift_seconds": 696.7741935483871
+    },
+    "E Rome and date_cross": {
+      "rows": 68,
+      "shifts": 11,
+      "rate": 0.16176470588235295,
+      "recall_of_fallback_shifts": 0.7857142857142857,
+      "ev_gain_per_row": 195341730.10380626,
+      "ev_gain_total": 13283237647.058826,
+      "ev_shift_seconds": 13976.470588235296
+    },
+    "F Rome and night": {
+      "rows": 85,
+      "shifts": 2,
+      "rate": 0.023529411764705882,
+      "recall_of_fallback_shifts": 0.14285714285714285,
+      "ev_gain_per_row": 4132849.826989619,
+      "ev_gain_total": 351292235.2941176,
+      "ev_shift_seconds": 2032.9411764705883
+    },
+    "G Rome and sched_previous_day": {
+      "rows": 68,
+      "shifts": 11,
+      "rate": 0.16176470588235295,
+      "recall_of_fallback_shifts": 0.7857142857142857,
+      "ev_gain_per_row": 195341730.10380626,
+      "ev_gain_total": 13283237647.058826,
+      "ev_shift_seconds": 13976.470588235296
+    },
+    "H date_cross, any lane": {
+      "rows": 4615,
+      "shifts": 12,
+      "rate": 0.002600216684723727,
+      "recall_of_fallback_shifts": 0.8571428571428571,
+      "ev_gain_per_row": 50471.541173032034,
+      "ev_gain_total": 232926162.51354283,
+      "ev_shift_seconds": 224.65872156013003
+    }
+  },
+  "best_subset": "E Rome and date_cross",
+  "mechanical_leaderboard_rmse_not_forecast": 248.85233193926598,
+  "model_on_day_shifts": [
+    {
+      "fold": "1_7",
+      "airport": "LFPG",
+      "y": 84240.0,
+      "delay": 1740.0,
+      "prod_anchor": 715.17,
+      "p": 0.0
+    },
+    {
+      "fold": "1_7",
+      "airport": "LIRF",
+      "y": 87177.0,
+      "delay": 60118.0,
+      "prod_anchor": 67394.45,
+      "p": 1.0
+    },
+    {
+      "fold": "1_7",
+      "airport": "LIRF",
+      "y": 87361.0,
+      "delay": 73260.0,
+      "prod_anchor": 73995.53,
+      "p": 0.34
+    },
+    {
+      "fold": "1_7",
+      "airport": "LIRF",
+      "y": 87170.0,
+      "delay": 93535.0,
+      "prod_anchor": 88248.51,
+      "p": 0.16
+    },
+    {
+      "fold": "1_7",
+      "airport": "LIRF",
+      "y": 88132.0,
+      "delay": 84236.0,
+      "prod_anchor": 83470.4,
+      "p": 0.68
+    },
+    {
+      "fold": "1_7",
+      "airport": "LIRF",
+      "y": 87186.0,
+      "delay": 58563.0,
+      "prod_anchor": 65504.18,
+      "p": 0.25
+    },
+    {
+      "fold": "3_9",
+      "airport": "LIRF",
+      "y": 87247.0,
+      "delay": 65463.0,
+      "prod_anchor": 70532.8,
+      "p": 0.99
+    },
+    {
+      "fold": "3_9",
+      "airport": "LIRF",
+      "y": 87543.0,
+      "delay": 50581.0,
+      "prod_anchor": 47426.59,
+      "p": 0.08
+    },
+    {
+      "fold": "5_11",
+      "airport": "LIRF",
+      "y": 87480.0,
+      "delay": 56520.0,
+      "prod_anchor": 58410.01,
+      "p": 0.41
+    },
+    {
+      "fold": "5_11",
+      "airport": "LIRF",
+      "y": 87598.0,
+      "delay": 60599.0,
+      "prod_anchor": 68021.82,
+      "p": 0.22
+    },
+    {
+      "fold": "5_11",
+      "airport": "LSZH",
+      "y": 87341.0,
+      "delay": 939.0,
+      "prod_anchor": 439.43,
+      "p": 0.0
+    },
+    {
+      "fold": "6_12",
+      "airport": "LIRF",
+      "y": 88392.0,
+      "delay": 67686.0,
+      "prod_anchor": 73493.71,
+      "p": 0.88
+    },
+    {
+      "fold": "6_12",
+      "airport": "LIRF",
+      "y": 87168.0,
+      "delay": 11694.0,
+      "prod_anchor": 2024.47,
+      "p": 0.0
+    },
+    {
+      "fold": "6_12",
+      "airport": "LIRF",
+      "y": 87605.0,
+      "delay": 86102.0,
+      "prod_anchor": 86117.33,
+      "p": 0.99
+    }
+  ]
+}

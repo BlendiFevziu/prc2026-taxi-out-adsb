@@ -1,0 +1,163 @@
+{
+  "prereg": "research_440_fresh_july/PREREG_fresh_july.md",
+  "days": [
+    "2025-07-01",
+    "2025-07-05",
+    "2025-07-19",
+    "2025-07-20",
+    "2025-07-24",
+    "2025-07-28",
+    "2025-07-30"
+  ],
+  "checks": {
+    "comparator_bit_identical": true,
+    "rows_by_airport": {
+      "EDDF": 3703,
+      "EHAM": 2947,
+      "LEBL": 2391,
+      "LSZH": 1831,
+      "EGLL": 896
+    }
+  },
+  "A_heathrow_july": {
+    "rows": 896,
+    "gain_mse": 12161.114501748596,
+    "without_best100": -5482.559806457187,
+    "halves": {
+      "first_half": 6189.48556242435,
+      "second_half": 17795.948750351734
+    },
+    "by_day": {
+      "2025-07-01": -1529.2027341138046,
+      "2025-07-05": 8620.151350169954,
+      "2025-07-19": 13237.244168697305,
+      "2025-07-20": 1877.3020912142717,
+      "2025-07-24": 7690.481937173648,
+      "2025-07-28": 10401.461390043782,
+      "2025-07-30": 32819.24002373511
+    },
+    "base_rmse": 251.57934810493427,
+    "c1_rmse": 226.1217678401509,
+    "groups": {
+      "degraded": {
+        "rows": 817,
+        "gain_mse": 11632.209355557781
+      },
+      "well_observed": {
+        "rows": 79,
+        "gain_mse": 17630.93101362068
+      }
+    },
+    "rows_2026_base_owned": 9048,
+    "mix_2026": {
+      "dense/at_stand": 0.6684,
+      "dense/near": 0.0959,
+      "medium/at_stand": 0.0719,
+      "dense/late": 0.0483,
+      "dense/no_stand": 0.0479,
+      "medium/near": 0.046,
+      "medium/no_stand": 0.008,
+      "medium/late": 0.0056,
+      "sparse/at_stand": 0.0031,
+      "sparse/late": 0.0028,
+      "sparse/near": 0.0018,
+      "sparse/no_stand": 0.0003
+    },
+    "stratum_gain_used": {
+      "dense/at_stand": [
+        "sister",
+        36420.79166194248
+      ],
+      "dense/near": [
+        "sister",
+        15907.044000748123
+      ],
+      "medium/at_stand": [
+        "fresh",
+        16111.529108170385
+      ],
+      "dense/late": [
+        "sister",
+        19790.90809597679
+      ],
+      "dense/no_stand": [
+        "sister",
+        -6683.085174568987
+      ],
+      "medium/near": [
+        "sister",
+        25302.79837622824
+      ],
+      "medium/no_stand": [
+        "sister",
+        11055.606952644614
+      ],
+      "medium/late": [
+        "fresh",
+        21167.85310929716
+      ],
+      "sparse/at_stand": [
+        "fresh",
+        22896.61901549894
+      ],
+      "sparse/late": [
+        "fresh",
+        2570.1236678833275
+      ],
+      "sparse/near": [
+        "fresh",
+        28460.3786626987
+      ],
+      "sparse/no_stand": [
+        "sister",
+        6741.323627311174
+      ]
+    },
+    "weighted_gain": 29167.35138794668,
+    "planning": {
+      "mse_per_scored_row": 765.2981964387691,
+      "full_s": 1.495501464392646
+    },
+    "rules": {
+      "1_pooled_positive": true,
+      "2_best100_removed_positive": false,
+      "3_each_half_positive": true,
+      "4_groups_positive": true,
+      "5_planning_at_least_0_1_s": true
+    },
+    "verdict": "fail"
+  },
+  "B_blend": {
+    "rows": 10872,
+    "gain_mse": 320.20592956336816,
+    "without_best100": -178.22299931135814,
+    "halves": {
+      "first_half": 356.5004756330089,
+      "second_half": 275.3583195834235
+    },
+    "by_day": {
+      "2025-07-01": 261.5370164353464,
+      "2025-07-05": 13.879563511064054,
+      "2025-07-19": 537.7505154013955,
+      "2025-07-20": 615.3939028089657,
+      "2025-07-24": 69.40138953850187,
+      "2025-07-28": -28.20444483553741,
+      "2025-07-30": 808.0758565982604
+    },
+    "by_cell": {
+      "EDDF/07": 553.0186506076026,
+      "EHAM/07": 309.93687552811855,
+      "LEBL/07": 102.32423789637919,
+      "LSZH/07": 150.41484326672776
+    },
+    "planning_full_s": 0.19290992485963443,
+    "rules": {
+      "1_pooled_positive": true,
+      "2_best100_removed_positive": false,
+      "3_each_half_positive": true,
+      "4_three_of_four_cells": true,
+      "5_planning_at_least_0_1_s": true
+    },
+    "verdict": "fail"
+  }
+}

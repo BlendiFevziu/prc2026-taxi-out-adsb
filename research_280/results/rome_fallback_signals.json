@@ -1,0 +1,394 @@
+{
+  "rows": 2085047,
+  "fallback_rows": 22470,
+  "copies": 1435,
+  "by_airport": {
+    "EDDF": {
+      "rows": 1956,
+      "copy_rate": 0.0072,
+      "extreme_rate": 0.0005
+    },
+    "EDDM": {
+      "rows": 1010,
+      "copy_rate": 0.002,
+      "extreme_rate": 0.003
+    },
+    "EGLL": {
+      "rows": 1414,
+      "copy_rate": 0.0035,
+      "extreme_rate": 0.0191
+    },
+    "EHAM": {
+      "rows": 4084,
+      "copy_rate": 0.0404,
+      "extreme_rate": 0.0002
+    },
+    "LEBL": {
+      "rows": 1862,
+      "copy_rate": 0.0204,
+      "extreme_rate": 0.0
+    },
+    "LEMD": {
+      "rows": 947,
+      "copy_rate": 0.0032,
+      "extreme_rate": 0.0
+    },
+    "LFPG": {
+      "rows": 3773,
+      "copy_rate": 0.0066,
+      "extreme_rate": 0.0037
+    },
+    "LIRF": {
+      "rows": 1488,
+      "copy_rate": 0.4852,
+      "extreme_rate": 0.4301
+    },
+    "LSZH": {
+      "rows": 2291,
+      "copy_rate": 0.0511,
+      "extreme_rate": 0.0022
+    },
+    "LTFM": {
+      "rows": 3645,
+      "copy_rate": 0.0944,
+      "extreme_rate": 0.0236
+    }
+  },
+  "burst_medians_lirf": {
+    "share_fallback_30": {
+      "copies": 0.05263157894736842,
+      "non_copies": 0.05555555555555555
+    },
+    "n_fallback_30": {
+      "copies": 1.0,
+      "non_copies": 1.0
+    },
+    "n_dep_30": {
+      "copies": 24.0,
+      "non_copies": 27.0
+    },
+    "share_fallback_60": {
+      "copies": 0.03225806451612903,
+      "non_copies": 0.03508771929824561
+    },
+    "n_fallback_60": {
+      "copies": 1.0,
+      "non_copies": 2.0
+    },
+    "n_dep_60": {
+      "copies": 49.0,
+      "non_copies": 53.0
+    },
+    "share_fallback_120": {
+      "copies": 0.02281401804302568,
+      "non_copies": 0.02631578947368421
+    },
+    "n_fallback_120": {
+      "copies": 2.0,
+      "non_copies": 2.0
+    },
+    "n_dep_120": {
+      "copies": 94.0,
+      "non_copies": 105.5
+    },
+    "gap_to_nearest_fallback_s": {
+      "copies": 5460.5,
+      "non_copies": 2704.0
+    }
+  },
+  "lirf_by_hour": {
+    "1": {
+      "rows": 14,
+      "copies": 13,
+      "copy_rate": 0.9286,
+      "median_y": 10446.0
+    },
+    "4": {
+      "rows": 10,
+      "copies": 9,
+      "copy_rate": 0.9,
+      "median_y": 5703.0
+    },
+    "23": {
+      "rows": 48,
+      "copies": 41,
+      "copy_rate": 0.8542,
+      "median_y": 7739.5
+    },
+    "0": {
+      "rows": 22,
+      "copies": 18,
+      "copy_rate": 0.8182,
+      "median_y": 9059.5
+    },
+    "3": {
+      "rows": 10,
+      "copies": 7,
+      "copy_rate": 0.7,
+      "median_y": 16683.5
+    },
+    "20": {
+      "rows": 79,
+      "copies": 52,
+      "copy_rate": 0.6582,
+      "median_y": 6732.0
+    },
+    "22": {
+      "rows": 93,
+      "copies": 61,
+      "copy_rate": 0.6559,
+      "median_y": 6672.0
+    },
+    "21": {
+      "rows": 100,
+      "copies": 63,
+      "copy_rate": 0.63,
+      "median_y": 6037.0
+    },
+    "5": {
+      "rows": 25,
+      "copies": 14,
+      "copy_rate": 0.56,
+      "median_y": 6292.0
+    },
+    "7": {
+      "rows": 42,
+      "copies": 23,
+      "copy_rate": 0.5476,
+      "median_y": 7377.0
+    },
+    "9": {
+      "rows": 65,
+      "copies": 32,
+      "copy_rate": 0.4923,
+      "median_y": 4624.0
+    },
+    "16": {
+      "rows": 68,
+      "copies": 32,
+      "copy_rate": 0.4706,
+      "median_y": 5066.5
+    },
+    "13": {
+      "rows": 82,
+      "copies": 38,
+      "copy_rate": 0.4634,
+      "median_y": 1738.0
+    },
+    "19": {
+      "rows": 85,
+      "copies": 39,
+      "copy_rate": 0.4588,
+      "median_y": 1372.0
+    },
+    "14": {
+      "rows": 121,
+      "copies": 52,
+      "copy_rate": 0.4298,
+      "median_y": 1729.0
+    },
+    "8": {
+      "rows": 54,
+      "copies": 23,
+      "copy_rate": 0.4259,
+      "median_y": 2965.5
+    },
+    "17": {
+      "rows": 85,
+      "copies": 34,
+      "copy_rate": 0.4,
+      "median_y": 1370.0
+    },
+    "11": {
+      "rows": 91,
+      "copies": 36,
+      "copy_rate": 0.3956,
+      "median_y": 1443.0
+    },
+    "18": {
+      "rows": 89,
+      "copies": 35,
+      "copy_rate": 0.3933,
+      "median_y": 1552.0
+    },
+    "12": {
+      "rows": 88,
+      "copies": 33,
+      "copy_rate": 0.375,
+      "median_y": 1648.5
+    },
+    "15": {
+      "rows": 77,
+      "copies": 26,
+      "copy_rate": 0.3377,
+      "median_y": 1198.0
+    },
+    "10": {
+      "rows": 92,
+      "copies": 26,
+      "copy_rate": 0.2826,
+      "median_y": 1435.0
+    },
+    "6": {
+      "rows": 44,
+      "copies": 11,
+      "copy_rate": 0.25,
+      "median_y": 1021.5
+    }
+  },
+  "lirf_by_STAND_mvt": {
+    "705": {
+      "rows": 15,
+      "copies": 12,
+      "copy_rate": 0.8,
+      "median_y": 10551.0
+    },
+    "828": {
+      "rows": 24,
+      "copies": 19,
+      "copy_rate": 0.7917,
+      "median_y": 6870.0
+    },
+    "711": {
+      "rows": 27,
+      "copies": 21,
+      "copy_rate": 0.7778,
+      "median_y": 6541.0
+    },
+    "234": {
+      "rows": 16,
+      "copies": 12,
+      "copy_rate": 0.75,
+      "median_y": 6207.0
+    },
+    "609": {
+      "rows": 15,
+      "copies": 11,
+      "copy_rate": 0.7333,
+      "median_y": 8949.0
+    },
+    "824": {
+      "rows": 18,
+      "copies": 13,
+      "copy_rate": 0.7222,
+      "median_y": 7159.5
+    },
+    "827": {
+      "rows": 20,
+      "copies": 14,
+      "copy_rate": 0.7,
+      "median_y": 6631.0
+    },
+    "826": {
+      "rows": 20,
+      "copies": 14,
+      "copy_rate": 0.7,
+      "median_y": 6632.0
+    },
+    "315": {
+      "rows": 16,
+      "copies": 11,
+      "copy_rate": 0.6875,
+      "median_y": 5130.5
+    },
+    "610": {
+      "rows": 19,
+      "copies": 13,
+      "copy_rate": 0.6842,
+      "median_y": 5890.0
+    },
+    "825": {
+      "rows": 18,
+      "copies": 12,
+      "copy_rate": 0.6667,
+      "median_y": 7083.0
+    },
+    "601": {
+      "rows": 20,
+      "copies": 13,
+      "copy_rate": 0.65,
+      "median_y": 5932.0
+    },
+    "829": {
+      "rows": 19,
+      "copies": 12,
+      "copy_rate": 0.6316,
+      "median_y": 4979.0
+    },
+    "321": {
+      "rows": 18,
+      "copies": 11,
+      "copy_rate": 0.6111,
+      "median_y": 5979.5
+    },
+    "704": {
+      "rows": 18,
+      "copies": 11,
+      "copy_rate": 0.6111,
+      "median_y": 7560.5
+    },
+    "706": {
+      "rows": 25,
+      "copies": 15,
+      "copy_rate": 0.6,
+      "median_y": 6121.0
+    },
+    "314": {
+      "rows": 27,
+      "copies": 16,
+      "copy_rate": 0.5926,
+      "median_y": 5331.0
+    },
+    "710": {
+      "rows": 17,
+      "copies": 10,
+      "copy_rate": 0.5882,
+      "median_y": 5764.0
+    },
+    "603": {
+      "rows": 16,
+      "copies": 9,
+      "copy_rate": 0.5625,
+      "median_y": 4950.0
+    },
+    "707": {
+      "rows": 20,
+      "copies": 11,
+      "copy_rate": 0.55,
+      "median_y": 5909.5
+    }
+  },
+  "lirf_by_AIRCRAFT_OPERATOR_flt": {},
+  "lirf_by_RUNWAY_mvt": {
+    "16L": {
+      "rows": 21,
+      "copies": 16,
+      "copy_rate": 0.7619,
+      "median_y": 890.0
+    },
+    "34L": {
+      "rows": 36,
+      "copies": 18,
+      "copy_rate": 0.5,
+      "median_y": 4779.5
+    },
+    "25": {
+      "rows": 1314,
+      "copies": 633,
+      "copy_rate": 0.4817,
+      "median_y": 4449.5
+    },
+    "16R": {
+      "rows": 92,
+      "copies": 36,
+      "copy_rate": 0.3913,
+      "median_y": 1924.0
+    }
+  },
+  "lirf_days": {
+    "days_with_3plus_fallback": 209,
+    "days_with_any_copy": 200,
+    "days_where_all_fallback_rows_are_copies": 24,
+    "copies_share_in_top_10_days": 0.13673805601317957
+  }
+}

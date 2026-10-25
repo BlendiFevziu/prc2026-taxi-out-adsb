@@ -1,0 +1,294 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe, production categorical encoding; not full ensemble; not a leaderboard forecast",
+  "gate_a_rebuilt_t1": [
+    {
+      "table": "2025 all months",
+      "rows": 22470,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "2026 ranking",
+      "rows": 5290,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",
+      "rows": 17097,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 7]",
+      "rows": 5373,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 3, 4, 5, 6, 7, 9, 10, 11, 12]",
+      "rows": 19032,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [2, 8]",
+      "rows": 3438,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 4, 5, 6, 7, 8, 10, 11, 12]",
+      "rows": 18921,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [3, 9]",
+      "rows": 3549,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 5, 6, 7, 8, 9, 11, 12]",
+      "rows": 19472,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [4, 10]",
+      "rows": 2998,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 4, 6, 7, 8, 9, 10, 12]",
+      "rows": 19509,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [5, 11]",
+      "rows": 2961,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [1, 2, 3, 4, 5, 7, 8, 9, 10, 11]",
+      "rows": 18319,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [6, 12]",
+      "rows": 4151,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    }
+  ],
+  "gate_b_replication": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 1.8189894035458565e-12,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 9.094947017729282e-13,
+      "prod_anchor_max_diff": 9.094947017729282e-12,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 7.275957614183426e-12,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 9.094947017729282e-13,
+      "prod_anchor_max_diff": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "gate_c_coverage": {
+    "held_out_2025": {
+      "1_7": {
+        "rows": 5373,
+        "so_between": 0.9834356970035362,
+        "so_bound": 0.12600037223152802
+      },
+      "2_8": {
+        "rows": 3438,
+        "so_between": 0.9799301919720768,
+        "so_bound": 0.1343804537521815
+      },
+      "3_9": {
+        "rows": 3549,
+        "so_between": 0.9712595097210481,
+        "so_bound": 0.11665257819103973
+      },
+      "4_10": {
+        "rows": 2998,
+        "so_between": 0.9799866577718479,
+        "so_bound": 0.1180787191460974
+      },
+      "5_11": {
+        "rows": 2961,
+        "so_between": 0.9787234042553191,
+        "so_bound": 0.1276595744680851
+      },
+      "6_12": {
+        "rows": 4151,
+        "so_between": 0.9715731149120694,
+        "so_bound": 0.11298482293423272
+      }
+    },
+    "pooled_2025_so_between": 0.9777036048064085,
+    "ranking_2026": {
+      "rows": 5290,
+      "so_between": 0.9827977315689981,
+      "so_bound": 0.14291115311909264
+    },
+    "passed": true
+  },
+  "build_tables_gate_a_passed": true,
+  "code_sha256": {
+    "fallback_stand_order_screen.py": "d123272ee0552fb546d8b00dae64cfc731e3519f9c0b6a8a21e2934c651081db",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_turnaround.py": "e65a49950d6770df8b7f4bfb2a70a46d4878192e4c78b44f15f0fc6a3260cb77",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "descriptive_held_out": {
+    "rows_with_bound": 2754,
+    "share_y_above_bound": 0.560639070442992,
+    "share_nt_anchor_below_bound": 0.5058097312999273
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "O1_stand_order_offset": 1484.793674200741,
+    "O2_stand_order_all": 1484.0606489097597
+  },
+  "variants": {
+    "O1_stand_order_offset": {
+      "pooled_mse_gain": 3826.9823918707475,
+      "mse_gain_without_top100_rows": -10992.556899424064,
+      "positive_sse_mass": 721767693.4804523,
+      "negative_sse_mass": -635775399.1351166,
+      "pair_gains": {
+        "1_7": 8918.006966154922,
+        "2_8": -9645.163049036759,
+        "3_9": 4337.655206635552,
+        "4_10": -1567.8895236830717,
+        "5_11": 4360.391287457414,
+        "6_12": 11474.581869492786
+      },
+      "pairs_positive": 4,
+      "january_gain_1_7": 6459.295377636808,
+      "july_gain_1_7": 9813.956973651999,
+      "disrupted_rows": 381,
+      "disrupted_net_gain_share": -0.38992509579163037,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -1615.6912481538686,
+        10204.28686678942
+      ],
+      "airport_contributions": {
+        "EDDF": -4.623467917005483,
+        "EDDM": 154.55744224936905,
+        "EGLL": 804.6145628033248,
+        "EHAM": 228.00015544373738,
+        "LEBL": -177.01252867434096,
+        "LEMD": 32.84309203365304,
+        "LFPG": 996.8863492762407,
+        "LIRF": 2297.4131254767694,
+        "LSZH": 337.4762409440335,
+        "LTFM": -843.1725797650344
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 268.129946591585,
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": true
+      },
+      "advance": false
+    },
+    "O2_stand_order_all": {
+      "pooled_mse_gain": 6003.227695949495,
+      "mse_gain_without_top100_rows": -73294.9342073674,
+      "positive_sse_mass": 2435194481.736867,
+      "negative_sse_mass": -2300301955.408882,
+      "pair_gains": {
+        "1_7": 19020.31995203621,
+        "2_8": -18456.744673337394,
+        "3_9": 38032.35223150764,
+        "4_10": 5339.861963507854,
+        "5_11": -72699.42211389619,
+        "6_12": 38648.01254051022
+      },
+      "pairs_positive": 4,
+      "january_gain_1_7": -66404.3741385176,
+      "july_gain_1_7": 50148.92229331218,
+      "disrupted_rows": 381,
+      "disrupted_net_gain_share": -0.27911522476165856,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -31871.863758396823,
+        46479.56774886982
+      ],
+      "airport_contributions": {
+        "EDDF": -4.640744609502911,
+        "EDDM": 154.56390048707712,
+        "EGLL": -1547.2095404679606,
+        "EHAM": 138.1612835842989,
+        "LEBL": -188.06946789037318,
+        "LEMD": 23.10115272503918,
+        "LFPG": 993.4283841692676,
+        "LIRF": 7251.890686817289,
+        "LSZH": 337.47598613041043,
+        "LTFM": -1155.4739449960514
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 268.06768506974623,
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 96.2380530834198
+}

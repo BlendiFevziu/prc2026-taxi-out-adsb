@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "v80_is_uploaded_file": true,
+    "test_passed": true,
+    "rows": 9752,
+    "comparator_equals_base": true,
+    "reproduce_v80": 9752,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v80": true,
+    "all_finite": true,
+    "rows_changed": 9683,
+    "change_s": {
+      "mean": 0.08702921148152529,
+      "rms": 11.750527408787622
+    }
+  },
+  "base": {
+    "version": "v80",
+    "score": 245.046,
+    "sha256": "e0fb35f0d0ab62322f8d8a1fd84287d9f52065ccebfae700530afa5f5d11ae2e"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "fresh gain per row x 9,752; central 0.8, worst 0.3, best 1.2",
+    "mse_per_scored_row_full": 16.206365848194146,
+    "central": 245.02,
+    "worst": 245.036,
+    "best": 245.006
+  },
+  "candidate_path": ".cache/research_650/v81/candidate_v81.parquet",
+  "candidate_sha256": "649b9bab008c7d91186691d8990c06169080e867970756d7236a4ad6fb7b3360",
+  "verdict": "built"
+}

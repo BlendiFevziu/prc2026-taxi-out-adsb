@@ -1,0 +1,42 @@
+{
+  "note": "label-free; frozen detector on scored July 2026 samples",
+  "dates": {
+    "2026-07-06": {
+      "scored_departures": 494,
+      "matched_in_sample": 80,
+      "stand_status": {
+        "ok": 47,
+        "ok_subdivided": 19,
+        "unmapped": 14
+      },
+      "detector_status": {
+        "no_parked_onset": 31,
+        "ok": 17,
+        "unmapped": 14,
+        "no_occupancy": 13,
+        "gap_too_large": 3,
+        "ambiguous_onsets": 2
+      },
+      "estimates": 17,
+      "estimates_per_matched": 0.2125
+    },
+    "2026-07-13": {
+      "scored_departures": 502,
+      "matched_in_sample": 39,
+      "stand_status": {
+        "ok": 19,
+        "unmapped": 10,
+        "ok_subdivided": 10
+      },
+      "detector_status": {
+        "no_parked_onset": 12,
+        "unmapped": 10,
+        "ok": 9,
+        "no_occupancy": 5,
+        "gap_too_large": 3
+      },
+      "estimates": 9,
+      "estimates_per_matched": 0.23076923076923078
+    }
+  }
+}

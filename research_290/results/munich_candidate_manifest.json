@@ -1,0 +1,337 @@
+{
+  "dry_run": false,
+  "gates": {
+    "G1_base_is_v52": true,
+    "G2_detector_unchanged": true,
+    "G3_production_test_passed": true,
+    "G5_guard_neutral_on_labelled_days": true,
+    "G4": {
+      "pruefe_errors": [],
+      "untouched_rows_identical": true,
+      "all_finite": true
+    }
+  },
+  "scored_days": 62,
+  "days_with_tracks": 62,
+  "rows_replaced": 6722,
+  "share_of_scored_rows": 0.019493041720677066,
+  "withdrawn_by_guard": 1,
+  "shift_s": {
+    "median": -32.55789925553154,
+    "p10": -192.64509893093782,
+    "p90": 142.93855913867276
+  },
+  "per_day": {
+    "2026-01-01": {
+      "munich_scored_departures": 320,
+      "replaced": 102,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-02": {
+      "munich_scored_departures": 379,
+      "replaced": 117,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-03": {
+      "munich_scored_departures": 365,
+      "replaced": 103,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-04": {
+      "munich_scored_departures": 380,
+      "replaced": 120,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-05": {
+      "munich_scored_departures": 378,
+      "replaced": 114,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-06": {
+      "munich_scored_departures": 347,
+      "replaced": 108,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-07": {
+      "munich_scored_departures": 370,
+      "replaced": 100,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-08": {
+      "munich_scored_departures": 354,
+      "replaced": 104,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-09": {
+      "munich_scored_departures": 360,
+      "replaced": 91,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-10": {
+      "munich_scored_departures": 335,
+      "replaced": 90,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-11": {
+      "munich_scored_departures": 369,
+      "replaced": 108,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-12": {
+      "munich_scored_departures": 350,
+      "replaced": 95,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-13": {
+      "munich_scored_departures": 320,
+      "replaced": 112,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-14": {
+      "munich_scored_departures": 345,
+      "replaced": 97,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-15": {
+      "munich_scored_departures": 355,
+      "replaced": 100,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-16": {
+      "munich_scored_departures": 388,
+      "replaced": 110,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-17": {
+      "munich_scored_departures": 318,
+      "replaced": 103,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-18": {
+      "munich_scored_departures": 354,
+      "replaced": 116,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-19": {
+      "munich_scored_departures": 361,
+      "replaced": 87,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-20": {
+      "munich_scored_departures": 330,
+      "replaced": 87,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-21": {
+      "munich_scored_departures": 345,
+      "replaced": 119,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-22": {
+      "munich_scored_departures": 373,
+      "replaced": 123,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-23": {
+      "munich_scored_departures": 388,
+      "replaced": 96,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-24": {
+      "munich_scored_departures": 328,
+      "replaced": 113,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-25": {
+      "munich_scored_departures": 349,
+      "replaced": 123,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-26": {
+      "munich_scored_departures": 355,
+      "replaced": 104,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-27": {
+      "munich_scored_departures": 323,
+      "replaced": 96,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-28": {
+      "munich_scored_departures": 352,
+      "replaced": 114,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-29": {
+      "munich_scored_departures": 357,
+      "replaced": 115,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-30": {
+      "munich_scored_departures": 377,
+      "replaced": 131,
+      "withdrawn_by_guard": 0
+    },
+    "2026-01-31": {
+      "munich_scored_departures": 328,
+      "replaced": 115,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-01": {
+      "munich_scored_departures": 412,
+      "replaced": 95,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-02": {
+      "munich_scored_departures": 506,
+      "replaced": 108,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-03": {
+      "munich_scored_departures": 503,
+      "replaced": 123,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-04": {
+      "munich_scored_departures": 455,
+      "replaced": 106,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-05": {
+      "munich_scored_departures": 477,
+      "replaced": 114,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-06": {
+      "munich_scored_departures": 494,
+      "replaced": 109,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-07": {
+      "munich_scored_departures": 486,
+      "replaced": 94,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-08": {
+      "munich_scored_departures": 482,
+      "replaced": 102,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-09": {
+      "munich_scored_departures": 503,
+      "replaced": 104,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-10": {
+      "munich_scored_departures": 510,
+      "replaced": 97,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-11": {
+      "munich_scored_departures": 458,
+      "replaced": 113,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-12": {
+      "munich_scored_departures": 481,
+      "replaced": 133,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-13": {
+      "munich_scored_departures": 502,
+      "replaced": 111,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-14": {
+      "munich_scored_departures": 481,
+      "replaced": 104,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-15": {
+      "munich_scored_departures": 498,
+      "replaced": 129,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-16": {
+      "munich_scored_departures": 498,
+      "replaced": 120,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-17": {
+      "munich_scored_departures": 494,
+      "replaced": 116,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-18": {
+      "munich_scored_departures": 455,
+      "replaced": 119,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-19": {
+      "munich_scored_departures": 481,
+      "replaced": 111,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-20": {
+      "munich_scored_departures": 488,
+      "replaced": 114,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-21": {
+      "munich_scored_departures": 475,
+      "replaced": 104,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-22": {
+      "munich_scored_departures": 487,
+      "replaced": 115,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-23": {
+      "munich_scored_departures": 491,
+      "replaced": 114,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-24": {
+      "munich_scored_departures": 510,
+      "replaced": 108,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-25": {
+      "munich_scored_departures": 459,
+      "replaced": 99,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-26": {
+      "munich_scored_departures": 481,
+      "replaced": 107,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-27": {
+      "munich_scored_departures": 486,
+      "replaced": 113,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-28": {
+      "munich_scored_departures": 483,
+      "replaced": 110,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-29": {
+      "munich_scored_departures": 487,
+      "replaced": 105,
+      "withdrawn_by_guard": 1
+    },
+    "2026-07-30": {
+      "munich_scored_departures": 493,
+      "replaced": 100,
+      "withdrawn_by_guard": 0
+    },
+    "2026-07-31": {
+      "munich_scored_departures": 497,
+      "replaced": 112,
+      "withdrawn_by_guard": 0
+    }
+  },
+  "candidate_sha256": "5f20c51ab0c3bd5f0694e112d383d2546854cdf6aa72589b42bf2bf3b736c203"
+}

@@ -1,0 +1,17 @@
+{
+  "v65_sha_equals_build": true,
+  "v64_is_scored_file": true,
+  "registration_rules_held": true,
+  "ids_order_equal": true,
+  "schema_equal_v64": true,
+  "pruefe_errors": [],
+  "all_finite": true,
+  "set_rows": 7525,
+  "left_out_rows_carry_own_value": 2014,
+  "set_equals_build_rows": true,
+  "rows_changed": 7519,
+  "every_change_in_set": true,
+  "outside_set_identical_to_v64": true,
+  "values_equal_recomputed_c1": true,
+  "verdict": "verified"
+}

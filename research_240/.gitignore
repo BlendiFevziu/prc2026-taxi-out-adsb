@@ -1,0 +1,4 @@
+# Keep generated row-level predictions, feature tables and weights local.
+*.parquet
+*.pkl
+local_results/

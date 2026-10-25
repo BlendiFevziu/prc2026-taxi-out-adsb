@@ -1,0 +1,162 @@
+{
+  "checks": {
+    "v81_is_built_file": true,
+    "y24": 87420.5,
+    "shift24_rows_2025": 12,
+    "rows": {
+      "a": 5,
+      "b": 7
+    },
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v81": true,
+    "all_finite": true,
+    "rows_changed": 12
+  },
+  "base": {
+    "version": "v81",
+    "central": 245.02,
+    "sha256": "649b9bab008c7d91186691d8990c06169080e867970756d7236a4ad6fb7b3360"
+  },
+  "rows": [
+    {
+      "MVT_ID_mvt": "202680942.0",
+      "SCHED_TIME_UTC_mvt": "2026-01-02 19:45:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-01-03 11:27:00+00:00",
+      "delay": "56520.0",
+      "part": "a",
+      "old": "57791.31645612068",
+      "new_written": "71970.25"
+    },
+    {
+      "MVT_ID_mvt": "202681769.0",
+      "SCHED_TIME_UTC_mvt": "2026-01-04 19:40:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-01-05 04:33:03+00:00",
+      "delay": "31983.0",
+      "part": "b",
+      "old": "30645.84629861218",
+      "new_written": "31983.0"
+    },
+    {
+      "MVT_ID_mvt": "202689507.0",
+      "SCHED_TIME_UTC_mvt": "2026-01-24 21:30:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-01-25 08:45:04+00:00",
+      "delay": "40504.0",
+      "part": "b",
+      "old": "40875.78597436012",
+      "new_written": "40504.0"
+    },
+    {
+      "MVT_ID_mvt": "202683962.0",
+      "SCHED_TIME_UTC_mvt": "2026-01-10 18:35:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-01-11 03:45:55+00:00",
+      "delay": "33055.0",
+      "part": "b",
+      "old": "31483.507935214642",
+      "new_written": "33055.0"
+    },
+    {
+      "MVT_ID_mvt": "213142469.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-04 17:50:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-05 07:05:05+00:00",
+      "delay": "47705.0",
+      "part": "b",
+      "old": "47315.08097596811",
+      "new_written": "47705.0"
+    },
+    {
+      "MVT_ID_mvt": "213145579.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-10 14:50:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-11 21:50:54+00:00",
+      "delay": "111654.0",
+      "part": "a",
+      "old": "106489.09285436802",
+      "new_written": "99537.25"
+    },
+    {
+      "MVT_ID_mvt": "213145102.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-09 20:10:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-10 13:12:02+00:00",
+      "delay": "61322.0",
+      "part": "a",
+      "old": "70537.72318403078",
+      "new_written": "74371.25"
+    },
+    {
+      "MVT_ID_mvt": "213143319.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-05 14:20:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-06 03:52:56+00:00",
+      "delay": "48776.0",
+      "part": "b",
+      "old": "49672.37986082908",
+      "new_written": "48776.0"
+    },
+    {
+      "MVT_ID_mvt": "213154026.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-16 15:30:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-17 08:20:56+00:00",
+      "delay": "60656.0",
+      "part": "a",
+      "old": "66481.46369304396",
+      "new_written": "74038.25"
+    },
+    {
+      "MVT_ID_mvt": "213153677.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-19 20:00:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-20 09:08:57+00:00",
+      "delay": "47337.0",
+      "part": "b",
+      "old": "49118.88552548603",
+      "new_written": "47337.0"
+    },
+    {
+      "MVT_ID_mvt": "213152353.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-19 10:00:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-20 10:18:04+00:00",
+      "delay": "87484.0",
+      "part": "a",
+      "old": "84951.32367209042",
+      "new_written": "87452.25"
+    },
+    {
+      "MVT_ID_mvt": "213155642.0",
+      "SCHED_TIME_UTC_mvt": "2026-07-28 19:10:00+00:00",
+      "MVT_TIME_UTC_mvt": "2026-07-29 05:32:59+00:00",
+      "delay": "37379.0",
+      "part": "b",
+      "old": "37642.57457300659",
+      "new_written": "37379.0"
+    }
+  ],
+  "gain_sse_b_if_copies": 8595913.423223583,
+  "gain_sse_a_per_row": {
+    "if_copy": [
+      -237093979.53089675,
+      -120139364.73949972,
+      -85353371.7578176,
+      -145148587.82352662,
+      6413441.319453533
+    ],
+    "if_plus24": [
+      639178292.4143891,
+      216795602.8831551,
+      114745227.45532781,
+      259358626.4015233,
+      6095823.675809016
+    ]
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "(a) each row +24 h with probability p, independent; (b) copies. Central p = 0.41, best p = 0.58, worst every (a) row a copy",
+    "central": 243.997,
+    "best": 242.154,
+    "worst": 248.388,
+    "all_plus24": 237.538,
+    "outcome_rmse_quantiles_p05": {
+      "0.1": 238.841,
+      "0.5": 243.023,
+      "0.9": 247.135
+    }
+  },
+  "candidate_path": ".cache/research_680/v82/candidate_v82.parquet",
+  "candidate_sha256": "7cd3de077113432042f228013c6bdbeefb5d1b3079183870e1df0827fffdf59d",
+  "verdict": "built"
+}

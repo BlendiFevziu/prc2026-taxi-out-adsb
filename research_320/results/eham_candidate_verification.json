@@ -1,0 +1,62 @@
+{
+  "candidate": "v59",
+  "candidate_sha256": "0faf9ba9ef455b3d6fa2236fa94a1760579a15788a3a5e4421c9fbf95a600893",
+  "checks": {
+    "1_base": {
+      "v58_is_scored": true,
+      "v58_official": 259.9035,
+      "v59_matches_manifest": true
+    },
+    "2_preserved": {
+      "nm_rows": 31160,
+      "nm_unchanged": true,
+      "munich_unchanged": true,
+      "amsterdam_detector_rows": 4188,
+      "amsterdam_detector_unchanged": true,
+      "fallback_unchanged": true,
+      "v57_stand_unchanged": true,
+      "v58_partial_rows": 65938,
+      "v58_partial_unchanged": true,
+      "other_columns_identical": true
+    },
+    "3_no_nm_inputs": {
+      "changed_inside_eham_overlay": true,
+      "changed_rows_not_nm": true,
+      "changed_rows_all_EHAM_January": true,
+      "models": "Codex's EHAM add-on (8d98953), 2025 challenge rows and adsb.lol tracks"
+    },
+    "4_ids": {
+      "v59_equals_template": true,
+      "v59_equals_v58": true
+    },
+    "5_replay": {
+      "model_hashes_ok": true,
+      "rows": 8919,
+      "reverse_order_replay_exact": true,
+      "max_abs_difference_s": 0.0
+    },
+    "6_validation": {
+      "fresh_value_vs_no_addon": {
+        "rows": 3045,
+        "gain_mse": 6980.360360690929,
+        "without_best100": 2898.068149370279
+      },
+      "fresh_weight_1_vs_0_5": {
+        "rows": 3045,
+        "gain_mse": 2312.215138021496,
+        "without_best100": 477.4845474993437
+      },
+      "codex_dates_weight_1_vs_0_5": {
+        "screen": 2279.551937335056,
+        "confirmation": 1504.9686691135712
+      },
+      "scope": "January only, by the add-on's design; EHAM July is v56's own cell",
+      "positive": true
+    },
+    "7_not_duplicate": {
+      "rows_changed": 8919,
+      "hash_differs": true
+    }
+  },
+  "verdict": "verified"
+}

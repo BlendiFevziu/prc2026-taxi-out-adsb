@@ -1,0 +1,14 @@
+{
+  "v70_sha_equals_build": true,
+  "v69_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v69": true,
+  "pruefe_errors": [],
+  "slice_rows_recomputed": 326,
+  "equals_build_slice": true,
+  "rows_changed": 326,
+  "every_change_in_slice": true,
+  "outside_rows_identical_to_v69": true,
+  "refit_reproduces_values": true,
+  "verdict": "verified"
+}

@@ -1,0 +1,194 @@
+{
+  "rows_2025": 160704,
+  "by_delay_quintile": {
+    "0": {
+      "days": 74,
+      "median_delay": 1023.5,
+      "departures": 359.5,
+      "median_taxi": 953.25,
+      "fallback_share": 0.0029,
+      "copies": 6433,
+      "shifts": 4
+    },
+    "1": {
+      "days": 74,
+      "median_delay": 1258.0,
+      "departures": 419.5,
+      "median_taxi": 971.0,
+      "fallback_share": 0.0043,
+      "copies": 7010,
+      "shifts": 0
+    },
+    "2": {
+      "days": 72,
+      "median_delay": 1440.25,
+      "departures": 456.0,
+      "median_taxi": 1028.0,
+      "fallback_share": 0.0063,
+      "copies": 6851,
+      "shifts": 2
+    },
+    "3": {
+      "days": 72,
+      "median_delay": 1619.75,
+      "departures": 481.5,
+      "median_taxi": 1070.0,
+      "fallback_share": 0.0082,
+      "copies": 6785,
+      "shifts": 1
+    },
+    "4": {
+      "days": 73,
+      "median_delay": 1976.5,
+      "departures": 496.0,
+      "median_taxi": 1128.0,
+      "fallback_share": 0.0175,
+      "copies": 6227,
+      "shifts": 7
+    }
+  },
+  "rows_by_quintile": {
+    "0": {
+      "rows": 27098,
+      "fallback": 0.0042,
+      "taxi_median": 953.0,
+      "taxi_p90": 1435.0,
+      "fallback_rows": 114,
+      "copy_rate": 0.5877,
+      "shift_rate": 0.0351
+    },
+    "1": {
+      "rows": 31174,
+      "fallback": 0.005,
+      "taxi_median": 1011.0,
+      "taxi_p90": 1564.0,
+      "fallback_rows": 157,
+      "copy_rate": 0.5796,
+      "shift_rate": 0.0
+    },
+    "2": {
+      "rows": 32140,
+      "fallback": 0.0072,
+      "taxi_median": 1027.0,
+      "taxi_p90": 1668.1,
+      "fallback_rows": 233,
+      "copy_rate": 0.6524,
+      "shift_rate": 0.0086
+    },
+    "3": {
+      "rows": 34279,
+      "fallback": 0.0088,
+      "taxi_median": 1071.0,
+      "taxi_p90": 1748.0,
+      "fallback_rows": 302,
+      "copy_rate": 0.5033,
+      "shift_rate": 0.0033
+    },
+    "4": {
+      "rows": 36013,
+      "fallback": 0.0189,
+      "taxi_median": 1135.0,
+      "taxi_p90": 2032.0,
+      "fallback_rows": 682,
+      "copy_rate": 0.3812,
+      "shift_rate": 0.0088
+    }
+  },
+  "worst_days_2025": {
+    "2025-07-13": {
+      "departures": 479,
+      "median_delay": 4496.0,
+      "fallback_share": 0.071,
+      "median_taxi": 1987.0,
+      "copies": 67,
+      "shifts": 0
+    },
+    "2025-07-28": {
+      "departures": 512,
+      "median_delay": 3689.5,
+      "fallback_share": 0.037,
+      "median_taxi": 1559.5,
+      "copies": 75,
+      "shifts": 0
+    },
+    "2025-07-14": {
+      "departures": 522,
+      "median_delay": 2879.5,
+      "fallback_share": 0.038,
+      "median_taxi": 1252.5,
+      "copies": 78,
+      "shifts": 1
+    },
+    "2025-07-03": {
+      "departures": 478,
+      "median_delay": 2463.0,
+      "fallback_share": 0.048,
+      "median_taxi": 1077.0,
+      "copies": 63,
+      "shifts": 1
+    },
+    "2025-07-07": {
+      "departures": 498,
+      "median_delay": 2457.5,
+      "fallback_share": 0.024,
+      "median_taxi": 1189.0,
+      "copies": 84,
+      "shifts": 0
+    },
+    "2025-07-05": {
+      "departures": 473,
+      "median_delay": 2454.0,
+      "fallback_share": 0.03,
+      "median_taxi": 1085.0,
+      "copies": 53,
+      "shifts": 0
+    },
+    "2025-10-02": {
+      "departures": 463,
+      "median_delay": 2404.0,
+      "fallback_share": 0.015,
+      "median_taxi": 1323.0,
+      "copies": 94,
+      "shifts": 0
+    },
+    "2025-10-03": {
+      "departures": 478,
+      "median_delay": 2397.5,
+      "fallback_share": 0.021,
+      "median_taxi": 1268.5,
+      "copies": 83,
+      "shifts": 0
+    }
+  },
+  "2025_month_1": {
+    "departures": 11317,
+    "median_sched_delay_s": 1144.0,
+    "p90_sched_delay_s": 2874.0,
+    "fallback_share": 0.005301758416541486
+  },
+  "2025_month_7": {
+    "departures": 15211,
+    "median_sched_delay_s": 2094.0,
+    "p90_sched_delay_s": 5460.0,
+    "fallback_share": 0.022155019393859707
+  },
+  "2026_month_1": {
+    "departures": 11061,
+    "median_sched_delay_s": 1195.0,
+    "p90_sched_delay_s": 3420.0,
+    "fallback_share": 0.009673628062562155
+  },
+  "2026_month_7": {
+    "departures": 15838,
+    "median_sched_delay_s": 1917.0,
+    "p90_sched_delay_s": 5045.0,
+    "fallback_share": 0.017426442732668267
+  },
+  "july_5_2026_window": {
+    "departures_in_window": 246,
+    "median_sched_delay_s": 1862.0,
+    "fallback_share": 0.008130081300813009,
+    "july_2026_other_days_median_delay_s": 1918.0,
+    "july_2026_other_days_fallback_share": 0.01724813798510388
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "selection_pairs": [
+    "1_7",
+    "3_9",
+    "5_11"
+  ],
+  "per_pair": {
+    "1_7": {
+      "shipped": 1752.8502344487918,
+      "swap_classifier": 1827.2905485452482,
+      "swap_height": 1771.3214231649558,
+      "swap_normal": 1752.853201254359,
+      "swap_offset": 1761.139496140961,
+      "all_catboost": 1862.8880831458875,
+      "shipped_equals_saved_max_diff_s": 1.4551915228366852e-11,
+      "auc": {
+        "lightgbm": 0.9667187573874678,
+        "catboost": 0.9625693333300156
+      }
+    },
+    "3_9": {
+      "shipped": 1110.4986842115939,
+      "swap_classifier": 1518.2510623527246,
+      "swap_height": 1124.1791649505974,
+      "swap_normal": 1110.4838108091399,
+      "swap_offset": 1115.8167759129294,
+      "all_catboost": 1539.1911807477745,
+      "shipped_equals_saved_max_diff_s": 1.4551915228366852e-11,
+      "auc": {
+        "lightgbm": 0.9935474070089455,
+        "catboost": 0.9874484489869105
+      }
+    },
+    "5_11": {
+      "shipped": 1904.323328614221,
+      "swap_classifier": 2003.9814328448228,
+      "swap_height": 1937.6342097095883,
+      "swap_normal": 1904.323328614221,
+      "swap_offset": 1907.7657413852148,
+      "all_catboost": 2044.9442575281334,
+      "shipped_equals_saved_max_diff_s": 3.637978807091713e-12,
+      "auc": {
+        "lightgbm": 0.9829356126345018,
+        "catboost": 0.984393439777855
+      }
+    }
+  },
+  "classifier": {
+    "lgb": {
+      "auc": 0.9750342908077907,
+      "log_loss": 0.06216055547330124,
+      "brier": 0.010552193702758561
+    },
+    "cat": {
+      "auc": 0.9756107864848759,
+      "log_loss": 0.03999901555721132,
+      "brier": 0.00964568147102644
+    }
+  },
+  "height_rmse_on_extreme_rows": {
+    "lightgbm": 7725.58613737883,
+    "catboost": 7506.0986399027315
+  },
+  "normal_rmse_on_normal_rows": {
+    "lightgbm": 417.1833852671631,
+    "catboost": 432.3174517927981
+  },
+  "anchored_normal_rmse": {
+    "lightgbm": 406.8447983762085,
+    "catboost": 421.9495798785592
+  },
+  "fallback_rmse_single_swaps": {
+    "shipped": 1631.3179696117659,
+    "swap_classifier": 1788.5427288321316,
+    "swap_height": 1652.7710497467967,
+    "swap_normal": 1631.3163871218921,
+    "swap_offset": 1637.429380374643,
+    "all_catboost": 1821.7382574253595
+  }
+}

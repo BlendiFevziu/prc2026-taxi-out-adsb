@@ -1,0 +1,425 @@
+{
+  "reports": [
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 5373,
+      "seconds": 7.946295976638794,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 1759.2774594972313,
+          "mse": 3095057.1794950324,
+          "top5_sse_share": 0.6828921369166298
+        },
+        "traffic_replaced": {
+          "rmse": 1767.681343806723,
+          "mse": 3124697.3332423414,
+          "top5_sse_share": 0.6863500999001756
+        }
+      },
+      "mse_gain": -29640.153747309,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 3438,
+      "seconds": 8.247349977493286,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 1365.8532801384467,
+          "mse": 1865555.182864954,
+          "top5_sse_share": 0.2767196853960844
+        },
+        "traffic_replaced": {
+          "rmse": 1325.6406545603322,
+          "mse": 1757323.1450231462,
+          "top5_sse_share": 0.2732905351617572
+        }
+      },
+      "mse_gain": 108232.03784180782,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 3549,
+      "seconds": 8.194143056869507,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 1104.6775044611127,
+          "mse": 1220312.3888624315,
+          "top5_sse_share": 0.5792998054753128
+        },
+        "traffic_replaced": {
+          "rmse": 1149.9442958002699,
+          "mse": 1322371.8834435784,
+          "top5_sse_share": 0.5822576199784354
+        }
+      },
+      "mse_gain": -102059.49458114686,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    },
+    {
+      "pair": [
+        4,
+        10
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 2998,
+      "seconds": 8.026455879211426,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 784.0200284769749,
+          "mse": 614687.4050530364,
+          "top5_sse_share": 0.23024590977881781
+        },
+        "traffic_replaced": {
+          "rmse": 773.9877881600754,
+          "mse": 599057.0962209257,
+          "top5_sse_share": 0.23205372591910278
+        }
+      },
+      "mse_gain": 15630.30883211072,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    },
+    {
+      "pair": [
+        5,
+        11
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 2961,
+      "seconds": 7.964039087295532,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 1912.549817631745,
+          "mse": 3657846.8049232215,
+          "top5_sse_share": 0.9035537084459352
+        },
+        "traffic_replaced": {
+          "rmse": 1936.2016270674967,
+          "mse": 3748876.7406588215,
+          "top5_sse_share": 0.9087217060401647
+        }
+      },
+      "mse_gain": -91029.93573560007,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    },
+    {
+      "pair": [
+        6,
+        12
+      ],
+      "validation": "fixed fallback-only temporal screen; not a leaderboard result",
+      "mode": "replace_traffic",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_ver_ank",
+        "um_versp_ank",
+        "q_stand",
+        "q_stand_n",
+        "id_abw",
+        "id_abw2",
+        "ank_med_30min",
+        "ank_med_90min"
+      ],
+      "bootstrap_seeds": [],
+      "equal_weight_members": [],
+      "rows": 4151,
+      "seconds": 8.162541151046753,
+      "scores": {
+        "v44_fallback": {
+          "rmse": 1633.5378675668649,
+          "mse": 2668445.9647749,
+          "top5_sse_share": 0.7279764873048796
+        },
+        "traffic_replaced": {
+          "rmse": 1632.4181742809014,
+          "mse": 2664789.0957225915,
+          "top5_sse_share": 0.7317983371688461
+        }
+      },
+      "mse_gain": 3656.8690523086116,
+      "prespecified_fallback_mse_gain_bar": null,
+      "clears_screen_bar": null,
+      "code_sha256": {
+        "fallback_bagging_screen.py": "4a9ba3520d2c43144e7d378465bc1e414e1cb7680ba71e68273e3570041d9948",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+      }
+    }
+  ],
+  "summary": {
+    "rows": 22470,
+    "positive_pairs": 3,
+    "baseline_pooled_rmse": 1508.392868262219,
+    "candidate_pooled_rmse": 1513.6481937356145,
+    "mse_gain": -15881.809374764096
+  }
+}

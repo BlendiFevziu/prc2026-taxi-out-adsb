@@ -1,0 +1,193 @@
+{
+  "note": "label-free; prediction changes of the scored v45 fallback when legacy auslast is put on its twelve-month training scale; not an error or RMSE change",
+  "replication_gate": {
+    "rows": 5290,
+    "max_abs_difference_s": 0.0,
+    "tolerance_s": 0.05,
+    "ranking_spans": [
+      [
+        "2026-01-01 00:00:00+00:00",
+        "2026-02-01 00:00:00+00:00"
+      ],
+      [
+        "2026-07-01 00:00:00+00:00",
+        "2026-08-01 00:00:00+00:00"
+      ]
+    ],
+    "passed": true
+  },
+  "factor_training_over_ranking": {
+    "median": 1.3440860215053763,
+    "p10": 1.0,
+    "p90": 1.849151278302111
+  },
+  "all_fallback_rows": {
+    "rows": 5290,
+    "mean_abs_delta_s": 80.22653302126376,
+    "median_delta_s": 0.0,
+    "mean_delta_s": -69.44185279014206,
+    "rows_over_5_min": 137,
+    "rows_over_15_min": 72,
+    "rows_over_30_min": 44,
+    "max_abs_delta_s": 17364.918988233003,
+    "mean_abs_q_change": 0.006481957482831481
+  },
+  "extreme_weight_q_ge_0_1": {
+    "rows": 162,
+    "mean_abs_delta_s": 1744.6695128429903,
+    "median_delta_s": -419.637652023619,
+    "mean_delta_s": -1730.1904957287634,
+    "rows_over_5_min": 85,
+    "rows_over_15_min": 66,
+    "rows_over_30_min": 44,
+    "max_abs_delta_s": 17364.918988233003,
+    "mean_abs_q_change": 0.20616783379188905
+  },
+  "schiphol_2_to_6_january": {
+    "rows": 477,
+    "mean_abs_delta_s": 0.0,
+    "median_delta_s": 0.0,
+    "mean_delta_s": 0.0,
+    "rows_over_5_min": 0,
+    "rows_over_15_min": 0,
+    "rows_over_30_min": 0,
+    "max_abs_delta_s": 0.0,
+    "mean_abs_q_change": 0.0
+  },
+  "by_month": {
+    "1": {
+      "rows": 2453,
+      "mean_abs_delta_s": 17.08228215597071,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -5.350125775501026,
+      "rows_over_5_min": 6,
+      "rows_over_15_min": 5,
+      "rows_over_30_min": 2,
+      "max_abs_delta_s": 2194.3962876865644,
+      "mean_abs_q_change": 0.0010119450873176932
+    },
+    "7": {
+      "rows": 2837,
+      "mean_abs_delta_s": 134.8239413302394,
+      "median_delta_s": -8.027526235816822,
+      "mean_delta_s": -124.85849232729905,
+      "rows_over_5_min": 131,
+      "rows_over_15_min": 67,
+      "rows_over_30_min": 42,
+      "max_abs_delta_s": 17364.918988233003,
+      "mean_abs_q_change": 0.011211580467038504
+    }
+  },
+  "by_airport": {
+    "EDDF": {
+      "rows": 421,
+      "mean_abs_delta_s": 14.655559058787654,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -6.971765949901129,
+      "rows_over_5_min": 0,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 178.62728541256524,
+      "mean_abs_q_change": 1.9775412484514875e-09
+    },
+    "EDDM": {
+      "rows": 238,
+      "mean_abs_delta_s": 42.28559441204034,
+      "median_delta_s": -6.136815500212833e-10,
+      "mean_delta_s": -41.301490396917984,
+      "rows_over_5_min": 4,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 411.324822012529,
+      "mean_abs_q_change": 5.137244805263855e-08
+    },
+    "EGLL": {
+      "rows": 248,
+      "mean_abs_delta_s": 27.56287671924362,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -11.429568727712542,
+      "rows_over_5_min": 1,
+      "rows_over_15_min": 1,
+      "rows_over_30_min": 1,
+      "max_abs_delta_s": 2194.3962876865644,
+      "mean_abs_q_change": 0.0015869901365807388
+    },
+    "EHAM": {
+      "rows": 1206,
+      "mean_abs_delta_s": 10.613888345282922,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -0.7847289003859736,
+      "rows_over_5_min": 0,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 143.00384032538045,
+      "mean_abs_q_change": 1.2120702816755485e-10
+    },
+    "LEBL": {
+      "rows": 442,
+      "mean_abs_delta_s": 23.327711088813402,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -9.163375104567749,
+      "rows_over_5_min": 0,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 192.44458601532142,
+      "mean_abs_q_change": 1.3306934219887883e-14
+    },
+    "LEMD": {
+      "rows": 238,
+      "mean_abs_delta_s": 21.744309321582225,
+      "median_delta_s": -9.504768183528995,
+      "mean_delta_s": -16.595344138691104,
+      "rows_over_5_min": 0,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 146.35563688590037,
+      "mean_abs_q_change": 2.0189267712257483e-06
+    },
+    "LFPG": {
+      "rows": 734,
+      "mean_abs_delta_s": 20.86004553056012,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -12.126079360796702,
+      "rows_over_5_min": 2,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 415.4686758188275,
+      "mean_abs_q_change": 4.494402621279219e-06
+    },
+    "LIRF": {
+      "rows": 383,
+      "mean_abs_delta_s": 822.151250008694,
+      "median_delta_s": -69.70748877759092,
+      "mean_delta_s": -803.8784751967397,
+      "rows_over_5_min": 126,
+      "rows_over_15_min": 68,
+      "rows_over_30_min": 42,
+      "max_abs_delta_s": 17364.918988233003,
+      "mean_abs_q_change": 0.0834991420833147
+    },
+    "LSZH": {
+      "rows": 659,
+      "mean_abs_delta_s": 39.09152827214695,
+      "median_delta_s": -8.504676830139829,
+      "mean_delta_s": -35.456513904982174,
+      "rows_over_5_min": 1,
+      "rows_over_15_min": 0,
+      "rows_over_30_min": 0,
+      "max_abs_delta_s": 310.74094238998373,
+      "mean_abs_q_change": 1.539029565742646e-08
+    },
+    "LTFM": {
+      "rows": 721,
+      "mean_abs_delta_s": 23.697561517321365,
+      "median_delta_s": 0.0,
+      "mean_delta_s": -3.6752737397388153,
+      "rows_over_5_min": 3,
+      "rows_over_15_min": 3,
+      "rows_over_30_min": 1,
+      "max_abs_delta_s": 2129.032574054656,
+      "mean_abs_q_change": 0.0026518826195943423
+    }
+  }
+}

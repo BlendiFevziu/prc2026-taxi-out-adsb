@@ -1,0 +1,49 @@
+{
+  "submission": "upbeat-goblin_v80.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v80.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 245.046
+  },
+  "score": 245.046,
+  "previous": {
+    "version": "v77",
+    "score": 246.3837
+  },
+  "gain_s": 1.3377,
+  "file_sha256": "e0fb35f0d0ab62322f8d8a1fd84287d9f52065ccebfae700530afa5f5d11ae2e",
+  "recipe": "v77 + v78 (CatBoost averaged into C1+ and K2+) + v79 (CatBoost into the drift-robust models and the old C1) + v80 (Paris drift-robust C1 and C1+ in the Amsterdam January average, owner's retroactive exception); research_640_tail_rule; each built and verified; NM-free",
+  "prediction_fixed_before_upload": {
+    "from": "v77 official 246.3837, the three steps' fixed central/best/worst added",
+    "steps_s": {
+      "v78": [
+        -0.22,
+        -0.33,
+        -0.08
+      ],
+      "v79": [
+        -0.29,
+        -0.46,
+        -0.08
+      ],
+      "v80": [
+        -0.21,
+        -0.42,
+        0.21
+      ]
+    },
+    "central": 245.66,
+    "best": 245.17,
+    "worst": 246.43
+  },
+  "realised_mse_per_scored_row": 657.4,
+  "predicted_central_mse_per_scored_row": 356.1,
+  "realised_over_central": 1.85,
+  "note": "v78 and v79 were never uploaded alone; v80 carries v78-v80. Beat the fixed best case (245.17). Uploaded 1 October 2026 about 06:52 UTC, once."
+}

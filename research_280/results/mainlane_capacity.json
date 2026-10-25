@@ -1,0 +1,77 @@
+{
+  "note": "single LightGBM on rest; holdout January/July never fitted on; rounds fixed, never chosen on the holdout",
+  "ensemble_rmse": 216.773,
+  "single_tree_reference": 223.731,
+  "runs": [
+    {
+      "run": "learning 12.5%",
+      "rows": 215441,
+      "leaves": 255,
+      "rounds": 1400,
+      "train_rmse": 90.86335255669432,
+      "hold_rmse": 246.56366549879175,
+      "seconds": 96.29662799835205,
+      "fit_gap": 155.7003129420974
+    },
+    {
+      "run": "learning 25%",
+      "rows": 430883,
+      "leaves": 255,
+      "rounds": 1400,
+      "train_rmse": 114.08031786983643,
+      "hold_rmse": 239.11442160720443,
+      "seconds": 117.43505001068115,
+      "fit_gap": 125.034103737368
+    },
+    {
+      "run": "learning 50%",
+      "rows": 861766,
+      "leaves": 255,
+      "rounds": 1400,
+      "train_rmse": 134.54623817024824,
+      "hold_rmse": 231.8055936186577,
+      "seconds": 142.14621376991272,
+      "fit_gap": 97.25935544840945
+    },
+    {
+      "run": "capacity 63 leaves",
+      "rows": 1723531,
+      "leaves": 63,
+      "rounds": 1400,
+      "train_rmse": 181.55347773139857,
+      "hold_rmse": 228.1261309304783,
+      "seconds": 74.01835799217224,
+      "fit_gap": 46.572653199079724
+    },
+    {
+      "run": "capacity 255 leaves",
+      "rows": 1723531,
+      "leaves": 255,
+      "rounds": 1400,
+      "train_rmse": 151.36763337486283,
+      "hold_rmse": 226.6126046335244,
+      "seconds": 221.3136110305786,
+      "fit_gap": 75.24497125866156
+    },
+    {
+      "run": "capacity 1023 leaves",
+      "rows": 1723531,
+      "leaves": 1023,
+      "rounds": 1400,
+      "train_rmse": 108.65988480250546,
+      "hold_rmse": 227.65838165182726,
+      "seconds": 569.671957731247,
+      "fit_gap": 118.9984968493218
+    },
+    {
+      "run": "capacity 255 x 3000 rounds",
+      "rows": 1723531,
+      "leaves": 255,
+      "rounds": 3000,
+      "train_rmse": 135.2365336936319,
+      "hold_rmse": 227.4390455067147,
+      "seconds": 396.6740550994873,
+      "fit_gap": 92.2025118130828
+    }
+  ]
+}

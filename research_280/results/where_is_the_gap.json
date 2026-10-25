@@ -1,0 +1,71 @@
+{
+  "note": "algebra on the official score and the known scored composition; no leaderboard probing, no per-row feedback used",
+  "scored_rows": 344841,
+  "main_rows": 339551,
+  "fallback_rows": 5290,
+  "our_official": 266.4508,
+  "leader_official": 239.13,
+  "holdout": {
+    "main": 216.773,
+    "fallback": 1756.91,
+    "total": 307.26
+  },
+  "scenarios": [
+    {
+      "our_main_rmse": 170,
+      "implied_our_fallback_rmse": 1665.2410983973894,
+      "main_share_of_sse": 0.40082047994157394,
+      "leader_main_if_fallback_tied": 121.95053036831366,
+      "leader_fallback_if_main_tied": 1368.431076891641
+    },
+    {
+      "our_main_rmse": 180,
+      "implied_our_fallback_rmse": 1596.3621909561248,
+      "main_share_of_sse": 0.449362752598858,
+      "leader_main_if_fallback_tied": 135.54309962928025,
+      "leader_fallback_if_main_tied": 1283.7242465285572
+    },
+    {
+      "our_main_rmse": 190,
+      "implied_our_fallback_rmse": 1520.157592724524,
+      "main_share_of_sse": 0.5006788694079869,
+      "leader_main_if_fallback_tied": 148.56625409935123,
+      "leader_fallback_if_main_tied": 1187.6256999278403
+    },
+    {
+      "our_main_rmse": 200,
+      "implied_our_fallback_rmse": 1435.4610763803682,
+      "main_share_of_sse": 0.5547688303689605,
+      "leader_main_if_fallback_tied": 161.1580958472549,
+      "leader_fallback_if_main_tied": 1077.0906174571192
+    },
+    {
+      "our_main_rmse": 210,
+      "implied_our_fallback_rmse": 1340.6641749407036,
+      "main_share_of_sse": 0.6116326354817789,
+      "leader_main_if_fallback_tied": 173.4126058195107,
+      "leader_fallback_if_main_tied": 947.0776770574365
+    },
+    {
+      "our_main_rmse": 216.773,
+      "implied_our_fallback_rmse": 1269.5844939150657,
+      "main_share_of_sse": 0.6517220831074187,
+      "leader_main_if_fallback_tied": 181.5556812278619,
+      "leader_fallback_if_main_tied": 843.4574580858517
+    },
+    {
+      "our_main_rmse": 225,
+      "implied_our_fallback_rmse": 1174.1201266251996,
+      "main_share_of_sse": 0.7021293009357157,
+      "leader_main_if_fallback_tied": 191.30324580914197,
+      "leader_fallback_if_main_tied": 691.47217453593
+    },
+    {
+      "our_main_rmse": 240,
+      "implied_our_fallback_rmse": 964.8064121657799,
+      "main_share_of_sse": 0.7988671157313031,
+      "leader_main_if_fallback_tied": 208.73890834512142,
+      "leader_fallback_if_main_tied": 174.43368186012006
+    }
+  ]
+}

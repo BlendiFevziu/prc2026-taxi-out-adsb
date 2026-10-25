@@ -1,0 +1,36 @@
+{
+  "submission": "upbeat-goblin_v82.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v82.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 247.3075
+  },
+  "score": 247.3075,
+  "previous": {
+    "version": "v80",
+    "score": 245.046
+  },
+  "gain_s": -2.2615,
+  "file_sha256": "7cd3de077113432042f228013c6bdbeefb5d1b3079183870e1df0827fffdf59d",
+  "recipe": "v80 + v81 (CatBoost in the Amsterdam January add-on, research_650_eham_cat, pre-registered pass) + v82 (Rome overnight rule on 12 rows, research_680_rome_overnight, post-hoc, disclosed); each built and verified; NM-free",
+  "prediction_fixed_before_upload": {
+    "from": "v81 central 245.02 (v80 official 245.046)",
+    "assumptions": "(a) each row +24 h with probability p, independent; (b) copies. Central p = 0.41, best p = 0.58, worst every (a) row a copy",
+    "central": 243.997,
+    "best": 242.154,
+    "worst": 248.388,
+    "all_plus24": 237.538,
+    "outcome_rmse_quantiles_p05": {
+      "0.1": 238.841,
+      "0.5": 243.023,
+      "0.9": 247.135
+    }
+  },
+  "note": "Worse than v80 by 2.26 s, inside the fixed range (worst 248.39), near the 90th outcome percentile 247.14. v81 was never uploaded alone; v82 carries v81 and the post-hoc Rome rule. v80 stays the best that counts. Uploaded 1 October 2026 about 07:25 UTC, once. Per the note, v81 must not be uploaded now; the score is not decoded row by row."
+}

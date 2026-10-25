@@ -1,0 +1,205 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe, production encoding; not full ensemble; not a leaderboard forecast",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 3.637978807091713e-12,
+      "prod_anchor_max_diff": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "fallback_gate_agreement_screen.py": "77cbe2d83e0f8daf73fb90f3f0266473df51819fefb811495c3dd0590eb5fecb",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "auc_pooled": {
+    "lgb": 0.9723279594666678,
+    "cb": 0.9721226254209244,
+    "mean": 0.9727108620760951
+  },
+  "mean_probability": {
+    "extremes": {
+      "lgb": 0.654471745615948,
+      "cb": 0.6455977858965694
+    },
+    "normal": {
+      "lgb": 0.004781321632123422,
+      "cb": 0.008272390301664418
+    }
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "G1_mean_gate": 1506.1601880074493,
+    "G2_geometric_gate": 1514.3876921760793,
+    "G3_min_gate": 1587.5685557440854
+  },
+  "rmse_normal_rows": {
+    "prod_anchor": 607.0319298290894,
+    "G1_mean_gate": 542.1982723821377,
+    "G2_geometric_gate": 535.0031015285796,
+    "G3_min_gate": 501.4503549606337
+  },
+  "variants": {
+    "G1_mean_gate": {
+      "pooled_mse_gain": -60079.274600228215,
+      "mse_gain_without_top100_rows": -174547.00569325086,
+      "normal_rows_mse_gain_contribution": 71932.32482931124,
+      "extreme_rows_mse_gain_contribution": -132011.59942953943,
+      "pair_gains": {
+        "1_7": -72225.5378488598,
+        "2_8": 151447.16017189968,
+        "3_9": -244085.96658709826,
+        "4_10": 41898.41716830253,
+        "5_11": -117802.30150025738,
+        "6_12": -94706.47231676515
+      },
+      "pairs_positive": 2,
+      "january_gain_1_7": 57777.23630782196,
+      "july_gain_1_7": -119598.31106237891,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -195376.84103629773,
+        40634.46114437418
+      ],
+      "airport_contributions": {
+        "EDDF": 0.11750304043805168,
+        "EDDM": 0.03169460645404828,
+        "EGLL": -1314.2449705015872,
+        "EHAM": -44.26489081731707,
+        "LEBL": -0.0009097433982319043,
+        "LEMD": 0.04788526428479109,
+        "LFPG": -2.2820558896343672,
+        "LIRF": -60531.51605640574,
+        "LSZH": 1.203616813268488,
+        "LTFM": 1811.6335834050305
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 269.95187721554083,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "G2_geometric_gate": {
+      "pooled_mse_gain": -84930.84487598513,
+      "mse_gain_without_top100_rows": -196003.5089151628,
+      "normal_rows_mse_gain_contribution": 79414.95969906014,
+      "extreme_rows_mse_gain_contribution": -164345.8045750453,
+      "pair_gains": {
+        "1_7": -92609.97903181396,
+        "2_8": 141428.15967246168,
+        "3_9": -287924.91206023254,
+        "4_10": 37971.20538504324,
+        "5_11": -129386.47920169814,
+        "6_12": -145967.59236466856
+      },
+      "pairs_positive": 2,
+      "january_gain_1_7": 59691.518229413894,
+      "july_gain_1_7": -148108.36617499884,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -233050.6846960928,
+        24299.401934745518
+      ],
+      "airport_contributions": {
+        "EDDF": 0.0282442756552132,
+        "EDDM": -0.0008738733902377675,
+        "EGLL": -1910.7137121610551,
+        "EHAM": -55.11922518600386,
+        "LEBL": 0.0009138510728003607,
+        "LEMD": 0.009212768715899254,
+        "LFPG": -3.0055168729310897,
+        "LIRF": -84520.34439055271,
+        "LSZH": 0.01224156370014221,
+        "LTFM": 1558.2882302018081
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 270.6570692256658,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "G3_min_gate": {
+      "pooled_mse_gain": -311934.6818489542,
+      "mse_gain_without_top100_rows": -431222.346580027,
+      "normal_rows_mse_gain_contribution": 112988.29011043473,
+      "extreme_rows_mse_gain_contribution": -424922.9719593889,
+      "pair_gains": {
+        "1_7": -460096.05071852903,
+        "2_8": 118793.91010982076,
+        "3_9": -715324.9783798286,
+        "4_10": -17052.459706276775,
+        "5_11": -298149.6696757714,
+        "6_12": -354819.77576813253
+      },
+      "pairs_positive": 1,
+      "january_gain_1_7": 58812.74297458565,
+      "july_gain_1_7": -649185.4663989809,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -632183.2636800586,
+        -79345.14835993528
+      ],
+      "airport_contributions": {
+        "EDDF": -0.004141873816601027,
+        "EDDM": 0.0,
+        "EGLL": -2042.1086255216385,
+        "EHAM": -60.411189327998684,
+        "LEBL": 0.0010768968975866857,
+        "LEMD": 0.0,
+        "LFPG": -3.3654325948811095,
+        "LIRF": -311339.02838845534,
+        "LSZH": 0.0004131523679492365,
+        "LTFM": 1510.2344387702913
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 277.01548606923876,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 50.403579235076904
+}

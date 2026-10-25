@@ -1,0 +1,55 @@
+{
+  "prereg": "research_450_stand_january/PREREG_stand_weight.md",
+  "development": {
+    "rows": 3099,
+    "gain_mse": 3069.9047275193802,
+    "by_cell": {
+      "EDDF/01": 1496.7204378881659,
+      "EDDF/07": 3764.5659339763465,
+      "EGLL/01": 3284.545156617216,
+      "LEBL/01": 2621.5022939848527,
+      "LEBL/07": 3381.54392568266
+    }
+  },
+  "confirmation": {
+    "rows": 2984,
+    "gain_mse": 3518.9398637335335,
+    "without_best100": 1537.868984428273,
+    "by_month": {
+      "01": 4004.1718561558305,
+      "07": 3002.8355730381713
+    },
+    "by_cell": {
+      "EDDF/01": {
+        "rows": 343,
+        "gain_mse": 2298.211903960414
+      },
+      "EDDF/07": {
+        "rows": 531,
+        "gain_mse": 3988.468399157182
+      },
+      "EGLL/01": {
+        "rows": 765,
+        "gain_mse": 6143.86772304916
+      },
+      "LEBL/01": {
+        "rows": 430,
+        "gain_mse": 1558.3042408759
+      },
+      "LEBL/07": {
+        "rows": 915,
+        "gain_mse": 2430.845375585501
+      }
+    }
+  },
+  "rows_at_weight_one": 17147,
+  "planning_full_s": 0.34132348415306524,
+  "rules": {
+    "1_development_positive": true,
+    "2_confirmation_positive": true,
+    "3_confirmation_without_best_100": true,
+    "4_both_months": true,
+    "5_planning_at_least_0_1_s": true
+  },
+  "verdict": "pass"
+}

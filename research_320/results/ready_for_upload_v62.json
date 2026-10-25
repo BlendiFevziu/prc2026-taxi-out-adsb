@@ -1,0 +1,16 @@
+{
+  "version": "v62",
+  "key": "upbeat-goblin_v62.parquet",
+  "candidate_path": ".cache/research_320/v62/candidate_v62.parquet",
+  "candidate_sha256": "b470b0473da79308f1d5831209b80da3c0b6e2f2beb1ad1b92ae86d1e03dca98",
+  "recipe": "Exact scored v61 (NM-free) with the partial-track correction C1 (800 x 31, research_320/PREREG_capacity2.md) in place of arm 4 on the same 72,977 rows; research_320/build_v62.py, verified by research_320/verify_v62.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "B2 gain per row times 2026 rows (299.7 MSE per scored row at full transfer); central at v60's 0.88, range 1.2 (v59 realised 1.17) to 0.5",
+    "central": 258.43,
+    "best": 258.24,
+    "worst": 258.65,
+    "full_transfer": 258.36
+  },
+  "verification": "verified",
+  "authorised": "Owner, 28 September 2026: 'build it and upload it'"
+}

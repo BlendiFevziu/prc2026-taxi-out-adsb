@@ -1,0 +1,13 @@
+{
+  "v75_sha_equals_build": true,
+  "v74_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v74": true,
+  "pruefe_errors": [],
+  "rows_changed": 139,
+  "every_change_fallback_owned_at_lebl_or_lszh": true,
+  "changes_in_support": true,
+  "changed_rows_rederived": true,
+  "rederived_values_equal": true,
+  "verdict": "verified"
+}

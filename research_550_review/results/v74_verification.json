@@ -1,0 +1,14 @@
+{
+  "v74_sha_equals_build": true,
+  "v73_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v73": true,
+  "pruefe_errors": [],
+  "rows_changed": 353,
+  "every_change_fallback_owned_at_eham_or_eddm": true,
+  "changes_in_support": true,
+  "rederived_rows": 353,
+  "rederived_set_equals_changed": true,
+  "rederived_values_equal": true,
+  "verdict": "verified"
+}

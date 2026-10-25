@@ -1,0 +1,16 @@
+{
+  "version": "v61",
+  "key": "upbeat-goblin_v61.parquet",
+  "candidate_path": ".cache/research_320/nmfree_plus/candidate_nmfree_plus.parquet",
+  "candidate_sha256": "51bd6d5441cd12b84268eb51cc3a5bf860e9aaee1071fbd4b82092663bda1ff4",
+  "recipe": "NM-free: Codex's external-NM-free reference (5f6f8632, 30,009 NM rows back to the pre-NM ensemble) plus the frozen partial-track, stand and Amsterdam January layers on 8,505 rows of days 6/13/20 they had been kept off (research_320/build_nmfree_plus.py); verified by research_320/verify_nmfree_plus.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "NM value per restored row 7,883 MSE (v52 realised), range 5,000 to 10,000; ADS-B layers at 0.88 transfer (v60), range 0.5 to 1.0",
+    "reference_alone_central": 259.54,
+    "central": 259.02,
+    "best": 258.47,
+    "worst": 259.6
+  },
+  "verification": "verified",
+  "authorised": "Owner, 28 September 2026: 'yes upload the NM-free version'"
+}

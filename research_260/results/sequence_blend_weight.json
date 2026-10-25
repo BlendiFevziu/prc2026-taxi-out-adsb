@@ -1,0 +1,66 @@
+{
+  "note": "January/July cross-month weight selection on the candidate-stage frozen ensemble; two sequence seeds; not six-pair",
+  "baseline_saved_main_rmse": 216.7734634758806,
+  "rmse_by_weight": {
+    "0.15": {
+      "january": 196.13806989927085,
+      "july": 230.84488114695625,
+      "both": 215.9486307003852
+    },
+    "0.2": {
+      "january": 195.93600427264516,
+      "july": 230.37534482878473,
+      "both": 215.58972792373962
+    },
+    "0.25": {
+      "january": 195.81234033642886,
+      "july": 229.99286476576637,
+      "both": 215.31412571818709
+    },
+    "0.3": {
+      "january": 195.76651362517237,
+      "july": 229.69740952745835,
+      "both": 215.12157852713196
+    },
+    "0.35": {
+      "january": 195.7987437010734,
+      "july": 229.4907895792068,
+      "both": 215.01324380700552
+    },
+    "0.4": {
+      "january": 195.9097134685696,
+      "july": 229.37350829139578,
+      "both": 214.989698866829
+    },
+    "0.45": {
+      "january": 196.0990474197045,
+      "july": 229.34566363777063,
+      "both": 215.05084955489443
+    },
+    "0.5": {
+      "january": 196.3664973937862,
+      "july": 229.40589994999965,
+      "both": 215.19579960669083
+    }
+  },
+  "w_selected_on_january": 0.3,
+  "w_selected_on_july": 0.45,
+  "cross_applied": {
+    "july_mse_gain": 135.81789953919116,
+    "january_mse_gain": -112.36377088607487,
+    "main_mse_gain": 24.355528246429458,
+    "main_mse_gain_without_top100_rows": -90.69536784142596,
+    "main_rmse_w025": 215.31412571818709,
+    "main_rmse_cross": 215.25756015884983
+  },
+  "release_weight": 0.4,
+  "checks": {
+    "1_both_cross_month_applications_improve": false,
+    "2_positive_without_top100_rows": false,
+    "3_selected_weights_within_0_10": false,
+    "4_release_weight_differs_from_0_25": true
+  },
+  "decision": {
+    "rebuild_with_new_weight": false
+  }
+}

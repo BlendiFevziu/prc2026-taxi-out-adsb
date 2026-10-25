@@ -1,0 +1,11 @@
+{
+  "v82_sha_equals_build": true,
+  "ids_order_equal": true,
+  "pruefe_errors": [],
+  "y24_recomputed": 87420.5,
+  "rows_changed": 12,
+  "rows_expected": 12,
+  "every_change_is_a_target_row": true,
+  "values_equal": true,
+  "verdict": "verified"
+}

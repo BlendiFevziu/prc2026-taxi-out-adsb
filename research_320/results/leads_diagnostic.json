@@ -1,0 +1,251 @@
+{
+  "rows": 339046,
+  "comparator": "v45 full ensemble held-out, January and July 2025 (ADS-B corrections not included)",
+  "leads": {
+    "3_source_regime": {
+      "aobt_minus_eobt_min": {
+        "rows_with_signal": 339046,
+        "gain_mse_per_main_row": -444.64139519995865,
+        "january": -103.83294582299457,
+        "july": -722.4903760329379,
+        "share_from_best_100": null,
+        "official_s_upper": -0.8389614396432994,
+        "within_month": {
+          "gain_mse_per_main_row": 124.31605017010303,
+          "january": 192.74078812706068,
+          "july": 68.53180027882263,
+          "share_from_best_100": 0.44164715294322815,
+          "official_s_upper": 0.23456289393517982
+        }
+      },
+      "aobt_minus_sched_min": {
+        "rows_with_signal": 339046,
+        "gain_mse_per_main_row": -246.0727365132984,
+        "january": -80.64888737386056,
+        "july": -380.9369042676089,
+        "share_from_best_100": null,
+        "official_s_upper": -0.46429671081191837,
+        "within_month": {
+          "gain_mse_per_main_row": 73.93006781335326,
+          "january": 96.67018146953941,
+          "july": 55.39086370926478,
+          "share_from_best_100": 0.7023767320872671,
+          "official_s_upper": 0.1394932563526271
+        }
+      },
+      "aobt_rounded": {
+        "rows_with_signal": 339046,
+        "gain_mse_per_main_row": -92.86056055601786,
+        "january": -48.692534189615245,
+        "july": -128.8691781056819,
+        "share_from_best_100": null,
+        "official_s_upper": -0.17521182330566729,
+        "within_month": {
+          "gain_mse_per_main_row": 83.33533719908608,
+          "january": 97.01883859598071,
+          "july": 72.17966625165445,
+          "share_from_best_100": 0.25191410948801,
+          "official_s_upper": 0.1572393736266136
+        }
+      },
+      "gap_default": {
+        "rows_with_signal": 22373,
+        "gain_mse_per_main_row": -0.30396486721928484,
+        "january": 6.511720865075113,
+        "july": -5.860550503103101,
+        "share_from_best_100": null,
+        "official_s_upper": -0.0005735291526075602,
+        "within_month": {
+          "gain_mse_per_main_row": 5.367860292130164,
+          "january": 15.06570229107374,
+          "july": -2.5384446149566373,
+          "share_from_best_100": 3.5684264073383147,
+          "official_s_upper": 0.010128224333374085
+        }
+      }
+    },
+    "4_runway_queue": {
+      "dep_prev10": {
+        "rows_with_signal": 339046,
+        "gain_mse_per_main_row": -132.53022116345318,
+        "january": -66.24853498074619,
+        "july": -186.5673173311789,
+        "share_from_best_100": null,
+        "official_s_upper": -0.2500616144691916,
+        "within_month": {
+          "gain_mse_per_main_row": 65.6440129044023,
+          "january": 93.75826359182346,
+          "july": 42.723466437132544,
+          "share_from_best_100": 0.4469808239941275,
+          "official_s_upper": 0.12385890329773283
+        }
+      },
+      "rwy_prev10": {
+        "rows_with_signal": 339046,
+        "gain_mse_per_main_row": -124.4667801654843,
+        "january": -74.61595587675957,
+        "july": -165.10838030077224,
+        "share_from_best_100": null,
+        "official_s_upper": -0.23484729537707805,
+        "within_month": {
+          "gain_mse_per_main_row": 81.18849198698831,
+          "january": 112.90563155282915,
+          "july": 55.33063864028691,
+          "share_from_best_100": 0.3401506085692121,
+          "official_s_upper": 0.15318864787485834
+        }
+      },
+      "rwy_gap_s": {
+        "rows_with_signal": 338990,
+        "gain_mse_per_main_row": -115.44821247429088,
+        "january": -83.76468214412535,
+        "july": -141.2786654091303,
+        "share_from_best_100": null,
+        "official_s_upper": -0.21783081734465914,
+        "within_month": {
+          "gain_mse_per_main_row": 83.02067033856673,
+          "january": 113.7422356760343,
+          "july": 57.97447317352042,
+          "share_from_best_100": 0.3829809318529078,
+          "official_s_upper": 0.15664565166289354
+        }
+      },
+      "prev_heavy": {
+        "rows_with_signal": 338990,
+        "gain_mse_per_main_row": -68.23549149523159,
+        "january": -27.587066543809637,
+        "july": -101.37470346566643,
+        "share_from_best_100": null,
+        "official_s_upper": -0.1287485753634414,
+        "within_month": {
+          "gain_mse_per_main_row": 107.4421930029037,
+          "january": 125.4945478557819,
+          "july": 92.72475155837087,
+          "share_from_best_100": 0.2058591914335114,
+          "official_s_upper": 0.20272484274572034
+        }
+      }
+    },
+    "2_stand_runway_distance": {
+      "stand_rwy_m": {
+        "rows_with_signal": 322055,
+        "gain_mse_per_main_row": -214.93350475999796,
+        "january": -193.25463315441897,
+        "july": -232.60751604766017,
+        "share_from_best_100": null,
+        "official_s_upper": -0.40554236408856204,
+        "within_month": {
+          "gain_mse_per_main_row": 86.8754487100804,
+          "january": 106.08921744516125,
+          "july": 71.21114792539568,
+          "share_from_best_100": 0.4841836502063493,
+          "official_s_upper": 0.16391895200555867
+        }
+      }
+    },
+    "6_main_tail": {
+      "top_1pct_share_of_sse": 0.3461979988864315,
+      "top_1pct_by_airport": {
+        "LIRF": 0.266,
+        "LTFM": 0.157,
+        "LFPG": 0.155,
+        "EGLL": 0.122,
+        "LEBL": 0.115,
+        "EDDF": 0.057,
+        "EHAM": 0.034,
+        "LEMD": 0.032,
+        "EDDM": 0.032,
+        "LSZH": 0.031
+      },
+      "all_rows_by_airport": {
+        "LTFM": 0.135,
+        "EHAM": 0.118,
+        "EGLL": 0.117,
+        "LFPG": 0.114,
+        "EDDF": 0.107,
+        "LEMD": 0.103,
+        "LEBL": 0.084,
+        "EDDM": 0.079,
+        "LIRF": 0.077,
+        "LSZH": 0.064
+      },
+      "top_1pct_mean_resid_s": 588.0292234404988,
+      "top_1pct_median_abs_aobt_minus_sched_min": 38.0,
+      "all_median_abs_aobt_minus_sched_min": 10.0
+    },
+    "5_winter_weather_within_month": {
+      "airport_month_offset": {
+        "gain_mse_per_main_row": 92.65564314028501,
+        "january": 117.2251732840779,
+        "july": 72.62498098247227,
+        "share_from_best_100": 0.2202009782814604,
+        "official_s_upper": 0.17482517956991275
+      },
+      "columns": {
+        "wx_temp_c": {
+          "gain_mse_per_main_row": 15.30543304953447,
+          "january": 118.01717789738152,
+          "july": -68.43179141694405,
+          "share_from_best_100": 2.3484583048407375,
+          "official_s_upper": 0.02887870604091422
+        },
+        "wx_dewpoint_spread_c": {
+          "gain_mse_per_main_row": -19.314063391051327,
+          "january": 12.184582854066758,
+          "july": -44.99378692145088,
+          "share_from_best_100": null,
+          "official_s_upper": -0.03644229845183761
+        },
+        "wx_wind_kt": {
+          "gain_mse_per_main_row": -48.64423102206988,
+          "january": -6.620258313534225,
+          "july": -82.90487804817846,
+          "share_from_best_100": null,
+          "official_s_upper": -0.09178325394167167
+        },
+        "wx_gust_excess_kt": {
+          "gain_mse_per_main_row": 76.75656110986328,
+          "january": 94.79743708466589,
+          "july": 62.048477985466754,
+          "share_from_best_100": 0.3157777413680266,
+          "official_s_upper": 0.14482636053676584
+        },
+        "wx_visibility_km": {
+          "gain_mse_per_main_row": 133.6407316759848,
+          "january": 210.26423045364277,
+          "july": 71.17232432825217,
+          "share_from_best_100": 0.25655085757218443,
+          "official_s_upper": 0.2521569558125535
+        },
+        "wx_frozen": {
+          "gain_mse_per_main_row": 94.53812641215953,
+          "january": 120.25654369163044,
+          "july": 73.57081752412684,
+          "share_from_best_100": 0.2553644327853996,
+          "official_s_upper": 0.17837710004543672
+        },
+        "wx_freezing": {
+          "gain_mse_per_main_row": 104.47181471482038,
+          "january": 143.53501368481025,
+          "july": 72.62498098247227,
+          "share_from_best_100": 0.19980890328943118,
+          "official_s_upper": 0.19712025245845102
+        },
+        "wx_icing_risk": {
+          "gain_mse_per_main_row": 105.59334746525025,
+          "january": 146.0322140243513,
+          "july": 72.62498098247227,
+          "share_from_best_100": 0.21543441604894337,
+          "official_s_upper": 0.1992363908591157
+        }
+      }
+    }
+  },
+  "airport_month_offset_within_month": {
+    "gain_mse_per_main_row": 92.65564314028501,
+    "january": 117.2251732840779,
+    "july": 72.62498098247227,
+    "share_from_best_100": 0.2202009782814604,
+    "official_s_upper": 0.17482517956991275
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "v67_sha_equals_build": true,
+  "v66_is_scored_file": true,
+  "ids_order_equal": true,
+  "schema_equal_v66": true,
+  "pruefe_errors": [],
+  "all_finite": true,
+  "floor_rows_ambiguous": 136,
+  "floor_rows_unchanged": true,
+  "set_rows": 17031,
+  "set_plus_changed_floor_rows_within_build": true,
+  "build_rows_minus_set": 116,
+  "rows_changed": 17004,
+  "every_change_in_set": true,
+  "outside_set_identical_to_v66": true,
+  "values_equal_weight_one": true,
+  "verdict": "verified"
+}

@@ -1,0 +1,414 @@
+{
+  "days_2025": [
+    "2025-07-02",
+    "2025-07-03",
+    "2025-07-04",
+    "2025-07-06",
+    "2025-07-07",
+    "2025-07-08",
+    "2025-07-09",
+    "2025-07-11",
+    "2025-07-12",
+    "2025-07-13",
+    "2025-07-14",
+    "2025-07-15",
+    "2025-07-16",
+    "2025-07-17",
+    "2025-07-18",
+    "2025-07-21",
+    "2025-07-22",
+    "2025-07-23",
+    "2025-07-25",
+    "2025-07-26",
+    "2025-07-27",
+    "2025-07-29",
+    "2025-07-31",
+    "2025-12-03",
+    "2025-12-05",
+    "2025-12-08",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-13",
+    "2025-12-14",
+    "2025-12-17",
+    "2025-12-20"
+  ],
+  "airports": {
+    "LIRF": {
+      "periods": {
+        "2025-07": {
+          "rows": 11037,
+          "days": 23,
+          "shares": {
+            "partial_ground": 0.8881,
+            "unmatched": 0.0467,
+            "observed_at_assigned_stand": 0.0227,
+            "no_pre_takeoff_points": 0.0189,
+            "sparse_ground": 0.0122,
+            "no_observed_ground": 0.0114
+          },
+          "usable": 0.9108,
+          "stand_level": 0.0227,
+          "stand_available": 0.9908,
+          "partial_rows": 9802,
+          "partial_median_points": 33.0,
+          "partial_median_first_stand_m": 999.0588586658556,
+          "partial_degraded_share": 0.7078,
+          "partial_strata": {
+            "medium/late": 0.44,
+            "dense/late": 0.1848,
+            "dense/near": 0.1179,
+            "medium/near": 0.0828,
+            "sparse/late": 0.073,
+            "dense/at_stand": 0.0557,
+            "medium/at_stand": 0.0268,
+            "sparse/near": 0.0061,
+            "medium/no_stand": 0.0056,
+            "dense/no_stand": 0.0033,
+            "sparse/at_stand": 0.0029,
+            "sparse/no_stand": 0.001
+          }
+        },
+        "2025-12": {
+          "rows": 3363,
+          "days": 9,
+          "shares": {
+            "partial_ground": 0.5659,
+            "no_pre_takeoff_points": 0.1665,
+            "unmatched": 0.1293,
+            "no_observed_ground": 0.055,
+            "sparse_ground": 0.0491,
+            "observed_at_assigned_stand": 0.0342
+          },
+          "usable": 0.6001,
+          "stand_level": 0.0342,
+          "stand_available": 0.9822,
+          "partial_rows": 1903,
+          "partial_median_points": 12.0,
+          "partial_median_first_stand_m": 1243.4919980164773,
+          "partial_degraded_share": 0.7078,
+          "partial_strata": {
+            "sparse/late": 0.3205,
+            "medium/late": 0.2596,
+            "medium/at_stand": 0.1272,
+            "medium/near": 0.1146,
+            "sparse/near": 0.0667,
+            "sparse/at_stand": 0.0389,
+            "dense/at_stand": 0.0257,
+            "dense/late": 0.0158,
+            "medium/no_stand": 0.0158,
+            "dense/near": 0.0079,
+            "sparse/no_stand": 0.0063,
+            "dense/no_stand": 0.0011
+          }
+        },
+        "2026-01": {
+          "rows": 10954,
+          "days": 31,
+          "shares": {
+            "partial_ground": 0.6178,
+            "no_pre_takeoff_points": 0.1452,
+            "unmatched": 0.1187,
+            "sparse_ground": 0.0515,
+            "observed_at_assigned_stand": 0.0407,
+            "no_observed_ground": 0.0261
+          },
+          "usable": 0.6585,
+          "stand_level": 0.0407,
+          "stand_available": 0.9831,
+          "partial_rows": 6767,
+          "partial_median_points": 13.0,
+          "partial_median_first_stand_m": 1229.5130996316466,
+          "partial_degraded_share": 0.6914,
+          "partial_strata": {
+            "sparse/late": 0.3069,
+            "medium/late": 0.2716,
+            "medium/at_stand": 0.1475,
+            "medium/near": 0.1249,
+            "sparse/near": 0.06,
+            "sparse/at_stand": 0.0358,
+            "dense/at_stand": 0.0173,
+            "medium/no_stand": 0.0114,
+            "dense/late": 0.0105,
+            "dense/near": 0.0071,
+            "sparse/no_stand": 0.0066,
+            "dense/no_stand": 0.0004
+          }
+        },
+        "2026-07": {
+          "rows": 15562,
+          "days": 31,
+          "shares": {
+            "no_pre_takeoff_points": 0.4704,
+            "unmatched": 0.455,
+            "no_observed_ground": 0.0727,
+            "partial_ground": 0.0013,
+            "sparse_ground": 0.0004,
+            "observed_at_assigned_stand": 0.0001
+          },
+          "usable": 0.0015,
+          "stand_level": 0.0001,
+          "stand_available": 0.9859,
+          "partial_rows": 21,
+          "partial_median_points": 7.0,
+          "partial_median_first_stand_m": 487.71184914044204,
+          "partial_degraded_share": 0.8095,
+          "partial_strata": {
+            "sparse/near": 0.4286,
+            "sparse/late": 0.2381,
+            "medium/near": 0.1905,
+            "medium/late": 0.0952,
+            "sparse/at_stand": 0.0476
+          }
+        }
+      },
+      "drift": {
+        "2025-07_against_2026-01": {
+          "flagged": [
+            "ground_points",
+            "first_still_age_s",
+            "last_still_age_s"
+          ],
+          "standardised_mean_shift": {
+            "ground_points": 2.0,
+            "unknown_ground_fraction": 0.0,
+            "ground_span_s": 0.279,
+            "first_ground_age_s": 0.276,
+            "last_ground_age_s": 0.004,
+            "median_gap_s": 0.09,
+            "max_gap_s": 0.045,
+            "speed_p10": 0.12,
+            "speed_p50": 0.121,
+            "speed_p90": 0.432,
+            "still_fraction": 0.056,
+            "first_still_age_s": 0.103,
+            "last_still_age_s": 0.153,
+            "first_moving_age_s": 0.29,
+            "last_moving_age_s": 0.015,
+            "sampled_distance_m": 0.622,
+            "stand_first_m": 0.108,
+            "stand_last_m": 0.012,
+            "stand_min_m": 0.106,
+            "stand_median_m": 0.003,
+            "last_near_stand_age_s": 0.805,
+            "last_still_near_stand_age_s": 0.343,
+            "near_stand_fraction": 0.319
+          }
+        },
+        "2025-12_against_2026-01": {
+          "flagged": [],
+          "standardised_mean_shift": {
+            "ground_points": 0.078,
+            "unknown_ground_fraction": 0.0,
+            "ground_span_s": 0.012,
+            "first_ground_age_s": 0.032,
+            "last_ground_age_s": 0.081,
+            "median_gap_s": 0.039,
+            "max_gap_s": 0.008,
+            "speed_p10": 0.012,
+            "speed_p50": 0.018,
+            "speed_p90": 0.026,
+            "still_fraction": 0.06,
+            "first_still_age_s": 0.01,
+            "last_still_age_s": 0.014,
+            "first_moving_age_s": 0.024,
+            "last_moving_age_s": 0.073,
+            "sampled_distance_m": 0.001,
+            "stand_first_m": 0.013,
+            "stand_last_m": 0.008,
+            "stand_min_m": 0.006,
+            "stand_median_m": 0.004,
+            "last_near_stand_age_s": 0.022,
+            "last_still_near_stand_age_s": 0.1,
+            "near_stand_fraction": 0.018
+          }
+        }
+      }
+    },
+    "LFPG": {
+      "periods": {
+        "2025-07": {
+          "rows": 15566,
+          "days": 23,
+          "shares": {
+            "no_pre_takeoff_points": 0.7761,
+            "unmatched": 0.1344,
+            "partial_ground": 0.0445,
+            "sparse_ground": 0.0416,
+            "no_observed_ground": 0.0028,
+            "observed_at_assigned_stand": 0.0004,
+            "ambiguous_visit": 0.0003
+          },
+          "usable": 0.0449,
+          "stand_level": 0.0004,
+          "stand_available": 0.9492,
+          "partial_rows": 693,
+          "partial_median_points": 5.0,
+          "partial_median_first_stand_m": 1950.1778626934122,
+          "partial_degraded_share": 0.9423,
+          "partial_strata": {
+            "sparse/late": 0.6739,
+            "sparse/no_stand": 0.0866,
+            "sparse/near": 0.0779,
+            "medium/late": 0.0765,
+            "medium/near": 0.0274,
+            "sparse/at_stand": 0.026,
+            "medium/no_stand": 0.0188,
+            "medium/at_stand": 0.0072,
+            "dense/no_stand": 0.0043,
+            "dense/late": 0.0014
+          }
+        },
+        "2025-12": {
+          "rows": 5574,
+          "days": 9,
+          "shares": {
+            "no_pre_takeoff_points": 0.7334,
+            "partial_ground": 0.1227,
+            "unmatched": 0.0816,
+            "sparse_ground": 0.0592,
+            "no_observed_ground": 0.0029,
+            "observed_at_assigned_stand": 0.0002
+          },
+          "usable": 0.1229,
+          "stand_level": 0.0002,
+          "stand_available": 0.9532,
+          "partial_rows": 684,
+          "partial_median_points": 7.0,
+          "partial_median_first_stand_m": 1767.375715279038,
+          "partial_degraded_share": 0.9386,
+          "partial_strata": {
+            "sparse/late": 0.5161,
+            "medium/late": 0.2778,
+            "sparse/near": 0.0687,
+            "sparse/no_stand": 0.0541,
+            "medium/near": 0.0263,
+            "medium/no_stand": 0.0249,
+            "sparse/at_stand": 0.0219,
+            "medium/at_stand": 0.0102
+          }
+        },
+        "2026-01": {
+          "rows": 17804,
+          "days": 31,
+          "shares": {
+            "no_pre_takeoff_points": 0.7228,
+            "partial_ground": 0.1062,
+            "unmatched": 0.0859,
+            "sparse_ground": 0.0804,
+            "no_observed_ground": 0.004,
+            "observed_at_assigned_stand": 0.0006,
+            "ambiguous_visit": 0.0001
+          },
+          "usable": 0.1067,
+          "stand_level": 0.0006,
+          "stand_available": 0.9572,
+          "partial_rows": 1890,
+          "partial_median_points": 5.0,
+          "partial_median_first_stand_m": 1422.9730187597272,
+          "partial_degraded_share": 0.9466,
+          "partial_strata": {
+            "sparse/late": 0.6074,
+            "sparse/near": 0.1894,
+            "medium/late": 0.0831,
+            "sparse/no_stand": 0.045,
+            "medium/near": 0.036,
+            "sparse/at_stand": 0.0217,
+            "medium/at_stand": 0.009,
+            "medium/no_stand": 0.0085
+          }
+        },
+        "2026-07": {
+          "rows": 21334,
+          "days": 31,
+          "shares": {
+            "no_pre_takeoff_points": 0.7307,
+            "unmatched": 0.116,
+            "partial_ground": 0.0889,
+            "sparse_ground": 0.0595,
+            "no_observed_ground": 0.0042,
+            "observed_at_assigned_stand": 0.0008
+          },
+          "usable": 0.0897,
+          "stand_level": 0.0008,
+          "stand_available": 0.9593,
+          "partial_rows": 1896,
+          "partial_median_points": 5.0,
+          "partial_median_first_stand_m": 1492.059759673234,
+          "partial_degraded_share": 0.9335,
+          "partial_strata": {
+            "sparse/late": 0.6028,
+            "sparse/near": 0.1329,
+            "medium/late": 0.1002,
+            "sparse/no_stand": 0.0654,
+            "medium/near": 0.0311,
+            "sparse/at_stand": 0.0295,
+            "medium/no_stand": 0.0174,
+            "medium/at_stand": 0.0164,
+            "dense/late": 0.0026,
+            "dense/no_stand": 0.0011,
+            "dense/at_stand": 0.0005
+          }
+        }
+      },
+      "drift": {
+        "2025-07_against_2026-01": {
+          "flagged": [],
+          "standardised_mean_shift": {
+            "ground_points": 0.129,
+            "unknown_ground_fraction": 0.0,
+            "ground_span_s": 0.124,
+            "first_ground_age_s": 0.401,
+            "last_ground_age_s": 0.414,
+            "median_gap_s": 0.037,
+            "max_gap_s": 0.145,
+            "speed_p10": 0.014,
+            "speed_p50": 0.017,
+            "speed_p90": 0.103,
+            "still_fraction": 0.098,
+            "first_still_age_s": 0.455,
+            "last_still_age_s": 0.434,
+            "first_moving_age_s": 0.417,
+            "last_moving_age_s": 0.406,
+            "sampled_distance_m": 0.311,
+            "stand_first_m": 0.669,
+            "stand_last_m": 0.739,
+            "stand_min_m": 0.682,
+            "stand_median_m": 0.757,
+            "last_near_stand_age_s": 0.465,
+            "last_still_near_stand_age_s": 0.773,
+            "near_stand_fraction": 0.196
+          }
+        },
+        "2025-12_against_2026-01": {
+          "flagged": [],
+          "standardised_mean_shift": {
+            "ground_points": 0.647,
+            "unknown_ground_fraction": 0.0,
+            "ground_span_s": 0.06,
+            "first_ground_age_s": 0.296,
+            "last_ground_age_s": 0.339,
+            "median_gap_s": 0.052,
+            "max_gap_s": 0.104,
+            "speed_p10": 0.071,
+            "speed_p50": 0.034,
+            "speed_p90": 0.001,
+            "still_fraction": 0.009,
+            "first_still_age_s": 0.411,
+            "last_still_age_s": 0.395,
+            "first_moving_age_s": 0.312,
+            "last_moving_age_s": 0.351,
+            "sampled_distance_m": 0.155,
+            "stand_first_m": 0.391,
+            "stand_last_m": 0.391,
+            "stand_min_m": 0.382,
+            "stand_median_m": 0.405,
+            "last_near_stand_age_s": 0.672,
+            "last_still_near_stand_age_s": 0.5,
+            "near_stand_fraction": 0.126
+          }
+        }
+      }
+    }
+  }
+}

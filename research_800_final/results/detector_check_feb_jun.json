@@ -1,0 +1,79 @@
+{
+  "days": [
+    "2025-02-03",
+    "2025-02-05",
+    "2025-02-07",
+    "2025-02-10",
+    "2025-02-12",
+    "2025-02-14",
+    "2025-06-02",
+    "2025-06-04",
+    "2025-06-06",
+    "2025-06-09",
+    "2025-06-11",
+    "2025-06-13"
+  ],
+  "note": "comparator is a single LightGBM, weaker than the production ensemble",
+  "airports": {
+    "EDDM": {
+      "rows": 1494,
+      "detector_rmse": 60.37926812747677,
+      "comparator_rmse_same_rows": 161.76054808993933,
+      "median_error_s": -21.00250005722046,
+      "within_60_s": 1381,
+      "gain_per_row": 22520.81889874784,
+      "gain_per_row_without_top5pct": 9914.673611719161,
+      "bootstrap_95": [
+        11222.93788328897,
+        39792.44810325015
+      ],
+      "months": {
+        "02": {
+          "rows": 773,
+          "gain_per_row": 26812.04198071389
+        },
+        "06": {
+          "rows": 721,
+          "gain_per_row": 17920.103999497143
+        }
+      },
+      "checks": {
+        "pooled_gain_positive": true,
+        "each_month_positive": true,
+        "without_top5pct_positive": true,
+        "bootstrap_lower_above_zero": true
+      },
+      "verdict": "pass"
+    },
+    "EHAM": {
+      "rows": 655,
+      "detector_rmse": 71.70721196691493,
+      "comparator_rmse_same_rows": 160.29811620512547,
+      "median_error_s": 26.110000133514404,
+      "within_60_s": 582,
+      "gain_per_row": 20553.56181084384,
+      "gain_per_row_without_top5pct": 8497.873485299173,
+      "bootstrap_95": [
+        14626.144490075414,
+        28222.51198099908
+      ],
+      "months": {
+        "02": {
+          "rows": 288,
+          "gain_per_row": 18010.336381309142
+        },
+        "06": {
+          "rows": 367,
+          "gain_per_row": 22549.33544492011
+        }
+      },
+      "checks": {
+        "pooled_gain_positive": true,
+        "each_month_positive": true,
+        "without_top5pct_positive": true,
+        "bootstrap_lower_above_zero": true
+      },
+      "verdict": "pass"
+    }
+  }
+}

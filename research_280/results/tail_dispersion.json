@@ -1,0 +1,394 @@
+{
+  "note": "holdout main lane plus reconstructed production fallback; factor 1.0 is what ships",
+  "quantiles": [
+    {
+      "q": 0.9,
+      "predicted": 1468.8808810399084,
+      "observed": 1505.0,
+      "ratio": 0.976000585408577
+    },
+    {
+      "q": 0.95,
+      "predicted": 1672.1432662604393,
+      "observed": 1750.0,
+      "ratio": 0.9555104378631082
+    },
+    {
+      "q": 0.99,
+      "predicted": 2322.8592088110854,
+      "observed": 2629.0,
+      "ratio": 0.8835523806812801
+    },
+    {
+      "q": 0.995,
+      "predicted": 2691.126813752174,
+      "observed": 3111.9099999999744,
+      "ratio": 0.864782983361407
+    },
+    {
+      "q": 0.999,
+      "predicted": 4180.880949648273,
+      "observed": 5096.581999999995,
+      "ratio": 0.8203303605530681
+    },
+    {
+      "q": 0.9999,
+      "predicted": 13315.724904464969,
+      "observed": 16180.980600023817,
+      "ratio": 0.8229244712428225
+    }
+  ],
+  "grid": [
+    {
+      "threshold_s": 1800,
+      "factor": 0.85,
+      "rows_touched": 11497,
+      "rmse": 319.3474706619379,
+      "gain": -7571.444349156491,
+      "gain_no_top100": -8875.327436206211,
+      "january_gain": -3515.1979785846443,
+      "july_gain": -10840.594352748883
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 0.95,
+      "rows_touched": 11497,
+      "rmse": 309.61622631213885,
+      "gain": -1450.8449267488088,
+      "gain_no_top100": -2059.179784732123,
+      "january_gain": -651.6514130541984,
+      "july_gain": -2094.9585331413664
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 1.0,
+      "rows_touched": 11497,
+      "rmse": 307.2643205271656,
+      "gain": 0.0,
+      "gain_no_top100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 1.05,
+      "rows_touched": 11497,
+      "rmse": 306.6488017236906,
+      "gain": 377.87507044545254,
+      "gain_no_top100": -980.5829139395585,
+      "january_gain": 131.5701665801795,
+      "july_gain": 576.3856153664366
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 1.15,
+      "rows_touched": 11497,
+      "rmse": 310.6390944916536,
+      "gain": -2085.284357573706,
+      "gain_no_top100": -5137.99456214148,
+      "january_gain": -1165.533239681515,
+      "july_gain": -2826.5619072254717
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 1.3,
+      "rows_touched": 11497,
+      "rmse": 328.99644388792166,
+      "gain": -13827.297421877627,
+      "gain_no_top100": -17938.861918389302,
+      "january_gain": -7011.797697629197,
+      "july_gain": -19320.28007442532
+    },
+    {
+      "threshold_s": 1800,
+      "factor": 1.5,
+      "rows_touched": 11497,
+      "rmse": 372.7147106007721,
+      "gain": -44504.89282919647,
+      "gain_no_top100": -48092.87667488685,
+      "january_gain": -22087.954425529006,
+      "july_gain": -62571.925146207446
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 0.85,
+      "rows_touched": 1698,
+      "rmse": 318.1588751682577,
+      "gain": -6813.70717931019,
+      "gain_no_top100": -7929.87620281845,
+      "january_gain": -2921.2449830842925,
+      "july_gain": -9950.85459103932
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 0.95,
+      "rows_touched": 1698,
+      "rmse": 309.39269176366764,
+      "gain": -1312.475047747051,
+      "gain_no_top100": -1851.8968244266355,
+      "january_gain": -540.5353552018537,
+      "july_gain": -1934.6233144218559
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 1.0,
+      "rows_touched": 1698,
+      "rmse": 307.2643205271656,
+      "gain": 0.0,
+      "gain_no_top100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 1.05,
+      "rows_touched": 1698,
+      "rmse": 306.6881939363878,
+      "gain": 353.7143690573697,
+      "gain_no_top100": -934.4723637565402,
+      "january_gain": 107.32238270894119,
+      "july_gain": 552.2950984972692
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 1.15,
+      "rows_touched": 1698,
+      "rmse": 310.20396773400194,
+      "gain": -1815.1389288969294,
+      "gain_no_top100": -4681.992341873464,
+      "january_gain": -977.6717693519105,
+      "july_gain": -2490.0993522819467
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 1.3,
+      "rows_touched": 1698,
+      "rmse": 326.6044804270477,
+      "gain": -12259.123966000992,
+      "gain_no_top100": -16068.870415251415,
+      "january_gain": -5854.260291140029,
+      "july_gain": -17421.15264788518
+    },
+    {
+      "threshold_s": 2700,
+      "factor": 1.5,
+      "rows_touched": 1698,
+      "rmse": 366.0853036103507,
+      "gain": -39607.08685046192,
+      "gain_no_top100": -42775.80393312119,
+      "january_gain": -18421.3599350916,
+      "july_gain": -56681.818731633684
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 0.85,
+      "rows_touched": 536,
+      "rmse": 317.6405323717393,
+      "gain": -6484.1451363811375,
+      "gain_no_top100": -7419.737302055666,
+      "january_gain": -2745.062628755464,
+      "july_gain": -9497.675498323488
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 0.95,
+      "rows_touched": 536,
+      "rmse": 309.3156454846788,
+      "gain": -1264.8058725826695,
+      "gain_no_top100": -1739.1998644614193,
+      "january_gain": -514.7579648662287,
+      "july_gain": -1869.310356825816
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 1.0,
+      "rows_touched": 536,
+      "rmse": 307.2643205271656,
+      "gain": 0.0,
+      "gain_no_top100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 1.05,
+      "rows_touched": 536,
+      "rmse": 306.6645278410636,
+      "gain": 368.2300330382907,
+      "gain_no_top100": -861.3261102913416,
+      "january_gain": 114.49505348063417,
+      "july_gain": 572.728880877133
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 1.15,
+      "rows_touched": 536,
+      "rmse": 309.83285830999114,
+      "gain": -1585.037419518252,
+      "gain_no_top100": -4305.719318529539,
+      "january_gain": -857.3035737148775,
+      "july_gain": -2171.55778521463
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 1.3,
+      "rows_touched": 536,
+      "rmse": 325.03941309317656,
+      "gain": -11239.257394935907,
+      "gain_no_top100": -14833.41341629771,
+      "january_gain": -5316.973349900102,
+      "july_gain": -16012.348853967398
+    },
+    {
+      "threshold_s": 3600,
+      "factor": 1.5,
+      "rows_touched": 536,
+      "rmse": 362.0427807844465,
+      "gain": -36663.61244911402,
+      "gain_no_top100": -39558.749134826656,
+      "january_gain": -16866.88047754536,
+      "july_gain": -52618.87760891926
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 0.85,
+      "rows_touched": 198,
+      "rmse": 317.0244781191298,
+      "gain": -6093.157057685813,
+      "gain_no_top100": -6738.720570748289,
+      "january_gain": -2620.5532375603375,
+      "july_gain": -8891.917723063663
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 0.95,
+      "rows_touched": 198,
+      "rmse": 309.24855250166627,
+      "gain": -1223.3045553550705,
+      "gain_no_top100": -1589.4351317619773,
+      "january_gain": -514.7168368785012,
+      "july_gain": -1794.394013630907
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 1.0,
+      "rows_touched": 198,
+      "rmse": 307.2643205271656,
+      "gain": 0.0,
+      "gain_no_top100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 1.05,
+      "rows_touched": 198,
+      "rmse": 306.5873544536248,
+      "gain": 415.556758148201,
+      "gain_no_top100": -720.434437984179,
+      "january_gain": 155.91592790355435,
+      "july_gain": 624.815452907256
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 1.15,
+      "rows_touched": 198,
+      "rmse": 309.1729868313155,
+      "gain": -1176.5731171759942,
+      "gain_no_top100": -3685.604997392267,
+      "january_gain": -608.6549432141741,
+      "july_gain": -1634.2893234491664
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 1.3,
+      "rows_touched": 198,
+      "rmse": 322.5433910007064,
+      "gain": -9622.876409213808,
+      "gain_no_top100": -12929.351851140818,
+      "january_gain": -4446.518067202863,
+      "july_gain": -13794.785693411182
+    },
+    {
+      "threshold_s": 5400,
+      "factor": 1.5,
+      "rows_touched": 198,
+      "rmse": 355.81518511981443,
+      "gain": -32193.083292827017,
+      "gain_no_top100": -34781.21259968584,
+      "january_gain": -14586.881624837006,
+      "july_gain": -46382.88070349159
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 0.85,
+      "rows_touched": 113,
+      "rmse": 316.5230858263048,
+      "gain": -5775.501191985539,
+      "gain_no_top100": -6229.897128283152,
+      "january_gain": -2522.4617490803603,
+      "july_gain": -8397.302960145986
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 0.95,
+      "rows_touched": 113,
+      "rmse": 309.188335254275,
+      "gain": -1186.0639882891955,
+      "gain_no_top100": -1479.666330617732,
+      "january_gain": -513.8964202976865,
+      "july_gain": -1727.8004624975758
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 1.0,
+      "rows_touched": 113,
+      "rmse": 307.2643205271656,
+      "gain": 0.0,
+      "gain_no_top100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 1.05,
+      "rows_touched": 113,
+      "rmse": 306.5361345036464,
+      "gain": 446.9609125832089,
+      "gain_no_top100": -618.3613341799678,
+      "january_gain": 186.97225756858415,
+      "july_gain": 656.4999382798205
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 1.15,
+      "rows_touched": 113,
+      "rmse": 308.6872027771626,
+      "gain": -876.4264893683239,
+      "gain_no_top100": -3238.924839801973,
+      "january_gain": -419.85571548155167,
+      "july_gain": -1244.4017578137903
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 1.3,
+      "rows_touched": 113,
+      "rmse": 320.64956467943523,
+      "gain": -8404.780660090519,
+      "gain_no_top100": -11532.568238284102,
+      "january_gain": -3782.0288955250185,
+      "july_gain": -12130.50823358737
+    },
+    {
+      "threshold_s": 7200,
+      "factor": 1.5,
+      "rows_touched": 113,
+      "rmse": 351.0005583328294,
+      "gain": -28790.02928093722,
+      "gain_no_top100": -31223.516981827728,
+      "january_gain": -12841.864747123715,
+      "july_gain": -41643.52420700067
+    }
+  ],
+  "passing_all_four": []
+}

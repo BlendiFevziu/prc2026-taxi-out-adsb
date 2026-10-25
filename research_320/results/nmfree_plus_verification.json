@@ -1,0 +1,21 @@
+{
+  "candidate_sha_equals_build": true,
+  "reference_sha": true,
+  "v60_sha": true,
+  "ids_order_equal_template": true,
+  "schema_equal_v60": true,
+  "pruefe_errors": [],
+  "all_finite": true,
+  "layer_rows": 8505,
+  "layer_rows_on_days_6_13_20_only": true,
+  "layer_rows_were_at_comparator_in_reference": true,
+  "layer_rows_recomputed": 8505,
+  "layer_values_equal_recomputed": true,
+  "rows_outside_layers_equal_reference": true,
+  "restored_nm_rows": 30009,
+  "restored_rows_still_at_v60_value": 14,
+  "restored_rows_at_v60_value_not_at_floor": 0,
+  "rows_differing_from_v60": 30018,
+  "every_v60_difference_is_restored_or_layer": true,
+  "verdict": "verified"
+}

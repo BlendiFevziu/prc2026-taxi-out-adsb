@@ -1,0 +1,253 @@
+{
+  "note": "detector v2 with OSM geometry, fixed; categories label-free",
+  "scored_days": 62,
+  "EDDM": {
+    "scored": {
+      "departures": 25966,
+      "groups_share": {
+        "observation": 0.3891,
+        "estimate": 0.262,
+        "matching": 0.1384,
+        "mapping": 0.1116,
+        "detection": 0.0988
+      },
+      "categories": {
+        "ok": 6803,
+        "parked_beyond_30m": 5148,
+        "no_visit_near_takeoff": 2927,
+        "stand_unmapped": 2899,
+        "never_seen_parked": 2521,
+        "only_moving_at_stand": 2249,
+        "still_no_transition": 1438,
+        "gap_too_large": 918,
+        "no_callsign_in_feed": 648,
+        "ambiguous_onsets": 180,
+        "parked_elsewhere": 164,
+        "parked_near_stand": 22,
+        "arrival_transition": 20,
+        "callsign_not_at_airport": 19,
+        "no_points": 10
+      },
+      "geometry_sensitive_rows": 10318,
+      "of_which_xplane_gives_an_estimate": 1290,
+      "xplane_estimates_where_osm_gives_none": 2375,
+      "osm_estimates": 6803,
+      "osm_estimates_main_lane_per_departure": 0.2589
+    },
+    "labelled": {
+      "departures": 5673,
+      "groups_share": {
+        "observation": 0.434,
+        "estimate": 0.2623,
+        "detection": 0.1146,
+        "mapping": 0.1022,
+        "matching": 0.0869
+      },
+      "categories": {
+        "ok": 1488,
+        "parked_beyond_30m": 1047,
+        "never_seen_parked": 834,
+        "stand_unmapped": 580,
+        "only_moving_at_stand": 572,
+        "no_visit_near_takeoff": 412,
+        "still_no_transition": 286,
+        "gap_too_large": 248,
+        "no_callsign_in_feed": 79,
+        "no_points": 71,
+        "ambiguous_onsets": 40,
+        "parked_elsewhere": 9,
+        "arrival_transition": 5,
+        "callsign_not_at_airport": 2
+      },
+      "geometry_sensitive_rows": 2199,
+      "of_which_xplane_gives_an_estimate": 200,
+      "xplane_estimates_where_osm_gives_none": 382,
+      "osm_estimates": 1488,
+      "osm_estimates_main_lane_per_departure": 0.2616
+    },
+    "labelled_accuracy": {
+      "days": [
+        "2025-12-03",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-13",
+        "2025-12-14",
+        "2025-12-17",
+        "2025-12-20",
+        "2025-07-13",
+        "2025-01-08",
+        "2025-01-16",
+        "2025-01-24",
+        "2025-01-26"
+      ],
+      "estimates": 1488,
+      "within_60": 1321,
+      "late_over_120": 46,
+      "early_over_120": 10,
+      "median_s": 24.16249990463257
+    }
+  },
+  "EHAM": {
+    "scored": {
+      "departures": 38182,
+      "groups_share": {
+        "matching": 0.6804,
+        "estimate": 0.1571,
+        "observation": 0.1153,
+        "detection": 0.0387,
+        "mapping": 0.0086
+      },
+      "categories": {
+        "no_callsign_in_feed": 24798,
+        "ok": 5999,
+        "only_moving_at_stand": 2099,
+        "never_seen_parked": 1563,
+        "no_visit_near_takeoff": 1174,
+        "parked_beyond_30m": 696,
+        "gap_too_large": 682,
+        "still_no_transition": 591,
+        "stand_unmapped": 327,
+        "ambiguous_onsets": 203,
+        "parked_elsewhere": 44,
+        "callsign_not_at_airport": 6
+      },
+      "geometry_sensitive_rows": 3122,
+      "of_which_xplane_gives_an_estimate": 58,
+      "xplane_estimates_where_osm_gives_none": 348,
+      "osm_estimates": 5999,
+      "osm_estimates_main_lane_per_departure": 0.1511
+    },
+    "labelled": {
+      "departures": 6393,
+      "groups_share": {
+        "matching": 0.6984,
+        "estimate": 0.1489,
+        "observation": 0.1172,
+        "detection": 0.0257,
+        "mapping": 0.0099
+      },
+      "categories": {
+        "no_callsign_in_feed": 4104,
+        "ok": 952,
+        "no_visit_near_takeoff": 360,
+        "only_moving_at_stand": 343,
+        "never_seen_parked": 307,
+        "parked_beyond_30m": 99,
+        "still_no_transition": 76,
+        "gap_too_large": 70,
+        "stand_unmapped": 63,
+        "ambiguous_onsets": 17,
+        "arrival_transition": 1,
+        "callsign_not_at_airport": 1
+      },
+      "geometry_sensitive_rows": 505,
+      "of_which_xplane_gives_an_estimate": 18,
+      "xplane_estimates_where_osm_gives_none": 63,
+      "osm_estimates": 952,
+      "osm_estimates_main_lane_per_departure": 0.1472
+    },
+    "labelled_accuracy": {
+      "days": [
+        "2025-12-03",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-13",
+        "2025-12-14",
+        "2025-12-17",
+        "2025-12-20",
+        "2025-07-13"
+      ],
+      "estimates": 952,
+      "within_60": 739,
+      "late_over_120": 142,
+      "early_over_120": 22,
+      "median_s": -19.050000071525574
+    }
+  },
+  "EDDF": {
+    "scored": {
+      "departures": 36317,
+      "groups_share": {
+        "matching": 0.689,
+        "observation": 0.2809,
+        "mapping": 0.0115,
+        "estimate": 0.0102,
+        "detection": 0.0084
+      },
+      "categories": {
+        "no_callsign_in_feed": 24436,
+        "never_seen_parked": 9182,
+        "only_moving_at_stand": 689,
+        "no_visit_near_takeoff": 580,
+        "stand_unmapped": 419,
+        "ok": 370,
+        "parked_beyond_30m": 323,
+        "gap_too_large": 205,
+        "still_no_transition": 95,
+        "callsign_not_at_airport": 7,
+        "parked_elsewhere": 6,
+        "no_points": 3,
+        "arrival_transition": 1,
+        "ambiguous_onsets": 1
+      },
+      "geometry_sensitive_rows": 1431,
+      "of_which_xplane_gives_an_estimate": 30,
+      "xplane_estimates_where_osm_gives_none": 55,
+      "osm_estimates": 370,
+      "osm_estimates_main_lane_per_departure": 0.0099
+    },
+    "labelled": {
+      "departures": 6045,
+      "groups_share": {
+        "matching": 0.6658,
+        "observation": 0.2283,
+        "estimate": 0.0635,
+        "detection": 0.0337,
+        "mapping": 0.0086
+      },
+      "categories": {
+        "no_callsign_in_feed": 3855,
+        "never_seen_parked": 857,
+        "ok": 384,
+        "only_moving_at_stand": 355,
+        "no_visit_near_takeoff": 169,
+        "parked_beyond_30m": 164,
+        "gap_too_large": 106,
+        "still_no_transition": 92,
+        "stand_unmapped": 52,
+        "ambiguous_onsets": 5,
+        "parked_elsewhere": 4,
+        "arrival_transition": 1,
+        "callsign_not_at_airport": 1
+      },
+      "geometry_sensitive_rows": 571,
+      "of_which_xplane_gives_an_estimate": 31,
+      "xplane_estimates_where_osm_gives_none": 80,
+      "osm_estimates": 384,
+      "osm_estimates_main_lane_per_departure": 0.0629
+    },
+    "labelled_accuracy": {
+      "days": [
+        "2025-12-03",
+        "2025-12-05",
+        "2025-12-08",
+        "2025-12-10",
+        "2025-12-11",
+        "2025-12-13",
+        "2025-12-14",
+        "2025-12-17",
+        "2025-12-20",
+        "2025-07-13"
+      ],
+      "estimates": 384,
+      "within_60": 251,
+      "late_over_120": 73,
+      "early_over_120": 1,
+      "median_s": 19.484999895095825
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "submission": "upbeat-goblin_v47.parquet",
+  "official_result": "results/upbeat-goblin_v47.json",
+  "official_rmse": 266.9416,
+  "previous_best_rmse": 268.2394,
+  "official_gain_seconds": 1.2978,
+  "rows": 344841,
+  "main_rows": 339551,
+  "fallback_rows": 5290,
+  "change": "Main lane only: the neural quarter of the frozen v45 all-year ensemble is replaced by the mean raw residual of five origin-grouped neighbour sequence nets (research_260, the team's recipe, seeds 13/21/29/37/45) trained on all twelve 2025 months; trees, CatBoost, airport models, reporting gate, floor and blend weights unchanged. Fallback rows are the scored v46 predictions.",
+  "main_rows_changed": 338502,
+  "fallback_predictions_identical_to_scored_v46": true,
+  "mean_abs_change_main_seconds": 6.906591751509829,
+  "mean_change_main_seconds": 0.011456464759165848,
+  "main_feature_schema": "post_v44_time_queue_v1",
+  "main_feature_count": 91,
+  "sequence_schema": "sequence_airport_v1",
+  "sequence_grouping": "origin (the team's ADEP grouping for both phases, kept deliberately; the corrected local grouping validated weaker)",
+  "sequence_seeds": [
+    13,
+    21,
+    29,
+    37,
+    45
+  ],
+  "sequence_models_sha256": {
+    "13": "7ba5987f85cd69b3f5063663352f5e8b657c55e293ab9d0be3f2b1a065b45ba2",
+    "21": "ccbac6b48c7a99dabe904e93a312256e51ff4954070402c0eed32ab98ce1f607",
+    "29": "42870e7928bf38296dcc11af34d0ac0bd134394b4b2b0bb858a63484d14b2b9d",
+    "37": "1416af4d8f6fa306fb39069681b9789a244bedc3756d8f747e19bc439fa9501e",
+    "45": "8aec09d31a8320ddbc0880704064b44df3cdfc710910eb4145af9570cdcc03d7"
+  },
+  "frozen_final_model_path": ".cache/clock_queue_release_20260912/final/model.pkl",
+  "base_submission_path": ".cache/research_240/v46_release/candidate.parquet",
+  "base_submission_sha256": "0d7b2744f519a130b5493ac221b5c9b4d272804e48dbf8990dfcb2206314085b",
+  "build_step": "research_260/sequence_release_v47.py stages validate-prepare, validate-fit, validate-baseline, validate-ensemble, release-prepare, release-fit, build; runner .cache/sequence_release_v47/run_v47.sh",
+  "submission_path": ".cache/sequence_release_v47/release/candidate.parquet",
+  "submission_sha256": "de23921a8ba2e7ce33f9dd37516df13c9820f40e3f91a8c90a8b6aaed6e99ab7",
+  "remote_size_bytes": 4736095,
+  "uploaded_at": "2026-09-14T13:05:59.390402+00:00",
+  "validation": "the team: origin SEQ net against the matched flat net, six source-month pairs pooled +3.814 s, 6/6 pairs, positive without the 100 most favourable rows, permutation control 0.022 s (research_260/results/seq_six_pair.json). Codex (reported in its handoff): frozen January/July ensemble with the neural quarter replaced by the two-seed origin mean, overall 306.9022 -> 305.9076. This release: seed-13 replication of the team's component RMSE 224.4267 (difference -0.1221 s); one-seed substitution in the frozen January/July ensemble overall 306.9022 -> 305.9771 (+0.9251 s), main +1.3326 s, without the top 100 rows +384.0 MSE, 10/10 airports. Frozen final ensemble replay on the ranking rows max 0.00e+00 s. Not six-pair full-ensemble validation.",
+  "evidence": [
+    "research_260/results/sequence_release_v47.json",
+    "research_260/results/seq_six_pair.json",
+    "research_260/results/seq_permutation_control_1_7.json"
+  ],
+  "regression_tests_passed": 80,
+  "recorded_at": "2026-09-14T13:08:14+00:00"
+}

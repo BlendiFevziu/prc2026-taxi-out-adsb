@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "v62_is_scored_file": true,
+    "confirmation_passed": true,
+    "c1_models_as_tested": true,
+    "rows": 11993,
+    "rows_equal_registered": true,
+    "ids_equal_feature_table": true,
+    "ids_unique": true,
+    "v62_rows_at_comparator": true,
+    "c1_reverse_replay": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v62": true,
+    "all_finite": true,
+    "rows_changed": 11971,
+    "rows_at_floor": 89,
+    "change_s": {
+      "mean": -14.699106247976324,
+      "rms": 97.95180509032441,
+      "p05": -135.03994168986222,
+      "p95": 164.73756963243292
+    }
+  },
+  "base": {
+    "version": "v62",
+    "score": 258.5995,
+    "sha256": "b470b0473da79308f1d5831209b80da3c0b6e2f2beb1ad1b92ae86d1e03dca98"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "stratum-level gain x 2026 rows; central at v60's realised transfer 0.88 (as for v62), worst at 0.5, best = the registered group-level value at full transfer; v62 realised 0.59",
+    "stratum_level_gain_per_row": 6081.325305009639,
+    "group_level_gain_per_row": 12321.486996275065,
+    "central": 258.24,
+    "worst": 258.39,
+    "best": 257.77,
+    "stratum_level_full_transfer": 258.19
+  },
+  "candidate_path": ".cache/research_360/v63/candidate_v63.parquet",
+  "candidate_sha256": "590a16bdfc8e641f0dc69e63b5c0c4c6e3a0651c102d6b236538745899716fea",
+  "verdict": "built"
+}

@@ -1,0 +1,45 @@
+{
+  "submission": "upbeat-goblin_v58.parquet",
+  "submission_id": "prc-2026-upbeat-goblin/upbeat-goblin_v58.parquet",
+  "uploaded_at_utc": "2026-09-28T06:38:42.911950+00:00",
+  "file_sha256": "826e460928106ea20a17e9a7df8c1a0e921b8bf6eccd0cccd44b5c4ff0148178",
+  "remote_size": 4727687,
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v58.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 259.9035
+  },
+  "score": 259.9035,
+  "previous": {
+    "version": "v57",
+    "score": 260.9292,
+    "sha256": "88245bfc3c40cce81feb0ed15c22a8c5d4613ca38ca293886aa6057ba626c638"
+  },
+  "gain_s": 1.0257,
+  "recipe": "exact scored v57 (88245bfc...) with v56's partial-track overlay rows (Codex's 66,292 eligible rows, 65,938 changed) recomputed at s = 1.0 instead of 0.5 with the same frozen models; v57's stand rows, every NM, Munich, Amsterdam-detector and fallback row byte-identical to v57. research_320/PREREG_shrink.md, component A.",
+  "rows_changed_vs_v57": 65938,
+  "validation": "research_320/PREREG_shrink.md: s = 1.0 against 0.5 for v56's partial-track correction, +2,496 MSE per row on eight fresh dates (all seven rules), +2,622 on the development-test dates",
+  "verification": "research_320/results/shrink_candidate_verification.json: seven checks passed",
+  "prediction_fixed_before_upload": {
+    "full_transfer": 259.94,
+    "half_transfer": 260.43,
+    "central": 260.19
+  },
+  "inside_predicted_range": false,
+  "transfer": {
+    "realised_mse_gain": 534.2,
+    "predicted_full_transfer": 516.9,
+    "realised_over_full_transfer": 1.03,
+    "realised_per_changed_row": 2794
+  },
+  "reading": "Slightly better than the full-transfer end of the range fixed before the upload (259.94): the fresh-date gain transferred about one to one. No constant was adjusted from this score.",
+  "open_data_only": "Frozen v56 partial-track models (2025 challenge rows and adsb.lol tracks); v56's NM component, Munich, Amsterdam detector, fallback and v57 stand rows unchanged",
+  "authorised": "owner, 28 September 2026: 'upload v58' (after the seven-point verification and the failed winter-weather screen)",
+  "recorded_at": "2026-09-28T06:39:34.478091+00:00"
+}

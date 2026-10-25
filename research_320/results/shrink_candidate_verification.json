@@ -1,0 +1,61 @@
+{
+  "candidate": "v58",
+  "candidate_sha256": "826e460928106ea20a17e9a7df8c1a0e921b8bf6eccd0cccd44b5c4ff0148178",
+  "checks": {
+    "1_base": {
+      "v57_sha_is_scored": true,
+      "v57_official": 260.9292,
+      "v58_sha_matches_manifest": true
+    },
+    "2_preserved": {
+      "nm_rows": 31160,
+      "nm_unchanged": true,
+      "munich_unchanged": true,
+      "amsterdam_detector_rows": 4188,
+      "amsterdam_detector_unchanged": true,
+      "fallback_unchanged": true,
+      "v57_stand_rows": 8676,
+      "v57_stand_unchanged": true,
+      "other_columns_identical": true
+    },
+    "3_no_nm_inputs": {
+      "changed_inside_partial_overlay": true,
+      "changed_rows_not_nm": true,
+      "models": "v56 partial-track real models, rebuilt byte-identical to Codex's; 2025 challenge rows and adsb.lol tracks"
+    },
+    "4_ids": {
+      "v58_equals_template": true,
+      "v58_equals_v57": true,
+      "unique": true
+    },
+    "5_replay": {
+      "model_hashes_ok": true,
+      "rows": 65938,
+      "reverse_order_replay_exact": true,
+      "max_abs_difference_s": 0.0
+    },
+    "6_validation": {
+      "development_test_dates": {
+        "rows": 9467,
+        "gain_mse": 2621.9774298907037,
+        "without_best100": 1334.4974933467079,
+        "january": 2652.790980840516,
+        "july": 2587.966117097876
+      },
+      "fresh_dates": {
+        "rows": 9245,
+        "gain_mse": 2495.59187302343,
+        "without_best100": 1402.3901176331572,
+        "january": 2727.4984440097505,
+        "july": 2227.387352624507
+      },
+      "both_months_positive": true,
+      "positive_without_best100": true
+    },
+    "7_not_duplicate": {
+      "rows_changed": 65938,
+      "hash_differs": true
+    }
+  },
+  "verdict": "verified"
+}

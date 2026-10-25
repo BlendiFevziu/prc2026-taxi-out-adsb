@@ -1,0 +1,123 @@
+{
+  "note": "saved v47 main-lane January/July holdout, no training",
+  "worst_one_percent": {
+    "copy the gate missed": {
+      "rows": 546,
+      "share_of_main_sse": 0.08872665498395525,
+      "median_abs_error_s": 1198.600495435609,
+      "median_rest_s": 1681.5
+    },
+    "copy the gate caught": {
+      "rows": 1,
+      "share_of_main_sse": 4.9781025841587106e-05,
+      "median_abs_error_s": 890.5685415042176,
+      "median_rest_s": 4196.0
+    },
+    "non-copy, gate fired": {
+      "rows": 17,
+      "share_of_main_sse": 0.0036828242567961663,
+      "median_abs_error_s": 1102.2438279371095,
+      "median_rest_s": -3.0
+    },
+    "non-copy, ordinary": {
+      "rows": 2826,
+      "share_of_main_sse": 0.2537038516416981,
+      "median_abs_error_s": 960.9069234604069,
+      "median_rest_s": 1083.5
+    }
+  },
+  "seconds_gaps": [
+    {
+      "airport": "EDDF",
+      "rows_rounded": 623,
+      "share_rounded": 0.017195219563357345,
+      "gap_s": 10.432603615515664,
+      "gap_january_s": 16.42462375834539,
+      "gap_july_s": 6.0211219688178925,
+      "months_agree": true
+    },
+    {
+      "airport": "EDDM",
+      "rows_rounded": 2234,
+      "share_rounded": 0.08319058613241975,
+      "gap_s": 3.5591033249449473,
+      "gap_january_s": 2.4003209538490666,
+      "gap_july_s": 4.398546083644945,
+      "months_agree": true
+    },
+    {
+      "airport": "EGLL",
+      "rows_rounded": 3345,
+      "share_rounded": 0.08416364734299517,
+      "gap_s": 0.6319058853788029,
+      "gap_january_s": -6.157231986339891,
+      "gap_july_s": 7.108987622216944,
+      "months_agree": false
+    },
+    {
+      "airport": "EHAM",
+      "rows_rounded": 660,
+      "share_rounded": 0.016442041802645673,
+      "gap_s": -0.6123703456929999,
+      "gap_january_s": -1.785532625879147,
+      "gap_july_s": 0.1935048200103413,
+      "months_agree": false
+    },
+    {
+      "airport": "LEBL",
+      "rows_rounded": 498,
+      "share_rounded": 0.01747981747981748,
+      "gap_s": -5.60373434807585,
+      "gap_january_s": -9.62877467947521,
+      "gap_july_s": -2.6968539140126824,
+      "months_agree": true
+    },
+    {
+      "airport": "LEMD",
+      "rows_rounded": 567,
+      "share_rounded": 0.016191210485736313,
+      "gap_s": -4.200246289174855,
+      "gap_january_s": -3.8581442704662354,
+      "gap_july_s": -4.391774664371248,
+      "months_agree": true
+    },
+    {
+      "airport": "LFPG",
+      "rows_rounded": 3238,
+      "share_rounded": 0.08360012392853454,
+      "gap_s": -1.7114279458602706,
+      "gap_january_s": -1.926077028255848,
+      "gap_july_s": -1.4575976229595522,
+      "months_agree": true
+    },
+    {
+      "airport": "LIRF",
+      "rows_rounded": 2212,
+      "share_rounded": 0.08465041521564426,
+      "gap_s": 4.743813438459892,
+      "gap_january_s": 13.28859041172586,
+      "gap_july_s": -1.7387067437171542,
+      "months_agree": false
+    },
+    {
+      "airport": "LSZH",
+      "rows_rounded": 363,
+      "share_rounded": 0.016634588946934287,
+      "gap_s": -1.948978797686113,
+      "gap_january_s": -12.192131100403838,
+      "gap_july_s": 5.955868431267688,
+      "months_agree": false
+    },
+    {
+      "airport": "LTFM",
+      "rows_rounded": 3817,
+      "share_rounded": 0.0831916655769147,
+      "gap_s": -3.3391934891397863,
+      "gap_january_s": 4.642095233828162,
+      "gap_july_s": -9.017419495618935,
+      "months_agree": false
+    }
+  ],
+  "seconds_oracle_mse_per_row": 0.6681434035813062,
+  "seconds_oracle_official_rmse": 266.44956502007557
+}

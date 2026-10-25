@@ -1,0 +1,127 @@
+{
+  "note": "diagnostic only; training labels, no model, no external data, nothing uploaded",
+  "fallback_rows": 22470,
+  "total_sse_about_airport_median": 225979573874.5,
+  "sse_share_by_label_threshold": {
+    "1800": {
+      "rows": 2017,
+      "sse_share": 0.9637036905244578
+    },
+    "3600": {
+      "rows": 1087,
+      "sse_share": 0.9565604469081278
+    },
+    "7200": {
+      "rows": 481,
+      "sse_share": 0.9288414227377011
+    },
+    "21600": {
+      "rows": 68,
+      "sse_share": 0.8295918339553723
+    },
+    "43200": {
+      "rows": 33,
+      "sse_share": 0.693829045965347
+    },
+    "80000": {
+      "rows": 15,
+      "sse_share": 0.5065177791625007
+    }
+  },
+  "copy_rate_by_tolerance": {
+    "0": {
+      "rows": 100,
+      "sse_share": 0.04214932533698705
+    },
+    "5": {
+      "rows": 1024,
+      "sse_share": 0.44135836420060903
+    },
+    "30": {
+      "rows": 1161,
+      "sse_share": 0.46933477782554595
+    },
+    "60": {
+      "rows": 1435,
+      "sse_share": 0.46994379976673445
+    },
+    "300": {
+      "rows": 3461,
+      "sse_share": 0.47578482981590625
+    },
+    "900": {
+      "rows": 6071,
+      "sse_share": 0.4845411998245909
+    }
+  },
+  "extreme_rows": {
+    "threshold_s": 7200,
+    "rows": 481,
+    "sse_share": 0.9288414227377011,
+    "copy": {
+      "rows": 397,
+      "sse_share": 0.460936797565817,
+      "by_airport": {
+        "LIRF": 396,
+        "EGLL": 1
+      },
+      "comment": "y == versp, and both terms are given at scoring time"
+    },
+    "not_copy": {
+      "rows": 84,
+      "sse_share": 0.467904625171884,
+      "by_airport": {
+        "LIRF": 43,
+        "LTFM": 19,
+        "EGLL": 10,
+        "LFPG": 7,
+        "LSZH": 4,
+        "EHAM": 1
+      },
+      "comment": "y rests on a BLOCK stamp hours from anything observable"
+    }
+  },
+  "oracle_ladder_fallback_rmse": {
+    "per_airport_median": 3171.2688119765035,
+    "perfect_copy_detection": 2308.8490915613065,
+    "ratio": 0.7280521546586614,
+    "versp_for_every_row": 6449.309777681657,
+    "comment": "predicting the physically-true delay everywhere is far WORSE than a flat median; the copy value is a classification problem, never a measurement problem"
+  },
+  "max_abs_y_minus_versp_on_copy_rows": 60.0,
+  "official_scale_value": {
+    "our_official": 265.2839,
+    "scenarios_by_assumed_main_rmse": {
+      "200": {
+        "implied_fallback_rmse": 1421.3025662443233,
+        "fallback_share_of_sse": 0.44033993036937175,
+        "gain_s_at_oracle_ratio": 29.03721085114293,
+        "gain_s_if_fallback_perfect": 66.82386908780987
+      },
+      "210": {
+        "implied_fallback_rmse": 1325.4934601796613,
+        "fallback_share_of_sse": 0.38297477323223234,
+        "gain_s_at_oracle_ratio": 25.055477049936655,
+        "gain_s_if_fallback_perfect": 56.90086754220036
+      },
+      "216.773": {
+        "implied_fallback_rmse": 1253.5538561223395,
+        "fallback_share_of_sse": 0.3425318683294872,
+        "gain_s_at_oracle_ratio": 22.28753246588903,
+        "gain_s_if_fallback_perfect": 50.18001859535903
+      },
+      "225": {
+        "implied_fallback_rmse": 1156.7672863441412,
+        "fallback_share_of_sse": 0.2916802243737361,
+        "gain_s_at_oracle_ratio": 18.8513232101879,
+        "gain_s_if_fallback_perfect": 42.016365223786096
+      },
+      "235": {
+        "implied_fallback_rmse": 1021.1996942937037,
+        "fallback_share_of_sse": 0.22731931636621383,
+        "gain_s_at_oracle_ratio": 14.56976506226195,
+        "gain_s_if_fallback_perfect": 32.09336367817659
+      }
+    }
+  }
+}

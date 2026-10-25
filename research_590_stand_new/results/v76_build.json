@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "v75_is_uploaded_file": true,
+    "test_passed": true,
+    "context_recipe_reproduces_codex": true,
+    "extraction_equals_reference": {
+      "EGLL": true,
+      "LEMD": true
+    },
+    "rows": {
+      "EGLL/07": 10242,
+      "LEMD/01": 2176,
+      "LEMD/07": 2812
+    },
+    "rows_as_tested": true,
+    "rows_at_base_in_v75": true,
+    "reverse_replay": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v75": true,
+    "all_finite": true,
+    "rows_changed": 15230,
+    "change_s": {
+      "mean": -41.13976247859469,
+      "rms": 137.87519687442037
+    },
+    "change_by_cell": {
+      "EGLL/07": {
+        "mean": -31.586433165105333,
+        "rms": 133.62106769671325
+      },
+      "LEMD/01": {
+        "mean": -66.11244112722713,
+        "rms": 142.0416814118505
+      },
+      "LEMD/07": {
+        "mean": -56.610832922881265,
+        "rms": 149.3780557006262
+      }
+    }
+  },
+  "base": {
+    "version": "v75",
+    "score": 249.3908,
+    "sha256": "60627876830cd8eb4d3b44449aed9be82b68884ec7227f2f0f2ed6566092f275"
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "tested gain per row x rows per admitted cell; central 0.6, best 1.0, worst -0.2 of full transfer",
+    "mse_per_scored_row_full": 968.9451775163965,
+    "central": 248.22,
+    "best": 247.44,
+    "worst": 249.78
+  },
+  "candidate_path": ".cache/research_590/v76/candidate_v76.parquet",
+  "candidate_sha256": "4c7afb2d70afad61c1b8648b531c614634c63751be59c78056c65a89b2db27f0",
+  "verdict": "built"
+}

@@ -1,0 +1,174 @@
+{
+  "arrival_shift": {
+    "EDDF": {
+      "arr_2025": 556.0,
+      "arr_2026": 522.0,
+      "arr_shift_s": -34.0,
+      "arr_shift_pct": -0.0612,
+      "dep_2025": 833.0,
+      "arr_n_2026": 36253
+    },
+    "EDDM": {
+      "arr_2025": 358.0,
+      "arr_2026": 357.0,
+      "arr_shift_s": -1.0,
+      "arr_shift_pct": -0.0028,
+      "dep_2025": 775.0,
+      "arr_n_2026": 25935
+    },
+    "EGLL": {
+      "arr_2025": 427.0,
+      "arr_2026": 432.0,
+      "arr_shift_s": 5.0,
+      "arr_shift_pct": 0.0117,
+      "dep_2025": 1317.0,
+      "arr_n_2026": 39837
+    },
+    "EHAM": {
+      "arr_2025": 502.5,
+      "arr_2026": 431.0,
+      "arr_shift_s": -71.5,
+      "arr_shift_pct": -0.1423,
+      "dep_2025": 739.0,
+      "arr_n_2026": 38143
+    },
+    "LEBL": {
+      "arr_2025": 200.0,
+      "arr_2026": 211.0,
+      "arr_shift_s": 11.0,
+      "arr_shift_pct": 0.055,
+      "dep_2025": 897.0,
+      "arr_n_2026": 29973
+    },
+    "LEMD": {
+      "arr_2025": 504.0,
+      "arr_2026": 484.0,
+      "arr_shift_s": -20.0,
+      "arr_shift_pct": -0.0397,
+      "dep_2025": 978.0,
+      "arr_n_2026": 37093
+    },
+    "LFPG": {
+      "arr_2025": 547.0,
+      "arr_2026": 544.0,
+      "arr_shift_s": -3.0,
+      "arr_shift_pct": -0.0055,
+      "dep_2025": 954.0,
+      "arr_n_2026": 39733
+    },
+    "LIRF": {
+      "arr_2025": 593.0,
+      "arr_2026": 590.0,
+      "arr_shift_s": -3.0,
+      "arr_shift_pct": -0.0051,
+      "dep_2025": 1069.0,
+      "arr_n_2026": 26839
+    },
+    "LSZH": {
+      "arr_2025": 322.0,
+      "arr_2026": 336.0,
+      "arr_shift_s": 14.0,
+      "arr_shift_pct": 0.0435,
+      "dep_2025": 714.0,
+      "arr_n_2026": 23123
+    },
+    "LTFM": {
+      "arr_2025": 778.0,
+      "arr_2026": 769.0,
+      "arr_shift_s": -9.0,
+      "arr_shift_pct": -0.0116,
+      "dep_2025": 971.0,
+      "arr_n_2026": 47764
+    }
+  },
+  "arrival_predicts_departure": {
+    "airport_months": 120,
+    "correlation": -0.12478290461014874,
+    "slope_dep_per_arr": -0.12523429657920465,
+    "per_airport_correlation": {
+      "EDDF": 0.8171632119554194,
+      "EDDM": 0.7608952412313275,
+      "EGLL": 0.09152084311119078,
+      "EHAM": -0.6658024413908649,
+      "LEBL": 0.22932752723339234,
+      "LEMD": 0.7191826184027195,
+      "LFPG": 0.6820170095803773,
+      "LIRF": 0.5676509999353055,
+      "LSZH": 0.3615153584922264,
+      "LTFM": -0.3660174056232758
+    }
+  },
+  "model_versus_implied": {
+    "EDDF": {
+      "dep_2025_median": 833.0,
+      "v48_predicted_median_2026": 875.505,
+      "model_shift_s": 42.505,
+      "implied_by_arrivals_s": 4.258,
+      "gap_s": 38.247
+    },
+    "EDDM": {
+      "dep_2025_median": 775.0,
+      "v48_predicted_median_2026": 783.614,
+      "model_shift_s": 8.614,
+      "implied_by_arrivals_s": 0.125,
+      "gap_s": 8.488
+    },
+    "EGLL": {
+      "dep_2025_median": 1317.0,
+      "v48_predicted_median_2026": 1311.604,
+      "model_shift_s": -5.396,
+      "implied_by_arrivals_s": -0.626,
+      "gap_s": -4.77
+    },
+    "EHAM": {
+      "dep_2025_median": 739.0,
+      "v48_predicted_median_2026": 796.072,
+      "model_shift_s": 57.072,
+      "implied_by_arrivals_s": 8.954,
+      "gap_s": 48.118
+    },
+    "LEBL": {
+      "dep_2025_median": 897.0,
+      "v48_predicted_median_2026": 905.541,
+      "model_shift_s": 8.541,
+      "implied_by_arrivals_s": -1.378,
+      "gap_s": 9.919
+    },
+    "LEMD": {
+      "dep_2025_median": 978.0,
+      "v48_predicted_median_2026": 1000.457,
+      "model_shift_s": 22.457,
+      "implied_by_arrivals_s": 2.505,
+      "gap_s": 19.953
+    },
+    "LFPG": {
+      "dep_2025_median": 954.0,
+      "v48_predicted_median_2026": 930.429,
+      "model_shift_s": -23.571,
+      "implied_by_arrivals_s": 0.376,
+      "gap_s": -23.947
+    },
+    "LIRF": {
+      "dep_2025_median": 1069.0,
+      "v48_predicted_median_2026": 1066.857,
+      "model_shift_s": -2.143,
+      "implied_by_arrivals_s": 0.376,
+      "gap_s": -2.519
+    },
+    "LSZH": {
+      "dep_2025_median": 714.0,
+      "v48_predicted_median_2026": 750.136,
+      "model_shift_s": 36.136,
+      "implied_by_arrivals_s": -1.753,
+      "gap_s": 37.889
+    },
+    "LTFM": {
+      "dep_2025_median": 971.0,
+      "v48_predicted_median_2026": 1044.717,
+      "model_shift_s": 73.717,
+      "implied_by_arrivals_s": 1.127,
+      "gap_s": 72.59
+    }
+  },
+  "row_weighted_abs_gap_s": 29.07414578788016
+}

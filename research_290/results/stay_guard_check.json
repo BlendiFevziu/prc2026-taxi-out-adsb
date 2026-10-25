@@ -1,0 +1,60 @@
+{
+  "stay_s": 1200.0,
+  "labelled": {
+    "days": 13,
+    "estimates": 1484,
+    "stay_percentiles_s": {
+      "p50": 253.0,
+      "p90": 355.0,
+      "p99": 490.0,
+      "max": 1389.0
+    },
+    "withdrawn": 1,
+    "withdrawn_errors_s": [
+      -6.0
+    ],
+    "withdrawn_within_60_s": 1,
+    "long_stays": [
+      {
+        "stay_s": 1389.0,
+        "vmax_before_kt": 0.0,
+        "err_s": -6.0
+      }
+    ],
+    "combined_guard_withdraws": 0
+  },
+  "scored": {
+    "days": 62,
+    "estimates": 6723,
+    "stay_percentiles_s": {
+      "p50": 254.0,
+      "p90": 355.0,
+      "p99": 504.0,
+      "max": 3660.0
+    },
+    "withdrawn": 4,
+    "long_stays": [
+      {
+        "stay_s": 1906.0,
+        "vmax_before_kt": 2.0,
+        "taxi_s": 2252.0
+      },
+      {
+        "stay_s": 1201.0,
+        "vmax_before_kt": 0.0,
+        "taxi_s": 2219.0
+      },
+      {
+        "stay_s": 1355.0,
+        "vmax_before_kt": 0.0,
+        "taxi_s": 1966.0
+      },
+      {
+        "stay_s": 3660.0,
+        "vmax_before_kt": 148.0,
+        "taxi_s": 3854.0
+      }
+    ],
+    "combined_guard_withdraws": 1
+  }
+}

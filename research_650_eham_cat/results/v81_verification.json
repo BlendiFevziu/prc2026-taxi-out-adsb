@@ -1,0 +1,9 @@
+{
+  "v81_sha_equals_build": true,
+  "ids_order_equal": true,
+  "pruefe_errors": [],
+  "rows_changed": 9683,
+  "every_change_is_a_target_row": true,
+  "values_equal": true,
+  "verdict": "verified"
+}

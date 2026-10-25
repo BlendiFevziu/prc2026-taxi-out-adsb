@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-14",
+  "mapping_file": "adsb-lol/preferred/PREFERRED_RELEASES_2025.txt",
+  "mapping_sha256": "3414529a55b3521554e73643a1cebe10617358bd793c989c747f19f114c3079d",
+  "release": "v2025.10.14-planes-readsb-staging-0",
+  "size_source": "github release api",
+  "parts": [
+    {
+      "asset": "v2025.10.14-planes-readsb-staging-0.tar.aa",
+      "listed_size": 2000000000,
+      "size": 2000000000,
+      "sha256": "a8cf820f3732501afd195340bc840fb9833fd03ebd743579863072205ae04f52",
+      "size_matches_listing": true
+    },
+    {
+      "asset": "v2025.10.14-planes-readsb-staging-0.tar.ab",
+      "listed_size": 1387778048,
+      "size": 1387778048,
+      "sha256": "84c39ad56dd657fd0edce8fb57d57c0f1ab396d32e1a1afb23b6d0fedec2ab3a",
+      "size_matches_listing": true
+    }
+  ],
+  "tracks": null,
+  "tar_end_marker": true,
+  "extract": "EXTRACT FAIL 2025-10-14:  framework/Versions/3.9/lib/python3.9/gzip.py\", line 495, in read\n    uncompress = self._decompressor.decompress(buf, size)\nzlib.error: Error -3 while decompressing data: invalid distance too far back\n"
+}

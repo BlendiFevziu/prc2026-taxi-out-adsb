@@ -1,0 +1,656 @@
+{
+  "dates_2025": [
+    "2025-01-04",
+    "2025-01-08",
+    "2025-01-09",
+    "2025-01-13",
+    "2025-01-14",
+    "2025-01-20",
+    "2025-01-21",
+    "2025-01-24",
+    "2025-01-26",
+    "2025-01-28",
+    "2025-01-30",
+    "2025-07-02",
+    "2025-07-04",
+    "2025-07-09",
+    "2025-07-11",
+    "2025-07-13",
+    "2025-07-14",
+    "2025-07-16",
+    "2025-07-18",
+    "2025-07-23",
+    "2025-07-25",
+    "2025-07-27"
+  ],
+  "codex_2026_july": {
+    "EGLL": {
+      "main_rows": 20421,
+      "category_share": {
+        "observed_at_assigned_stand": 0.502,
+        "partial_ground": 0.443,
+        "unmatched": 0.054,
+        "no_pre_takeoff_points": 0.001,
+        "sparse_ground": 0.0,
+        "no_observed_ground": 0.0
+      },
+      "partial_median": {
+        "ground_points": 81.0,
+        "stand_first_m": 43.8233405532675,
+        "ground_span_s": 1065.0650000572205,
+        "first_ground_age_s": 1080.3849999904633
+      }
+    },
+    "EDDF": {
+      "main_rows": 20441,
+      "category_share": {
+        "partial_ground": 0.587,
+        "no_pre_takeoff_points": 0.148,
+        "unmatched": 0.089,
+        "sparse_ground": 0.085,
+        "no_observed_ground": 0.074,
+        "observed_at_assigned_stand": 0.017
+      },
+      "partial_median": {
+        "ground_points": 9.0,
+        "stand_first_m": 1124.530020322051,
+        "ground_span_s": 295.3200001716614,
+        "first_ground_age_s": 377.52999997138977
+      }
+    }
+  },
+  "per_date": {
+    "EDDF 2025-01-04": {
+      "main_rows": 496,
+      "no_pre_takeoff_share": 0.044,
+      "at_stand_share": 0.065,
+      "partial_share": 0.77,
+      "partial_median": {
+        "ground_points": 22.0,
+        "stand_first_m": 490.2577611915405,
+        "ground_span_s": 386.0049999952316,
+        "first_ground_age_s": 524.6800000667572
+      }
+    },
+    "EDDF 2025-01-08": {
+      "main_rows": 508,
+      "no_pre_takeoff_share": 0.024,
+      "at_stand_share": 0.061,
+      "partial_share": 0.799,
+      "partial_median": {
+        "ground_points": 24.0,
+        "stand_first_m": 466.80323738164617,
+        "ground_span_s": 395.86500000953674,
+        "first_ground_age_s": 503.1299999952316
+      }
+    },
+    "EDDF 2025-01-09": {
+      "main_rows": 505,
+      "no_pre_takeoff_share": 0.03,
+      "at_stand_share": 0.075,
+      "partial_share": 0.756,
+      "partial_median": {
+        "ground_points": 23.0,
+        "stand_first_m": 433.57030930034136,
+        "ground_span_s": 404.02499997615814,
+        "first_ground_age_s": 531.1899999380112
+      }
+    },
+    "EDDF 2025-01-13": {
+      "main_rows": 492,
+      "no_pre_takeoff_share": 0.014,
+      "at_stand_share": 0.067,
+      "partial_share": 0.833,
+      "partial_median": {
+        "ground_points": 32.0,
+        "stand_first_m": 528.5536112011209,
+        "ground_span_s": 446.52499997615814,
+        "first_ground_age_s": 523.4249999523163
+      }
+    },
+    "EDDF 2025-01-14": {
+      "main_rows": 474,
+      "no_pre_takeoff_share": 0.021,
+      "at_stand_share": 0.063,
+      "partial_share": 0.819,
+      "partial_median": {
+        "ground_points": 30.0,
+        "stand_first_m": 471.86691162987233,
+        "ground_span_s": 416.09500002861023,
+        "first_ground_age_s": 518.6449999809265
+      }
+    },
+    "EDDF 2025-01-20": {
+      "main_rows": 493,
+      "no_pre_takeoff_share": 0.047,
+      "at_stand_share": 0.059,
+      "partial_share": 0.781,
+      "partial_median": {
+        "ground_points": 25.0,
+        "stand_first_m": 444.0657001770937,
+        "ground_span_s": 462.9800000190735,
+        "first_ground_age_s": 635.2799999713898
+      }
+    },
+    "EDDF 2025-01-21": {
+      "main_rows": 452,
+      "no_pre_takeoff_share": 0.018,
+      "at_stand_share": 0.095,
+      "partial_share": 0.759,
+      "partial_median": {
+        "ground_points": 28.0,
+        "stand_first_m": 460.23509193236947,
+        "ground_span_s": 416.66999983787537,
+        "first_ground_age_s": 603.7300000190735
+      }
+    },
+    "EDDF 2025-01-24": {
+      "main_rows": 516,
+      "no_pre_takeoff_share": 0.045,
+      "at_stand_share": 0.056,
+      "partial_share": 0.758,
+      "partial_median": {
+        "ground_points": 22.0,
+        "stand_first_m": 549.9678389438174,
+        "ground_span_s": 330.3399999141693,
+        "first_ground_age_s": 457.74000000953674
+      }
+    },
+    "EDDF 2025-01-26": {
+      "main_rows": 526,
+      "no_pre_takeoff_share": 0.029,
+      "at_stand_share": 0.068,
+      "partial_share": 0.77,
+      "partial_median": {
+        "ground_points": 25.0,
+        "stand_first_m": 447.1635485384135,
+        "ground_span_s": 370.5700001716614,
+        "first_ground_age_s": 483.69000005722046
+      }
+    },
+    "EDDF 2025-01-28": {
+      "main_rows": 468,
+      "no_pre_takeoff_share": 0.009,
+      "at_stand_share": 0.113,
+      "partial_share": 0.808,
+      "partial_median": {
+        "ground_points": 34.5,
+        "stand_first_m": 390.24345450100316,
+        "ground_span_s": 385.4999998807907,
+        "first_ground_age_s": 458.4449999332428
+      }
+    },
+    "EDDF 2025-01-30": {
+      "main_rows": 486,
+      "no_pre_takeoff_share": 0.008,
+      "at_stand_share": 0.082,
+      "partial_share": 0.84,
+      "partial_median": {
+        "ground_points": 37.5,
+        "stand_first_m": 345.5248923254227,
+        "ground_span_s": 409.25999999046326,
+        "first_ground_age_s": 485.625
+      }
+    },
+    "EDDF 2025-07-02": {
+      "main_rows": 656,
+      "no_pre_takeoff_share": 0.023,
+      "at_stand_share": 0.047,
+      "partial_share": 0.806,
+      "partial_median": {
+        "ground_points": 27.0,
+        "stand_first_m": 469.95874818553096,
+        "ground_span_s": 400.3599998950958,
+        "first_ground_age_s": 510.1400001049042
+      }
+    },
+    "EDDF 2025-07-04": {
+      "main_rows": 688,
+      "no_pre_takeoff_share": 0.012,
+      "at_stand_share": 0.068,
+      "partial_share": 0.808,
+      "partial_median": {
+        "ground_points": 30.5,
+        "stand_first_m": 457.8582477418854,
+        "ground_span_s": 390.3799999952316,
+        "first_ground_age_s": 473.085000038147
+      }
+    },
+    "EDDF 2025-07-09": {
+      "main_rows": 696,
+      "no_pre_takeoff_share": 0.013,
+      "at_stand_share": 0.079,
+      "partial_share": 0.759,
+      "partial_median": {
+        "ground_points": 32.0,
+        "stand_first_m": 359.61086425883263,
+        "ground_span_s": 443.20500004291534,
+        "first_ground_age_s": 511.84499990940094
+      }
+    },
+    "EDDF 2025-07-11": {
+      "main_rows": 712,
+      "no_pre_takeoff_share": 0.011,
+      "at_stand_share": 0.081,
+      "partial_share": 0.788,
+      "partial_median": {
+        "ground_points": 35.0,
+        "stand_first_m": 428.193366445688,
+        "ground_span_s": 387.07999992370605,
+        "first_ground_age_s": 459.57999992370605
+      }
+    },
+    "EDDF 2025-07-13": {
+      "main_rows": 712,
+      "no_pre_takeoff_share": 0.013,
+      "at_stand_share": 0.091,
+      "partial_share": 0.772,
+      "partial_median": {
+        "ground_points": 31.5,
+        "stand_first_m": 429.4712655515111,
+        "ground_span_s": 406.6449999809265,
+        "first_ground_age_s": 483.3700000047684
+      }
+    },
+    "EDDF 2025-07-14": {
+      "main_rows": 666,
+      "no_pre_takeoff_share": 0.006,
+      "at_stand_share": 0.09,
+      "partial_share": 0.784,
+      "partial_median": {
+        "ground_points": 33.0,
+        "stand_first_m": 379.60465952613725,
+        "ground_span_s": 460.84500002861023,
+        "first_ground_age_s": 567.3399999141693
+      }
+    },
+    "EDDF 2025-07-16": {
+      "main_rows": 670,
+      "no_pre_takeoff_share": 0.016,
+      "at_stand_share": 0.064,
+      "partial_share": 0.769,
+      "partial_median": {
+        "ground_points": 37.0,
+        "stand_first_m": 326.625566421876,
+        "ground_span_s": 495.6099998950958,
+        "first_ground_age_s": 555.9400000572205
+      }
+    },
+    "EDDF 2025-07-18": {
+      "main_rows": 712,
+      "no_pre_takeoff_share": 0.013,
+      "at_stand_share": 0.094,
+      "partial_share": 0.774,
+      "partial_median": {
+        "ground_points": 34.0,
+        "stand_first_m": 366.1333101696854,
+        "ground_span_s": 443.3900001049042,
+        "first_ground_age_s": 525.8399999141693
+      }
+    },
+    "EDDF 2025-07-23": {
+      "main_rows": 696,
+      "no_pre_takeoff_share": 0.011,
+      "at_stand_share": 0.073,
+      "partial_share": 0.776,
+      "partial_median": {
+        "ground_points": 31.5,
+        "stand_first_m": 453.55917321885977,
+        "ground_span_s": 425.5400000810623,
+        "first_ground_age_s": 505.2549999952316
+      }
+    },
+    "EDDF 2025-07-25": {
+      "main_rows": 615,
+      "no_pre_takeoff_share": 0.02,
+      "at_stand_share": 0.088,
+      "partial_share": 0.761,
+      "partial_median": {
+        "ground_points": 33.0,
+        "stand_first_m": 351.0086703261779,
+        "ground_span_s": 434.53000009059906,
+        "first_ground_age_s": 526.6799999475479
+      }
+    },
+    "EDDF 2025-07-27": {
+      "main_rows": 553,
+      "no_pre_takeoff_share": 0.024,
+      "at_stand_share": 0.067,
+      "partial_share": 0.781,
+      "partial_median": {
+        "ground_points": 32.0,
+        "stand_first_m": 378.8344221511028,
+        "ground_span_s": 424.8899999856949,
+        "first_ground_age_s": 534.5099999904633
+      }
+    },
+    "EGLL 2025-01-04": {
+      "main_rows": 595,
+      "no_pre_takeoff_share": 0.289,
+      "at_stand_share": 0.153,
+      "partial_share": 0.487,
+      "partial_median": {
+        "ground_points": 18.5,
+        "stand_first_m": 268.24861507206435,
+        "ground_span_s": 404.7549999952316,
+        "first_ground_age_s": 856.9700000286102
+      }
+    },
+    "EGLL 2025-01-08": {
+      "main_rows": 634,
+      "no_pre_takeoff_share": 0.344,
+      "at_stand_share": 0.137,
+      "partial_share": 0.423,
+      "partial_median": {
+        "ground_points": 16.0,
+        "stand_first_m": 358.62463539452995,
+        "ground_span_s": 369.2699999809265,
+        "first_ground_age_s": 875.2700001001358
+      }
+    },
+    "EGLL 2025-01-09": {
+      "main_rows": 630,
+      "no_pre_takeoff_share": 0.208,
+      "at_stand_share": 0.148,
+      "partial_share": 0.524,
+      "partial_median": {
+        "ground_points": 21.0,
+        "stand_first_m": 397.94211606042495,
+        "ground_span_s": 570.1900001764297,
+        "first_ground_age_s": 919.5199999809265
+      }
+    },
+    "EGLL 2025-01-13": {
+      "main_rows": 628,
+      "no_pre_takeoff_share": 0.256,
+      "at_stand_share": 0.096,
+      "partial_share": 0.497,
+      "partial_median": {
+        "ground_points": 18.0,
+        "stand_first_m": 572.1790800762873,
+        "ground_span_s": 348.03000020980835,
+        "first_ground_age_s": 612.835000038147
+      }
+    },
+    "EGLL 2025-01-14": {
+      "main_rows": 616,
+      "no_pre_takeoff_share": 0.274,
+      "at_stand_share": 0.104,
+      "partial_share": 0.438,
+      "partial_median": {
+        "ground_points": 16.0,
+        "stand_first_m": 712.2799704076848,
+        "ground_span_s": 261.375,
+        "first_ground_age_s": 531.0800000429153
+      }
+    },
+    "EGLL 2025-01-20": {
+      "main_rows": 624,
+      "no_pre_takeoff_share": 0.223,
+      "at_stand_share": 0.107,
+      "partial_share": 0.532,
+      "partial_median": {
+        "ground_points": 18.5,
+        "stand_first_m": 468.78213744350387,
+        "ground_span_s": 397.95499992370605,
+        "first_ground_age_s": 654.875
+      }
+    },
+    "EGLL 2025-01-21": {
+      "main_rows": 608,
+      "no_pre_takeoff_share": 0.359,
+      "at_stand_share": 0.117,
+      "partial_share": 0.355,
+      "partial_median": {
+        "ground_points": 12.0,
+        "stand_first_m": 378.63017743811616,
+        "ground_span_s": 316.70499992370605,
+        "first_ground_age_s": 708.8899999856949
+      }
+    },
+    "EGLL 2025-01-24": {
+      "main_rows": 583,
+      "no_pre_takeoff_share": 0.221,
+      "at_stand_share": 0.115,
+      "partial_share": 0.511,
+      "partial_median": {
+        "ground_points": 12.5,
+        "stand_first_m": 514.6236411096878,
+        "ground_span_s": 353.3049999475479,
+        "first_ground_age_s": 584.8149999380112
+      }
+    },
+    "EGLL 2025-01-26": {
+      "main_rows": 631,
+      "no_pre_takeoff_share": 0.385,
+      "at_stand_share": 0.105,
+      "partial_share": 0.404,
+      "partial_median": {
+        "ground_points": 18.0,
+        "stand_first_m": 332.7258606797404,
+        "ground_span_s": 408.5700001716614,
+        "first_ground_age_s": 932.1500000953674
+      }
+    },
+    "EGLL 2025-01-28": {
+      "main_rows": 607,
+      "no_pre_takeoff_share": 0.165,
+      "at_stand_share": 0.14,
+      "partial_share": 0.578,
+      "partial_median": {
+        "ground_points": 21.0,
+        "stand_first_m": 414.1584235220942,
+        "ground_span_s": 401.8399999141693,
+        "first_ground_age_s": 683.460000038147
+      }
+    },
+    "EGLL 2025-01-30": {
+      "main_rows": 637,
+      "no_pre_takeoff_share": 0.16,
+      "at_stand_share": 0.144,
+      "partial_share": 0.543,
+      "partial_median": {
+        "ground_points": 22.0,
+        "stand_first_m": 441.3799555768024,
+        "ground_span_s": 442.2649999856949,
+        "first_ground_age_s": 728.5800000429153
+      }
+    },
+    "EGLL 2025-07-02": {
+      "main_rows": 668,
+      "no_pre_takeoff_share": 0.683,
+      "at_stand_share": 0.016,
+      "partial_share": 0.145,
+      "partial_median": {
+        "ground_points": 5.0,
+        "stand_first_m": 1654.8763252987617,
+        "ground_span_s": 176.74000000953674,
+        "first_ground_age_s": 536.289999961853
+      }
+    },
+    "EGLL 2025-07-04": {
+      "main_rows": 658,
+      "no_pre_takeoff_share": 0.67,
+      "at_stand_share": 0.02,
+      "partial_share": 0.119,
+      "partial_median": {
+        "ground_points": 5.0,
+        "stand_first_m": 718.3354087885866,
+        "ground_span_s": 137.74499988555908,
+        "first_ground_age_s": 562.4199999570847
+      }
+    },
+    "EGLL 2025-07-09": {
+      "main_rows": 678,
+      "no_pre_takeoff_share": 0.702,
+      "at_stand_share": 0.013,
+      "partial_share": 0.114,
+      "partial_median": {
+        "ground_points": 7.0,
+        "stand_first_m": 1057.554441227655,
+        "ground_span_s": 185.99000000953674,
+        "first_ground_age_s": 453.2000000476837
+      }
+    },
+    "EGLL 2025-07-11": {
+      "main_rows": 680,
+      "no_pre_takeoff_share": 0.896,
+      "at_stand_share": 0.013,
+      "partial_share": 0.05,
+      "partial_median": {
+        "ground_points": 7.0,
+        "stand_first_m": 498.5819171330636,
+        "ground_span_s": 132.46000003814697,
+        "first_ground_age_s": 550.5549999475479
+      }
+    },
+    "EGLL 2025-07-13": {
+      "main_rows": 666,
+      "no_pre_takeoff_share": 0.859,
+      "at_stand_share": 0.018,
+      "partial_share": 0.045,
+      "partial_median": {
+        "ground_points": 5.5,
+        "stand_first_m": 35.67805070149711,
+        "ground_span_s": 215.94000005722046,
+        "first_ground_age_s": 922.0749999284744
+      }
+    },
+    "EGLL 2025-07-14": {
+      "main_rows": 675,
+      "no_pre_takeoff_share": 0.64,
+      "at_stand_share": 0.03,
+      "partial_share": 0.194,
+      "partial_median": {
+        "ground_points": 7.0,
+        "stand_first_m": 1802.8167575213424,
+        "ground_span_s": 210.04999995231628,
+        "first_ground_age_s": 509.1099998950958
+      }
+    },
+    "EGLL 2025-07-16": {
+      "main_rows": 680,
+      "no_pre_takeoff_share": 0.619,
+      "at_stand_share": 0.028,
+      "partial_share": 0.165,
+      "partial_median": {
+        "ground_points": 6.0,
+        "stand_first_m": 2177.154019223576,
+        "ground_span_s": 176.11000001430511,
+        "first_ground_age_s": 454.3049999475479
+      }
+    },
+    "EGLL 2025-07-18": {
+      "main_rows": 678,
+      "no_pre_takeoff_share": 0.711,
+      "at_stand_share": 0.004,
+      "partial_share": 0.139,
+      "partial_median": {
+        "ground_points": 5.5,
+        "stand_first_m": 2456.8139622394588,
+        "ground_span_s": 173.14999997615814,
+        "first_ground_age_s": 460.74000000953674
+      }
+    },
+    "EGLL 2025-07-23": {
+      "main_rows": 681,
+      "no_pre_takeoff_share": 0.678,
+      "at_stand_share": 0.01,
+      "partial_share": 0.137,
+      "partial_median": {
+        "ground_points": 5.0,
+        "stand_first_m": 2691.511425547205,
+        "ground_span_s": 77.79999995231628,
+        "first_ground_age_s": 403.49000000953674
+      }
+    },
+    "EGLL 2025-07-25": {
+      "main_rows": 677,
+      "no_pre_takeoff_share": 0.626,
+      "at_stand_share": 0.012,
+      "partial_share": 0.207,
+      "partial_median": {
+        "ground_points": 5.5,
+        "stand_first_m": 2347.535154594726,
+        "ground_span_s": 82.16499996185303,
+        "first_ground_age_s": 381.9950000047684
+      }
+    },
+    "EGLL 2025-07-27": {
+      "main_rows": 653,
+      "no_pre_takeoff_share": 0.568,
+      "at_stand_share": 0.009,
+      "partial_share": 0.279,
+      "partial_median": {
+        "ground_points": 6.0,
+        "stand_first_m": 1925.3059209158157,
+        "ground_span_s": 99.56000006198883,
+        "first_ground_age_s": 409.6949999332428
+      }
+    }
+  },
+  "composition": {
+    "EGLL": {
+      "scored_july_main_rows": 20421,
+      "v56_july_train": {
+        "STAND_mvt": 0.792,
+        "RUNWAY_mvt": 0.612,
+        "partial_rows": 362
+      },
+      "all_used_july": {
+        "STAND_mvt": 0.941,
+        "RUNWAY_mvt": 0.994,
+        "partial_rows": 1068
+      },
+      "all_used_jan_and_july": {
+        "STAND_mvt": 0.998,
+        "RUNWAY_mvt": 1.0,
+        "partial_rows": 4336
+      }
+    },
+    "EDDF": {
+      "scored_july_main_rows": 20441,
+      "v56_july_train": {
+        "STAND_mvt": 0.852,
+        "RUNWAY_mvt": 1.0,
+        "partial_rows": 2176
+      },
+      "all_used_july": {
+        "STAND_mvt": 0.892,
+        "RUNWAY_mvt": 1.0,
+        "partial_rows": 5752
+      },
+      "all_used_jan_and_july": {
+        "STAND_mvt": 0.908,
+        "RUNWAY_mvt": 1.0,
+        "partial_rows": 10030
+      }
+    }
+  },
+  "row_level_2026_like": {
+    "EGLL-01": {
+      "definition": ">=50 points, first point <=100 m",
+      "partial_rows": 3268,
+      "rows_2026_like": 230,
+      "share": 0.07
+    },
+    "EGLL-07": {
+      "definition": ">=50 points, first point <=100 m",
+      "partial_rows": 1068,
+      "rows_2026_like": 0,
+      "share": 0.0
+    },
+    "EDDF-01": {
+      "definition": "<=12 points, first point >=900 m",
+      "partial_rows": 4278,
+      "rows_2026_like": 212,
+      "share": 0.05
+    },
+    "EDDF-07": {
+      "definition": "<=12 points, first point >=900 m",
+      "partial_rows": 5752,
+      "rows_2026_like": 202,
+      "share": 0.035
+    }
+  }
+}

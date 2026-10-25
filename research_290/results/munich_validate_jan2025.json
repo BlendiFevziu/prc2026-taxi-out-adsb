@@ -1,0 +1,121 @@
+{
+  "preregistration": "research_290/PREREG_stand_detector.md addendum D",
+  "comparator": "v45 full ensemble, held-out January 2025 (ensemble_baseline.parquet)",
+  "dates": [
+    "2025-01-08",
+    "2025-01-16",
+    "2025-01-24",
+    "2025-01-26"
+  ],
+  "accuracy_vs_block": {
+    "n": 454,
+    "median_s": 23.24750006198883,
+    "mae_s": 36.55410792386479,
+    "rmse_s": 65.5249592763908,
+    "within_60": 405,
+    "within_60_share": 0.8920704845814978,
+    "within_120": 437,
+    "worst": [
+      -503.97499990463257,
+      435.4449999332428
+    ],
+    "by_date": {
+      "2025-01-08": {
+        "n": 135,
+        "median_s": 20.19000005722046,
+        "mae_s": 38.19292592825713,
+        "within_60": 121
+      },
+      "2025-01-16": {
+        "n": 103,
+        "median_s": 26.945000171661377,
+        "mae_s": 32.90043688746332,
+        "within_60": 92
+      },
+      "2025-01-24": {
+        "n": 104,
+        "median_s": 24.142499923706055,
+        "mae_s": 38.87201921297954,
+        "within_60": 91
+      },
+      "2025-01-26": {
+        "n": 112,
+        "median_s": 22.99750006198883,
+        "mae_s": 35.78647321036884,
+        "within_60": 101
+      }
+    }
+  },
+  "comparison_on_identical_main_rows": {
+    "rows": 453,
+    "label_check_max_diff_s": 0.0,
+    "detector_rmse": 65.59722277022745,
+    "comparator_rmse": 151.81187634424683,
+    "ersatz_rmse": 372.63659065847486,
+    "blend_half_rmse_descriptive": 83.36331625494516,
+    "mse_gain_per_row": 18743.850163994044,
+    "mse_gain_without_top5pct": 6527.308978931967,
+    "bootstrap_95": [
+      11834.427235240613,
+      27079.841501025145
+    ],
+    "per_date": {
+      "2025-01-08": {
+        "rows": 134,
+        "detector_rmse": 73.5523613532452,
+        "comparator_rmse": 215.83838577383733,
+        "ersatz_rmse": 450.35901930421767
+      },
+      "2025-01-16": {
+        "rows": 103,
+        "detector_rmse": 45.14337257484112,
+        "comparator_rmse": 127.04365047519056,
+        "ersatz_rmse": 397.3298133572716
+      },
+      "2025-01-24": {
+        "rows": 104,
+        "detector_rmse": 72.6724595082818,
+        "comparator_rmse": 115.11878372937358,
+        "ersatz_rmse": 275.4254575966203
+      },
+      "2025-01-26": {
+        "rows": 112,
+        "detector_rmse": 64.44569819799563,
+        "comparator_rmse": 101.63824229265046,
+        "ersatz_rmse": 321.4685332301481
+      }
+    }
+  },
+  "context": {
+    "departures_by_date": {
+      "2025-01-08": 362,
+      "2025-01-16": 381,
+      "2025-01-24": 388,
+      "2025-01-26": 368
+    },
+    "estimates_share_of_departures": 0.30220146764509676,
+    "munich_share_of_scored_main_rows": 0.07577065006434969,
+    "official_scale_upper_bound_s": 0.79772845639161,
+    "why_an_upper_bound": "comparator is weaker than production; July 2026 detector coverage not measured; January 2026 coverage not checked; no transfer discount applied",
+    "fallback_rows": {
+      "n": 1,
+      "mae_s": 1.0899999141693115
+    },
+    "status_counts": {
+      "no_parked_onset": 590,
+      "ok": 454,
+      "unmapped": 158,
+      "no_occupancy": 151,
+      "gap_too_large": 84,
+      "ambiguous_onsets": 10,
+      "arrival_transition": 1
+    }
+  },
+  "checks": {
+    "V1_accuracy_transfers": true,
+    "V2_beats_comparator_every_date": true,
+    "V3_not_concentrated": true,
+    "V4_interval_above_zero": true
+  },
+  "justifies_further_work": true
+}

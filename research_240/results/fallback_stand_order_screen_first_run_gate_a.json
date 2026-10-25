@@ -1,0 +1,25 @@
+{
+  "gate_a": [
+    {
+      "table": "2025 all months",
+      "rows": 22470,
+      "missing_pattern_equal": false,
+      "max_abs_diff_s": 0.0,
+      "passed": false
+    },
+    {
+      "table": "2026 ranking",
+      "rows": 5290,
+      "missing_pattern_equal": true,
+      "max_abs_diff_s": 0.0,
+      "passed": true
+    },
+    {
+      "table": "months [2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",
+      "rows": 17097,
+      "missing_pattern_equal": false,
+      "max_abs_diff_s": 0.0,
+      "passed": false
+    }
+  ]
+}

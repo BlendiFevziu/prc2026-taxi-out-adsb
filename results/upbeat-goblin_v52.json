@@ -1,0 +1,29 @@
+{
+  "submission": "upbeat-goblin_v52.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v52.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 265.2839
+  },
+  "score": 265.2839,
+  "previous": {
+    "v51": 265.853,
+    "v50": 266.1204,
+    "v48": 266.4508
+  },
+  "gain_s": 0.5691,
+  "recipe": "v51 with the NM add-on's residual model given capacity (200x7 -> 1500x31, reg_lambda 10 -> 5) and its shrink set to that configuration's own optimum 0.878.",
+  "prediction_fixed_before_upload": 265.239,
+  "actual": 265.2839,
+  "prediction_error_s": 0.0449,
+  "transfer_model": "validated twice: the whole gain curve scales by tau, so the optimal shrink is unchanged by transfer. v51 predicted 1,299 MSE and measured 1,299; v52 predicted 265.239 and scored 265.2839.",
+  "why_it_worked": "s* = 1.237 meant the residual model needed its output scaled UP by a quarter, which is under-fitting. Its config was 200 rounds at lr 0.03 (effective budget 6), 7 leaves, reg_lambda 10. Capacity raises the ceiling from 6,356 to 10,829 MSE per covered row and brings s* to 0.878, i.e. calibrated.",
+  "archive_consequence": "the add-on realises 7,883 MSE per covered row against 2,888 in v48, so full January and July coverage is now worth about 12.9 s from here, landing near 252.4 (ninth place). Arithmetic at the measured transfer, not a forecast.",
+  "candidate_sha256": "9ce1e72626e212248e6730f064db79168848811254843d4421402c592ba511da"
+}

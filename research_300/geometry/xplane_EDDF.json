@@ -1,0 +1,2755 @@
+{
+ "icao": "EDDF",
+ "scenery_id": 103368,
+ "status": "Approved",
+ "date_accepted": "2024-08-16T09:15:18.000Z",
+ "dat_file": "EDDF.dat",
+ "stands": [
+  {
+   "lat": 50.02995216,
+   "lon": 8.55740761,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "helos",
+   "name": "S401",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02968474,
+   "lon": 8.55603906,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "helos",
+   "name": "S402",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03006917,
+   "lon": 8.55785841,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S403",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02957303,
+   "lon": 8.55564563,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S404",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03017682,
+   "lon": 8.55831466,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S405",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.0294786,
+   "lon": 8.55524708,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S406",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03028672,
+   "lon": 8.55876172,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S407",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02938059,
+   "lon": 8.5548495,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S408",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03039457,
+   "lon": 8.55922831,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S409",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02929061,
+   "lon": 8.55444636,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S410",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03050709,
+   "lon": 8.5596821,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S411",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.0291957,
+   "lon": 8.55404604,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S412",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03061867,
+   "lon": 8.56012468,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S413",
+   "icao_size": "B",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.02909906,
+   "lon": 8.55364816,
+   "heading": 161.0,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S414",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02899563,
+   "lon": 8.5532064,
+   "heading": 161.0,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S416",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.02881586,
+   "lon": 8.5523976,
+   "heading": 161.0,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S420",
+   "icao_size": "B",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.02890417,
+   "lon": 8.5528026,
+   "heading": 161.0,
+   "type": "tie_down",
+   "classes": "jets|turboprops|props",
+   "name": "S418",
+   "icao_size": "B",
+   "operation": "general_aviation",
+   "airlines": []
+  },
+  {
+   "lat": 50.03005606,
+   "lon": 8.56435483,
+   "heading": 70.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S501",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.0305805,
+   "lon": 8.56405955,
+   "heading": 70.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S503",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02993559,
+   "lon": 8.56136121,
+   "heading": 250.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S504",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03117147,
+   "lon": 8.56371681,
+   "heading": 69.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S505",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03052722,
+   "lon": 8.56102651,
+   "heading": 249.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S506",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03169203,
+   "lon": 8.56335707,
+   "heading": 69.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S507",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03106176,
+   "lon": 8.56071807,
+   "heading": 249.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S508",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02784742,
+   "lon": 8.57670259,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "K4",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.028014,
+   "lon": 8.57747774,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "K2",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02762299,
+   "lon": 8.57573637,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "K6",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02735997,
+   "lon": 8.57462005,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "K8",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02708005,
+   "lon": 8.57343611,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "K10",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02726942,
+   "lon": 8.56963944,
+   "heading": -109.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S310",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02798657,
+   "lon": 8.56921364,
+   "heading": -109.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S311",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02869845,
+   "lon": 8.56880422,
+   "heading": -109.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S312",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.02940157,
+   "lon": 8.56831837,
+   "heading": 249.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S313",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03149975,
+   "lon": 8.56781949,
+   "heading": 69.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S601",
+   "icao_size": "F",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03078742,
+   "lon": 8.56485071,
+   "heading": 250.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S602",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03218227,
+   "lon": 8.5674165,
+   "heading": 69.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S603",
+   "icao_size": "F",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03148285,
+   "lon": 8.56451148,
+   "heading": 250.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "S604",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03161552,
+   "lon": 8.58343337,
+   "heading": 114.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G1",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03198498,
+   "lon": 8.58363088,
+   "heading": 114.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G3",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03232905,
+   "lon": 8.5839329,
+   "heading": 114.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G5",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03284588,
+   "lon": 8.58434894,
+   "heading": 114.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G7",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03356597,
+   "lon": 8.58492751,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G9",
+   "icao_size": "F",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03347756,
+   "lon": 8.58628764,
+   "heading": -65.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G8",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03286178,
+   "lon": 8.58584991,
+   "heading": -65.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G6",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03224334,
+   "lon": 8.58541093,
+   "heading": -65.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G4",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03162764,
+   "lon": 8.58497541,
+   "heading": -65.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G2",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03428777,
+   "lon": 8.58686335,
+   "heading": -65.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G10",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03447806,
+   "lon": 8.58554282,
+   "heading": 114.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G11",
+   "icao_size": "F",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.0349063,
+   "lon": 8.5873009,
+   "heading": 294.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G12",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03520707,
+   "lon": 8.58608844,
+   "heading": 115.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G13",
+   "icao_size": "F",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03551961,
+   "lon": 8.5877377,
+   "heading": 294.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G14",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03585954,
+   "lon": 8.5866175,
+   "heading": 115.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G15",
+   "icao_size": "F",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03622996,
+   "lon": 8.58733953,
+   "heading": -110.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "G16",
+   "icao_size": "E",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03180535,
+   "lon": 8.58108879,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H2",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03232228,
+   "lon": 8.58080509,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H4",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03286532,
+   "lon": 8.58050517,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H6",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.033868,
+   "lon": 8.57998394,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H10",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03347901,
+   "lon": 8.58017945,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H8",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03461312,
+   "lon": 8.57949031,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H14",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.03423976,
+   "lon": 8.57972413,
+   "heading": 249.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "H12",
+   "icao_size": "C",
+   "operation": "none",
+   "airlines": []
+  },
+  {
+   "lat": 50.04916204,
+   "lon": 8.57100177,
+   "heading": 98.4,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "A1",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04901246,
+   "lon": 8.5697257,
+   "heading": 294.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A11",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04856222,
+   "lon": 8.56933508,
+   "heading": -64.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A13",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04780829,
+   "lon": 8.56786102,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A14",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04808318,
+   "lon": 8.56894887,
+   "heading": -64.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A15",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04730867,
+   "lon": 8.56755198,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A16",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04756534,
+   "lon": 8.56869106,
+   "heading": -64.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A17",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04682138,
+   "lon": 8.56718808,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A18",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04710654,
+   "lon": 8.56823324,
+   "heading": -65.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A19",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04633501,
+   "lon": 8.56682645,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A20",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04660183,
+   "lon": 8.56793416,
+   "heading": -64.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A21",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04574019,
+   "lon": 8.56641793,
+   "heading": 114.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A22",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04611919,
+   "lon": 8.5675757,
+   "heading": -65.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A23",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04528927,
+   "lon": 8.56598362,
+   "heading": 114.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A24",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04553929,
+   "lon": 8.56708922,
+   "heading": 294.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A25",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04470766,
+   "lon": 8.56541008,
+   "heading": 164.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A26",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04458639,
+   "lon": 8.56488134,
+   "heading": 159.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A28",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04444678,
+   "lon": 8.56436218,
+   "heading": 154.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A30",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04421484,
+   "lon": 8.56332784,
+   "heading": 170.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A34",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04409467,
+   "lon": 8.56279332,
+   "heading": 164.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A36",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04395436,
+   "lon": 8.56226734,
+   "heading": 159.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A38",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04381793,
+   "lon": 8.5617388,
+   "heading": 155.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A40",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04819516,
+   "lon": 8.56577767,
+   "heading": -20.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A50",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04793014,
+   "lon": 8.56485063,
+   "heading": -20.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A52",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04772898,
+   "lon": 8.56376468,
+   "heading": -20.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A54",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04763114,
+   "lon": 8.5639433,
+   "heading": -39.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A54A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04743897,
+   "lon": 8.56361068,
+   "heading": -20.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A54B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0474593,
+   "lon": 8.56262181,
+   "heading": -20.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A58",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04734875,
+   "lon": 8.56281505,
+   "heading": -39.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A58A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04716203,
+   "lon": 8.56246899,
+   "heading": -20.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A58B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04718578,
+   "lon": 8.56147655,
+   "heading": -20.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A62",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04708358,
+   "lon": 8.56166156,
+   "heading": -38.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A62A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04692998,
+   "lon": 8.56129774,
+   "heading": -20.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A62B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04690273,
+   "lon": 8.56033622,
+   "heading": -20.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A66",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04681371,
+   "lon": 8.56051532,
+   "heading": -39.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A66A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04662744,
+   "lon": 8.56017002,
+   "heading": -20.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A66B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04663697,
+   "lon": 8.55929489,
+   "heading": -20.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "A69",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04872895,
+   "lon": 8.57157923,
+   "heading": 159.6,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "B10",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04807967,
+   "lon": 8.57202553,
+   "heading": 115.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B22",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04743969,
+   "lon": 8.57152875,
+   "heading": 115.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B22",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04712515,
+   "lon": 8.57256889,
+   "heading": -84.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B23",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04693608,
+   "lon": 8.57109896,
+   "heading": 114.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B24",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04653003,
+   "lon": 8.5708087,
+   "heading": 90.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B25",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0460862,
+   "lon": 8.57089093,
+   "heading": 59.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B26",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04625281,
+   "lon": 8.57199036,
+   "heading": 2.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B27",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04657925,
+   "lon": 8.5722749,
+   "heading": 298.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B28",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04766728,
+   "lon": 8.57479722,
+   "heading": 45.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B42",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04876514,
+   "lon": 8.57432945,
+   "heading": -142.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B42",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04841565,
+   "lon": 8.57511631,
+   "heading": -155.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B43",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04816423,
+   "lon": 8.57612667,
+   "heading": 205.7,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B44",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04795392,
+   "lon": 8.57675704,
+   "heading": -127.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B45",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04763253,
+   "lon": 8.57704235,
+   "heading": -89.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B46",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04724261,
+   "lon": 8.57630968,
+   "heading": 24.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B47",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04741208,
+   "lon": 8.5755773,
+   "heading": 28.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "B48",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.0500621,
+   "lon": 8.57442187,
+   "heading": 76.4,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "C2",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05030158,
+   "lon": 8.57532516,
+   "heading": 22.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C4",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "cfg"
+   ]
+  },
+  {
+   "lat": 50.05009813,
+   "lon": 8.57609944,
+   "heading": 21.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C5",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "cfg"
+   ]
+  },
+  {
+   "lat": 50.04989292,
+   "lon": 8.57693107,
+   "heading": 21.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C6",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "cfg"
+   ]
+  },
+  {
+   "lat": 50.04960389,
+   "lon": 8.57796964,
+   "heading": 21.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C8",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "cfg"
+   ]
+  },
+  {
+   "lat": 50.0493483,
+   "lon": 8.57886269,
+   "heading": 22.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C11",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04903584,
+   "lon": 8.57979361,
+   "heading": 11.9,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "C13",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04926653,
+   "lon": 8.58051312,
+   "heading": -20.2,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "C14",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04952144,
+   "lon": 8.58167089,
+   "heading": -20.4,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "C15",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04980389,
+   "lon": 8.58280788,
+   "heading": -20.5,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "C16",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.05087441,
+   "lon": 8.58732828,
+   "heading": -20.5,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D1",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05071735,
+   "lon": 8.58745568,
+   "heading": -43.3,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D1A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05062795,
+   "lon": 8.5862805,
+   "heading": -20.3,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D4",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.05032896,
+   "lon": 8.58615271,
+   "heading": -20.6,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D4B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0505724,
+   "lon": 8.58646288,
+   "heading": -38.0,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D4A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.05036796,
+   "lon": 8.58523318,
+   "heading": -20.7,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D5",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.05021408,
+   "lon": 8.58537141,
+   "heading": -43.4,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D5A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.05012913,
+   "lon": 8.58420828,
+   "heading": -20.1,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D8",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04996713,
+   "lon": 8.58433498,
+   "heading": -43.0,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "D8A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0511248,
+   "lon": 8.58839238,
+   "heading": -19.0,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E2",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05082854,
+   "lon": 8.58825108,
+   "heading": -20.1,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E2B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05107263,
+   "lon": 8.58856623,
+   "heading": -37.3,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E2A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05143815,
+   "lon": 8.58960965,
+   "heading": -19.4,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E5",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05112058,
+   "lon": 8.58949499,
+   "heading": -20.4,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E5B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05136988,
+   "lon": 8.58980527,
+   "heading": -37.5,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E5A",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05166953,
+   "lon": 8.59069249,
+   "heading": -19.9,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E6",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.0514542,
+   "lon": 8.59087105,
+   "heading": -44.8,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E6A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05194282,
+   "lon": 8.59174037,
+   "heading": -20.5,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E9",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.05170897,
+   "lon": 8.59192252,
+   "heading": -44.0,
+   "type": "gate",
+   "classes": "heavy|jets",
+   "name": "E9A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04964218,
+   "lon": 8.59859972,
+   "heading": -63.1,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V94",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04942451,
+   "lon": 8.59764631,
+   "heading": -63.2,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V95",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04918739,
+   "lon": 8.59669492,
+   "heading": -63.3,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V96",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04895868,
+   "lon": 8.59571318,
+   "heading": -62.8,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V97",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04944834,
+   "lon": 8.59247568,
+   "heading": -19.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V106",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04986254,
+   "lon": 8.59223667,
+   "heading": 161.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V107",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0492978,
+   "lon": 8.59180573,
+   "heading": -20.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V108",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04970172,
+   "lon": 8.59156968,
+   "heading": 160.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V109",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04912294,
+   "lon": 8.59103283,
+   "heading": 341.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V110",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04950128,
+   "lon": 8.59081955,
+   "heading": 160.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V111",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04891011,
+   "lon": 8.59040409,
+   "heading": -19.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V112",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04917161,
+   "lon": 8.58949028,
+   "heading": 160.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V113",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04881333,
+   "lon": 8.58969841,
+   "heading": -19.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V114",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04898783,
+   "lon": 8.58873083,
+   "heading": 160.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V115",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04860387,
+   "lon": 8.58895245,
+   "heading": -19.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V116",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04888564,
+   "lon": 8.58803307,
+   "heading": 160.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V117",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04840329,
+   "lon": 8.58830923,
+   "heading": -19.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V118",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04829169,
+   "lon": 8.58584568,
+   "heading": 160.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V119",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04817056,
+   "lon": 8.58574021,
+   "heading": 160.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V120",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04813919,
+   "lon": 8.58504472,
+   "heading": 158.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V121",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04789202,
+   "lon": 8.58474278,
+   "heading": 158.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V122",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04790804,
+   "lon": 8.58428928,
+   "heading": 158.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V123",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04768101,
+   "lon": 8.58370039,
+   "heading": 159.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V124",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04772436,
+   "lon": 8.58349637,
+   "heading": 159.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V125",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04752703,
+   "lon": 8.58245316,
+   "heading": 159.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V126",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04736811,
+   "lon": 8.58226999,
+   "heading": 159.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V127",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04737357,
+   "lon": 8.58179749,
+   "heading": 159.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V128",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04711137,
+   "lon": 8.58125975,
+   "heading": 160.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V129",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04715304,
+   "lon": 8.5810405,
+   "heading": 160.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V130",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.0438524,
+   "lon": 8.57034106,
+   "heading": 159.7,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V134",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04377136,
+   "lon": 8.5700451,
+   "heading": 159.7,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V135",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04370801,
+   "lon": 8.56973996,
+   "heading": 159.7,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V136",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.04548905,
+   "lon": 8.56233959,
+   "heading": 40.4,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V143",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04570954,
+   "lon": 8.56318369,
+   "heading": 39.8,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V144",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04123831,
+   "lon": 8.55820197,
+   "heading": 159.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V157",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04083371,
+   "lon": 8.55760004,
+   "heading": 159.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V158",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04077297,
+   "lon": 8.55749042,
+   "heading": 159.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V159",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04060965,
+   "lon": 8.55690705,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V160",
+   "icao_size": "F",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04057175,
+   "lon": 8.55650274,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V161",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04054764,
+   "lon": 8.55623468,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V162",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.04030686,
+   "lon": 8.55552947,
+   "heading": 159.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "V163",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03930401,
+   "lon": 8.55125857,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V164",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03873855,
+   "lon": 8.54890721,
+   "heading": 159.9,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V166",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03851698,
+   "lon": 8.54796675,
+   "heading": 159.4,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V167",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03829032,
+   "lon": 8.54702533,
+   "heading": 159.7,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V168",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0380304,
+   "lon": 8.54594162,
+   "heading": 159.7,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V169",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0377917,
+   "lon": 8.54500026,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V170",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0371755,
+   "lon": 8.5423292,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V171A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03704638,
+   "lon": 8.54227269,
+   "heading": 160.2,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V171",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03704182,
+   "lon": 8.54187795,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V171B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03684641,
+   "lon": 8.54146984,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V172",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03682362,
+   "lon": 8.54095941,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V173A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.036652,
+   "lon": 8.54065151,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V173",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.0367368,
+   "lon": 8.54049134,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V173B",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03640843,
+   "lon": 8.53951408,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V174",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03620087,
+   "lon": 8.53877176,
+   "heading": 159.9,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V175",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03601748,
+   "lon": 8.53800597,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V176",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03586064,
+   "lon": 8.53733917,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V177",
+   "icao_size": "D",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03570014,
+   "lon": 8.53667451,
+   "heading": 159.5,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "V178",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": [
+    "dlh"
+   ]
+  },
+  {
+   "lat": 50.03971365,
+   "lon": 8.54410717,
+   "heading": 69.3,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F211",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.04034035,
+   "lon": 8.54372439,
+   "heading": 69.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F212",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03995108,
+   "lon": 8.54510693,
+   "heading": -110.2,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F213",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.04058587,
+   "lon": 8.54474274,
+   "heading": -110.8,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F214",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.04066181,
+   "lon": 8.54804367,
+   "heading": 68.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F215",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.04127698,
+   "lon": 8.54767055,
+   "heading": 69.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F216",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03873138,
+   "lon": 8.54131909,
+   "heading": 250.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F221",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03880052,
+   "lon": 8.54120098,
+   "heading": 250.0,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F222",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03905947,
+   "lon": 8.54115025,
+   "heading": -110.6,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F223",
+   "icao_size": "D",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03932783,
+   "lon": 8.54074069,
+   "heading": -110.1,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F224",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03940243,
+   "lon": 8.54088147,
+   "heading": -110.5,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F225",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": [
+    "gec"
+   ]
+  },
+  {
+   "lat": 50.03831935,
+   "lon": 8.53488285,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F231",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.03754803,
+   "lon": 8.53412291,
+   "heading": 158.9,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "F232A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.03799636,
+   "lon": 8.53354972,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F232",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03726749,
+   "lon": 8.53272046,
+   "heading": 158.9,
+   "type": "tie_down",
+   "classes": "heavy|jets|turboprops",
+   "name": "F233A",
+   "icao_size": "C",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.03767369,
+   "lon": 8.53217007,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F233",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03735608,
+   "lon": 8.53084321,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F234",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03705864,
+   "lon": 8.52964082,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F235",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.03756352,
+   "lon": 8.52763044,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F237",
+   "icao_size": "E",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.0372764,
+   "lon": 8.52638488,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "heavy|jets|turboprops",
+   "name": "F238",
+   "icao_size": "E",
+   "operation": "airline",
+   "airlines": []
+  },
+  {
+   "lat": 50.03701972,
+   "lon": 8.52545563,
+   "heading": 339.4,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V266",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03688856,
+   "lon": 8.5248516,
+   "heading": -20.9,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V267",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03678949,
+   "lon": 8.52423864,
+   "heading": -20.9,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V268",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03664743,
+   "lon": 8.52365537,
+   "heading": -20.9,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V269",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": []
+  },
+  {
+   "lat": 50.03651157,
+   "lon": 8.52306328,
+   "heading": -20.9,
+   "type": "gate",
+   "classes": "jets|turboprops",
+   "name": "V270",
+   "icao_size": "C",
+   "operation": "cargo",
+   "airlines": []
+  }
+ ],
+ "scenery_meta": {
+  "sceneryId": 103368,
+  "parentId": 100697,
+  "icao": "EDDF",
+  "aptName": "Frankfurt am Main",
+  "userId": 340,
+  "userName": "meikelm",
+  "dateUploaded": "2024-08-16T06:37:19.000Z",
+  "dateAccepted": "2024-08-16T09:15:18.000Z",
+  "dateApproved": "2024-08-16T21:32:31.000Z",
+  "dateDeclined": null,
+  "type": "3D",
+  "features": "90,86,8,2,1",
+  "artistComments": "Updated dual docking ramps, needs WED 2.6.0r1  to open",
+  "moderatorComments": "Approved by moderator."
+ },
+ "source": "https://gateway.x-plane.com/apiv1/scenery/103368"
+}

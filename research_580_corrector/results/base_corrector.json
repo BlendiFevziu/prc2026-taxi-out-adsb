@@ -1,0 +1,48 @@
+{
+  "prereg": "research_580_corrector/PREREG_base_corrector.md",
+  "rows": 339046,
+  "base_rmse": 214.68979573478165,
+  "corrected_rmse": 217.6740123540841,
+  "test_month_1": {
+    "rows": 152271,
+    "gain_per_row": -926.1203339975252,
+    "without_best100": -1399.8907755216621
+  },
+  "test_month_7": {
+    "rows": 186775,
+    "gain_per_row": -1587.1432719939344,
+    "without_best100": -1914.8255149869776
+  },
+  "by_airport": {
+    "EDDF": -984.0406491295703,
+    "EDDM": -1193.2880359030855,
+    "EGLL": -868.9315326452277,
+    "EHAM": -835.330888230933,
+    "LEBL": -1024.8146869298655,
+    "LEMD": -660.5478410820984,
+    "LFPG": -912.0226481265598,
+    "LIRF": -1775.9046795568236,
+    "LSZH": -491.5057534021056,
+    "LTFM": -3419.8994833519823
+  },
+  "base_owned_2026": {
+    "LTFM": 46860,
+    "LFPG": 39138,
+    "LEMD": 36716,
+    "LIRF": 26516,
+    "EDDF": 24767,
+    "EGLL": 24082,
+    "EDDM": 17493,
+    "EHAM": 8925,
+    "LSZH": 6558,
+    "LEBL": 3595
+  },
+  "planning_s": 0.0,
+  "rules": {
+    "both_directions_positive": false,
+    "without_best100_both": false,
+    "seven_of_ten_airports": false,
+    "planning_at_least_0_2_s": false
+  },
+  "verdict": "fail"
+}

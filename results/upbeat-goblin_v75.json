@@ -1,0 +1,74 @@
+{
+  "submission": "upbeat-goblin_v75.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v75.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 249.3908
+  },
+  "score": 249.3908,
+  "previous": {
+    "version": "v67",
+    "score": 256.0858
+  },
+  "gain_s": 6.695,
+  "file_sha256": "60627876830cd8eb4d3b44449aed9be82b68884ec7227f2f0f2ed6566092f275",
+  "recipe": "v67 + v68 (EHAM Jan add-on averaged with C1) + v69 (Rome no-midnight copy rule) + v70 (Rome classifier, 1-8 h slice, post-hoc disclosed) + v71 (stand model 400x15 on E) + v72 (C1 on E+B1+B2) + v73 (stand model on E+B1+B2) + v74 (detectors on fallback rows at EHAM/EDDM, support guard) + v75 (v2 detector on fallback rows at LEBL/LSZH); each built and verified; NM-free",
+  "prediction_fixed_before_upload": {
+    "from": "v67 official 256.0858, each step's fixed central/best/worst added (steps are not independent; the range is a sum, not an interval)",
+    "steps_s": {
+      "v68": [
+        -0.2,
+        -0.3,
+        -0.08
+      ],
+      "v69": [
+        -0.57,
+        -0.78,
+        4.42
+      ],
+      "v70": [
+        -1.75,
+        -5.84,
+        1.0
+      ],
+      "v71": [
+        -0.21,
+        -0.31,
+        -0.08
+      ],
+      "v72": [
+        -0.45,
+        -0.68,
+        -0.17
+      ],
+      "v73": [
+        -0.15,
+        -0.22,
+        -0.05
+      ],
+      "v74": [
+        -0.18,
+        -0.26,
+        -0.07
+      ],
+      "v75": [
+        -0.04,
+        -0.06,
+        -0.02
+      ]
+    },
+    "central": 252.54,
+    "best": 247.64,
+    "worst": 261.04
+  },
+  "realised_mse_per_scored_row": 3384.2,
+  "predicted_central_mse_per_scored_row": 1803.5,
+  "realised_over_central": 1.88,
+  "note": "v68 to v74 were built and verified but never uploaded; v75 carries all of them, so no single step's contribution is identifiable from this score. Uploaded 30 September 2026 about 20:30 UTC, once."
+}

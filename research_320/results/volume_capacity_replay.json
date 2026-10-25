@@ -1,0 +1,66 @@
+{
+  "model_hashes_equal": true,
+  "prediction_files_equal": true,
+  "b1": {
+    "rows": 16029,
+    "labels_equal": true,
+    "corrections_exact": true,
+    "not_exact": [],
+    "headline_numbers_equal": {
+      "arm2": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      },
+      "arm3": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      },
+      "arm4": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      },
+      "e_fixed": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      }
+    },
+    "all_equal": true,
+    "deployed_equals_arm1": true
+  },
+  "b2": {
+    "rows": 8894,
+    "labels_equal": true,
+    "corrections_exact": true,
+    "not_exact": [],
+    "headline_numbers_equal": {
+      "arm3": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      },
+      "arm4": {
+        "gain_mse": true,
+        "without_best100": true,
+        "january": true,
+        "july": true,
+        "seeds": true
+      }
+    },
+    "all_equal": true
+  },
+  "verdict": "replayed"
+}

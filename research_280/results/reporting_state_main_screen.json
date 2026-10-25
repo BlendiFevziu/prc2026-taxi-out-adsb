@@ -1,0 +1,62 @@
+{
+  "validation": "single-LightGBM January/July main-lane screen; not the full ensemble and not a leaderboard forecast",
+  "rows": 339046,
+  "coverage": {
+    "rs_sek_90": 0.9999174153359721,
+    "rs_kopie_90": 0.9999174153359721,
+    "rs_nmfehlt_90": 0.9999174153359721,
+    "rs_n_90": 1.0,
+    "rs_sek_tag": 1.0,
+    "rs_kopie_tag": 1.0
+  },
+  "baseline_rmse": 223.6976292444155,
+  "candidate_rmse": 223.86786247316252,
+  "best_iteration": {
+    "baseline": 1179,
+    "candidate": 1281
+  },
+  "mse_gain": -76.19051873082563,
+  "mse_gain_without_top100_rows": -348.31474644806025,
+  "january_mse_gain": -22.180234866990137,
+  "july_mse_gain": -120.22317799587772,
+  "rows_improved": 168875,
+  "rows_worsened": 168875,
+  "airport_mse_gain": {
+    "EDDF": -179.5527560926027,
+    "EDDM": 48.61233226203317,
+    "EGLL": -159.49829971488936,
+    "EHAM": 10.822566376678138,
+    "LEBL": -56.61021800994395,
+    "LEMD": 51.341802861288976,
+    "LFPG": -64.00117665521441,
+    "LIRF": -410.3152997871662,
+    "LSZH": 286.19201277402254,
+    "LTFM": -173.4238133548109
+  },
+  "new_feature_importance_rank": {
+    "rs_sek_90": 68,
+    "rs_kopie_90": 54,
+    "rs_nmfehlt_90": 77,
+    "rs_n_90": 47,
+    "rs_sek_tag": 34,
+    "rs_kopie_tag": 24
+  },
+  "new_feature_gain_share": {
+    "rs_sek_90": 0.0005621463964900881,
+    "rs_kopie_90": 0.0011219949272849494,
+    "rs_nmfehlt_90": 0.0003486253696707786,
+    "rs_n_90": 0.001258816007768636,
+    "rs_sek_tag": 0.0021950115054296428,
+    "rs_kopie_tag": 0.005621459906128643
+  },
+  "seconds": 397.9269390106201,
+  "rmse_gain": -0.17023322874700852,
+  "decision": {
+    "checks": {
+      "1_rmse_gain_at_least_0_3_s": false,
+      "2_survives_top100_removal": false,
+      "3_january_and_july_gain": false
+    },
+    "plan_six_pair_confirmation": false
+  }
+}

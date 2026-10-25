@@ -1,0 +1,41 @@
+{
+  "submission": "upbeat-goblin_v51.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v51.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 265.853
+  },
+  "score": 265.853,
+  "previous_best": {
+    "v50": 266.1204,
+    "v48": 266.4508
+  },
+  "gain_s": 0.2674,
+  "rank_snapshot_22_09_2026": {
+    "place": 17,
+    "of": 152,
+    "leader": 238.82,
+    "sixteenth": 265.06
+  },
+  "recipe": "v50 with two offline re-derivations: per-airport blend weight ANTEIL_FLH 0.2 -> 0.3 and the NM add-on shrink 0.5 -> 0.9. ANTEIL_NETZ 0.35, ANTEIL_CB 0.6 and the Rome gate unchanged.",
+  "prediction_fixed_before_upload": {
+    "conservative": 265.95,
+    "naive": 265.77,
+    "actual": 265.853
+  },
+  "decomposition": {
+    "anteil_flh_s": 0.046,
+    "shrink_s": 0.221,
+    "shrink_mse_per_covered_row_realised": 1299,
+    "shrink_mse_predicted_on_2025": 1784,
+    "transfer": 0.728
+  },
+  "why_this_matters_beyond_the_0_27_s": "The NM add-on now realises 4,187 MSE per covered row instead of 2,888, a 45 % increase, and its transfer rate is reproducible (72.8 % here, 73.9 % for v48). Full January and July archive coverage therefore rises from about 4.6 s to about 6.75 s, landing near 259.1, which is 13th place rather than 16th.",
+  "candidate_sha256": "b3cdccc7bd1e740a52561e442c7aa78545177ca8bbc6bc561b6c0858f6f12792"
+}

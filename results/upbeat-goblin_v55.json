@@ -1,0 +1,46 @@
+{
+  "submission": "upbeat-goblin_v55.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v55.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 263.1806
+  },
+  "score": 263.1806,
+  "previous": {
+    "version": "v54",
+    "score": 264.2328
+  },
+  "gain_s": 1.0522,
+  "recipe": "v52 (with its NM add-on, kept by the owner's decision of 26 September, as in v54) with scored main-lane rows replaced by the ADS-B stand detector where a validated configuration estimates: EDDM with X-Plane-first stands (3,258 rows differ from v54: 2,350 new estimates, 837 back to v52, 71 moved), EHAM with the same detector plus the tow and false-onset guard (4,188 rows). 12,423 rows differ from v52, 7,446 from v54; every other row byte-identical to v52. ADS-B from adsb.lol (ODbL), stands from the X-Plane Scenery Gateway and OSM.",
+  "validation": "pre-registered, research_300/PREREG_geometry.md (EDDM: X-Plane-first beats v54's OSM configuration, +958 MSE per departure [133, 2,234]) and PREREG_towguard.md (EHAM: guarded detector beats the held-out v45 ensemble on eight fresh dates, +1,688 MSE per departure [1,122, 2,239]). Build gate G0: the pipeline reproduces the uploaded v54 byte for byte.",
+  "prediction_fixed_before_upload": {
+    "low_0.74": 263.75,
+    "central_1.0": 263.58,
+    "high_1.52_v54_realised": 263.23
+  },
+  "prediction_commit": "bec50f8",
+  "actual": 263.1806,
+  "inside_predicted_range": false,
+  "transfer": {
+    "realised_mse_gain": 554.9,
+    "predicted_mse_gain_full_transfer": 346.3,
+    "realised_over_predicted": 1.6,
+    "realised_per_changed_row_vs_v54": 25701,
+    "predicted_per_changed_row_vs_v54": 16039
+  },
+  "reading": "Better than the whole range fixed before the upload, as v54 was: the detectors realised 1.60 times the predicted MSE gain (v54: 1.65). One board number cannot split Munich from Amsterdam or January from July. No constant was adjusted from this score.",
+  "upload": {
+    "at": "2026-09-26T08:32:22.826286+00:00",
+    "remote_size": 4727907,
+    "local_size": 4727907
+  },
+  "candidate_sha256": "a806c816a60d3bc727a3c5e2bbea03690ddf0c7a4d50b2eeb17837e6cf39e4b1",
+  "authorised": "owner, 26 September 2026 ('yes build the combined candidate with the v54 add on and upload it')",
+  "recorded_at": "2026-09-26T08:33:56.776448+00:00"
+}

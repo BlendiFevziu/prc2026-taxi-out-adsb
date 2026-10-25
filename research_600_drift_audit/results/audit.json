@@ -1,0 +1,124 @@
+{
+  "C1+ (partial) EDDF/01": {
+    "rows_2025": 10562,
+    "rows_2026": 10348,
+    "flags": []
+  },
+  "C1+ (partial) EDDF/07": {
+    "rows_2025": 15293,
+    "rows_2026": 11993,
+    "flags": [
+      "stand_first_m",
+      "stand_min_m"
+    ]
+  },
+  "C1+ (partial) EGLL/01": {
+    "rows_2025": 8199,
+    "rows_2026": 11852,
+    "flags": []
+  },
+  "C1+ (partial) EHAM/07": {
+    "rows_2025": 13777,
+    "rows_2026": 15161,
+    "flags": []
+  },
+  "C1+ (partial) LEBL/01": {
+    "rows_2025": 8998,
+    "rows_2026": 8767,
+    "flags": []
+  },
+  "C1+ (partial) LEBL/07": {
+    "rows_2025": 10267,
+    "rows_2026": 11966,
+    "flags": []
+  },
+  "C1+ (partial) LSZH/01": {
+    "rows_2025": 5525,
+    "rows_2026": 6171,
+    "flags": []
+  },
+  "C1+ (partial) LSZH/07": {
+    "rows_2025": 7578,
+    "rows_2026": 9762,
+    "flags": []
+  },
+  "EHAM Jan average (partial) EHAM/01": {
+    "rows_2025": 12663,
+    "rows_2026": 10544,
+    "flags": [
+      "ground_points"
+    ]
+  },
+  "K2+ (stand) EDDF/01": {
+    "rows_2025": 914,
+    "rows_2026": 450,
+    "flags": []
+  },
+  "K2+ (stand) EDDF/07": {
+    "rows_2025": 1465,
+    "rows_2026": 351,
+    "flags": []
+  },
+  "K2+ (stand) EGLL/01": {
+    "rows_2025": 1973,
+    "rows_2026": 3658,
+    "flags": []
+  },
+  "K2+ (stand) LEBL/01": {
+    "rows_2025": 1216,
+    "rows_2026": 1925,
+    "flags": []
+  },
+  "K2+ (stand) LEBL/07": {
+    "rows_2025": 2532,
+    "rows_2026": 3385,
+    "flags": []
+  },
+  "K2+ (stand) LSZH/01": {
+    "rows_2025": 2265,
+    "rows_2026": 2869,
+    "flags": []
+  },
+  "K2+ (stand) LSZH/07": {
+    "rows_2025": 2083,
+    "rows_2026": 1112,
+    "flags": [
+      "stand_last_m"
+    ]
+  },
+  "K2+ (stand) EHAM/01": {
+    "rows_2025": 1745,
+    "rows_2026": 2042,
+    "flags": [
+      "ground_points"
+    ]
+  },
+  "K2+ (stand) EHAM/07": {
+    "rows_2025": 3446,
+    "rows_2026": 3721,
+    "flags": []
+  },
+  "C1 (partial) EDDM/01": {
+    "rows_2025": 5014,
+    "rows_2026": 6802,
+    "flags": []
+  },
+  "C1 (partial) EDDM/07": {
+    "rows_2025": 5014,
+    "rows_2026": 9539,
+    "flags": []
+  },
+  "C1 (partial) LEMD/07": {
+    "rows_2025": 2777,
+    "rows_2026": 8692,
+    "flags": [
+      "last_ground_age_s",
+      "speed_p90",
+      "last_still_age_s",
+      "last_moving_age_s",
+      "sampled_distance_m",
+      "stand_last_m",
+      "stand_median_m"
+    ]
+  }
+}

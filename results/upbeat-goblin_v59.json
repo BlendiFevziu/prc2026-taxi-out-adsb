@@ -1,0 +1,45 @@
+{
+  "submission": "upbeat-goblin_v59.parquet",
+  "submission_id": "prc-2026-upbeat-goblin/upbeat-goblin_v59.parquet",
+  "uploaded_at_utc": "2026-09-28T06:55:04.217050+00:00",
+  "file_sha256": "0faf9ba9ef455b3d6fa2236fa94a1760579a15788a3a5e4421c9fbf95a600893",
+  "remote_size": 4727754,
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v59.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 259.4958
+  },
+  "score": 259.4958,
+  "previous": {
+    "version": "v58",
+    "score": 259.9035,
+    "sha256": "826e460928106ea20a17e9a7df8c1a0e921b8bf6eccd0cccd44b5c4ff0148178"
+  },
+  "gain_s": 0.4077,
+  "recipe": "scored v58 (826e4609...) plus Codex's EHAM January add-on (8d98953, sampling-aware track features, frozen models) at full weight s = 1.0 on its 8,968 eligible 2026 rows (8,919 changed); every other row byte-identical to v58. research_320/PREREG_eham_weight.md.",
+  "rows_changed_vs_v58": 8919,
+  "validation": "research_320/PREREG_eham_weight.md: on seven unread January days the add-on at s = 1.0 beats no add-on by +6,980 MSE per row and s = 0.5 by +2,312 (3,045 rows, all rules)",
+  "verification": "research_320/results/eham_candidate_verification.json: seven checks passed",
+  "prediction_fixed_before_upload": {
+    "full_transfer": 259.55,
+    "half_transfer": 259.73,
+    "central": 259.64
+  },
+  "inside_predicted_range": false,
+  "transfer": {
+    "realised_mse_gain": 211.8,
+    "predicted_full_transfer": 181.5,
+    "realised_over_full_transfer": 1.17
+  },
+  "reading": "Slightly better than the full-transfer end of the range fixed before the upload (259.55). No constant was adjusted from this score.",
+  "credit": "The add-on's features, models and original validation are Codex's (research_310, 8d98953); the full-weight test, build and upload are Claude Code's.",
+  "open_data_only": "Frozen EHAM add-on models (2025 challenge rows and adsb.lol tracks); v58 unchanged elsewhere, NM component untouched",
+  "authorised": "owner, 28 September 2026: 'upload v59' (after the pre-registered full-weight test and the seven-point verification)",
+  "recorded_at": "2026-09-28T06:56:11.745393+00:00"
+}

@@ -1,0 +1,398 @@
+{
+  "note": "descriptive, all labelled 2025 departures; row-level details printed only",
+  "rows": 2085047,
+  "day_shift_rows_by_lane_airport_late": {
+    "fallback|LFPG|late=False": {
+      "fallback": 1
+    },
+    "fallback|LIRF|late=False": {
+      "fallback": 1
+    },
+    "fallback|LIRF|late=True": {
+      "fallback": 11
+    },
+    "fallback|LSZH|late=False": {
+      "fallback": 1
+    }
+  },
+  "late_regimes_by_lane_airport": {
+    "fallback|EDDF": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 20,
+      "other": 0
+    },
+    "fallback|EDDM": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 3,
+      "other": 0
+    },
+    "fallback|EHAM": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 16,
+      "other": 0
+    },
+    "fallback|LEBL": {
+      "copy": 2,
+      "day_shift": 0,
+      "normal": 28,
+      "other": 0
+    },
+    "fallback|LEMD": {
+      "copy": 1,
+      "day_shift": 0,
+      "normal": 14,
+      "other": 0
+    },
+    "fallback|LFPG": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 28,
+      "other": 0
+    },
+    "fallback|LIRF": {
+      "copy": 54,
+      "day_shift": 11,
+      "normal": 3,
+      "other": 0
+    },
+    "fallback|LTFM": {
+      "copy": 1,
+      "day_shift": 0,
+      "normal": 50,
+      "other": 29
+    },
+    "main|EDDF": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 415,
+      "other": 0
+    },
+    "main|EDDM": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 38,
+      "other": 0
+    },
+    "main|EGLL": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 1,
+      "other": 0
+    },
+    "main|EHAM": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 132,
+      "other": 0
+    },
+    "main|LEBL": {
+      "copy": 15,
+      "day_shift": 0,
+      "normal": 283,
+      "other": 0
+    },
+    "main|LEMD": {
+      "copy": 19,
+      "day_shift": 0,
+      "normal": 710,
+      "other": 0
+    },
+    "main|LFPG": {
+      "copy": 7,
+      "day_shift": 0,
+      "normal": 306,
+      "other": 2
+    },
+    "main|LIRF": {
+      "copy": 21,
+      "day_shift": 0,
+      "normal": 87,
+      "other": 0
+    },
+    "main|LSZH": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 1,
+      "other": 0
+    },
+    "main|LTFM": {
+      "copy": 60,
+      "day_shift": 0,
+      "normal": 2257,
+      "other": 1
+    }
+  },
+  "rome_late_by_lane_delay_band": {
+    "fallback|0-6": {
+      "copy": 26,
+      "day_shift": 1,
+      "normal": 3
+    },
+    "fallback|12-18": {
+      "copy": 13,
+      "day_shift": 4,
+      "normal": 0
+    },
+    "fallback|18-24": {
+      "copy": 1,
+      "day_shift": 5,
+      "normal": 0
+    },
+    "fallback|24+": {
+      "copy": 1,
+      "day_shift": 1,
+      "normal": 0
+    },
+    "fallback|6-12": {
+      "copy": 13,
+      "day_shift": 0,
+      "normal": 0
+    },
+    "main|0-6": {
+      "copy": 20,
+      "day_shift": 0,
+      "normal": 78
+    },
+    "main|24+": {
+      "copy": 1,
+      "day_shift": 0,
+      "normal": 0
+    },
+    "main|6-12": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 9
+    }
+  },
+  "rome_late_by_lane_hour_band": {
+    "fallback|0-6": {
+      "copy": 37,
+      "day_shift": 2,
+      "normal": 3
+    },
+    "fallback|12-18": {
+      "copy": 2,
+      "day_shift": 6,
+      "normal": 0
+    },
+    "fallback|18-24": {
+      "copy": 0,
+      "day_shift": 1,
+      "normal": 0
+    },
+    "fallback|6-12": {
+      "copy": 15,
+      "day_shift": 2,
+      "normal": 0
+    },
+    "main|0-6": {
+      "copy": 20,
+      "day_shift": 0,
+      "normal": 84
+    },
+    "main|18-24": {
+      "copy": 1,
+      "day_shift": 0,
+      "normal": 1
+    },
+    "main|6-12": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 2
+    }
+  },
+  "rome_late_by_delay_and_hour_band_both_lanes": {
+    "0-6|0-6": {
+      "copy": 46,
+      "day_shift": 1,
+      "normal": 80
+    },
+    "0-6|18-24": {
+      "copy": 0,
+      "day_shift": 0,
+      "normal": 1
+    },
+    "12-18|0-6": {
+      "copy": 4,
+      "day_shift": 1,
+      "normal": 0
+    },
+    "12-18|12-18": {
+      "copy": 1,
+      "day_shift": 3,
+      "normal": 0
+    },
+    "12-18|6-12": {
+      "copy": 8,
+      "day_shift": 0,
+      "normal": 0
+    },
+    "18-24|12-18": {
+      "copy": 0,
+      "day_shift": 2,
+      "normal": 0
+    },
+    "18-24|18-24": {
+      "copy": 0,
+      "day_shift": 1,
+      "normal": 0
+    },
+    "18-24|6-12": {
+      "copy": 1,
+      "day_shift": 2,
+      "normal": 0
+    },
+    "24+|12-18": {
+      "copy": 1,
+      "day_shift": 1,
+      "normal": 0
+    },
+    "24+|18-24": {
+      "copy": 1,
+      "day_shift": 0,
+      "normal": 0
+    },
+    "6-12|0-6": {
+      "copy": 7,
+      "day_shift": 0,
+      "normal": 7
+    },
+    "6-12|6-12": {
+      "copy": 6,
+      "day_shift": 0,
+      "normal": 2
+    }
+  },
+  "rome_late_long_flight_code_share": {
+    "copy": 0.44,
+    "day_shift": 0.7272727272727273,
+    "normal": 0.7444444444444445
+  },
+  "rome_late_fallback_se_share_by_delay_band_regime": {
+    "0-6|copy": {
+      "rows": 26,
+      "se_share_of_fallback": 0.003743351420564256,
+      "mean_prediction_h": 3.0497176260140315
+    },
+    "0-6|day_shift": {
+      "rows": 1,
+      "se_share_of_fallback": 0.14608806596673565,
+      "mean_prediction_h": 0.5623537844840527
+    },
+    "0-6|normal": {
+      "rows": 3,
+      "se_share_of_fallback": 0.0018981596676166767,
+      "mean_prediction_h": 1.4088247701244327
+    },
+    "12-18|copy": {
+      "rows": 13,
+      "se_share_of_fallback": 0.003853697522244879,
+      "mean_prediction_h": 14.784144921066016
+    },
+    "12-18|day_shift": {
+      "rows": 4,
+      "se_share_of_fallback": 0.042111826411218516,
+      "mean_prediction_h": 18.009059870480005
+    },
+    "18-24|copy": {
+      "rows": 1,
+      "se_share_of_fallback": 0.0002183368889044507,
+      "mean_prediction_h": 18.92794606290468
+    },
+    "18-24|day_shift": {
+      "rows": 5,
+      "se_share_of_fallback": 0.014184839141300096,
+      "mean_prediction_h": 21.533875643883153
+    },
+    "24+|copy": {
+      "rows": 1,
+      "se_share_of_fallback": 0.003930940549960033,
+      "mean_prediction_h": 32.555650531793624
+    },
+    "24+|day_shift": {
+      "rows": 1,
+      "se_share_of_fallback": 2.3440017649763232e-05,
+      "mean_prediction_h": 24.51347434774215
+    },
+    "6-12|copy": {
+      "rows": 13,
+      "se_share_of_fallback": 0.000162356299889038,
+      "mean_prediction_h": 9.958059158440907
+    }
+  },
+  "main_holdout_jan_jul": {
+    "rows": 339046,
+    "rmse": 216.7734634758806,
+    "by_regime": {
+      "copy": {
+        "rows": 30169,
+        "se_share": 0.1321722979978147,
+        "rmse": 264.1953636853138
+      },
+      "day_shift": {
+        "rows": 0,
+        "se_share": 0.0,
+        "rmse": NaN
+      },
+      "normal": {
+        "rows": 308791,
+        "se_share": 0.842780932745275,
+        "rmse": 208.52612017252002
+      },
+      "other": {
+        "rows": 86,
+        "se_share": 0.025046769256910514,
+        "rmse": 2154.081152834811
+      }
+    }
+  },
+  "rome_late_2026": {
+    "by_lane_delay_band": {
+      "fallback|0-6": 10,
+      "fallback|12-18": 6,
+      "fallback|24+": 2,
+      "fallback|6-12": 7,
+      "main|0-6": 20,
+      "main|24+": 1,
+      "main|6-12": 4
+    },
+    "by_lane_hour_band": {
+      "fallback|0-6": 17,
+      "fallback|12-18": 1,
+      "fallback|18-24": 1,
+      "fallback|6-12": 6,
+      "main|0-6": 23,
+      "main|18-24": 1,
+      "main|6-12": 1
+    },
+    "fallback_served_prediction_h_by_delay_band": {
+      "0-6": {
+        "rows": 10,
+        "mean_served_h": 2.909346063487622,
+        "mean_q": 0.8048262032181519,
+        "mean_delay_h": 3.476583333333334
+      },
+      "12-18": {
+        "rows": 6,
+        "mean_served_h": 15.783187485901792,
+        "mean_q": 0.9990930506510204,
+        "mean_delay_h": 14.922037037037038
+      },
+      "24+": {
+        "rows": 2,
+        "mean_served_h": 26.588946739785897,
+        "mean_q": 0.9998805523265462,
+        "mean_delay_h": 27.658055555555556
+      },
+      "6-12": {
+        "rows": 7,
+        "mean_served_h": 8.763181522158586,
+        "mean_q": 0.9988662076913283,
+        "mean_delay_h": 8.781230158730159
+      }
+    }
+  }
+}

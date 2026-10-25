@@ -1,0 +1,151 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe, production encoding; not full ensemble; not a leaderboard forecast",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 1.8189894035458565e-12,
+      "prod_anchor_max_diff": 3.637978807091713e-12,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "fallback_catboost_screen.py": "ed5934ae1d235152d565022d531de6be22aa4278672f9785408b64cd73bcc981",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "C1_catboost_offset": 1488.4052199190273,
+    "C2_catboost_all": 1511.6222434799427
+  },
+  "rmse_normal_rows": {
+    "prod_anchor": 607.0319298290894,
+    "C1_catboost_offset": 606.7904753614757,
+    "C2_catboost_all": 540.3222228519794
+  },
+  "variants": {
+    "C1_catboost_offset": {
+      "pooled_mse_gain": -6910.861343801734,
+      "mse_gain_without_top100_rows": -17446.56078368726,
+      "positive_sse_mass": 625283154.8018932,
+      "negative_sse_mass": -780570209.1971183,
+      "normal_rows_mse_gain_contribution": 282.9482022706151,
+      "extreme_rows_mse_gain_contribution": -7193.80954607235,
+      "pair_gains": {
+        "1_7": -4900.404412234401,
+        "2_8": -21745.008059301752,
+        "3_9": 3603.071846006798,
+        "4_10": -3268.7309699888224,
+        "5_11": 2429.247424436348,
+        "6_12": -15509.152478346852
+      },
+      "pairs_positive": 2,
+      "january_gain_1_7": -2807.67554362092,
+      "july_gain_1_7": -5662.990985738803,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -16992.66815044578,
+        1246.9199639350645
+      ],
+      "airport_contributions": {
+        "EDDF": 169.67939137491447,
+        "EDDM": -27.18429648928646,
+        "EGLL": 575.5544020826809,
+        "EHAM": 223.75848340591185,
+        "LEBL": 60.44979790447528,
+        "LEMD": 175.81577558391461,
+        "LFPG": 704.7279860583541,
+        "LIRF": -6061.991567850344,
+        "LSZH": 549.0263396488618,
+        "LTFM": -3280.6976555212177
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 268.4369406624882,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "C2_catboost_all": {
+      "pooled_mse_gain": -76562.56964492821,
+      "mse_gain_without_top100_rows": -194940.8041493274,
+      "positive_sse_mass": 3418230545.2589717,
+      "negative_sse_mass": -5138591485.18051,
+      "normal_rows_mse_gain_contribution": 73892.96082432456,
+      "extreme_rows_mse_gain_contribution": -150455.53046925276,
+      "pair_gains": {
+        "1_7": -106896.07804672288,
+        "2_8": 134740.20614578945,
+        "3_9": -246121.51112928256,
+        "4_10": 51672.101702382955,
+        "5_11": -147157.99523511506,
+        "6_12": -109597.21400155716
+      },
+      "pairs_positive": 2,
+      "january_gain_1_7": 16262.23125750902,
+      "july_gain_1_7": -151774.74078201302,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -216491.33874405752,
+        26619.033970787154
+      ],
+      "airport_contributions": {
+        "EDDF": 169.72110375923413,
+        "EDDM": -27.187027440277355,
+        "EGLL": -881.8095599828506,
+        "EHAM": 170.8939843858555,
+        "LEBL": 66.33459024849846,
+        "LEMD": 176.1780037347001,
+        "LFPG": 703.7933433858685,
+        "LIRF": -76013.62944362704,
+        "LSZH": 550.2067306931277,
+        "LTFM": -1477.0713700853398
+      },
+      "mechanical_overall_rmse_if_full_transfer_not_forecast": 270.4198151119956,
+      "checks": {
+        "1_pooled_gain_positive": false,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": false,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 144.76928997039795
+}

@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "v74_is_built_file": true,
+    "test_passed_for_these_airports": true,
+    "per_airport": {
+      "LEBL": {
+        "covered": 67,
+        "applied": 66
+      },
+      "LSZH": {
+        "covered": 80,
+        "applied": 73
+      }
+    },
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v74": true,
+    "all_finite": true,
+    "rows_changed": 139,
+    "change_s": {
+      "mean": 46.80676835938735,
+      "rms": 468.37023729500686,
+      "max_abs": 2231.8573810128746
+    }
+  },
+  "base": {
+    "version": "v74",
+    "sha256": "9cb301d619a6c91df7ce9e2eb718f67e2eb08aa4ba67a9868f95af08bee9d696",
+    "central": 252.58
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "gain per covered row per airport x rows applied; central 0.8, worst 0.3, best 1.2",
+    "mse_per_scored_row_full": 26.683903747005246,
+    "central": 252.54,
+    "worst": 252.56,
+    "best": 252.52
+  },
+  "candidate_path": ".cache/research_550/v75/candidate_v75.parquet",
+  "candidate_sha256": "60627876830cd8eb4d3b44449aed9be82b68884ec7227f2f0f2ed6566092f275",
+  "verdict": "built"
+}

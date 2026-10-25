@@ -1,0 +1,132 @@
+{
+  "prereg": "research_720_retention/PREREG_retention.md",
+  "pair": "1_7",
+  "rows": 339046,
+  "coverage": {
+    "learn": {
+      "wait_apt_present": 1.0,
+      "wait_bahn_present": 1.0,
+      "delay15_present": 0.9900210672160814,
+      "wait_apt_mean": 9.122550740311604,
+      "roll_apt_mean": 10.26963831808073
+    },
+    "held_out": {
+      "wait_apt_present": 1.0,
+      "wait_bahn_present": 1.0,
+      "delay15_present": 0.9891991057260666,
+      "wait_apt_mean": 10.493776655675042,
+      "roll_apt_mean": 10.014965520902768
+    }
+  },
+  "rmse": {
+    "real": 223.26850946602227,
+    "mean_control": 223.92415804643642,
+    "base_91": 223.65734116094256
+  },
+  "rmse_per_seed": {
+    "real_s177": 223.3381260263742,
+    "real_s277": 223.23541319376142,
+    "real_s377": 223.2319728819683,
+    "base_s177": 223.70760817043097,
+    "base_s277": 223.70400110097395,
+    "base_s377": 223.56038267910344,
+    "control_1_s177": 223.97803051753883,
+    "control_1_s277": 223.85980366813638,
+    "control_1_s377": 223.80170969947366,
+    "control_2_s177": 224.03703969174975,
+    "control_2_s277": 223.86690607410546,
+    "control_2_s377": 223.97648767496923,
+    "control_3_s177": 223.9511119954716,
+    "control_3_s277": 223.91886726367835,
+    "control_3_s377": 223.92737303215424
+  },
+  "rmse_gain_vs_control_s": 0.6556485804141516,
+  "rmse_gain_vs_base_s": 0.3888316949202988,
+  "mse_gain_per_row": 293.20123762615793,
+  "per_seed_mse_gain": {
+    "177": 291.0327538162237,
+    "277": 289.0377796031971,
+    "377": 299.53317945907474
+  },
+  "months": {
+    "1": 55.02486106860247,
+    "7": 487.3779477575756
+  },
+  "without_best_100": 131.57514924087093,
+  "airport_day_bootstrap_95": [
+    189.3128051712567,
+    409.8656427077712
+  ],
+  "airports": {
+    "EDDF": {
+      "rows": 36231,
+      "vs_control": -34.295002204097116,
+      "vs_base": -61.78958688495821
+    },
+    "EDDM": {
+      "rows": 26854,
+      "vs_control": 126.37320900904987,
+      "vs_base": 125.43601876573699
+    },
+    "EGLL": {
+      "rows": 39744,
+      "vs_control": 557.0328453331326,
+      "vs_base": 223.43404791760076
+    },
+    "EHAM": {
+      "rows": 40141,
+      "vs_control": -14.464084899885771,
+      "vs_base": -75.21902701176829
+    },
+    "LEBL": {
+      "rows": 28490,
+      "vs_control": 305.29586313672445,
+      "vs_base": 290.9110735849812
+    },
+    "LEMD": {
+      "rows": 35019,
+      "vs_control": 165.03253809998913,
+      "vs_base": 91.37268544740279
+    },
+    "LFPG": {
+      "rows": 38732,
+      "vs_control": 145.7469921678747,
+      "vs_base": 51.37599997466204
+    },
+    "LIRF": {
+      "rows": 26131,
+      "vs_control": 526.0178244268668,
+      "vs_base": 191.46996426691862
+    },
+    "LSZH": {
+      "rows": 21822,
+      "vs_control": 55.08423198805154,
+      "vs_base": 78.96773180534096
+    },
+    "LTFM": {
+      "rows": 45882,
+      "vs_control": 885.5295395949528,
+      "vs_base": 691.4308379005364
+    }
+  },
+  "hubs_vs_control": 541.9685819354391,
+  "wait_above_median": {
+    "rows": 158247,
+    "vs_control": 382.384362033418,
+    "vs_base": 192.92709962174618
+  },
+  "wait_at_or_below_median": {
+    "rows": 180799,
+    "vs_control": 215.14238836219255,
+    "vs_base": 157.01922246376463
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": true,
+    "2_both_held_out_months_positive": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": true,
+    "5_rmse_gain_vs_control_at_least_0_3_s": true,
+    "6_real_beats_the_91_feature_base": true
+  },
+  "verdict": "pass"
+}

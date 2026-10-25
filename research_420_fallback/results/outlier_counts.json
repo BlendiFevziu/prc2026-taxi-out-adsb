@@ -1,0 +1,324 @@
+{
+  "pooled": {
+    "2025": {
+      "rows": 22470,
+      "late_share": 0.22002670226969293,
+      "predicted_outlier_share": 0.01611036938139742,
+      "commit_share": 0.014419225634178905,
+      "commit_share_of_late": 0.06553398058252427,
+      "predicted_outlier_size_q50_q90": [
+        10384.095773090932,
+        40242.41089910151
+      ],
+      "outlier_share": 0.02140631953716066,
+      "copy_share": 0.06386292834890965,
+      "late_copy_share_of_late": 0.08029935275080906,
+      "outlier_size_q50_q90": [
+        9954.0,
+        35520.0
+      ],
+      "outliers_caught": 0.6652806652806653,
+      "predicted_outliers_true": 0.8839779005524862,
+      "copy_rows_committed": 0.7204030226700252
+    },
+    "2026": {
+      "rows": 5290,
+      "late_share": 0.32514177693761814,
+      "predicted_outlier_share": 0.018714555765595463,
+      "commit_share": 0.01550094517958412,
+      "commit_share_of_late": 0.047674418604651166,
+      "predicted_outlier_size_q50_q90": [
+        10581.369919542622,
+        42860.58411605815
+      ]
+    }
+  },
+  "airports": {
+    "EDDF": {
+      "2025": {
+        "rows": 1956,
+        "late_share": 0.2658486707566462,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0,
+        "copy_share": 0.007157464212678937,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": null,
+        "outliers_caught": null,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 421,
+        "late_share": 0.26365795724465557,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "EDDM": {
+      "2025": {
+        "rows": 1010,
+        "late_share": 0.22475247524752476,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0,
+        "copy_share": 0.0019801980198019802,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": null,
+        "outliers_caught": null,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 238,
+        "late_share": 0.36554621848739494,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "EGLL": {
+      "2025": {
+        "rows": 1414,
+        "late_share": 0.3628005657708628,
+        "predicted_outlier_share": 0.0007072135785007072,
+        "commit_share": 0.0007072135785007072,
+        "commit_share_of_late": 0.001949317738791423,
+        "predicted_outlier_size_q50_q90": [
+          8317.218403822644,
+          8317.218403822644
+        ],
+        "outlier_share": 0.007779349363507779,
+        "copy_share": 0.003536067892503536,
+        "late_copy_share_of_late": 0.001949317738791423,
+        "outlier_size_q50_q90": [
+          8464.0,
+          9901.0
+        ],
+        "outliers_caught": 0.09090909090909091,
+        "predicted_outliers_true": 1.0,
+        "copy_rows_committed": 0.0
+      },
+      "2026": {
+        "rows": 248,
+        "late_share": 0.34274193548387094,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "EHAM": {
+      "2025": {
+        "rows": 4084,
+        "late_share": 0.1726248775710088,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0002448579823702253,
+        "copy_share": 0.04040156709108717,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": [
+          11032.0,
+          11032.0
+        ],
+        "outliers_caught": 0.0,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 1206,
+        "late_share": 0.4635157545605307,
+        "predicted_outlier_share": 0.0008291873963515755,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": [
+          10559.003623870609,
+          10559.003623870609
+        ]
+      }
+    },
+    "LEBL": {
+      "2025": {
+        "rows": 1862,
+        "late_share": 0.31203007518796994,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0,
+        "copy_share": 0.02040816326530612,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": null,
+        "outliers_caught": null,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 442,
+        "late_share": 0.3506787330316742,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "LEMD": {
+      "2025": {
+        "rows": 947,
+        "late_share": 0.3020063357972545,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0,
+        "copy_share": 0.0031678986272439284,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": null,
+        "outliers_caught": null,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 238,
+        "late_share": 0.35294117647058826,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "LFPG": {
+      "2025": {
+        "rows": 3773,
+        "late_share": 0.26159554730983303,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.0018552875695732839,
+        "copy_share": 0.0066260270341902995,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": [
+          9115.0,
+          68619.6
+        ],
+        "outliers_caught": 0.0,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 734,
+        "late_share": 0.35149863760217986,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "LIRF": {
+      "2025": {
+        "rows": 1488,
+        "late_share": 0.4213709677419355,
+        "predicted_outlier_share": 0.24126344086021506,
+        "commit_share": 0.2163978494623656,
+        "commit_share_of_late": 0.5135566188197768,
+        "predicted_outlier_size_q50_q90": [
+          10390.376863173533,
+          40293.48766337919
+        ],
+        "outlier_share": 0.2950268817204301,
+        "copy_share": 0.4852150537634409,
+        "late_copy_share_of_late": 0.631578947368421,
+        "outlier_size_q50_q90": [
+          10196.0,
+          37318.0
+        ],
+        "outliers_caught": 0.724373576309795,
+        "predicted_outliers_true": 0.8857938718662952,
+        "copy_rows_committed": 0.7222222222222222
+      },
+      "2026": {
+        "rows": 383,
+        "late_share": 0.4725848563968668,
+        "predicted_outlier_share": 0.25326370757180156,
+        "commit_share": 0.21409921671018275,
+        "commit_share_of_late": 0.4530386740331492,
+        "predicted_outlier_size_q50_q90": [
+          10600.3167827131,
+          43974.208331035654
+        ]
+      }
+    },
+    "LSZH": {
+      "2025": {
+        "rows": 2291,
+        "late_share": 0.1017023134002619,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null,
+        "outlier_share": 0.001745962461807071,
+        "copy_share": 0.05106940200785683,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": [
+          14030.5,
+          66661.40000000001
+        ],
+        "outliers_caught": 0.0,
+        "predicted_outliers_true": null,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 659,
+        "late_share": 0.2306525037936267,
+        "predicted_outlier_share": 0.0,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": null
+      }
+    },
+    "LTFM": {
+      "2025": {
+        "rows": 3645,
+        "late_share": 0.07270233196159122,
+        "predicted_outlier_share": 0.0005486968449931413,
+        "commit_share": 0.00027434842249657066,
+        "commit_share_of_late": 0.0037735849056603774,
+        "predicted_outlier_size_q50_q90": [
+          7315.4881118375015,
+          7403.209619939853
+        ],
+        "outlier_share": 0.005212620027434842,
+        "copy_share": 0.0943758573388203,
+        "late_copy_share_of_late": 0.0,
+        "outlier_size_q50_q90": [
+          7733.0,
+          9439.4
+        ],
+        "outliers_caught": 0.05263157894736842,
+        "predicted_outliers_true": 0.5,
+        "copy_rows_committed": null
+      },
+      "2026": {
+        "rows": 721,
+        "late_share": 0.06657420249653259,
+        "predicted_outlier_share": 0.0013869625520110957,
+        "commit_share": 0.0,
+        "commit_share_of_late": 0.0,
+        "predicted_outlier_size_q50_q90": [
+          7332.757917002663,
+          7332.757917002663
+        ]
+      }
+    }
+  }
+}

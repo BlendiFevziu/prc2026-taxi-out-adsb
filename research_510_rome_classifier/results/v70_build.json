@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "v69_is_built_file": true,
+    "training_rows": 1363,
+    "training_rows_as_registered": true,
+    "slice_rows": 326,
+    "slice_rows_as_registered": true,
+    "ranking_unlabelled": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v69": true,
+    "all_finite": true,
+    "rows_changed": 326,
+    "change_s": {
+      "mean": 161.78485959602898,
+      "rms": 1220.3574489632729,
+      "max_abs": 6752.756161546817
+    },
+    "p_copy": {
+      "mean": 0.4386726259012889,
+      "share_above_0_5": 0.4049079754601227
+    }
+  },
+  "base": {
+    "version": "v69",
+    "sha256": "6f125836402a50681a0e8b691f2e586c291ce2923d522a2f2b3f676f4a4fcee9",
+    "central": 255.32
+  },
+  "prediction_fixed_before_upload": {
+    "source": "PREREG_rome_classifier.md addendum A (committed 142a1ee before this build)",
+    "central": 253.57,
+    "best": 249.48,
+    "worst": 256.32
+  },
+  "candidate_path": ".cache/research_510/v70/candidate_v70.parquet",
+  "candidate_sha256": "a0685ae5d8ee443d57ae21177c3f048640ee0fba9f40b3e05f434eef953652eb",
+  "verdict": "built"
+}

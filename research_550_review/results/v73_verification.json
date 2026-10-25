@@ -1,0 +1,13 @@
+{
+  "v73_sha_equals_build": true,
+  "v72_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v72": true,
+  "pruefe_errors": [],
+  "rows_changed": 16932,
+  "every_change_is_a_stand_row": true,
+  "v72_equals_k2": true,
+  "v73_equals_k2plus": true,
+  "unchanged_stand_rows": 215,
+  "verdict": "verified"
+}

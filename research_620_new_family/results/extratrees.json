@@ -1,0 +1,51 @@
+{
+  "prereg": "research_620_new_family/PREREG_extratrees.md",
+  "rows": 339046,
+  "rmse": {
+    "base": 214.68979573478165,
+    "extratrees": 275.16845903141524
+  },
+  "correlation_of_errors": 0.779131594119664,
+  "pick_1_apply_7": {
+    "w": 0.05,
+    "gain_per_row": -335.58301645594133,
+    "without_best100": -482.8413795577656
+  },
+  "pick_7_apply_1": {
+    "w": 0.05,
+    "gain_per_row": -154.27609626763862,
+    "without_best100": -264.6338056948824
+  },
+  "by_airport": {
+    "EDDF": -168.95219356737857,
+    "EDDM": -196.30716048634204,
+    "EGLL": -286.6309234949547,
+    "EHAM": -227.7827307145513,
+    "LEBL": -73.8866742403125,
+    "LEMD": -70.70065391636774,
+    "LFPG": -391.2963714219249,
+    "LIRF": -266.85737013630853,
+    "LSZH": -239.46139642443646,
+    "LTFM": -486.1754671803348
+  },
+  "base_final_rows_2026": {
+    "LTFM": 46860,
+    "LFPG": 39138,
+    "LIRF": 26516,
+    "EDDF": 12828,
+    "LEMD": 10558,
+    "EHAM": 5640,
+    "EGLL": 4792,
+    "EDDM": 4583,
+    "LEBL": 3599,
+    "LSZH": 2883
+  },
+  "planning_s": -0.3095498767263104,
+  "rules": {
+    "both_directions": false,
+    "without_best100_both": false,
+    "seven_of_ten_airports": false,
+    "planning_at_least_0_1_s": false
+  },
+  "verdict": "fail"
+}

@@ -1,0 +1,36 @@
+{
+  "submission": "upbeat-goblin_v53.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v53.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 265.3045
+  },
+  "score": 265.3045,
+  "previous_best": {
+    "v52": 265.2839
+  },
+  "gain_s": -0.0206,
+  "verdict": "WORSE by 0.0206 s; v52 remains our best. Not reverted on the board, which ranks each team's best.",
+  "prediction_fixed_before_upload": 264.88,
+  "predicted_range": [
+    264.3,
+    265.8
+  ],
+  "prediction_error_s": 0.4245,
+  "inside_predicted_range": true,
+  "rows_changed": 79,
+  "harness_said_s": 1.219,
+  "board_said_s": -0.0206,
+  "harness_overstatement_factor": 59.2,
+  "reading": "The anchored six-pair harness read +1.219 s and the board gave -0.021 s. Even the CORRECTED harness, built today against the shipped recipe, overstates by about sixty times on this lane. That is a stronger statement than the earlier 2.7x and it closes the question of whether any fallback change can be sized offline.",
+  "what_it_does_NOT_show": "79 rows of 344,841 changed, so the realised outcome is set by one or two of them. This neither refutes the 0.765 precision measurement nor confirms it. It is one draw from a lottery whose mean was estimated at about +0.4 s.",
+  "pre_registered_rule_honoured": "No constant is adjusted from this score. The threshold 0.5, HOCH 2.5 and ANTEIL_HM 0.3 stay exactly as they were.",
+  "candidate_sha256": "f6c2fa097d5e7d723e13a44351c0587dd4c8d050452afc13c1a546ca8ea6eb58",
+  "recorded_at": "2026-09-23T10:39:25.967033+00:00"
+}

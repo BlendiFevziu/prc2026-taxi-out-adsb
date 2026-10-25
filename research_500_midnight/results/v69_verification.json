@@ -1,0 +1,14 @@
+{
+  "v69_sha_equals_build": true,
+  "v68_sha_equals_its_build": true,
+  "ids_order_equal": true,
+  "schema_equal_v68": true,
+  "pruefe_errors": [],
+  "rule_rows_recomputed": 10,
+  "equals_build_rows": true,
+  "rows_changed": 9,
+  "every_change_is_a_rule_row": true,
+  "rule_rows_carry_delay": true,
+  "outside_rows_identical_to_v68": true,
+  "verdict": "verified"
+}

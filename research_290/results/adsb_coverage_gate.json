@@ -1,0 +1,271 @@
+{
+  "note": "ADS-B ground coverage on scored July 2026 dates (truncated archives) and the complete 2025-07-13 reference; aggregates only",
+  "slow_threshold_kt": 5.0,
+  "dates": {
+    "2025-07-13": {
+      "source": "complete extraction",
+      "airports": {
+        "EDDF": {
+          "points": 140686,
+          "aircraft": 648,
+          "on_ground_points": 60453,
+          "on_ground_share": 0.4297,
+          "aircraft_with_ground_points": 476,
+          "aircraft_seen_slow_on_ground": 396
+        },
+        "EDDM": {
+          "points": 17380,
+          "aircraft": 408,
+          "on_ground_points": 8,
+          "on_ground_share": 0.0005,
+          "aircraft_with_ground_points": 7,
+          "aircraft_seen_slow_on_ground": 1
+        },
+        "EGLL": {
+          "points": 30388,
+          "aircraft": 604,
+          "on_ground_points": 6949,
+          "on_ground_share": 0.2287,
+          "aircraft_with_ground_points": 174,
+          "aircraft_seen_slow_on_ground": 98
+        },
+        "EHAM": {
+          "points": 397853,
+          "aircraft": 672,
+          "on_ground_points": 294219,
+          "on_ground_share": 0.7395,
+          "aircraft_with_ground_points": 586,
+          "aircraft_seen_slow_on_ground": 576
+        },
+        "LEBL": {
+          "points": 61097,
+          "aircraft": 704,
+          "on_ground_points": 29103,
+          "on_ground_share": 0.4763,
+          "aircraft_with_ground_points": 375,
+          "aircraft_seen_slow_on_ground": 216
+        },
+        "LEMD": {
+          "points": 52157,
+          "aircraft": 503,
+          "on_ground_points": 16035,
+          "on_ground_share": 0.3074,
+          "aircraft_with_ground_points": 269,
+          "aircraft_seen_slow_on_ground": 138
+        },
+        "LFPG": {
+          "points": 25217,
+          "aircraft": 705,
+          "on_ground_points": 2302,
+          "on_ground_share": 0.0913,
+          "aircraft_with_ground_points": 262,
+          "aircraft_seen_slow_on_ground": 34
+        },
+        "LIRF": {
+          "points": 94725,
+          "aircraft": 412,
+          "on_ground_points": 52113,
+          "on_ground_share": 0.5502,
+          "aircraft_with_ground_points": 352,
+          "aircraft_seen_slow_on_ground": 309
+        },
+        "LSZH": {
+          "points": 76295,
+          "aircraft": 401,
+          "on_ground_points": 52622,
+          "on_ground_share": 0.6897,
+          "aircraft_with_ground_points": 305,
+          "aircraft_seen_slow_on_ground": 248
+        },
+        "LTFM": {
+          "points": 243,
+          "aircraft": 113,
+          "on_ground_points": 0,
+          "on_ground_share": 0.0,
+          "aircraft_with_ground_points": 0,
+          "aircraft_seen_slow_on_ground": 0
+        }
+      }
+    },
+    "2026-07-06": {
+      "source": "truncated first part",
+      "bytes": 1426092032,
+      "traces_read": 13627,
+      "traces_parsed": 958,
+      "truncated": true,
+      "seconds": 75.1,
+      "airports": {
+        "EDDF": {
+          "points": 14284,
+          "aircraft": 109,
+          "on_ground_points": 2668,
+          "on_ground_share": 0.1868,
+          "aircraft_with_ground_points": 76,
+          "aircraft_seen_slow_on_ground": 44
+        },
+        "EDDM": {
+          "points": 36842,
+          "aircraft": 106,
+          "on_ground_points": 24615,
+          "on_ground_share": 0.6681,
+          "aircraft_with_ground_points": 88,
+          "aircraft_seen_slow_on_ground": 79
+        },
+        "EGLL": {
+          "points": 28136,
+          "aircraft": 114,
+          "on_ground_points": 18063,
+          "on_ground_share": 0.642,
+          "aircraft_with_ground_points": 99,
+          "aircraft_seen_slow_on_ground": 98
+        },
+        "EHAM": {
+          "points": 72705,
+          "aircraft": 131,
+          "on_ground_points": 57088,
+          "on_ground_share": 0.7852,
+          "aircraft_with_ground_points": 113,
+          "aircraft_seen_slow_on_ground": 112
+        },
+        "LEBL": {
+          "points": 38485,
+          "aircraft": 142,
+          "on_ground_points": 29200,
+          "on_ground_share": 0.7587,
+          "aircraft_with_ground_points": 72,
+          "aircraft_seen_slow_on_ground": 67
+        },
+        "LEMD": {
+          "points": 38944,
+          "aircraft": 105,
+          "on_ground_points": 20214,
+          "on_ground_share": 0.5191,
+          "aircraft_with_ground_points": 94,
+          "aircraft_seen_slow_on_ground": 83
+        },
+        "LFPG": {
+          "points": 8798,
+          "aircraft": 142,
+          "on_ground_points": 3811,
+          "on_ground_share": 0.4332,
+          "aircraft_with_ground_points": 70,
+          "aircraft_seen_slow_on_ground": 11
+        },
+        "LIRF": {
+          "points": 1040,
+          "aircraft": 90,
+          "on_ground_points": 0,
+          "on_ground_share": 0.0,
+          "aircraft_with_ground_points": 0,
+          "aircraft_seen_slow_on_ground": 0
+        },
+        "LSZH": {
+          "points": 16364,
+          "aircraft": 108,
+          "on_ground_points": 9415,
+          "on_ground_share": 0.5753,
+          "aircraft_with_ground_points": 86,
+          "aircraft_seen_slow_on_ground": 80
+        },
+        "LTFM": {
+          "points": 432,
+          "aircraft": 80,
+          "on_ground_points": 0,
+          "on_ground_share": 0.0,
+          "aircraft_with_ground_points": 0,
+          "aircraft_seen_slow_on_ground": 0
+        }
+      }
+    },
+    "2026-07-13": {
+      "source": "truncated first part",
+      "bytes": 1384247296,
+      "traces_read": 11991,
+      "traces_parsed": 735,
+      "truncated": true,
+      "seconds": 65.7,
+      "airports": {
+        "EDDF": {
+          "points": 14328,
+          "aircraft": 90,
+          "on_ground_points": 2438,
+          "on_ground_share": 0.1702,
+          "aircraft_with_ground_points": 73,
+          "aircraft_seen_slow_on_ground": 45
+        },
+        "EDDM": {
+          "points": 18800,
+          "aircraft": 60,
+          "on_ground_points": 12783,
+          "on_ground_share": 0.6799,
+          "aircraft_with_ground_points": 47,
+          "aircraft_seen_slow_on_ground": 45
+        },
+        "EGLL": {
+          "points": 26981,
+          "aircraft": 97,
+          "on_ground_points": 18344,
+          "on_ground_share": 0.6799,
+          "aircraft_with_ground_points": 87,
+          "aircraft_seen_slow_on_ground": 87
+        },
+        "EHAM": {
+          "points": 66103,
+          "aircraft": 98,
+          "on_ground_points": 51075,
+          "on_ground_share": 0.7727,
+          "aircraft_with_ground_points": 92,
+          "aircraft_seen_slow_on_ground": 89
+        },
+        "LEBL": {
+          "points": 17996,
+          "aircraft": 111,
+          "on_ground_points": 10650,
+          "on_ground_share": 0.5918,
+          "aircraft_with_ground_points": 69,
+          "aircraft_seen_slow_on_ground": 54
+        },
+        "LEMD": {
+          "points": 21824,
+          "aircraft": 91,
+          "on_ground_points": 9639,
+          "on_ground_share": 0.4417,
+          "aircraft_with_ground_points": 82,
+          "aircraft_seen_slow_on_ground": 60
+        },
+        "LFPG": {
+          "points": 7482,
+          "aircraft": 101,
+          "on_ground_points": 495,
+          "on_ground_share": 0.0662,
+          "aircraft_with_ground_points": 61,
+          "aircraft_seen_slow_on_ground": 5
+        },
+        "LIRF": {
+          "points": 653,
+          "aircraft": 58,
+          "on_ground_points": 0,
+          "on_ground_share": 0.0,
+          "aircraft_with_ground_points": 0,
+          "aircraft_seen_slow_on_ground": 0
+        },
+        "LSZH": {
+          "points": 9389,
+          "aircraft": 67,
+          "on_ground_points": 5941,
+          "on_ground_share": 0.6328,
+          "aircraft_with_ground_points": 54,
+          "aircraft_seen_slow_on_ground": 47
+        },
+        "LTFM": {
+          "points": 437,
+          "aircraft": 70,
+          "on_ground_points": 0,
+          "on_ground_share": 0.0,
+          "aircraft_with_ground_points": 0,
+          "aircraft_seen_slow_on_ground": 0
+        }
+      }
+    }
+  }
+}

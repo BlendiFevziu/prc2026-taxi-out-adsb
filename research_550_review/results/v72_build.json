@@ -1,0 +1,46 @@
+{
+  "checks": {
+    "v71_is_built_file": true,
+    "test_passed": true,
+    "gain_as_fixed": true,
+    "rows": 84970,
+    "rows_as_planned": true,
+    "rows_by_cell": {
+      "EHAM/07": 14111,
+      "EDDF/07": 11993,
+      "LEBL/07": 11966,
+      "EGLL/01": 11852,
+      "EDDF/01": 10348,
+      "LSZH/07": 9762,
+      "LEBL/01": 8767,
+      "LSZH/01": 6171
+    },
+    "comparator_equals_pre_nm_base": true,
+    "reverse_replay": true,
+    "rows_reproduce_v71_with_c1": 84970,
+    "all_reproduce": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v71": true,
+    "all_finite": true,
+    "rows_changed": 84355,
+    "change_s": {
+      "mean": 2.3002146970452673,
+      "rms": 39.64165599436359
+    }
+  },
+  "base": {
+    "version": "v71",
+    "sha256": "35145d28d9b7a47769e7d15a9d4327ef4019355916237418bebf409f4b429b43",
+    "central": 253.36
+  },
+  "prediction_fixed_before_upload": {
+    "assumptions": "test gain per row x rows; central 0.8, worst 0.3, best 1.2 of full transfer",
+    "mse_per_scored_row_full": 286.7351319812242,
+    "central": 252.91,
+    "worst": 253.19,
+    "best": 252.68
+  },
+  "candidate_path": ".cache/research_550/v72/candidate_v72.parquet",
+  "candidate_sha256": "e0cdcada6b9f2e867bb5c91c1ebb5d46517cb6360c9db8d676fcaba55549c861",
+  "verdict": "built"
+}

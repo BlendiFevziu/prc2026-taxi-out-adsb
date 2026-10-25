@@ -1,0 +1,81 @@
+{
+  "note": "January/July candidate-stage ensemble with the release's five sequence seeds; one split, not six pairs",
+  "seeds_used": [
+    13,
+    21,
+    29,
+    37,
+    45
+  ],
+  "rmse_by_weight": {
+    "0.15": {
+      "january": 195.99757884083328,
+      "july": 230.83014360004074,
+      "both": 215.8826542595364
+    },
+    "0.2": {
+      "january": 195.7322937455216,
+      "july": 230.33837015353944,
+      "both": 215.4848324573201
+    },
+    "0.25": {
+      "january": 195.53713573146473,
+      "july": 229.92364749022732,
+      "both": 215.1610221997396
+    },
+    "0.3": {
+      "january": 195.41237605393218,
+      "july": 229.58819698403477,
+      "both": 214.91264455128706
+    },
+    "0.35": {
+      "january": 195.3576313222155,
+      "july": 229.33313655948572,
+      "both": 214.74020254946848
+    },
+    "0.4": {
+      "january": 195.37254050132591,
+      "july": 229.15876802415556,
+      "both": 214.64372719335879
+    },
+    "0.45": {
+      "january": 195.45829909006522,
+      "july": 229.0652396554331,
+      "both": 214.62379525332508
+    },
+    "0.5": {
+      "january": 195.61471095527668,
+      "july": 229.05155216808404,
+      "both": 214.67974037034674
+    }
+  },
+  "weight_minimising_january": 0.35,
+  "weight_minimising_july": 0.5,
+  "weight_minimising_both": 0.45,
+  "both_months_improve_against_0_25": {
+    "0.15": false,
+    "0.2": false,
+    "0.25": false,
+    "0.3": true,
+    "0.35": true,
+    "0.4": true,
+    "0.45": true,
+    "0.5": false
+  },
+  "cross_applied": {
+    "july_mse_gain": 271.19615099858174,
+    "january_mse_gain": -30.34369205117557,
+    "main_mse_gain": 135.7697680268623,
+    "main_mse_gain_without_top100_rows": -24.16103790247909,
+    "main_rmse_w025": 215.1610221997396,
+    "main_rmse_cross": 214.84528318306172
+  },
+  "checks": {
+    "1_grid_minimum_away_from_0_25": true,
+    "2_both_months_improve_at_the_minimum": true,
+    "3_cross_month_applications_improve": false,
+    "4_survives_top100_removal": false
+  },
+  "propose_rebuild": false,
+  "baseline_saved_main_rmse": 216.7734634758806
+}

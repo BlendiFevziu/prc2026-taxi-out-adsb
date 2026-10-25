@@ -1,0 +1,377 @@
+{
+  "note": "descriptive; 2025 release cache, all months",
+  "groups": {
+    "all_rows": {
+      "rows": 2085047,
+      "eobt_1": {
+        "share": 0.12522115808420625,
+        "rows": 261092
+      },
+      "lobt": {
+        "share": 0.11140947901893818,
+        "rows": 232294
+      },
+      "iobt": {
+        "share": 0.11182385816722597,
+        "rows": 233158
+      },
+      "sched_plus_day": {
+        "share": 4.796054957034541e-07,
+        "rows": 1
+      },
+      "sched_minus_day": {
+        "share": 1.4388164871103625e-06,
+        "rows": 3
+      },
+      "aobt_minus_1h": {
+        "share": 6.330792543285595e-05,
+        "rows": 132
+      },
+      "control_1h_minus_5min": {
+        "share": 7.913490679106993e-05,
+        "rows": 165
+      },
+      "control_1h_plus_5min": {
+        "share": 4.508291659612469e-05,
+        "rows": 94
+      },
+      "aobt_minus_2h": {
+        "share": 4.796054957034542e-06,
+        "rows": 10
+      },
+      "control_2h_minus_5min": {
+        "share": 7.1940824355518125e-06,
+        "rows": 15
+      },
+      "control_2h_plus_5min": {
+        "share": 3.3572384699241793e-06,
+        "rows": 7
+      },
+      "aobt_minus_3h": {
+        "share": 4.796054957034541e-07,
+        "rows": 1
+      },
+      "control_3h_minus_5min": {
+        "share": 1.4388164871103625e-06,
+        "rows": 3
+      },
+      "control_3h_plus_5min": {
+        "share": 9.592109914069083e-07,
+        "rows": 2
+      }
+    },
+    "main_not_copied": {
+      "rows": 1963669,
+      "eobt_1": {
+        "share": 0.09391195766699989,
+        "rows": 184412
+      },
+      "lobt": {
+        "share": 0.07170862299094195,
+        "rows": 140812
+      },
+      "iobt": {
+        "share": 0.07194440610917624,
+        "rows": 141275
+      },
+      "sched_plus_day": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "sched_minus_day": {
+        "share": 1.0185015906448592e-06,
+        "rows": 2
+      },
+      "aobt_minus_1h": {
+        "share": 4.2267816011761655e-05,
+        "rows": 83
+      },
+      "control_1h_minus_5min": {
+        "share": 4.5323320783696236e-05,
+        "rows": 89
+      },
+      "control_1h_plus_5min": {
+        "share": 2.699029215208877e-05,
+        "rows": 53
+      },
+      "aobt_minus_2h": {
+        "share": 5.092507953224296e-06,
+        "rows": 10
+      },
+      "control_2h_minus_5min": {
+        "share": 6.111009543869155e-06,
+        "rows": 12
+      },
+      "control_2h_plus_5min": {
+        "share": 3.0555047719345775e-06,
+        "rows": 6
+      },
+      "aobt_minus_3h": {
+        "share": 5.092507953224296e-07,
+        "rows": 1
+      },
+      "control_3h_minus_5min": {
+        "share": 1.0185015906448592e-06,
+        "rows": 2
+      },
+      "control_3h_plus_5min": {
+        "share": 1.0185015906448592e-06,
+        "rows": 2
+      }
+    },
+    "neither": {
+      "rows": 5974,
+      "eobt_1": {
+        "share": 0.06745898895212588,
+        "rows": 403
+      },
+      "lobt": {
+        "share": 0.051891529963173755,
+        "rows": 310
+      },
+      "iobt": {
+        "share": 0.05205892199531302,
+        "rows": 311
+      },
+      "sched_plus_day": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "sched_minus_day": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "aobt_minus_1h": {
+        "share": 0.013893538667559425,
+        "rows": 83
+      },
+      "control_1h_minus_5min": {
+        "share": 0.014897890860395046,
+        "rows": 89
+      },
+      "control_1h_plus_5min": {
+        "share": 0.00887177770338132,
+        "rows": 53
+      },
+      "aobt_minus_2h": {
+        "share": 0.0016739203213927017,
+        "rows": 10
+      },
+      "control_2h_minus_5min": {
+        "share": 0.002008704385671242,
+        "rows": 12
+      },
+      "control_2h_plus_5min": {
+        "share": 0.001004352192835621,
+        "rows": 6
+      },
+      "aobt_minus_3h": {
+        "share": 0.00016739203213927018,
+        "rows": 1
+      },
+      "control_3h_minus_5min": {
+        "share": 0.00033478406427854036,
+        "rows": 2
+      },
+      "control_3h_plus_5min": {
+        "share": 0.00033478406427854036,
+        "rows": 2
+      }
+    },
+    "fallback_extreme_not_copied": {
+      "rows": 181,
+      "eobt_1": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "lobt": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "iobt": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "sched_plus_day": {
+        "share": 0.0055248618784530384,
+        "rows": 1
+      },
+      "sched_minus_day": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "aobt_minus_1h": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_1h_minus_5min": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_1h_plus_5min": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "aobt_minus_2h": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_2h_minus_5min": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_2h_plus_5min": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "aobt_minus_3h": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_3h_minus_5min": {
+        "share": 0.0,
+        "rows": 0
+      },
+      "control_3h_plus_5min": {
+        "share": 0.0,
+        "rows": 0
+      }
+    }
+  },
+  "neither_rest_histogram_5min": {
+    "1800-2100": 2143,
+    "2100-2400": 1228,
+    "2400-2700": 730,
+    "2700-3000": 495,
+    "3000-3300": 307,
+    "3300-3600": 260,
+    "3600-3900": 145,
+    "3900-4200": 114,
+    "4200-4500": 89,
+    "4500-4800": 58,
+    "4800-5100": 76,
+    "5100-5400": 45,
+    "5400-5700": 35,
+    "5700-6000": 24,
+    "6000-6300": 25,
+    "6300-6600": 37,
+    "6600-6900": 17,
+    "6900-7200": 26,
+    "7200-7500": 20,
+    "7500-7800": 13,
+    "7800-8100": 11,
+    "8100-8400": 16,
+    "8400-8700": 8,
+    "8700-9000": 8,
+    "9000-9300": 10,
+    "9300-9600": 6,
+    "9600-9900": 7,
+    "9900-10200": 4,
+    "10200-10500": 2,
+    "10500-10800": 3,
+    "10800-11100": 3,
+    "11100-11400": 3,
+    "11400-11700": 2,
+    "11700-12000": 1,
+    "12000-12300": 0,
+    "12300-12600": 1,
+    "12600-12900": 0,
+    "12900-13200": 0,
+    "13200-13500": 0,
+    "13500-13800": 0,
+    "13800-14100": 0,
+    "14100-14400": 0
+  },
+  "neither_by_airport": {
+    "EDDF": {
+      "rows": 236,
+      "rest_median_s": 2505.5,
+      "eobt_1": 3,
+      "lobt": 3,
+      "iobt": 3,
+      "aobt_minus_1h": 1,
+      "aobt_minus_2h": 2
+    },
+    "EDDM": {
+      "rows": 611,
+      "rest_median_s": 2158.0,
+      "eobt_1": 46,
+      "lobt": 34,
+      "iobt": 34,
+      "aobt_minus_1h": 6,
+      "aobt_minus_2h": 0
+    },
+    "EGLL": {
+      "rows": 1597,
+      "rest_median_s": 2515.0,
+      "eobt_1": 104,
+      "lobt": 87,
+      "iobt": 82,
+      "aobt_minus_1h": 38,
+      "aobt_minus_2h": 3
+    },
+    "EHAM": {
+      "rows": 85,
+      "rest_median_s": 3499.0,
+      "eobt_1": 5,
+      "lobt": 6,
+      "iobt": 6,
+      "aobt_minus_1h": 5,
+      "aobt_minus_2h": 0
+    },
+    "LEBL": {
+      "rows": 504,
+      "rest_median_s": 2105.5,
+      "eobt_1": 51,
+      "lobt": 48,
+      "iobt": 51,
+      "aobt_minus_1h": 2,
+      "aobt_minus_2h": 0
+    },
+    "LEMD": {
+      "rows": 525,
+      "rest_median_s": 2041.0,
+      "eobt_1": 43,
+      "lobt": 27,
+      "iobt": 30,
+      "aobt_minus_1h": 0,
+      "aobt_minus_2h": 0
+    },
+    "LFPG": {
+      "rows": 623,
+      "rest_median_s": 2515.0,
+      "eobt_1": 22,
+      "lobt": 23,
+      "iobt": 24,
+      "aobt_minus_1h": 8,
+      "aobt_minus_2h": 3
+    },
+    "LIRF": {
+      "rows": 858,
+      "rest_median_s": 2223.5,
+      "eobt_1": 92,
+      "lobt": 45,
+      "iobt": 44,
+      "aobt_minus_1h": 11,
+      "aobt_minus_2h": 1
+    },
+    "LSZH": {
+      "rows": 105,
+      "rest_median_s": 2673.0,
+      "eobt_1": 3,
+      "lobt": 3,
+      "iobt": 3,
+      "aobt_minus_1h": 2,
+      "aobt_minus_2h": 0
+    },
+    "LTFM": {
+      "rows": 830,
+      "rest_median_s": 2275.0,
+      "eobt_1": 34,
+      "lobt": 34,
+      "iobt": 34,
+      "aobt_minus_1h": 10,
+      "aobt_minus_2h": 1
+    }
+  }
+}

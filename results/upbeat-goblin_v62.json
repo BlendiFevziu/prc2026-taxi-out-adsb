@@ -1,0 +1,37 @@
+{
+  "submission": "upbeat-goblin_v62.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v62.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 258.5995
+  },
+  "score": 258.5995,
+  "previous": {
+    "version": "v61",
+    "score": 258.9401
+  },
+  "gain_s": 0.3406,
+  "file_sha256": "b470b0473da79308f1d5831209b80da3c0b6e2f2beb1ad1b92ae86d1e03dca98",
+  "recipe": "Exact scored v61 (NM-free) with the partial-track correction C1 (800 x 31, research_320/PREREG_capacity2.md) in place of arm 4 on the same 72,977 rows; research_320/build_v62.py, verified by research_320/verify_v62.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "B2 gain per row times 2026 rows (299.7 MSE per scored row at full transfer); central at v60's 0.88, range 1.2 (v59 realised 1.17) to 0.5",
+    "central": 258.43,
+    "best": 258.24,
+    "worst": 258.65,
+    "full_transfer": 258.36
+  },
+  "realised_mse_per_scored_row": 176.3,
+  "predicted_full_transfer_mse": 299.7,
+  "transfer_ratio": 0.588,
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter",
+  "uploaded_at_utc": "2026-09-28T16:18:09.603411+00:00",
+  "remote_size": 4727660,
+  "local_size": 4727660,
+  "authorised": "Owner, 28 September 2026: 'build it and upload it'"
+}

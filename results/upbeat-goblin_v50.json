@@ -1,0 +1,51 @@
+{
+  "submission": "upbeat-goblin_v50.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v50.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 266.1204
+  },
+  "score": 266.1204,
+  "previous_best": {
+    "v48": 266.4508
+  },
+  "gain_s": 0.3304,
+  "rank_snapshot_22_09_2026": {
+    "place": 18,
+    "of": 152,
+    "leader": 238.82,
+    "tenth": 254.74
+  },
+  "recipe": "v48 with the sequence-net blend weight 0.25 -> 0.35 on main-lane rows, the validated NM add-on re-applied on its 31,260 rows, and the surgical Rome copy gate on 8 LIRF fallback rows",
+  "transfer": {
+    "predicted_rmse_at_100pct": 266.1138,
+    "actual": 266.1204,
+    "mse_transfer": 0.98,
+    "for_comparison": {
+      "v46": 0.799,
+      "v48": 0.739
+    }
+  },
+  "preregistered_outcome": "A (v50 <= 266.21), fixed in writing before the upload",
+  "what_it_licenses": "A single fixed parameter whose gain stays POSITIVE after removing its best 100 rows transfers essentially in full. It does NOT rehabilitate screens whose gain turns NEGATIVE under that test (the fallback borrow screen went 15,309 -> -34,263); those remain rejected.",
+  "methodological_correction": "sequence_blend_weight_five.py rules 3 and 4 judged a CROSS-APPLIED construction that gives each month its own optimum, while what ships is one fixed value. At a fixed 0.35 both months improved and the top-100 test passed, and that is what transferred. Future single-parameter screens should test the fixed value they intend to ship, not the per-month optima.",
+  "exclusions_still_binding": [
+    "no sweep of 0.30/0.40/0.45 across submissions",
+    "no variants differing only in a tuning knob",
+    "no inference about hidden labels from score differences"
+  ],
+  "candidate_sha256": "49fc6197025ce504c411a93cbfb7499c8f9a956035d35aa91642122f512ed5c5",
+  "upload_receipt": {
+    "key": "upbeat-goblin_v50.parquet",
+    "sha256": "49fc6197025ce504c411a93cbfb7499c8f9a956035d35aa91642122f512ed5c5",
+    "at": "2026-09-22T12:58:16.588136+00:00",
+    "remote_size": 4736076,
+    "local_size": 4736076
+  }
+}

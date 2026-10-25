@@ -1,0 +1,481 @@
+{
+  "scored_main_rows": 339551,
+  "days": 62,
+  "cells": {
+    "EDDF/01": {
+      "rows": 15455,
+      "shares": {
+        "partial_ground": 0.6696,
+        "no_pre_takeoff_points": 0.0919,
+        "no_observed_ground": 0.0813,
+        "unmatched": 0.0777,
+        "sparse_ground": 0.0504,
+        "observed_at_assigned_stand": 0.0291
+      },
+      "stand_level": 0.0291,
+      "usable_ground": 0.6987,
+      "partial_median_points": 15.0,
+      "partial_median_first_stand_m": 674.4629845995137
+    },
+    "EDDF/07": {
+      "rows": 20441,
+      "shares": {
+        "partial_ground": 0.5867,
+        "no_pre_takeoff_points": 0.1483,
+        "unmatched": 0.0891,
+        "sparse_ground": 0.0851,
+        "no_observed_ground": 0.0736,
+        "observed_at_assigned_stand": 0.0172
+      },
+      "stand_level": 0.0172,
+      "usable_ground": 0.6039,
+      "partial_median_points": 9.0,
+      "partial_median_first_stand_m": 1124.530020322051
+    },
+    "EDDM/01": {
+      "rows": 10834,
+      "shares": {
+        "partial_ground": 0.6278,
+        "observed_at_assigned_stand": 0.2575,
+        "unmatched": 0.1126,
+        "no_pre_takeoff_points": 0.0017,
+        "no_observed_ground": 0.0003,
+        "sparse_ground": 0.0001
+      },
+      "stand_level": 0.2575,
+      "usable_ground": 0.8854,
+      "partial_median_points": 125.0,
+      "partial_median_first_stand_m": 30.42447148977759
+    },
+    "EDDM/07": {
+      "rows": 14894,
+      "shares": {
+        "partial_ground": 0.6405,
+        "observed_at_assigned_stand": 0.1987,
+        "unmatched": 0.1582,
+        "no_observed_ground": 0.0012,
+        "no_pre_takeoff_points": 0.001,
+        "sparse_ground": 0.0004
+      },
+      "stand_level": 0.1987,
+      "usable_ground": 0.8392,
+      "partial_median_points": 106.0,
+      "partial_median_first_stand_m": 40.08818347470986
+    },
+    "EGLL/01": {
+      "rows": 19171,
+      "shares": {
+        "partial_ground": 0.6182,
+        "observed_at_assigned_stand": 0.1908,
+        "no_pre_takeoff_points": 0.1057,
+        "unmatched": 0.0529,
+        "sparse_ground": 0.0289,
+        "no_observed_ground": 0.0033
+      },
+      "stand_level": 0.1908,
+      "usable_ground": 0.809,
+      "partial_median_points": 27.0,
+      "partial_median_first_stand_m": 225.5954427921148
+    },
+    "EGLL/07": {
+      "rows": 20421,
+      "shares": {
+        "observed_at_assigned_stand": 0.5015,
+        "partial_ground": 0.4431,
+        "unmatched": 0.0537,
+        "no_pre_takeoff_points": 0.0012,
+        "sparse_ground": 0.0003,
+        "no_observed_ground": 0.0001
+      },
+      "stand_level": 0.5015,
+      "usable_ground": 0.9446,
+      "partial_median_points": 81.0,
+      "partial_median_first_stand_m": 43.8233405532675
+    },
+    "EHAM/01": {
+      "rows": 15427,
+      "shares": {
+        "partial_ground": 0.6835,
+        "unmatched": 0.1823,
+        "observed_at_assigned_stand": 0.1324,
+        "no_observed_ground": 0.001,
+        "sparse_ground": 0.0005,
+        "no_pre_takeoff_points": 0.0004
+      },
+      "stand_level": 0.1324,
+      "usable_ground": 0.8158,
+      "partial_median_points": 145.0,
+      "partial_median_first_stand_m": 56.29333562385954
+    },
+    "EHAM/07": {
+      "rows": 21549,
+      "shares": {
+        "partial_ground": 0.7036,
+        "observed_at_assigned_stand": 0.1727,
+        "unmatched": 0.1218,
+        "no_observed_ground": 0.001,
+        "no_pre_takeoff_points": 0.0007,
+        "sparse_ground": 0.0002
+      },
+      "stand_level": 0.1727,
+      "usable_ground": 0.8762,
+      "partial_median_points": 177.0,
+      "partial_median_first_stand_m": 54.38840718972159
+    },
+    "LEBL/01": {
+      "rows": 12124,
+      "shares": {
+        "partial_ground": 0.7231,
+        "observed_at_assigned_stand": 0.1588,
+        "unmatched": 0.0848,
+        "no_observed_ground": 0.0186,
+        "no_pre_takeoff_points": 0.0082,
+        "sparse_ground": 0.0066
+      },
+      "stand_level": 0.1588,
+      "usable_ground": 0.8819,
+      "partial_median_points": 62.0,
+      "partial_median_first_stand_m": 412.2351682517765
+    },
+    "LEBL/07": {
+      "rows": 17514,
+      "shares": {
+        "partial_ground": 0.6832,
+        "observed_at_assigned_stand": 0.1933,
+        "unmatched": 0.1073,
+        "no_observed_ground": 0.0089,
+        "sparse_ground": 0.0038,
+        "no_pre_takeoff_points": 0.0035
+      },
+      "stand_level": 0.1933,
+      "usable_ground": 0.8765,
+      "partial_median_points": 79.0,
+      "partial_median_first_stand_m": 373.47058547556253
+    },
+    "LEMD/01": {
+      "rows": 16739,
+      "shares": {
+        "partial_ground": 0.7454,
+        "observed_at_assigned_stand": 0.13,
+        "unmatched": 0.1222,
+        "no_observed_ground": 0.0014,
+        "no_pre_takeoff_points": 0.0008,
+        "sparse_ground": 0.0001
+      },
+      "stand_level": 0.13,
+      "usable_ground": 0.8754,
+      "partial_median_points": 89.0,
+      "partial_median_first_stand_m": 382.95597410224417
+    },
+    "LEMD/07": {
+      "rows": 19977,
+      "shares": {
+        "partial_ground": 0.4351,
+        "no_pre_takeoff_points": 0.1422,
+        "observed_at_assigned_stand": 0.1408,
+        "no_observed_ground": 0.1224,
+        "unmatched": 0.114,
+        "sparse_ground": 0.0456
+      },
+      "stand_level": 0.1408,
+      "usable_ground": 0.5759,
+      "partial_median_points": 31.0,
+      "partial_median_first_stand_m": 512.2756904393586
+    },
+    "LFPG/01": {
+      "rows": 17804,
+      "shares": {
+        "no_pre_takeoff_points": 0.7228,
+        "partial_ground": 0.1062,
+        "unmatched": 0.0859,
+        "sparse_ground": 0.0804,
+        "no_observed_ground": 0.004,
+        "observed_at_assigned_stand": 0.0006,
+        "ambiguous_visit": 0.0001
+      },
+      "stand_level": 0.0006,
+      "usable_ground": 0.1067,
+      "partial_median_points": 5.0,
+      "partial_median_first_stand_m": 1422.9730187597272
+    },
+    "LFPG/07": {
+      "rows": 21334,
+      "shares": {
+        "no_pre_takeoff_points": 0.7307,
+        "unmatched": 0.116,
+        "partial_ground": 0.0889,
+        "sparse_ground": 0.0595,
+        "no_observed_ground": 0.0042,
+        "observed_at_assigned_stand": 0.0008
+      },
+      "stand_level": 0.0008,
+      "usable_ground": 0.0897,
+      "partial_median_points": 5.0,
+      "partial_median_first_stand_m": 1492.059759673234
+    },
+    "LIRF/01": {
+      "rows": 10954,
+      "shares": {
+        "partial_ground": 0.6178,
+        "no_pre_takeoff_points": 0.1452,
+        "unmatched": 0.1187,
+        "sparse_ground": 0.0515,
+        "observed_at_assigned_stand": 0.0407,
+        "no_observed_ground": 0.0261
+      },
+      "stand_level": 0.0407,
+      "usable_ground": 0.6585,
+      "partial_median_points": 13.0,
+      "partial_median_first_stand_m": 1229.5130996316466
+    },
+    "LIRF/07": {
+      "rows": 15562,
+      "shares": {
+        "no_pre_takeoff_points": 0.4704,
+        "unmatched": 0.455,
+        "no_observed_ground": 0.0727,
+        "partial_ground": 0.0013,
+        "sparse_ground": 0.0004,
+        "observed_at_assigned_stand": 0.0001
+      },
+      "stand_level": 0.0001,
+      "usable_ground": 0.0015,
+      "partial_median_points": 7.0,
+      "partial_median_first_stand_m": 487.71184914044204
+    },
+    "LSZH/01": {
+      "rows": 9695,
+      "shares": {
+        "partial_ground": 0.6365,
+        "observed_at_assigned_stand": 0.2959,
+        "unmatched": 0.0611,
+        "no_observed_ground": 0.0036,
+        "no_pre_takeoff_points": 0.0022,
+        "sparse_ground": 0.0007
+      },
+      "stand_level": 0.2959,
+      "usable_ground": 0.9324,
+      "partial_median_points": 95.0,
+      "partial_median_first_stand_m": 282.37761448822306
+    },
+    "LSZH/07": {
+      "rows": 12796,
+      "shares": {
+        "partial_ground": 0.7629,
+        "unmatched": 0.1433,
+        "observed_at_assigned_stand": 0.0869,
+        "no_pre_takeoff_points": 0.0036,
+        "no_observed_ground": 0.0023,
+        "sparse_ground": 0.001
+      },
+      "stand_level": 0.0869,
+      "usable_ground": 0.8498,
+      "partial_median_points": 45.0,
+      "partial_median_first_stand_m": 347.805960717722
+    },
+    "LTFM/01": {
+      "rows": 22063,
+      "shares": {
+        "unmatched": 0.9933,
+        "no_pre_takeoff_points": 0.0067
+      },
+      "stand_level": 0.0,
+      "usable_ground": 0.0,
+      "partial_median_points": null,
+      "partial_median_first_stand_m": null
+    },
+    "LTFM/07": {
+      "rows": 24797,
+      "shares": {
+        "unmatched": 0.9831,
+        "no_pre_takeoff_points": 0.0169,
+        "partial_ground": 0.0001
+      },
+      "stand_level": 0.0,
+      "usable_ground": 0.0001,
+      "partial_median_points": 13.5,
+      "partial_median_first_stand_m": 2421.8025658139795
+    }
+  },
+  "airports": {
+    "EDDF": {
+      "rows": 35896,
+      "stand_level": 0.0223,
+      "usable_ground": 0.6447,
+      "matched_unique": 0.9158,
+      "season_flags": [],
+      "partial_share_jan_jul": [
+        0.6696,
+        0.5867
+      ],
+      "partial_share_difference_pp": 8.3,
+      "v56_release_gate_both_months": false
+    },
+    "EDDM": {
+      "rows": 25728,
+      "stand_level": 0.2235,
+      "usable_ground": 0.8586,
+      "matched_unique": 0.861,
+      "season_flags": [],
+      "partial_share_jan_jul": [
+        0.6278,
+        0.6405
+      ],
+      "partial_share_difference_pp": 1.3,
+      "v56_release_gate_both_months": "not in v56's partial-track scope"
+    },
+    "EGLL": {
+      "rows": 39592,
+      "stand_level": 0.3511,
+      "usable_ground": 0.879,
+      "matched_unique": 0.9467,
+      "season_flags": [
+        "ground_points",
+        "first_still_age_s",
+        "last_still_age_s",
+        "last_near_stand_age_s",
+        "last_still_near_stand_age_s"
+      ],
+      "partial_share_jan_jul": [
+        0.6182,
+        0.4431
+      ],
+      "partial_share_difference_pp": 17.5,
+      "v56_release_gate_both_months": false
+    },
+    "EHAM": {
+      "rows": 36976,
+      "stand_level": 0.1559,
+      "usable_ground": 0.851,
+      "matched_unique": 0.853,
+      "season_flags": [],
+      "partial_share_jan_jul": [
+        0.6835,
+        0.7036
+      ],
+      "partial_share_difference_pp": 2.0,
+      "v56_release_gate_both_months": false
+    },
+    "LEBL": {
+      "rows": 29638,
+      "stand_level": 0.1792,
+      "usable_ground": 0.8787,
+      "matched_unique": 0.9019,
+      "season_flags": [],
+      "partial_share_jan_jul": [
+        0.7231,
+        0.6832
+      ],
+      "partial_share_difference_pp": 4.0,
+      "v56_release_gate_both_months": true
+    },
+    "LEMD": {
+      "rows": 36716,
+      "stand_level": 0.1359,
+      "usable_ground": 0.7124,
+      "matched_unique": 0.8823,
+      "season_flags": [
+        "ground_points",
+        "last_ground_age_s",
+        "median_gap_s",
+        "first_still_age_s",
+        "last_still_age_s",
+        "last_moving_age_s",
+        "near_stand_fraction"
+      ],
+      "partial_share_jan_jul": [
+        0.7454,
+        0.4351
+      ],
+      "partial_share_difference_pp": 31.0,
+      "v56_release_gate_both_months": "not in v56's partial-track scope"
+    },
+    "LFPG": {
+      "rows": 39138,
+      "stand_level": 0.0007,
+      "usable_ground": 0.0974,
+      "matched_unique": 0.8976,
+      "season_flags": [],
+      "partial_share_jan_jul": [
+        0.1062,
+        0.0889
+      ],
+      "partial_share_difference_pp": 1.7,
+      "v56_release_gate_both_months": "not in v56's partial-track scope"
+    },
+    "LIRF": {
+      "rows": 26516,
+      "stand_level": 0.0169,
+      "usable_ground": 0.2729,
+      "matched_unique": 0.6839,
+      "season_flags": "fewer than 100 partial tracks in a month",
+      "partial_share_jan_jul": [
+        0.6178,
+        0.0013
+      ],
+      "partial_share_difference_pp": 61.6,
+      "v56_release_gate_both_months": "not in v56's partial-track scope"
+    },
+    "LSZH": {
+      "rows": 22491,
+      "stand_level": 0.177,
+      "usable_ground": 0.8854,
+      "matched_unique": 0.8921,
+      "season_flags": [
+        "ground_points"
+      ],
+      "partial_share_jan_jul": [
+        0.6365,
+        0.7629
+      ],
+      "partial_share_difference_pp": 12.6,
+      "v56_release_gate_both_months": true
+    },
+    "LTFM": {
+      "rows": 46860,
+      "stand_level": 0.0,
+      "usable_ground": 0.0,
+      "matched_unique": 0.0121,
+      "season_flags": "fewer than 100 partial tracks in a month",
+      "partial_share_jan_jul": [
+        0.0,
+        0.0001
+      ],
+      "partial_share_difference_pp": 0.0,
+      "v56_release_gate_both_months": "not in v56's partial-track scope"
+    }
+  },
+  "claims": {
+    "EDDM, EHAM and EGLL have the strongest ground coverage (top three by usable ground evidence)": false,
+    "LEBL, LEMD and LSZH are moderate to strong (ranks four to six)": false,
+    "EDDF has many tracks but weak stand-level evidence (matched above 80 %, stand-level below 5 %)": true,
+    "LFPG is weak (usable ground evidence below 30 %)": true,
+    "LIRF and LTFM have effectively zero usable ground evidence in July (below 2 %)": true,
+    "two-season partial-ground evidence stable at EHAM, EGLL, LEBL, LSZH and not at EDDF (v56 drift rule, Jan vs Jul)": false
+  },
+  "usable_ground_rank": [
+    "LSZH",
+    "EGLL",
+    "LEBL",
+    "EDDM",
+    "EHAM",
+    "LEMD",
+    "EDDF",
+    "LIRF",
+    "LFPG",
+    "LTFM"
+  ],
+  "stand_level_rank": [
+    "EGLL",
+    "EDDM",
+    "LEBL",
+    "LSZH",
+    "EHAM",
+    "LEMD",
+    "EDDF",
+    "LIRF",
+    "LFPG",
+    "LTFM"
+  ],
+  "season_definitions_note": "The stated two-season finding is checked under three definitions: v56's drift rule on January against July 2026 partial tracks; the January-July difference of the partial-track share; v56's release gate (2025 training against 2026), both months."
+}

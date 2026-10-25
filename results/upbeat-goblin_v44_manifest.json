@@ -1,0 +1,35 @@
+{
+  "submission": "upbeat-goblin_v44.parquet",
+  "recorded_at_local": "2026-09-11 09:55 CEST (approximately)",
+  "official_result": "upbeat-goblin_v44.json",
+  "score_rmse_seconds": 272.334,
+  "previous_best_rmse_seconds": 275.9373,
+  "gain_rmse_seconds": 3.6033,
+  "target_rmse_seconds": 270.9373,
+  "remaining_gain_seconds": 1.3967,
+  "validation": {
+    "main_rows": 339551,
+    "fallback_rows": 5290,
+    "submission_self_checks_passed": 6,
+    "component_month_pairs": 6,
+    "full_ensemble_six_pair_cv_run": false,
+    "final_training_months": 12
+  },
+  "artifacts": {
+    "model": {
+      "file": "models_fid_arrivals.pkl",
+      "sha256": "81f05970fdef9e8dbe65a9c47bf97a9408fb51f5580bb69b6d8b68fa8ede48c3",
+      "committed": false
+    },
+    "submission": {
+      "file": "submissions/upbeat-goblin_v44.parquet",
+      "sha256": "9b8cb29eb9597c6f7a06d74cbaeff59c812582af1a8ae0d525e404b283ca8773",
+      "committed": false
+    }
+  },
+  "notes": [
+    "The model and submission hashes identify original local artifacts, not a guarantee of cross-platform deterministic retraining.",
+    "Leaderboard rank is a dated snapshot.",
+    "The previous model was preserved as models.pkl in the original working directory."
+  ]
+}

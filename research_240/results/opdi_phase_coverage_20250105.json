@@ -1,0 +1,158 @@
+{
+  "note": "Coverage of OPDI flight events for competition departures, and the phase durations they imply.",
+  "window": [
+    "2025-01-05",
+    "2025-01-15"
+  ],
+  "opdi_event_counts_selected_types": {
+    "entry-runway": 206847,
+    "take-off": 33550,
+    "exit-parking_position": 28134,
+    "entry-deicing_pad": 106
+  },
+  "airports": {
+    "EDDF": {
+      "competition_departures": 5031,
+      "with_opdi_takeoff_and_runway_entry": 94,
+      "coverage_takeoff_runway": 0.01868415821904194,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": 3.0,
+      "median_runway_entry_to_takeoff_s": 5.0,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": 812.0
+    },
+    "EDDM": {
+      "competition_departures": 3598,
+      "with_opdi_takeoff_and_runway_entry": 8,
+      "coverage_takeoff_runway": 0.0022234574763757642,
+      "coverage_stand_exit": 0.00027793218454697053,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": 47.5,
+      "median_runway_entry_to_takeoff_s": 0.0,
+      "median_stand_exit_to_runway_entry_s": 815.0,
+      "median_stand_exit_minus_aobt3_s": 10.0,
+      "median_stand_exit_minus_block_s": 66.0,
+      "median_airport_taxi_s": 872.5
+    },
+    "EGLL": {
+      "competition_departures": 6292,
+      "with_opdi_takeoff_and_runway_entry": 184,
+      "coverage_takeoff_runway": 0.029243483788938335,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": 30.0,
+      "median_runway_entry_to_takeoff_s": 5.0,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": 1260.5
+    },
+    "EHAM": {
+      "competition_departures": 5946,
+      "with_opdi_takeoff_and_runway_entry": 325,
+      "coverage_takeoff_runway": 0.054658594012781704,
+      "coverage_stand_exit": 0.00016818028927009755,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": -7.0,
+      "median_runway_entry_to_takeoff_s": 5.0,
+      "median_stand_exit_to_runway_entry_s": 815.0,
+      "median_stand_exit_minus_aobt3_s": -240.0,
+      "median_stand_exit_minus_block_s": -7.0,
+      "median_airport_taxi_s": 682.0
+    },
+    "LEBL": {
+      "competition_departures": 3891,
+      "with_opdi_takeoff_and_runway_entry": 1421,
+      "coverage_takeoff_runway": 0.3652017476227191,
+      "coverage_stand_exit": 0.05062965818555641,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": -2.0,
+      "median_runway_entry_to_takeoff_s": 40.0,
+      "median_stand_exit_to_runway_entry_s": 500.0,
+      "median_stand_exit_minus_aobt3_s": 175.0,
+      "median_stand_exit_minus_block_s": 237.0,
+      "median_airport_taxi_s": 841.0
+    },
+    "LEMD": {
+      "competition_departures": 5378,
+      "with_opdi_takeoff_and_runway_entry": 0,
+      "coverage_takeoff_runway": 0.0,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": null,
+      "median_takeoff_minus_mvt_s": null,
+      "median_runway_entry_to_takeoff_s": null,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": null
+    },
+    "LFPG": {
+      "competition_departures": 5775,
+      "with_opdi_takeoff_and_runway_entry": 28,
+      "coverage_takeoff_runway": 0.0048484848484848485,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": 32.5,
+      "median_runway_entry_to_takeoff_s": 5.0,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": 1020.5
+    },
+    "LIRF": {
+      "competition_departures": 3733,
+      "with_opdi_takeoff_and_runway_entry": 0,
+      "coverage_takeoff_runway": 0.0,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": null,
+      "median_takeoff_minus_mvt_s": null,
+      "median_runway_entry_to_takeoff_s": null,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": null
+    },
+    "LSZH": {
+      "competition_departures": 3041,
+      "with_opdi_takeoff_and_runway_entry": 1,
+      "coverage_takeoff_runway": 0.0003288391976323578,
+      "coverage_stand_exit": 0.0003288391976323578,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": -6.0,
+      "median_runway_entry_to_takeoff_s": 30.0,
+      "median_stand_exit_to_runway_entry_s": 1185.0,
+      "median_stand_exit_minus_aobt3_s": -550.0,
+      "median_stand_exit_minus_block_s": -785.0,
+      "median_airport_taxi_s": 436.0
+    },
+    "LTFM": {
+      "competition_departures": 6837,
+      "with_opdi_takeoff_and_runway_entry": 0,
+      "coverage_takeoff_runway": 0.0,
+      "coverage_stand_exit": 0.0,
+      "deicing_share_of_matched": null,
+      "median_takeoff_minus_mvt_s": null,
+      "median_runway_entry_to_takeoff_s": null,
+      "median_stand_exit_to_runway_entry_s": null,
+      "median_stand_exit_minus_aobt3_s": null,
+      "median_stand_exit_minus_block_s": null,
+      "median_airport_taxi_s": null
+    },
+    "ALL": {
+      "competition_departures": 49522,
+      "with_opdi_takeoff_and_runway_entry": 2061,
+      "coverage_takeoff_runway": 0.04161786680667178,
+      "coverage_stand_exit": 0.004038609103024918,
+      "deicing_share_of_matched": 0.0,
+      "median_takeoff_minus_mvt_s": -2.0,
+      "median_runway_entry_to_takeoff_s": 20.0,
+      "median_stand_exit_to_runway_entry_s": 507.5,
+      "median_stand_exit_minus_aobt3_s": 170.0,
+      "median_stand_exit_minus_block_s": 235.5,
+      "median_airport_taxi_s": 837.0
+    }
+  }
+}

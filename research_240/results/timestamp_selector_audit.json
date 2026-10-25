@@ -1,0 +1,57 @@
+{
+  "note": "post-screen diagnostic; no fits, no hyperparameter choice, no leaderboard forecast",
+  "constant_prior": {
+    "rmse": 1485.46066461806,
+    "mse_gain": 1845.8512108777734,
+    "without_top100_mse_gain": 401.64128406827916,
+    "positive_pairs": 6,
+    "pair_mse_gains": {
+      "1_7": 1942.7476983916065,
+      "2_8": 3791.5643460085485,
+      "3_9": 540.6250578160957,
+      "4_10": 73.29705343042028,
+      "5_11": 1771.9800988830586,
+      "6_12": 2557.754549318626
+    },
+    "january_mse_gain": 4338.822889778193,
+    "july_mse_gain": 1069.6222794886735
+  },
+  "survivor": {
+    "rmse": 1485.4533060896574,
+    "mse_gain": 1867.7127657135295,
+    "without_top100_mse_gain": 411.6078124848452,
+    "positive_pairs": 6,
+    "pair_mse_gains": {
+      "1_7": 1956.46010216205,
+      "2_8": 3836.6450864561607,
+      "3_9": 549.7700496709429,
+      "4_10": 60.080247360448986,
+      "5_11": 1797.281291657505,
+      "6_12": 2604.686946991896
+    },
+    "january_mse_gain": 4333.292090535149,
+    "july_mse_gain": 1090.3468712541276
+  },
+  "learned_increment_mse": 21.861554835756195,
+  "fraction_of_survivor_gain_explained_by_untrained_prior": 0.988295012361066,
+  "survivor_minus_baseline_mean_s": 13.451670374118512,
+  "survivor_minus_prior_mean_s": 0.0054706150261373526,
+  "survivor_minus_prior_max_abs_s": 1.0314188661359367,
+  "airport_day_bootstrap": {
+    "clusters": 3246,
+    "resamples": 2000,
+    "seed": 271828,
+    "survivor_gain_95pct_mse": [
+      1034.8306044291921,
+      2795.2592889840726
+    ],
+    "prior_gain_95pct_mse": [
+      1018.3864087889232,
+      2764.7029257868476
+    ],
+    "learned_increment_95pct_mse": [
+      7.113266954621718,
+      40.60108596990565
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_more_months.md",
+  "extra_table_rows": 506385,
+  "extra_matched": 0.8043129239610178,
+  "part_A_five_vs_two": {
+    "rows": 662308,
+    "rmse": {
+      "new": 203.5656259273953,
+      "old": 205.04107684963088,
+      "base": 220.24130051955922
+    },
+    "rmse_gain_vs_old_s": 1.4754509222355807,
+    "rmse_gain_vs_base_s": 16.675674592163915,
+    "per_seed_mse_gain": {
+      "177": 630.3938350486278,
+      "277": 575.3644378393947
+    },
+    "months": {
+      "1": 800.7332329613494,
+      "2": 37.40382574428168,
+      "6": 771.3076040575634,
+      "7": 710.4784417156125
+    },
+    "months_rmse": {
+      "1": {
+        "new": 185.02918803087374,
+        "old": 187.1804841759038,
+        "base": 202.14577875761003
+      },
+      "2": {
+        "new": 204.8863102011821,
+        "old": 204.97756934259735,
+        "base": 220.1301405557198
+      },
+      "6": {
+        "new": 194.38044058597595,
+        "old": 196.35443281590486,
+        "base": 213.9209921327978
+      },
+      "7": {
+        "new": 224.57666220319268,
+        "old": 226.15294746706826,
+        "base": 239.6431474915269
+      }
+    },
+    "without_best_100": 432.89796074386874,
+    "airport_day_bootstrap_95": [
+      440.27079744924777,
+      748.8108351537866
+    ],
+    "checks": {
+      "1_every_seed_new_beats_old": true,
+      "2_each_month_positive": true,
+      "3_without_best_100_positive": true,
+      "4_airport_day_interval_above_zero": true,
+      "5_rmse_gain_at_least_0_3_s": true,
+      "6_new_beats_base": true
+    },
+    "verdict": "pass"
+  },
+  "part_B_ensemble_form": {
+    "rows": 339046,
+    "rmse": {
+      "new": 202.1655862586609,
+      "old": 203.8932392756337,
+      "base": 216.7734634758806
+    },
+    "rmse_gain_vs_old_s": 1.7276530169727948,
+    "rmse_gain_vs_base_s": 14.60787721721968,
+    "per_seed_mse_gain": {
+      "177": 717.5775119287791,
+      "277": 685.4799980767348
+    },
+    "months": {
+      "1": 746.4629904989815,
+      "7": 664.895474460681
+    },
+    "months_rmse": {
+      "1": {
+        "new": 181.30799952517958,
+        "old": 183.35499361163167,
+        "base": 196.9504432985477
+      },
+      "7": {
+        "new": 217.69630344786293,
+        "old": 219.2181014636444,
+        "base": 231.68281605813425
+      }
+    },
+    "without_best_100": 423.72381606056456,
+    "airport_day_bootstrap_95": [
+      532.4260225313807,
+      867.7529791128962
+    ],
+    "checks": {
+      "1_every_seed_new_beats_old": true,
+      "2_each_month_positive": true,
+      "3_without_best_100_positive": true,
+      "4_airport_day_interval_above_zero": true,
+      "5_rmse_gain_at_least_0_3_s": true,
+      "6_new_beats_base": true
+    },
+    "verdict": "pass",
+    "pilot6_stack_reference": 200.99213047248654,
+    "five_ens_below_pilot6": false
+  },
+  "rebuild_2026_indicated": false,
+  "fetch_remaining_months_indicated": true
+}

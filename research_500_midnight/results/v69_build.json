@@ -1,0 +1,98 @@
+{
+  "checks": {
+    "v68_is_built_file": true,
+    "ranking_departures_unlabelled": true,
+    "rows_selected": 10,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v68": true,
+    "all_finite": true,
+    "rows_changed": 9
+  },
+  "base": {
+    "version": "v68",
+    "sha256": "5572b8cff608c5f69e63698d57385f4bc1ed902cb0fbecf3f483cae5a6c44582",
+    "central": 255.89
+  },
+  "rows": [
+    {
+      "id": "202680695.0",
+      "v68": 39870.17929905179,
+      "v69": 39365.0,
+      "gain_if_copy": 255206.12419046127,
+      "change_if_normal": 39017613.74043465
+    },
+    {
+      "id": "202681830.0",
+      "v68": 40409.02149410016,
+      "v69": 40615.0,
+      "gain_if_copy": 42427.14489272986,
+      "change_if_normal": -16277249.877551556
+    },
+    {
+      "id": "202687258.0",
+      "v68": 58637.27141014594,
+      "v69": 53520.0,
+      "gain_if_copy": 26186466.685097042,
+      "change_if_normal": 563704655.6068268
+    },
+    {
+      "id": "202685083.0",
+      "v68": 39180.66345450968,
+      "v69": 48841.0,
+      "gain_if_copy": 93322102.1721358,
+      "change_if_normal": -830998219.1734688
+    },
+    {
+      "id": "213145828.0",
+      "v68": 34126.45961924629,
+      "v69": 36062.0,
+      "gain_if_copy": 3746316.565528208,
+      "change_if_normal": -131981517.09444475
+    },
+    {
+      "id": "213143126.0",
+      "v68": 29455.0,
+      "v69": 29455.0,
+      "gain_if_copy": 0.0,
+      "change_if_normal": -0.0
+    },
+    {
+      "id": "213143669.0",
+      "v68": 49030.87965295068,
+      "v69": 48539.0,
+      "gain_if_copy": 241945.5929868813,
+      "change_if_normal": 47008879.236231804
+    },
+    {
+      "id": "213142746.0",
+      "v68": 41746.959901080634,
+      "v69": 41395.0,
+      "gain_if_copy": 123875.77196868978,
+      "change_if_normal": 28558716.180273056
+    },
+    {
+      "id": "213147307.0",
+      "v68": 29723.66341518766,
+      "v69": 33057.0,
+      "gain_if_copy": 11111132.787648391,
+      "change_if_normal": -202602409.01100993
+    },
+    {
+      "id": "213154831.0",
+      "v68": 40549.05367638793,
+      "v69": 39060.0,
+      "gain_if_copy": 2217280.851164405,
+      "change_if_normal": 115564046.69781351
+    }
+  ],
+  "prediction_fixed_before_upload": {
+    "assumptions": "p(copy) 0.929 per row (Laplace on 12 of 12); a normal row taxis 1000 s; best: all copies; worst: the row with the largest risk is normal, the others copies",
+    "central": 255.32,
+    "best": 255.11,
+    "worst": 260.31,
+    "gain_s_central_vs_v68": 0.57
+  },
+  "candidate_path": ".cache/research_500/v69/candidate_v69.parquet",
+  "candidate_sha256": "6f125836402a50681a0e8b691f2e586c291ce2923d522a2f2b3f676f4a4fcee9",
+  "verdict": "built"
+}

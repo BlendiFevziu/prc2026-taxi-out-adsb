@@ -1,0 +1,38 @@
+{
+  "submission": "upbeat-goblin_v63.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v63.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 258.0008
+  },
+  "score": 258.0008,
+  "previous": {
+    "version": "v62",
+    "score": 258.5995
+  },
+  "gain_s": 0.5987,
+  "file_sha256": "590a16bdfc8e641f0dc69e63b5c0c4c6e3a0651c102d6b236538745899716fea",
+  "recipe": "Exact scored v62 (NM-free) with the frozen partial-track correction C1 switched on for the 11,993 EDDF July partial rows, confirmed on fresh 6/8/10 July 2025 (research_360_integration/PREREG_eddf_july.md); research_360_integration/build_v63.py, verified by research_360_integration/verify_v63.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "stratum-level gain x 2026 rows; central at v60's realised transfer 0.88 (as for v62), worst at 0.5, best = the registered group-level value at full transfer; v62 realised 0.59",
+    "stratum_level_gain_per_row": 6081.325305009639,
+    "group_level_gain_per_row": 12321.486996275065,
+    "central": 258.24,
+    "worst": 258.39,
+    "best": 257.77,
+    "stratum_level_full_transfer": 258.19
+  },
+  "realised_mse_per_scored_row": 309.3,
+  "transfer_ratio": {
+    "vs_stratum_level_full": 1.46,
+    "vs_registered_group_level_full": 0.72
+  },
+  "uploaded_at": "2026-09-29T09:46:39Z",
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter"
+}

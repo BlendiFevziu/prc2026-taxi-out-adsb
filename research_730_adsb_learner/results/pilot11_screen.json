@@ -1,0 +1,58 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_more_months_ens.md",
+  "extra_rows": 829647,
+  "rows": 339046,
+  "rmse": {
+    "new": 200.48262233129142,
+    "old": 200.99213047248654,
+    "base": 216.7734634758806
+  },
+  "rmse_gain_vs_old_s": 0.5095081411951128,
+  "rmse_gain_vs_base_s": 16.290841144589166,
+  "per_seed_mse_gain": {
+    "177": 197.43894265388371,
+    "277": 211.6703674217788
+  },
+  "months": {
+    "1": -146.70063909414142,
+    "7": 490.92057602706313
+  },
+  "months_rmse": {
+    "1": {
+      "new": 178.9774555729959,
+      "old": 178.56715533459555,
+      "base": 196.9504432985477
+    },
+    "7": {
+      "new": 216.43965943758107,
+      "old": 217.5707856158155,
+      "base": 231.68281605813425
+    }
+  },
+  "without_best_100": -62.02267701611102,
+  "airport_day_bootstrap_95": [
+    31.893991149839387,
+    382.4402915480955
+  ],
+  "checks": {
+    "1_every_seed_new_beats_old": true,
+    "2_each_month_positive": false,
+    "3_without_best_100_positive": false,
+    "4_airport_day_interval_above_zero": true,
+    "5_rmse_gain_at_least_0_3_s": true,
+    "6_new_beats_base": true
+  },
+  "verdict": "fail",
+  "airports_vs_pilot6": {
+    "EDDF": 476.8539963007966,
+    "EDDM": 791.2640688932945,
+    "EGLL": -167.51425020103463,
+    "EHAM": 329.1187529360223,
+    "LEBL": 449.60800241148024,
+    "LEMD": -152.8343566072776,
+    "LFPG": 27.480999747832033,
+    "LIRF": 140.67624582544613,
+    "LSZH": 789.9837921777494,
+    "LTFM": -112.51016531913083
+  }
+}

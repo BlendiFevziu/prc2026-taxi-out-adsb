@@ -1,0 +1,583 @@
+{
+  "airports": [
+    "EDDM",
+    "EHAM"
+  ],
+  "rows": 11320,
+  "days_without_tracks": [
+    "2026-06-11"
+  ],
+  "per_day": {
+    "2026-02-01": {
+      "EDDM": {
+        "replaced": 122,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 65,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-02": {
+      "EDDM": {
+        "replaced": 127,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-03": {
+      "EDDM": {
+        "replaced": 106,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-04": {
+      "EDDM": {
+        "replaced": 125,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 58,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-05": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 72,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-06": {
+      "EDDM": {
+        "replaced": 140,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-07": {
+      "EDDM": {
+        "replaced": 135,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-08": {
+      "EDDM": {
+        "replaced": 128,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-09": {
+      "EDDM": {
+        "replaced": 132,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 63,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-10": {
+      "EDDM": {
+        "replaced": 128,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 64,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-11": {
+      "EDDM": {
+        "replaced": 138,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 71,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-12": {
+      "EDDM": {
+        "replaced": 98,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 71,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-13": {
+      "EDDM": {
+        "replaced": 143,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 78,
+        "withdrawn_by_tow_guard": 1
+      }
+    },
+    "2026-02-14": {
+      "EDDM": {
+        "replaced": 138,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 61,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-15": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 53,
+        "withdrawn_by_tow_guard": 2
+      }
+    },
+    "2026-02-16": {
+      "EDDM": {
+        "replaced": 145,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 56,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-17": {
+      "EDDM": {
+        "replaced": 134,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 52,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-18": {
+      "EDDM": {
+        "replaced": 136,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 64,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-19": {
+      "EDDM": {
+        "replaced": 89,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 70,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-20": {
+      "EDDM": {
+        "replaced": 114,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 63,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-21": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 61,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-22": {
+      "EDDM": {
+        "replaced": 127,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 56,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-23": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 34,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-24": {
+      "EDDM": {
+        "replaced": 123,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 45,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-25": {
+      "EDDM": {
+        "replaced": 141,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 52,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-26": {
+      "EDDM": {
+        "replaced": 135,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 50,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-27": {
+      "EDDM": {
+        "replaced": 129,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 66,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-02-28": {
+      "EDDM": {
+        "replaced": 127,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 60,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-01": {
+      "EDDM": {
+        "replaced": 136,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 89,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-02": {
+      "EDDM": {
+        "replaced": 110,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 68,
+        "withdrawn_by_tow_guard": 1
+      }
+    },
+    "2026-06-03": {
+      "EDDM": {
+        "replaced": 126,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 66,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-04": {
+      "EDDM": {
+        "replaced": 116,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 88,
+        "withdrawn_by_tow_guard": 1
+      }
+    },
+    "2026-06-05": {
+      "EDDM": {
+        "replaced": 113,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 65,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-06": {
+      "EDDM": {
+        "replaced": 125,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-07": {
+      "EDDM": {
+        "replaced": 118,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 92,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-08": {
+      "EDDM": {
+        "replaced": 121,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 77,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-09": {
+      "EDDM": {
+        "replaced": 114,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 73,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-10": {
+      "EDDM": {
+        "replaced": 111,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 81,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-11": "no tracks",
+    "2026-06-12": {
+      "EDDM": {
+        "replaced": 111,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 77,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-13": {
+      "EDDM": {
+        "replaced": 123,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 79,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-14": {
+      "EDDM": {
+        "replaced": 143,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 82,
+        "withdrawn_by_tow_guard": 1
+      }
+    },
+    "2026-06-15": {
+      "EDDM": {
+        "replaced": 141,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 73,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-16": {
+      "EDDM": {
+        "replaced": 131,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 64,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-17": {
+      "EDDM": {
+        "replaced": 132,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-18": {
+      "EDDM": {
+        "replaced": 130,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 76,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-19": {
+      "EDDM": {
+        "replaced": 149,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 1
+      }
+    },
+    "2026-06-20": {
+      "EDDM": {
+        "replaced": 145,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 69,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-21": {
+      "EDDM": {
+        "replaced": 147,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 78,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-22": {
+      "EDDM": {
+        "replaced": 148,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 80,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-23": {
+      "EDDM": {
+        "replaced": 132,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 76,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-24": {
+      "EDDM": {
+        "replaced": 153,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 74,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-25": {
+      "EDDM": {
+        "replaced": 152,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 61,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-26": {
+      "EDDM": {
+        "replaced": 126,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 66,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-27": {
+      "EDDM": {
+        "replaced": 160,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 76,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-28": {
+      "EDDM": {
+        "replaced": 153,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 84,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-29": {
+      "EDDM": {
+        "replaced": 140,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 88,
+        "withdrawn_by_tow_guard": 0
+      }
+    },
+    "2026-06-30": {
+      "EDDM": {
+        "replaced": 145,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 54,
+        "withdrawn_by_tow_guard": 0
+      }
+    }
+  }
+}

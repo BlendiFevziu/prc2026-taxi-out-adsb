@@ -1,0 +1,91 @@
+{
+  "note": "six pairs in the shape of the real case; nothing uploaded",
+  "arms": {
+    "A1_label": {
+      "seconds": -20.062517609634636,
+      "ci": [
+        -31.117758113119773,
+        -10.512625440658077
+      ],
+      "pairs_positive": 0,
+      "mse_per_row": 2789707.2878256477,
+      "without_top100_seconds": -29.26574752994962,
+      "ordinary_rows_mse_gain": -375367.98877766816,
+      "checks": {
+        "pooled_positive": false,
+        "at_least_4_of_6": false,
+        "ordinary_not_worse": false,
+        "survives_top100": false
+      }
+    },
+    "A2_weight": {
+      "seconds": 1.9104608205884168,
+      "ci": [
+        0.6598635264634857,
+        3.229890214155318
+      ],
+      "pairs_positive": 6,
+      "mse_per_row": 2165986.0579152633,
+      "without_top100_seconds": -1.7622519564008534,
+      "ordinary_rows_mse_gain": -61746.898850183614,
+      "checks": {
+        "pooled_positive": true,
+        "at_least_4_of_6": true,
+        "ordinary_not_worse": false,
+        "survives_top100": false
+      }
+    },
+    "A3_full": {
+      "seconds": -12.99747088032892,
+      "ci": [
+        -21.62278327126353,
+        -5.057323234195339
+      ],
+      "pairs_positive": 0,
+      "mse_per_row": 2589160.0725552887,
+      "without_top100_seconds": -23.039116310778095,
+      "ordinary_rows_mse_gain": -423824.2778700694,
+      "checks": {
+        "pooled_positive": false,
+        "at_least_4_of_6": false,
+        "ordinary_not_worse": false,
+        "survives_top100": false
+      }
+    },
+    "A4_full_cal": {
+      "seconds": -12.112165559753043,
+      "ci": [
+        -19.36203932865043,
+        -5.146038335797349
+      ],
+      "pairs_positive": 0,
+      "mse_per_row": 2564029.9462435874,
+      "without_top100_seconds": -22.37971435586289,
+      "ordinary_rows_mse_gain": -433654.02322226856,
+      "checks": {
+        "pooled_positive": false,
+        "at_least_4_of_6": false,
+        "ordinary_not_worse": false,
+        "survives_top100": false
+      }
+    },
+    "A0_prod": {
+      "mse_per_row": 2220216.073955056
+    }
+  },
+  "instrument": {
+    "seconds": 1.3107555243786302,
+    "ci": [
+      0.16091250989289674,
+      2.5410956740757906
+    ],
+    "passed": false
+  },
+  "rule_control": {
+    "seconds": 17.36274949700597,
+    "pooled_mse_per_row": 492856.0552356829,
+    "without_top100": -14973.818180392575,
+    "without_top100_seconds": -0.5275103172985165,
+    "rule_usable": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "prereg": "research_640_tail_rule/PREREG_catboost_more.md",
+  "A": {
+    "stand LEMD/07": {
+      "rows": 904,
+      "gain_mse": 911.4923910138289,
+      "bootstrap_95": [
+        13.008289399963191,
+        2277.9936429185855
+      ],
+      "airport_days": 24,
+      "blocks": {
+        "first_half": 1584.9167989784485,
+        "second_half": 185.43251208186018
+      },
+      "seeds": {
+        "177": 1101.3723209321015,
+        "277": 648.356123783399,
+        "377": 989.5017153479429
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    },
+    "stand EGLL/01": {
+      "rows": 765,
+      "gain_mse": 1989.7612908966832,
+      "bootstrap_95": [
+        866.558691787288,
+        3394.4961130921447
+      ],
+      "airport_days": 10,
+      "blocks": {
+        "first_half": 2873.802494734371,
+        "second_half": 995.214936579285
+      },
+      "seeds": {
+        "177": 2062.7205573652523,
+        "277": 1914.1978538580927,
+        "377": 1989.7296863786155
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    },
+    "c1 EGLL/01": {
+      "rows": 3252,
+      "gain_mse": 2231.7921890081293,
+      "bootstrap_95": [
+        916.857039766121,
+        3918.862591529157
+      ],
+      "airport_days": 10,
+      "blocks": {
+        "first_half": 3885.407503174037,
+        "second_half": 545.3099866103522
+      },
+      "seeds": {
+        "177": 2327.3269534059236,
+        "277": 2208.898758758254,
+        "377": 2231.310512429615
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    },
+    "c1 LEMD/07": {
+      "rows": 2777,
+      "gain_mse": 848.2108345821895,
+      "bootstrap_95": [
+        287.33572896420424,
+        1453.479639798167
+      ],
+      "airport_days": 24,
+      "blocks": {
+        "first_half": 714.1872224644811,
+        "second_half": 952.1562575353736
+      },
+      "seeds": {
+        "177": 792.8003859897487,
+        "277": 1060.0175260199596,
+        "377": 814.6055851698624
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    }
+  },
+  "B": {
+    "EDDM/01": {
+      "rows": 5014,
+      "gain_mse": 458.0859230873755,
+      "bootstrap_95": [
+        211.39959146559792,
+        789.6787381642226
+      ],
+      "airport_days": 21,
+      "blocks": {
+        "first_half": 500.3292288628941,
+        "second_half": 419.02100039515875
+      },
+      "seeds": {
+        "177": 555.1021882942358,
+        "277": 556.0710663048678,
+        "377": 285.54313800018497
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    },
+    "LEMD/07": {
+      "rows": 2777,
+      "gain_mse": 1127.7954212848388,
+      "bootstrap_95": [
+        757.8681887416518,
+        1480.624993724481
+      ],
+      "airport_days": 24,
+      "blocks": {
+        "first_half": 947.2890474063921,
+        "second_half": 1267.7917329949128
+      },
+      "seeds": {
+        "177": 1242.4864741280599,
+        "277": 1245.954711640915,
+        "377": 977.7358637461268
+      },
+      "rules": {
+        "pooled": true,
+        "bootstrap_lower": true,
+        "both_blocks": true,
+        "every_seed": true
+      },
+      "pass": true
+    }
+  },
+  "admitted": {
+    "LEMD/07 stand": 2812,
+    "LEMD/01 stand": 2176,
+    "EGLL/07 stand": 10242,
+    "EGLL/07 partial": 9048,
+    "LEMD/01 partial": 12478,
+    "EDDM/01": 6802,
+    "EDDM/07": 9539,
+    "LEMD/07 C1": 8692
+  },
+  "planning_s": 0.43031283939998843,
+  "verdict": "pass"
+}

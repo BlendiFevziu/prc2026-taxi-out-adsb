@@ -1,0 +1,32 @@
+{
+  "submission": "upbeat-goblin_v64.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v64.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 257.0986
+  },
+  "score": 257.0986,
+  "previous": {
+    "version": "v63",
+    "score": 258.0008
+  },
+  "gain_s": 0.9022,
+  "file_sha256": "fdbf45001515a74d2d4f762722ea57f2cd9290f4fd306be5cb4d3ea3f0ce3a88",
+  "recipe": "Exact scored v63 (NM-free) with the frozen partial-track correction C1 switched on for the base-owned partial rows of EDDM January and LEMD July (14,089 rows), both passing research_400_cells/PREREG_cells.md; research_400_cells/build_v64.py, verified by verify_v64.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "sum of the two cells' registered planning values (group-level reweighting), scaled to the base-owned rows; central at v63's realised 0.72 of its registered value, worst 0.4, best 1.0",
+    "mse_per_scored_row_full": 400.3926404337344,
+    "central": 257.44,
+    "worst": 257.69,
+    "best": 257.22
+  },
+  "realised_mse_per_scored_row": 464.7,
+  "transfer_ratio_vs_registered_full": 1.16,
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter"
+}

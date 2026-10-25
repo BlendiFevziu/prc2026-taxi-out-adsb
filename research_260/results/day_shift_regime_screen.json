@@ -1,0 +1,224 @@
+{
+  "note": "rare-regime screen; nested by month on six-pair held-out v46 fallback predictions; 2026 label-free Monte Carlo",
+  "regime_rows_2025": {
+    "day_shift": 14,
+    "late_day_shift": 11
+  },
+  "folds": {
+    "1": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 1020.5
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "2": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.8,
+        "tau": 951.0
+      },
+      "changed_rows": 1,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 1,
+      "gain": -1237262140.301044
+    },
+    "3": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 961.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "4": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 951.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "5": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 961.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "6": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7,
+        "tau": 951.0
+      },
+      "changed_rows": 1,
+      "shift_rows_changed": 1,
+      "copy_rows_changed": 0,
+      "gain": 194937827.82439443
+    },
+    "7": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7142857142857143,
+        "tau": 1010.5
+      },
+      "changed_rows": 4,
+      "shift_rows_changed": 3,
+      "copy_rows_changed": 1,
+      "gain": 306257978.84241843
+    },
+    "8": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 951.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "9": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 941.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "10": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7272727272727273,
+        "tau": 951.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "11": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 18,
+        "delay_h": 0,
+        "p": 0.6666666666666666,
+        "tau": 894.0
+      },
+      "changed_rows": 0,
+      "shift_rows_changed": 0,
+      "copy_rows_changed": 0,
+      "gain": 0.0
+    },
+    "12": {
+      "rule": {
+        "scope": "LIRF",
+        "hour": 12,
+        "delay_h": 0,
+        "p": 0.7,
+        "tau": 941.0
+      },
+      "changed_rows": 1,
+      "shift_rows_changed": 1,
+      "copy_rows_changed": 0,
+      "gain": 1814872.3654612233
+    }
+  },
+  "heldout": {
+    "changed_rows": 7,
+    "sse_gain": -734251461.2687699,
+    "fallback_mse_gain_per_row": -32676.9675687036,
+    "v46_fallback_rmse": 1486.0818407269524,
+    "new_fallback_rmse": 1497.0358061539846,
+    "sse_gain_without_top1_row": -1167938325.4225616,
+    "sse_gain_without_top2_rows": -1362876153.246956,
+    "leaderboard_mse_equivalent_at_2026_fallback_share": -501.2778597627372,
+    "folds_with_change": 4,
+    "folds_positive": 3,
+    "folds_negative": 1
+  },
+  "exposure_2026": {
+    "rule": {
+      "scope": "LIRF",
+      "hour": 12,
+      "delay_h": 0,
+      "rows": 9,
+      "shifts": 7,
+      "p": 0.7272727272727273,
+      "tau": 951.0,
+      "training_gain": 559496948.1697186,
+      "copies": 2,
+      "normals": 0
+    },
+    "changed_rows_2026": 2,
+    "delay_h_of_changed_rows": [
+      31.02,
+      17.03
+    ],
+    "served_h": [
+      29.58,
+      19.59
+    ],
+    "proposed_h": [
+      25.71,
+      22.99
+    ],
+    "expected_leaderboard_mse_gain": 693.3610195614001,
+    "probability_gain_positive": 0.55435,
+    "leaderboard_rmse_change_s_quantiles": {
+      "0.05": -3.8418946896311468,
+      "0.25": -0.3520219722842626,
+      "0.5": 3.0992724749965532,
+      "0.75": 3.2861492455268717,
+      "0.95": 3.4214226734231943
+    },
+    "expected_leaderboard_rmse_change_s": 1.3122759568059452
+  },
+  "checks": {
+    "1_heldout_gain_positive": false,
+    "2_positive_without_top1_row": false,
+    "3_2026_expected_gain_positive_in_70pct": false,
+    "4_at_most_20_changed_2026_rows": true
+  },
+  "decision": {
+    "propose_v48_fallback_change": false
+  }
+}

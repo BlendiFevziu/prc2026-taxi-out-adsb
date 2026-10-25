@@ -1,0 +1,32 @@
+{
+  "submission": "upbeat-goblin_v66.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v66.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 256.4921
+  },
+  "score": 256.4921,
+  "previous": {
+    "version": "v65",
+    "score": 256.6145
+  },
+  "gain_s": 0.1224,
+  "file_sha256": "96d77ccc336217ab5c09d6b8cc03868fe8ed2c6869d62934faaf92c6c68d9c17",
+  "recipe": "Exact scored v65 (NM-free) with the frozen v57 stand model (weight 0.5) on the 3,392 base-owned stand-observed rows of LSZH July and EHAM July, passing research_440_fresh_july/PREREG_stand_july.md; build_v66.py, verified by verify_v66.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "per-cell gains on the ten fresh July days (weight 0.5 included) times the eligible 2026 rows; central 0.8, worst 0.3, best 1.2 of full transfer",
+    "mse_per_scored_row_full": 51.19411924365885,
+    "central": 256.53,
+    "worst": 256.58,
+    "best": 256.49
+  },
+  "realised_mse_per_scored_row": 62.8,
+  "transfer_ratio_vs_full": 1.23,
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter"
+}

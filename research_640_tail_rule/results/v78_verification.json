@@ -1,0 +1,13 @@
+{
+  "v78_sha_equals_build": true,
+  "v77_is_uploaded_file": true,
+  "ids_order_equal": true,
+  "schema_equal_v77": true,
+  "pruefe_errors": [],
+  "rows_changed": 101248,
+  "c1_rows": 84970,
+  "stand_rows": 17147,
+  "every_change_in_c1_or_stand": true,
+  "values_equal": true,
+  "verdict": "verified"
+}

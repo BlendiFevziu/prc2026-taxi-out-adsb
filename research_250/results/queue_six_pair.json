@@ -1,0 +1,1183 @@
+{
+  "official_best_rmse": 272.334,
+  "official_score_unchanged": true,
+  "validation": "single-LightGBM main component only; no full ensemble, new model bundle or submission",
+  "selection_note": "January/July selected the queue family; five other pairs use the same configuration. Early stopping observes each validation fold, as in the baseline. Bootstrap excludes selection and future-year uncertainty.",
+  "all_six_vs_v44_component": {
+    "rows": 2062577,
+    "baseline_rmse": 209.80769504510403,
+    "candidate_rmse": 206.69437117587464,
+    "mse_gain": 1296.7058243491338,
+    "positive_folds": 6,
+    "folds": [
+      {
+        "fold": "1_7",
+        "rows": 339046,
+        "baseline_rmse": 226.55400792287065,
+        "candidate_rmse": 223.6976292444155,
+        "rmse_gain": 2.856378678455144,
+        "mse_gain": 1286.089176344154
+      },
+      {
+        "fold": "2_8",
+        "rows": 331474,
+        "baseline_rmse": 219.7901366501209,
+        "candidate_rmse": 216.9037548409752,
+        "rmse_gain": 2.886381809145689,
+        "mse_gain": 1260.4653045649393
+      },
+      {
+        "fold": "3_9",
+        "rows": 344852,
+        "baseline_rmse": 203.36519296304448,
+        "candidate_rmse": 200.08663387342736,
+        "rmse_gain": 3.2785590896171186,
+        "mse_gain": 1322.7406540973461
+      },
+      {
+        "fold": "4_10",
+        "rows": 357964,
+        "baseline_rmse": 201.44123304625722,
+        "candidate_rmse": 198.33209836728733,
+        "rmse_gain": 3.1091346789698946,
+        "mse_gain": 1242.949128425178
+      },
+      {
+        "fold": "5_11",
+        "rows": 344573,
+        "baseline_rmse": 196.8933267137396,
+        "candidate_rmse": 194.21317274361988,
+        "rmse_gain": 2.6801539701197328,
+        "mse_gain": 1048.2256372602715
+      },
+      {
+        "fold": "6_12",
+        "rows": 344668,
+        "baseline_rmse": 210.2243948066208,
+        "candidate_rmse": 206.33492252042277,
+        "rmse_gain": 3.8894722861980426,
+        "mse_gain": 1620.1959203011138
+      }
+    ],
+    "airports": [
+      {
+        "airport": "EDDF",
+        "rows": 228185,
+        "mse_gain": 1586.9131114759657
+      },
+      {
+        "airport": "EDDM",
+        "rows": 166324,
+        "mse_gain": 1074.7780669704844
+      },
+      {
+        "airport": "EGLL",
+        "rows": 238132,
+        "mse_gain": 1277.122819837772
+      },
+      {
+        "airport": "EHAM",
+        "rows": 243867,
+        "mse_gain": 619.2342128442797
+      },
+      {
+        "airport": "LEBL",
+        "rows": 177843,
+        "mse_gain": 1130.7432720225115
+      },
+      {
+        "airport": "LEMD",
+        "rows": 211295,
+        "mse_gain": 679.4208598431069
+      },
+      {
+        "airport": "LFPG",
+        "rows": 235779,
+        "mse_gain": 1841.416846321088
+      },
+      {
+        "airport": "LIRF",
+        "rows": 159216,
+        "mse_gain": 144.20478212025773
+      },
+      {
+        "airport": "LSZH",
+        "rows": 132616,
+        "mse_gain": 1087.6848496238817
+      },
+      {
+        "airport": "LTFM",
+        "rows": 269320,
+        "mse_gain": 2719.906805565588
+      }
+    ],
+    "airport_day_bootstrap_mse_gain_95pct": [
+      1226.5804567663558,
+      1372.8502316961724
+    ],
+    "bootstrap_note": "descriptive resampling of observed airport-days; excludes future-year/model-selection uncertainty",
+    "baseline_top5_sse_share": 0.0032897551959559113,
+    "candidate_top5_sse_share": 0.003583149731527285
+  },
+  "all_six_incremental_over_corrected_units": {
+    "rows": 2062577,
+    "baseline_rmse": 209.13338189134194,
+    "candidate_rmse": 206.69437117587464,
+    "mse_gain": 1014.2083455196407,
+    "positive_folds": 6,
+    "folds": [
+      {
+        "fold": "1_7",
+        "rows": 339046,
+        "baseline_rmse": 225.89704181338874,
+        "candidate_rmse": 223.6976292444155,
+        "rmse_gain": 2.19941256897323,
+        "mse_gain": 988.8441704679208
+      },
+      {
+        "fold": "2_8",
+        "rows": 331474,
+        "baseline_rmse": 219.17319585761533,
+        "candidate_rmse": 216.9037548409752,
+        "rmse_gain": 2.2694410166401155,
+        "mse_gain": 989.6509183267262
+      },
+      {
+        "fold": "3_9",
+        "rows": 344852,
+        "baseline_rmse": 202.63887096596042,
+        "candidate_rmse": 200.08663387342736,
+        "rmse_gain": 2.552237092533062,
+        "mse_gain": 1027.8509715601904
+      },
+      {
+        "fold": "4_10",
+        "rows": 357964,
+        "baseline_rmse": 200.9862902348804,
+        "candidate_rmse": 198.33209836728733,
+        "rmse_gain": 2.6541918675930845,
+        "mse_gain": 1059.8676196082524
+      },
+      {
+        "fold": "5_11",
+        "rows": 344573,
+        "baseline_rmse": 196.7764188577969,
+        "candidate_rmse": 194.21317274361988,
+        "rmse_gain": 2.5632461141770193,
+        "mse_gain": 1002.2025513559856
+      },
+      {
+        "fold": "6_12",
+        "rows": 344668,
+        "baseline_rmse": 208.77693442381488,
+        "candidate_rmse": 206.33492252042277,
+        "rmse_gain": 2.442011903392114,
+        "mse_gain": 1013.7080958970328
+      }
+    ],
+    "airports": [
+      {
+        "airport": "EDDF",
+        "rows": 228185,
+        "mse_gain": 1487.9813208404885
+      },
+      {
+        "airport": "EDDM",
+        "rows": 166324,
+        "mse_gain": 911.5286309569419
+      },
+      {
+        "airport": "EGLL",
+        "rows": 238132,
+        "mse_gain": 862.1846189465359
+      },
+      {
+        "airport": "EHAM",
+        "rows": 243867,
+        "mse_gain": 397.183215217774
+      },
+      {
+        "airport": "LEBL",
+        "rows": 177843,
+        "mse_gain": 636.484656716857
+      },
+      {
+        "airport": "LEMD",
+        "rows": 211295,
+        "mse_gain": 731.5011163807794
+      },
+      {
+        "airport": "LFPG",
+        "rows": 235779,
+        "mse_gain": 1741.791499802901
+      },
+      {
+        "airport": "LIRF",
+        "rows": 159216,
+        "mse_gain": -21.74697128945263
+      },
+      {
+        "airport": "LSZH",
+        "rows": 132616,
+        "mse_gain": 798.3287116700158
+      },
+      {
+        "airport": "LTFM",
+        "rows": 269320,
+        "mse_gain": 1922.32902225187
+      }
+    ],
+    "airport_day_bootstrap_mse_gain_95pct": [
+      951.2258779087954,
+      1076.8277805309058
+    ],
+    "bootstrap_note": "descriptive resampling of observed airport-days; excludes future-year/model-selection uncertainty",
+    "baseline_top5_sse_share": 0.0033469103540432745,
+    "candidate_top5_sse_share": 0.003583149731527285
+  },
+  "five_confirmation_pairs_incremental": {
+    "rows": 1723531,
+    "baseline_rmse": 205.67493956409865,
+    "candidate_rmse": 203.18214213346656,
+    "mse_gain": 1019.1978827514322,
+    "positive_folds": 5,
+    "folds": [
+      {
+        "fold": "2_8",
+        "rows": 331474,
+        "baseline_rmse": 219.17319585761533,
+        "candidate_rmse": 216.9037548409752,
+        "rmse_gain": 2.2694410166401155,
+        "mse_gain": 989.6509183267262
+      },
+      {
+        "fold": "3_9",
+        "rows": 344852,
+        "baseline_rmse": 202.63887096596042,
+        "candidate_rmse": 200.08663387342736,
+        "rmse_gain": 2.552237092533062,
+        "mse_gain": 1027.8509715601904
+      },
+      {
+        "fold": "4_10",
+        "rows": 357964,
+        "baseline_rmse": 200.9862902348804,
+        "candidate_rmse": 198.33209836728733,
+        "rmse_gain": 2.6541918675930845,
+        "mse_gain": 1059.8676196082524
+      },
+      {
+        "fold": "5_11",
+        "rows": 344573,
+        "baseline_rmse": 196.7764188577969,
+        "candidate_rmse": 194.21317274361988,
+        "rmse_gain": 2.5632461141770193,
+        "mse_gain": 1002.2025513559856
+      },
+      {
+        "fold": "6_12",
+        "rows": 344668,
+        "baseline_rmse": 208.77693442381488,
+        "candidate_rmse": 206.33492252042277,
+        "rmse_gain": 2.442011903392114,
+        "mse_gain": 1013.7080958970328
+      }
+    ],
+    "airports": [
+      {
+        "airport": "EDDF",
+        "rows": 191954,
+        "mse_gain": 1520.676585572015
+      },
+      {
+        "airport": "EDDM",
+        "rows": 139470,
+        "mse_gain": 938.1341531047474
+      },
+      {
+        "airport": "EGLL",
+        "rows": 198388,
+        "mse_gain": 907.1745574429297
+      },
+      {
+        "airport": "EHAM",
+        "rows": 203726,
+        "mse_gain": 409.4746235456114
+      },
+      {
+        "airport": "LEBL",
+        "rows": 149353,
+        "mse_gain": 578.6881468705542
+      },
+      {
+        "airport": "LEMD",
+        "rows": 176276,
+        "mse_gain": 725.8846241796418
+      },
+      {
+        "airport": "LFPG",
+        "rows": 197047,
+        "mse_gain": 1761.9904176960044
+      },
+      {
+        "airport": "LIRF",
+        "rows": 133085,
+        "mse_gain": -43.814527786380495
+      },
+      {
+        "airport": "LSZH",
+        "rows": 110794,
+        "mse_gain": 812.8577750633704
+      },
+      {
+        "airport": "LTFM",
+        "rows": 223438,
+        "mse_gain": 1900.643429543823
+      }
+    ],
+    "airport_day_bootstrap_mse_gain_95pct": [
+      956.1028547263013,
+      1090.4372241037672
+    ],
+    "bootstrap_note": "descriptive resampling of observed airport-days; excludes future-year/model-selection uncertainty",
+    "baseline_top5_sse_share": 0.004069095050977084,
+    "candidate_top5_sse_share": 0.0043592965344389665
+  },
+  "baseline_defined_tail_diagnostic": {
+    "baseline_worst_one_percent": {
+      "rows": 20626,
+      "baseline_mse": 1459838.18983565,
+      "candidate_mse": 1427035.3603768642,
+      "mse_gain": 32802.82945878571
+    },
+    "other_ninety_nine_percent": {
+      "rows": 2041951,
+      "baseline_mse": 29717.906593592466,
+      "candidate_mse": 28739.44802693161,
+      "mse_gain": 978.4585666608582
+    }
+  },
+  "tail_note": "Diagnostic only, not a filtered training or scoring set; all rows remain in primary RMSE.",
+  "fold_reports": [
+    {
+      "validation": "single-LightGBM exploratory main screen, not full ensemble or leaderboard",
+      "source_months": [
+        1,
+        7
+      ],
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1179,
+      "seconds": 186.81497287750244,
+      "rows": 339046,
+      "scores": {
+        "v44_main": {
+          "rmse": 226.55400792287065,
+          "mse": 51326.718505916135,
+          "top5_sse_share": 0.00813068676607641
+        },
+        "units_replaced": {
+          "rmse": 225.89704181338874,
+          "mse": 51029.4735000399,
+          "top5_sse_share": 0.007926293745835903
+        },
+        "units_plus_queue": {
+          "rmse": 223.6976292444155,
+          "mse": 50040.62932957198,
+          "top5_sse_share": 0.008275768764499956
+        }
+      },
+      "incremental_rmse_gain": 2.19941256897323,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "a6c0149480c9cfdf2db9a5355bc36a24a881f9718268434c3746f9029f2c312f",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e"
+      }
+    },
+    {
+      "validation": "single-LightGBM main component, not full ensemble or leaderboard",
+      "role": "locked temporal confirmation",
+      "source_months": [
+        2,
+        8
+      ],
+      "training_rows": 1731103,
+      "source_tables": [
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_05b0bbf18aed2b4e.parquet",
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_02a190afebbbc9a2.parquet"
+      ],
+      "baseline_predictions": "/private/tmp/skenderbeu-250.0c9n8Y/main-confirmation/time_cv_predictions_2_8.parquet",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1387,
+      "seconds": 253.58435201644897,
+      "rows": 331474,
+      "scores": {
+        "v44_main": {
+          "rmse": 219.7901366501209,
+          "mse": 48307.70416867882,
+          "top5_sse_share": 0.006425216161380755
+        },
+        "units_replaced": {
+          "rmse": 219.17319585761533,
+          "mse": 48036.88978244061,
+          "top5_sse_share": 0.0067180588866274
+        },
+        "units_plus_queue": {
+          "rmse": 216.9037548409752,
+          "mse": 47047.23886411388,
+          "top5_sse_share": 0.006863856571321233
+        }
+      },
+      "incremental_rmse_gain": 2.2694410166401155,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "f061175ad5fe5323d61e5dfa79c2c28d55bcb5f07fc8c45215644875141bfd7a",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_queue.py": "15b9d50c8c80b7f3e7123c879fd9942b81b55737bea248c5da7c2f3f13daba18"
+      }
+    },
+    {
+      "validation": "single-LightGBM main component, not full ensemble or leaderboard",
+      "role": "locked temporal confirmation",
+      "source_months": [
+        3,
+        9
+      ],
+      "training_rows": 1717725,
+      "source_tables": [
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_3acde990327b7b4e.parquet",
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_0af3cb5c3c2e2b6d.parquet"
+      ],
+      "baseline_predictions": "/private/tmp/skenderbeu-250.0c9n8Y/main-confirmation/time_cv_predictions_3_9.parquet",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1349,
+      "seconds": 254.14753603935242,
+      "rows": 344852,
+      "scores": {
+        "v44_main": {
+          "rmse": 203.36519296304448,
+          "mse": 41357.401708896316,
+          "top5_sse_share": 0.017273407251831262
+        },
+        "units_replaced": {
+          "rmse": 202.63887096596042,
+          "mse": 41062.51202635916,
+          "top5_sse_share": 0.01754679152404695
+        },
+        "units_plus_queue": {
+          "rmse": 200.08663387342736,
+          "mse": 40034.66105479897,
+          "top5_sse_share": 0.017875796829473677
+        }
+      },
+      "incremental_rmse_gain": 2.552237092533062,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "f061175ad5fe5323d61e5dfa79c2c28d55bcb5f07fc8c45215644875141bfd7a",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_queue.py": "15b9d50c8c80b7f3e7123c879fd9942b81b55737bea248c5da7c2f3f13daba18"
+      }
+    },
+    {
+      "validation": "single-LightGBM main component, not full ensemble or leaderboard",
+      "role": "locked temporal confirmation",
+      "source_months": [
+        4,
+        10
+      ],
+      "training_rows": 1704613,
+      "source_tables": [
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_46d347a1a0fb26ed.parquet",
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_a1f2fff4bfe80238.parquet"
+      ],
+      "baseline_predictions": "/private/tmp/skenderbeu-250.0c9n8Y/main-confirmation/time_cv_predictions_4_10.parquet",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1397,
+      "seconds": 220.7098410129547,
+      "rows": 357964,
+      "scores": {
+        "v44_main": {
+          "rmse": 201.44123304625722,
+          "mse": 40578.57037119651,
+          "top5_sse_share": 0.009263967941573763
+        },
+        "units_replaced": {
+          "rmse": 200.9862902348804,
+          "mse": 40395.488862379585,
+          "top5_sse_share": 0.00950689374374192
+        },
+        "units_plus_queue": {
+          "rmse": 198.33209836728733,
+          "mse": 39335.62124277133,
+          "top5_sse_share": 0.009705117815201869
+        }
+      },
+      "incremental_rmse_gain": 2.6541918675930845,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "f061175ad5fe5323d61e5dfa79c2c28d55bcb5f07fc8c45215644875141bfd7a",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_queue.py": "15b9d50c8c80b7f3e7123c879fd9942b81b55737bea248c5da7c2f3f13daba18"
+      }
+    },
+    {
+      "validation": "single-LightGBM main component, not full ensemble or leaderboard",
+      "role": "locked temporal confirmation",
+      "source_months": [
+        5,
+        11
+      ],
+      "training_rows": 1718004,
+      "source_tables": [
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_c76d03f28d274718.parquet",
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_fd1f9f2063c7290f.parquet"
+      ],
+      "baseline_predictions": "/private/tmp/skenderbeu-250.0c9n8Y/main-confirmation/time_cv_predictions_5_11.parquet",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1400,
+      "seconds": 220.1214599609375,
+      "rows": 344573,
+      "scores": {
+        "v44_main": {
+          "rmse": 196.8933267137396,
+          "mse": 38766.98210440341,
+          "top5_sse_share": 0.006244356875831112
+        },
+        "units_replaced": {
+          "rmse": 196.7764188577969,
+          "mse": 38720.959018499125,
+          "top5_sse_share": 0.006402960379513584
+        },
+        "units_plus_queue": {
+          "rmse": 194.21317274361988,
+          "mse": 37718.75646714314,
+          "top5_sse_share": 0.00652337018093369
+        }
+      },
+      "incremental_rmse_gain": 2.5632461141770193,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "f061175ad5fe5323d61e5dfa79c2c28d55bcb5f07fc8c45215644875141bfd7a",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_queue.py": "15b9d50c8c80b7f3e7123c879fd9942b81b55737bea248c5da7c2f3f13daba18"
+      }
+    },
+    {
+      "validation": "single-LightGBM main component, not full ensemble or leaderboard",
+      "role": "locked temporal confirmation",
+      "source_months": [
+        6,
+        12
+      ],
+      "training_rows": 1717909,
+      "source_tables": [
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_b672f83fc380234f.parquet",
+        "/private/tmp/skenderbeu-250.0c9n8Y/results/core_756930e93f47fa9c.parquet"
+      ],
+      "baseline_predictions": "/private/tmp/skenderbeu-250.0c9n8Y/main-confirmation/time_cv_predictions_6_12.parquet",
+      "features": [
+        "ADEP_mvt",
+        "ADES_mvt",
+        "RUNWAY_mvt",
+        "STAND_mvt",
+        "AIRCRAFT_TYPE_mvt",
+        "MARKET_SEGMENT_flt",
+        "WK_TBL_CAT_flt",
+        "AIRCRAFT_OPERATOR_flt",
+        "FLIGHT_TYPE_flt",
+        "FLIGHT_RULE_mvt",
+        "ruf_pre",
+        "stunde",
+        "minute_tag",
+        "wtag",
+        "monat",
+        "auslast",
+        "strecke_m",
+        "ersatz_s",
+        "ersatz_eobt_s",
+        "versp_min",
+        "eobt_sched_min",
+        "hat_aobt",
+        "lage_50",
+        "lage_200",
+        "tag_versch",
+        "ruf_len",
+        "sched_sek",
+        "um_seit_ank",
+        "um_taxi_ank",
+        "um_bis_naechste_ank",
+        "um_seit_abflug",
+        "um_bis_naechster_abflug",
+        "um_dichte_stand_3h",
+        "um_ver_ank",
+        "um_versp_ank",
+        "ersatz_lobt_s",
+        "ersatz_iobt_s",
+        "lobt_sched_min",
+        "iobt_eobt_min",
+        "flugdauer_min",
+        "flugdauer_plan_min",
+        "umleitung",
+        "anker_spanne",
+        "anker_median",
+        "anker_streu",
+        "anker_anz",
+        "anker_abw",
+        "kand_sched",
+        "ank_med_30min",
+        "ank_anz_30min",
+        "ank_med_90min",
+        "ank_anz_90min",
+        "dt_mvt_arvt_1",
+        "dt_sched_iobt",
+        "dt_sched_arvt_1",
+        "dt_sched_arvt_3",
+        "dt_aobt_3_eobt_1",
+        "dt_aobt_3_lobt",
+        "dt_aobt_3_iobt",
+        "dt_aobt_3_arvt_1",
+        "dt_aobt_3_arvt_3",
+        "dt_eobt_1_lobt",
+        "dt_eobt_1_arvt_3",
+        "dt_lobt_iobt",
+        "dt_lobt_arvt_1",
+        "dt_lobt_arvt_3",
+        "dt_iobt_arvt_1",
+        "dt_iobt_arvt_3",
+        "dt_arvt_1_arvt_3",
+        "id_abw",
+        "id_abw2",
+        "fid_abw",
+        "fid_abw2",
+        "fid_abw3",
+        "fid_luecke_vor",
+        "fid_luecke_nach",
+        "fid_zeit_vor",
+        "fid_zeit_nach",
+        "fid_rate_vor",
+        "fid_rate_nach",
+        "fid_span201",
+        "qt_bahn_vor_10",
+        "qt_bahn_nach_10",
+        "qt_bahn_vor_30",
+        "qt_bahn_nach_30",
+        "qt_bahn_luecke_vor",
+        "qt_bahn_luecke_nach",
+        "qt_bahn_ank_vor_10",
+        "qt_bahn_anteil_60",
+        "qt_flh_vor_10",
+        "qt_bahn_rang_10"
+      ],
+      "seed": 177,
+      "best_iteration": 1397,
+      "seconds": 253.02888107299805,
+      "rows": 344668,
+      "scores": {
+        "v44_main": {
+          "rmse": 210.2243948066208,
+          "mse": 44194.296171809976,
+          "top5_sse_share": 0.00943383901991454
+        },
+        "units_replaced": {
+          "rmse": 208.77693442381488,
+          "mse": 43587.808347405895,
+          "top5_sse_share": 0.009691860761277272
+        },
+        "units_plus_queue": {
+          "rmse": 206.33492252042277,
+          "mse": 42574.10025150886,
+          "top5_sse_share": 0.010312182916051895
+        }
+      },
+      "incremental_rmse_gain": 2.442011903392114,
+      "prespecified_main_rmse_gain_bar": 0.3,
+      "clears_screen_bar": true,
+      "code_sha256": {
+        "queue_screen.py": "f061175ad5fe5323d61e5dfa79c2c28d55bcb5f07fc8c45215644875141bfd7a",
+        "features_correct_queue.py": "f6c5edc1f8d3866e059f2e9f1c3a269fb709f121be233a8c348ba04c6379c9a1",
+        "features_time_units.py": "99efad081a6c9cce0d8dd66a3f4caf76408c319689c3163e0339ee0b2936cbf3",
+        "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+        "features_queue.py": "15b9d50c8c80b7f3e7123c879fd9942b81b55737bea248c5da7c2f3f13daba18"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "candidate": "v57",
+  "candidate_sha256": "88245bfc3c40cce81feb0ed15c22a8c5d4613ca38ca293886aa6057ba626c638",
+  "checks": {
+    "1_base": {
+      "v56_official_score": 261.2616,
+      "v56_sha": true,
+      "v57_sha_matches_manifest": true,
+      "v51_v52_v55_files_match_records": true
+    },
+    "2_preserved": {
+      "nm_rows_found": 31160,
+      "nm_rows_on_days_6_13_20_only": true,
+      "nm_rows_unchanged": true,
+      "munich_rows_unchanged": true,
+      "amsterdam_rows_unchanged": true,
+      "fallback_rows_unchanged": true,
+      "v56_partial_rows_found": 66024,
+      "v56_partial_rows_unchanged": true,
+      "other_columns_identical": true
+    },
+    "3_no_nm_inputs": {
+      "changed_rows_not_nm": true,
+      "changed_rows_not_on_days_6_13_20": true,
+      "v56_equals_pre_nm_v52_on_changed_rows": true,
+      "stand_models_trained_on": "2025 challenge training rows and adsb.lol tracks only (research_320/PREREG_stand.md)"
+    },
+    "4_ids": {
+      "v57_equals_template": true,
+      "v57_equals_v56": true,
+      "unique": true
+    },
+    "5_replay": {
+      "model_hashes_ok": true,
+      "rows": 8676,
+      "reverse_order_replay_exact": true,
+      "max_abs_difference_s": 0.0
+    },
+    "6_validation_kept_cells": {
+      "cells": [
+        "EDDF/01",
+        "EDDF/07",
+        "EGLL/01",
+        "LEBL/01",
+        "LEBL/07"
+      ],
+      "development": {
+        "rows": 1997,
+        "gain_mse": 6029.123294874726,
+        "without_best100": 3075.2409188875827,
+        "january": 5757.894303388942,
+        "july": 6349.855282620754
+      },
+      "confirmation": {
+        "rows": 1102,
+        "gain_mse": 7432.433206864863,
+        "without_best100": 2743.64540712535,
+        "january": 7745.339940939413,
+        "july": 7106.778420661349
+      },
+      "both_months_positive": true,
+      "positive_without_best100": true
+    },
+    "7_not_duplicate": {
+      "rows_changed": 8676,
+      "hash_differs": true
+    }
+  },
+  "verdict": "verified"
+}

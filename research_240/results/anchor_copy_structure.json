@@ -1,0 +1,201 @@
+{
+  "note": "descriptive; v45 candidate-stage holdout, January/July 2025 main lane",
+  "main_rows": 339046,
+  "main_rmse_s": 216.7734634758806,
+  "anchor_copies_gap_over_60s": {
+    "rows": 16382,
+    "share_of_main": 0.048317927360889086,
+    "ensemble_rmse_s": 275.8048457233822,
+    "ensemble_bias_s": 81.32648359753279,
+    "mse_share": 0.07821676464552242,
+    "oracle_mse_removed": 3674.797069805091
+  },
+  "of_which_schedule_copies": {
+    "rows": 10324,
+    "share_of_main": 0.030450145407997734,
+    "ensemble_rmse_s": 290.5427940448368,
+    "ensemble_bias_s": 85.31251645801252,
+    "mse_share": 0.05470126314770753,
+    "oracle_mse_removed": 2570.037523018504
+  },
+  "not_schedule_copies": {
+    "rows": 6058,
+    "share_of_main": 0.01786778195289135,
+    "ensemble_rmse_s": 248.68404172380926,
+    "ensemble_bias_s": 74.53351508455938,
+    "mse_share": 0.02351550149781489,
+    "oracle_mse_removed": 1104.7595467865867
+  },
+  "combination_counts_E_L_I_S": {
+    "ELIS": 8390,
+    "E---": 3355,
+    "-LIS": 1848,
+    "ELI-": 1840,
+    "-LI-": 839,
+    "--IS": 53,
+    "E--S": 33,
+    "--I-": 17,
+    "EL--": 6,
+    "-L--": 1
+  },
+  "not_schedule_copies_by_gap": {
+    "60-300 s": {
+      "rows": 4098,
+      "share_of_main": 0.012086855470939047,
+      "ensemble_rmse_s": 141.5489666467266,
+      "ensemble_bias_s": 32.29337216049757,
+      "mse_share": 0.005153645032718157,
+      "oracle_mse_removed": 241.9962736943735
+    },
+    "300-900 s": {
+      "rows": 1696,
+      "share_of_main": 0.005002271078260767,
+      "ensemble_rmse_s": 278.24627902831827,
+      "ensemble_bias_s": 106.67687222647652,
+      "mse_share": 0.008241641516928732,
+      "oracle_mse_removed": 387.21624523252206
+    },
+    "over 900 s": {
+      "rows": 264,
+      "share_of_main": 0.0007786554036915345,
+      "ensemble_rmse_s": 781.4988333608578,
+      "ensemble_bias_s": 523.7190150471121,
+      "mse_share": 0.010120214948168,
+      "oracle_mse_removed": 475.547027859691
+    }
+  },
+  "not_schedule_copies_sign": {
+    "anchor_before_aobt3": {
+      "rows": 3068,
+      "share_of_main": 0.009048919615627378,
+      "ensemble_rmse_s": 326.5447240577391,
+      "ensemble_bias_s": 186.4476534102853,
+      "mse_share": 0.020533824212543354,
+      "oracle_mse_removed": 964.7762737000617
+    },
+    "anchor_after_aobt3": {
+      "rows": 2990,
+      "share_of_main": 0.00881886233726397,
+      "ensemble_rmse_s": 126.04631495609597,
+      "ensemble_bias_s": -40.30012250183768,
+      "mse_share": 0.002981677285271536,
+      "oracle_mse_removed": 139.9832730865249
+    }
+  },
+  "not_schedule_copies_by_month": {
+    "1": {
+      "rows": 3074,
+      "share_of_main": 0.00906661632934764,
+      "ensemble_rmse_s": 184.94909891570217,
+      "ensemble_bias_s": 41.32401896005078,
+      "mse_share": 0.006599901356205904,
+      "oracle_mse_removed": 310.0045719142257
+    },
+    "7": {
+      "rows": 2984,
+      "share_of_main": 0.008801165623543708,
+      "ensemble_rmse_s": 300.5243904458896,
+      "ensemble_bias_s": 108.7446381029037,
+      "mse_share": 0.016915600141608988,
+      "oracle_mse_removed": 794.754974872361
+    }
+  },
+  "not_schedule_copies_by_airport": {
+    "EDDF": {
+      "rows": 174,
+      "share_of_main": 0.0005132046978876023,
+      "ensemble_rmse_s": 143.25633236513536,
+      "ensemble_bias_s": 35.95812929866627,
+      "mse_share": 0.00022413312509011468,
+      "oracle_mse_removed": 10.513813927052855,
+      "airport_share": 0.004802517181419227
+    },
+    "EDDM": {
+      "rows": 534,
+      "share_of_main": 0.001575007521103331,
+      "ensemble_rmse_s": 150.90641013213582,
+      "ensemble_bias_s": 58.60476582901421,
+      "mse_share": 0.0007632833250558765,
+      "oracle_mse_removed": 35.84689872916689,
+      "airport_share": 0.019885305727265958
+    },
+    "EGLL": {
+      "rows": 958,
+      "share_of_main": 0.002825575290668523,
+      "ensemble_rmse_s": 186.8660936171284,
+      "ensemble_bias_s": 43.84459560098407,
+      "mse_share": 0.0020996923440982154,
+      "oracle_mse_removed": 98.62976879859644,
+      "airport_share": 0.02410426731078905
+    },
+    "EHAM": {
+      "rows": 177,
+      "share_of_main": 0.0005220530547477333,
+      "ensemble_rmse_s": 171.09606646767628,
+      "ensemble_bias_s": 54.00188847763268,
+      "mse_share": 0.0003252239037801043,
+      "oracle_mse_removed": 15.263456643186867,
+      "airport_share": 0.004409456665254976
+    },
+    "LEBL": {
+      "rows": 807,
+      "share_of_main": 0.002380207995375259,
+      "ensemble_rmse_s": 437.2512353237014,
+      "ensemble_bias_s": 216.08607852810508,
+      "mse_share": 0.009684222674048679,
+      "oracle_mse_removed": 455.039636902447,
+      "airport_share": 0.028325728325728324
+    },
+    "LEMD": {
+      "rows": 713,
+      "share_of_main": 0.002102959480424485,
+      "ensemble_rmse_s": 195.85553093898392,
+      "ensemble_bias_s": 46.57790652582129,
+      "mse_share": 0.0017166839734255805,
+      "oracle_mse_removed": 80.64335918006994,
+      "airport_share": 0.02036037579599646
+    },
+    "LFPG": {
+      "rows": 695,
+      "share_of_main": 0.002049869339263699,
+      "ensemble_rmse_s": 234.08485505145057,
+      "ensemble_bias_s": 92.89649685452643,
+      "mse_share": 0.0023903449546249797,
+      "oracle_mse_removed": 112.29833697580489,
+      "airport_share": 0.017943819064339565
+    },
+    "LIRF": {
+      "rows": 1182,
+      "share_of_main": 0.003486252602891643,
+      "ensemble_rmse_s": 250.78988948847655,
+      "ensemble_bias_s": 46.34814548990884,
+      "mse_share": 0.004666235641354816,
+      "oracle_mse_removed": 219.2276303732154,
+      "airport_share": 0.04523363055374842
+    },
+    "LSZH": {
+      "rows": 91,
+      "share_of_main": 0.0002684001580906426,
+      "ensemble_rmse_s": 185.67266985961135,
+      "ensemble_bias_s": 104.67302038487821,
+      "mse_share": 0.0001969094226826006,
+      "oracle_mse_removed": 9.24332677655674,
+      "airport_share": 0.0041701035652094215
+    },
+    "LTFM": {
+      "rows": 727,
+      "share_of_main": 0.00214425181243843,
+      "ensemble_rmse_s": 178.18382011779025,
+      "ensemble_bias_s": 35.69131667432204,
+      "mse_share": 0.0014487721336539237,
+      "oracle_mse_removed": 68.05331848048964,
+      "airport_share": 0.01584499367943856
+    }
+  },
+  "label_free_eobt_far_from_aobt3": {
+    "2025_jan_jul_over_60s": 0.8592757324964754,
+    "2026_over_60s": 0.8468742545302473,
+    "2025_jan_jul_over_300s": 0.5477014918329666,
+    "2026_over_300s": 0.5105359725048667
+  }
+}

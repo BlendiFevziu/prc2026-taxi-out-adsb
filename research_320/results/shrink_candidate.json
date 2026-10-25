@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "v57_is_scored_file": true,
+    "component_A_passed": true,
+    "component_B_failed_so_unchanged": true,
+    "corrections_equal_codex": true,
+    "max_abs_correction_difference": 0.0,
+    "half_weight_reproduces_v57": true,
+    "pruefe_errors": [],
+    "untouched_rows_identical_to_v57": true,
+    "all_finite": true,
+    "overlay_rows": 66292,
+    "rows_changed": 65938
+  },
+  "planning": {
+    "mse_per_scored_row": 516.9221421587573,
+    "full_s": 0.9924283218065852,
+    "half_s": 0.49574143224873524,
+    "prediction_fixed_before_upload": {
+      "full_transfer": 259.94,
+      "half_transfer": 260.43,
+      "central": 260.19
+    }
+  },
+  "base": {
+    "version": "v57",
+    "score": 260.9292,
+    "sha256": "88245bfc3c40cce81feb0ed15c22a8c5d4613ca38ca293886aa6057ba626c638"
+  },
+  "shift_vs_v57_s": {
+    "p10": -39.15809043959449,
+    "median": -6.458291231756903,
+    "p90": 43.78958572272091
+  },
+  "candidate_path": ".cache/research_320/shrink_candidate/candidate_v58_shrink.parquet",
+  "candidate_sha256": "826e460928106ea20a17e9a7df8c1a0e921b8bf6eccd0cccd44b5c4ff0148178",
+  "verdict": "built"
+}

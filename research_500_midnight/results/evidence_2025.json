@@ -1,0 +1,22 @@
+{
+  "shift24_without_crossing": {
+    "fallback": 0,
+    "main": 0
+  },
+  "noncopy_without_crossing": {
+    "fallback": 727,
+    "main": 126087
+  },
+  "fallback_no_crossing_delay_above_4h": {
+    "copy": 53,
+    "normal": 14
+  },
+  "fallback_no_crossing_delay_above_6h": {
+    "copy": 20,
+    "normal": 1
+  },
+  "fallback_no_crossing_delay_above_8h": {
+    "copy": 12
+  },
+  "rule_rows_2025": 12
+}

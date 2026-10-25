@@ -1,0 +1,739 @@
+{
+  "gates": {
+    "G1_base_is_v52": true,
+    "G1_v54_is_uploaded_file": true,
+    "G2_detector_unchanged": true,
+    "G2_geometry_unchanged": true,
+    "G2_tow_guard_unchanged": true,
+    "G2_arm_test_functions_as_validated": true,
+    "G3_munich_geometry_passed": true,
+    "G3_amsterdam_passed": true,
+    "G0_reproduces_v54": {
+      "rows": 6722,
+      "expected_rows": 6722,
+      "identical_to_uploaded_v54": true
+    },
+    "G4": {
+      "pruefe_errors": [],
+      "untouched_rows_identical_to_v52": true,
+      "all_finite": true,
+      "differences_from_v54_only_at_EDDM_EHAM_main": true
+    }
+  },
+  "scored_days": 62,
+  "rows_differing_from_v52": 12423,
+  "rows_differing_from_v54": 7446,
+  "eham_rows_replaced": 4188,
+  "munich": {
+    "xplane_rows": 8235,
+    "v54_rows": 6722,
+    "rows_differing_from_v54": 3258,
+    "both_estimate": 5885,
+    "only_xplane": 2350,
+    "only_v54_osm_back_to_v52": 837
+  },
+  "eham_withdrawn_by_tow_guard": 17,
+  "shift_vs_v54_s": {
+    "median": 23.14133615426647,
+    "p10": -141.60816192347875,
+    "p90": 210.7779949241783
+  },
+  "prediction_inputs": {
+    "eham_gain_per_row_vs_v45": 17044.857407687694,
+    "v52_over_v45_per_row": 1420.0,
+    "munich_gain_per_changed_row_vs_v54_config": 16572.41222188163,
+    "munich_gain_per_changed_row_without_top5pct": 4577.777813040439,
+    "mse_gain_at_full_transfer": 346.33301098850313
+  },
+  "prediction_fixed_before_upload": {
+    "low_0.74": 263.75,
+    "central_1.0": 263.58,
+    "high_1.52_v54_realised": 263.23
+  },
+  "candidate_path": ".cache/combined_candidate/candidate_v55_combined.parquet",
+  "candidate_sha256": "a806c816a60d3bc727a3c5e2bbea03690ddf0c7a4d50b2eeb17837e6cf39e4b1",
+  "per_day": {
+    "2026-01-01": {
+      "EDDM": {
+        "replaced": 118,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 55,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 102
+    },
+    "2026-01-02": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 44,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 117
+    },
+    "2026-01-03": {
+      "EDDM": {
+        "replaced": 112,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 43,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 103
+    },
+    "2026-01-04": {
+      "EDDM": {
+        "replaced": 137,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 23,
+        "withdrawn_by_tow_guard": 3
+      },
+      "EDDM_v54_config": 120
+    },
+    "2026-01-05": {
+      "EDDM": {
+        "replaced": 112,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 15,
+        "withdrawn_by_tow_guard": 2
+      },
+      "EDDM_v54_config": 114
+    },
+    "2026-01-06": {
+      "EDDM": {
+        "replaced": 123,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 36,
+        "withdrawn_by_tow_guard": 3
+      },
+      "EDDM_v54_config": 108
+    },
+    "2026-01-07": {
+      "EDDM": {
+        "replaced": 126,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 30,
+        "withdrawn_by_tow_guard": 3
+      },
+      "EDDM_v54_config": 100
+    },
+    "2026-01-08": {
+      "EDDM": {
+        "replaced": 113,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 63,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 104
+    },
+    "2026-01-09": {
+      "EDDM": {
+        "replaced": 106,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 57,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 91
+    },
+    "2026-01-10": {
+      "EDDM": {
+        "replaced": 98,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 76,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 90
+    },
+    "2026-01-11": {
+      "EDDM": {
+        "replaced": 120,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 63,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 108
+    },
+    "2026-01-12": {
+      "EDDM": {
+        "replaced": 104,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 60,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 95
+    },
+    "2026-01-13": {
+      "EDDM": {
+        "replaced": 120,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 67,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 112
+    },
+    "2026-01-14": {
+      "EDDM": {
+        "replaced": 104,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 66,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 97
+    },
+    "2026-01-15": {
+      "EDDM": {
+        "replaced": 107,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 69,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 100
+    },
+    "2026-01-16": {
+      "EDDM": {
+        "replaced": 131,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 64,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 110
+    },
+    "2026-01-17": {
+      "EDDM": {
+        "replaced": 107,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 62,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 103
+    },
+    "2026-01-18": {
+      "EDDM": {
+        "replaced": 122,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 70,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 116
+    },
+    "2026-01-19": {
+      "EDDM": {
+        "replaced": 97,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 87
+    },
+    "2026-01-20": {
+      "EDDM": {
+        "replaced": 104,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 65,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 87
+    },
+    "2026-01-21": {
+      "EDDM": {
+        "replaced": 132,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 76,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 119
+    },
+    "2026-01-22": {
+      "EDDM": {
+        "replaced": 134,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 63,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 123
+    },
+    "2026-01-23": {
+      "EDDM": {
+        "replaced": 119,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 41,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 96
+    },
+    "2026-01-24": {
+      "EDDM": {
+        "replaced": 116,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 71,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 113
+    },
+    "2026-01-25": {
+      "EDDM": {
+        "replaced": 130,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 67,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 123
+    },
+    "2026-01-26": {
+      "EDDM": {
+        "replaced": 109,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 54,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 104
+    },
+    "2026-01-27": {
+      "EDDM": {
+        "replaced": 109,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 56,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 96
+    },
+    "2026-01-28": {
+      "EDDM": {
+        "replaced": 120,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 59,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 114
+    },
+    "2026-01-29": {
+      "EDDM": {
+        "replaced": 133,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 37,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 115
+    },
+    "2026-01-30": {
+      "EDDM": {
+        "replaced": 143,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 43,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 131
+    },
+    "2026-01-31": {
+      "EDDM": {
+        "replaced": 111,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 43,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 115
+    },
+    "2026-07-01": {
+      "EDDM": {
+        "replaced": 138,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 54,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 95
+    },
+    "2026-07-02": {
+      "EDDM": {
+        "replaced": 153,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 87,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 108
+    },
+    "2026-07-03": {
+      "EDDM": {
+        "replaced": 157,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 87,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 123
+    },
+    "2026-07-04": {
+      "EDDM": {
+        "replaced": 131,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 77,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 106
+    },
+    "2026-07-05": {
+      "EDDM": {
+        "replaced": 159,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 87,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 114
+    },
+    "2026-07-06": {
+      "EDDM": {
+        "replaced": 136,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 74,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 109
+    },
+    "2026-07-07": {
+      "EDDM": {
+        "replaced": 144,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 77,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 94
+    },
+    "2026-07-08": {
+      "EDDM": {
+        "replaced": 138,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 102
+    },
+    "2026-07-09": {
+      "EDDM": {
+        "replaced": 144,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 104
+    },
+    "2026-07-10": {
+      "EDDM": {
+        "replaced": 141,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 97
+    },
+    "2026-07-11": {
+      "EDDM": {
+        "replaced": 141,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 72,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 113
+    },
+    "2026-07-12": {
+      "EDDM": {
+        "replaced": 176,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 78,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 133
+    },
+    "2026-07-13": {
+      "EDDM": {
+        "replaced": 153,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 82,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 111
+    },
+    "2026-07-14": {
+      "EDDM": {
+        "replaced": 143,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 85,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 104
+    },
+    "2026-07-15": {
+      "EDDM": {
+        "replaced": 175,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 92,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 129
+    },
+    "2026-07-16": {
+      "EDDM": {
+        "replaced": 157,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 85,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 120
+    },
+    "2026-07-17": {
+      "EDDM": {
+        "replaced": 154,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 79,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 116
+    },
+    "2026-07-18": {
+      "EDDM": {
+        "replaced": 154,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 75,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 119
+    },
+    "2026-07-19": {
+      "EDDM": {
+        "replaced": 156,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 91,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 111
+    },
+    "2026-07-20": {
+      "EDDM": {
+        "replaced": 149,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 83,
+        "withdrawn_by_tow_guard": 1
+      },
+      "EDDM_v54_config": 114
+    },
+    "2026-07-21": {
+      "EDDM": {
+        "replaced": 136,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 70,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 104
+    },
+    "2026-07-22": {
+      "EDDM": {
+        "replaced": 154,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 86,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 115
+    },
+    "2026-07-23": {
+      "EDDM": {
+        "replaced": 153,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 78,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 114
+    },
+    "2026-07-24": {
+      "EDDM": {
+        "replaced": 144,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 82,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 108
+    },
+    "2026-07-25": {
+      "EDDM": {
+        "replaced": 147,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 87,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 99
+    },
+    "2026-07-26": {
+      "EDDM": {
+        "replaced": 147,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 84,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 107
+    },
+    "2026-07-27": {
+      "EDDM": {
+        "replaced": 152,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 94,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 113
+    },
+    "2026-07-28": {
+      "EDDM": {
+        "replaced": 128,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 70,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 110
+    },
+    "2026-07-29": {
+      "EDDM": {
+        "replaced": 136,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 77,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 105
+    },
+    "2026-07-30": {
+      "EDDM": {
+        "replaced": 138,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 78,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 100
+    },
+    "2026-07-31": {
+      "EDDM": {
+        "replaced": 151,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EHAM": {
+        "replaced": 95,
+        "withdrawn_by_tow_guard": 0
+      },
+      "EDDM_v54_config": 112
+    }
+  }
+}

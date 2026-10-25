@@ -1,0 +1,80 @@
+{
+  "note": "v45-recipe ensemble holdout predictions for January and July 2025; residual = y - prediction; bounds in total MSE over all holdout rows; no training",
+  "months": [
+    1,
+    7
+  ],
+  "rows": 344419,
+  "overall_mse": 94411.36266902079,
+  "threshold_total_mse": 500.0,
+  "lanes": {
+    "main": {
+      "rows": 339046,
+      "squared_error_share_total_mse": 46257.67033238586,
+      "weather_coverage": 0.9999380615019791,
+      "direction_coverage": 0.9859311125923916,
+      "bound_weather_state": {
+        "in_sample_total_mse": 211.4132724802779,
+        "cross_fit_total_mse": 81.07934567523701,
+        "bins": 71
+      },
+      "bound_direction": {
+        "in_sample_total_mse": 144.1597191958076,
+        "cross_fit_total_mse": 4.726156380643789,
+        "bins": 42
+      },
+      "bound_weather_and_direction_descriptive": {
+        "in_sample_total_mse": 334.54543112620445,
+        "cross_fit_total_mse": -55.17554060051337,
+        "bins": 226
+      },
+      "spearman_residual": {
+        "wx_temp_c": -0.02536548708160772,
+        "wx_dewpoint_spread_c": -0.02989268183608543,
+        "wx_wind_kt": -0.014854783095274096,
+        "wx_gust_excess_kt": -0.004177706795612013,
+        "wx_visibility_km": -0.028366871989293038,
+        "wx_frozen": 0.007168615551679412,
+        "wx_freezing": 0.01523566422285173,
+        "wx_icing_risk": 0.025792029757436212,
+        "od_headwind_kt": -0.004027985740348299
+      }
+    },
+    "fallback": {
+      "rows": 5373,
+      "squared_error_share_total_mse": 48153.692336634915,
+      "weather_coverage": 1.0,
+      "direction_coverage": 0.9817606551274893,
+      "bound_weather_state": {
+        "in_sample_total_mse": 684.8195708106508,
+        "cross_fit_total_mse": -912.5948997547157,
+        "bins": 60
+      },
+      "bound_direction": {
+        "in_sample_total_mse": 376.6501713679829,
+        "cross_fit_total_mse": -674.8710800785467,
+        "bins": 42
+      },
+      "bound_weather_and_direction_descriptive": {
+        "in_sample_total_mse": 1224.676513161242,
+        "cross_fit_total_mse": -1636.6650197785361,
+        "bins": 155
+      },
+      "spearman_residual": {
+        "wx_temp_c": -0.00658524132280427,
+        "wx_dewpoint_spread_c": -0.015648106658752107,
+        "wx_wind_kt": -0.0014670101814790897,
+        "wx_gust_excess_kt": 0.01520473859628094,
+        "wx_visibility_km": -0.026738195492016333,
+        "wx_frozen": 0.01338362804829054,
+        "wx_freezing": 0.030127321072800715,
+        "wx_icing_risk": 0.009648010699002202,
+        "od_headwind_kt": -0.003962355751939924
+      }
+    }
+  },
+  "decision": {
+    "main_lane_best_in_sample_bound": 211.4132724802779,
+    "pursue_main_lane": false
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "EDDF": {
+    "60": {
+      "precision": 0.8135338345864662,
+      "precision_n": 665,
+      "unmatched": 187,
+      "unique_candidate": 62
+    },
+    "120": {
+      "precision": 0.9796747967479674,
+      "precision_n": 246,
+      "unmatched": 187,
+      "unique_candidate": 26
+    },
+    "300": {
+      "precision": 1.0,
+      "precision_n": 20,
+      "unmatched": 187,
+      "unique_candidate": 2
+    }
+  },
+  "EGLL": {
+    "60": {
+      "precision": 0.30133657351154314,
+      "precision_n": 823,
+      "unmatched": 170,
+      "unique_candidate": 49
+    },
+    "120": {
+      "precision": 1.0,
+      "precision_n": 150,
+      "unmatched": 170,
+      "unique_candidate": 10
+    },
+    "300": {
+      "precision": 1.0,
+      "precision_n": 19,
+      "unmatched": 170,
+      "unique_candidate": 1
+    }
+  },
+  "EHAM": {
+    "60": {
+      "precision": 0.8767857142857143,
+      "precision_n": 560,
+      "unmatched": 388,
+      "unique_candidate": 86
+    },
+    "120": {
+      "precision": 0.927007299270073,
+      "precision_n": 137,
+      "unmatched": 388,
+      "unique_candidate": 42
+    },
+    "300": {
+      "precision": 1.0,
+      "precision_n": 8,
+      "unmatched": 388,
+      "unique_candidate": 2
+    }
+  },
+  "LEBL": {
+    "60": {
+      "precision": 1.0,
+      "precision_n": 587,
+      "unmatched": 221,
+      "unique_candidate": 60
+    },
+    "120": {
+      "precision": 0.9956896551724138,
+      "precision_n": 232,
+      "unmatched": 221,
+      "unique_candidate": 17
+    },
+    "300": {
+      "precision": 1.0,
+      "precision_n": 52,
+      "unmatched": 221,
+      "unique_candidate": 2
+    }
+  },
+  "LSZH": {
+    "60": {
+      "precision": 0.8997175141242938,
+      "precision_n": 708,
+      "unmatched": 78,
+      "unique_candidate": 32
+    },
+    "120": {
+      "precision": 0.836027713625866,
+      "precision_n": 433,
+      "unmatched": 78,
+      "unique_candidate": 20
+    },
+    "300": {
+      "precision": 1.0,
+      "precision_n": 102,
+      "unmatched": 78,
+      "unique_candidate": 5
+    }
+  }
+}

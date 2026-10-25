@@ -1,0 +1,56 @@
+{
+  "A0  p_z ** 2.5 (shipped)": {
+    "0.5": {
+      "flagged": 532,
+      "precision": 0.8665413533834586,
+      "recall": 0.4101423487544484,
+      "false_pos_versp_over_2h": 49,
+      "worst_fp_versp_s": 93535.0,
+      "missed_copies_versp_over_2h": 67
+    },
+    "0.8": {
+      "flagged": 479,
+      "precision": 0.8872651356993737,
+      "recall": 0.3781138790035587,
+      "false_pos_versp_over_2h": 38,
+      "worst_fp_versp_s": 93535.0,
+      "missed_copies_versp_over_2h": 87
+    }
+  },
+  "A5  p_kopie ** 2.5": {
+    "0.5": {
+      "flagged": 589,
+      "precision": 0.8879456706281834,
+      "recall": 0.4653024911032028,
+      "false_pos_versp_over_2h": 35,
+      "worst_fp_versp_s": 86102.0,
+      "missed_copies_versp_over_2h": 89
+    },
+    "0.8": {
+      "flagged": 476,
+      "precision": 0.9138655462184874,
+      "recall": 0.38701067615658363,
+      "false_pos_versp_over_2h": 23,
+      "worst_fp_versp_s": 86102.0,
+      "missed_copies_versp_over_2h": 127
+    }
+  },
+  "A6  p_kopie (no exponent)": {
+    "0.5": {
+      "flagged": 719,
+      "precision": 0.8414464534075105,
+      "recall": 0.5382562277580071,
+      "false_pos_versp_over_2h": 52,
+      "worst_fp_versp_s": 86102.0,
+      "missed_copies_versp_over_2h": 56
+    },
+    "0.8": {
+      "flagged": 567,
+      "precision": 0.892416225749559,
+      "recall": 0.4501779359430605,
+      "false_pos_versp_over_2h": 31,
+      "worst_fp_versp_s": 86102.0,
+      "missed_copies_versp_over_2h": 99
+    }
+  }
+}

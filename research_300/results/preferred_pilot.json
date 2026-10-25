@@ -1,0 +1,90 @@
+{
+  "2026-07-11": {
+    "points": {
+      "prod0": 1258208,
+      "preferred": 1307114
+    },
+    "airports": {
+      "EDDM": {
+        "ground_aircraft": {
+          "prod0": 345,
+          "preferred": 351
+        },
+        "estimates": {
+          "prod0": 141,
+          "preferred": 148
+        },
+        "only_prod0": 3,
+        "only_preferred": 10,
+        "both": 138,
+        "both_identical": 112,
+        "both_abs_diff_s": {
+          "median": 0.0,
+          "max": 76.0149998664856
+        }
+      },
+      "EHAM": {
+        "ground_aircraft": {
+          "prod0": 529,
+          "preferred": 532
+        },
+        "estimates": {
+          "prod0": 72,
+          "preferred": 75
+        },
+        "only_prod0": 0,
+        "only_preferred": 3,
+        "both": 72,
+        "both_identical": 59,
+        "both_abs_diff_s": {
+          "median": 0.0,
+          "max": 0.25500011444091797
+        }
+      }
+    }
+  },
+  "2026-07-24": {
+    "points": {
+      "prod0": 1134925,
+      "preferred": 1137575
+    },
+    "airports": {
+      "EDDM": {
+        "ground_aircraft": {
+          "prod0": 406,
+          "preferred": 406
+        },
+        "estimates": {
+          "prod0": 144,
+          "preferred": 143
+        },
+        "only_prod0": 1,
+        "only_preferred": 0,
+        "both": 143,
+        "both_identical": 120,
+        "both_abs_diff_s": {
+          "median": 0.0,
+          "max": 0.009999752044677734
+        }
+      },
+      "EHAM": {
+        "ground_aircraft": {
+          "prod0": 582,
+          "preferred": 583
+        },
+        "estimates": {
+          "prod0": 82,
+          "preferred": 83
+        },
+        "only_prod0": 0,
+        "only_preferred": 1,
+        "both": 82,
+        "both_identical": 66,
+        "both_abs_diff_s": {
+          "median": 0.0,
+          "max": 0.039999961853027344
+        }
+      }
+    }
+  }
+}

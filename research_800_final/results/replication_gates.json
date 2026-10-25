@@ -1,0 +1,57 @@
+{
+  "gates": [
+    {
+      "gate": "G1 seed 13 residual vs saved",
+      "rows": 339551,
+      "max_abs_s": 0.0,
+      "rms_s": 0.0,
+      "tolerance_s": 0.001,
+      "passed": true
+    },
+    {
+      "gate": "G2 main lane at v45 weights vs scored v47 candidate",
+      "rows": 339551,
+      "max_abs_s": 0.00017089843731810106,
+      "rms_s": 4.034978759301159e-06,
+      "tolerance_s": 0.05,
+      "passed": true
+    },
+    {
+      "gate": "G3 anchored fallback vs saved preview",
+      "rows": 5290,
+      "max_abs_s": 1.8189894035458565e-12,
+      "rms_s": 2.500934589093942e-14,
+      "tolerance_s": 0.05,
+      "passed": true
+    },
+    {
+      "gate": "G3b plain fallback vs scored v45",
+      "rows": 5290,
+      "max_abs_s": 1.2732925824820995e-11,
+      "rms_s": 2.2220547853307187e-13,
+      "tolerance_s": 0.05,
+      "passed": true
+    },
+    {
+      "gate": "G4a copy gate (8 rows, threshold 0.9987) vs v68 fallback rows",
+      "rows": 5290,
+      "max_abs_s": 1.8189894035458565e-12,
+      "rms_s": 2.500934589093942e-14,
+      "tolerance_s": 0.05,
+      "passed": true
+    },
+    {
+      "gate": "G4b all fallback rows after gate + v69 + v70 vs v70 candidate",
+      "rows": 5290,
+      "max_abs_s": 9.094947017729282e-13,
+      "rms_s": 1.250467294546971e-14,
+      "tolerance_s": 0.05,
+      "passed": true
+    }
+  ],
+  "rome": {
+    "v69_rows": 10,
+    "v70_rows": 326,
+    "training_rows": 1363
+  }
+}

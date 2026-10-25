@@ -1,0 +1,63 @@
+{
+  "recipe": "v48 plus hard substitution of the schedule delay on fallback rows whose copy probability reaches the training-chosen 0.99-precision threshold",
+  "threshold": 0.998684418243722,
+  "checks": {
+    "repository_pruefe_errors": [],
+    "rows": 344841,
+    "flagged_rows": 8,
+    "flagged_by_airport": {
+      "LIRF": 8
+    },
+    "submission_order_matches": true,
+    "untouched_rows_identical_to_v48": true,
+    "all_finite": true,
+    "min_prediction": 0.0,
+    "max_prediction": 106489.09285436802,
+    "negative_predictions": 0
+  },
+  "changes": {
+    "median_abs_change_s": 219.74111554873525,
+    "max_abs_change_s": 539.2575653643271,
+    "raised": 1,
+    "lowered": 7,
+    "substituted_delays_median_s": 8793.5,
+    "substituted_delays_max_s": 29455.0
+  },
+  "validation": {
+    "flagged": 38,
+    "flagged_correct": 38,
+    "precision": 1.0,
+    "precision_wilson_lower_95": 0.90818706741616,
+    "pooled_mse_gain": 12796.146368770971,
+    "pooled_mse_gain_without_best_10_flagged": 44.03728088690692,
+    "pair_gains": {
+      "1_7": 14919.690922594998,
+      "2_8": 59926.74750108588,
+      "3_9": 0.0,
+      "4_10": 427.25302236134144,
+      "5_11": 19.19861851000841,
+      "6_12": 0.0
+    },
+    "january_gain_1_7": 54671.19923940777,
+    "july_gain_1_7": 434.3139711916682,
+    "ordinary_rows_mse_gain": 5.488804004052711,
+    "worst_single_row_gain": 0.0,
+    "checks": {
+      "1_pooled_gain_positive": true,
+      "2_survives_removing_best_10_flagged": true,
+      "3_no_pair_negative_and_four_positive": true,
+      "4_january_and_july_not_negative": true,
+      "5_precision_at_least_0_95": true,
+      "6_ordinary_rows_not_worse": true
+    }
+  },
+  "arithmetic_not_a_forecast": {
+    "validated_mse_gain_per_fallback_row": 12796.146368770971,
+    "expected_official_mse_reduction": 196.2980454493475,
+    "v48_rmse": 266.4508,
+    "implied_rmse": 266.08218800812404
+  },
+  "candidate_sha256": "59ebf16e4b8d70e5939805b7ad9921d3bca39f8c66538e6a26dba8a538a3f8bb",
+  "base_sha256": "12f69550a0e17037b6e2a959234cd223c3bc23af4e69979847bf646a0f541199",
+  "seconds": 28.78386402130127
+}

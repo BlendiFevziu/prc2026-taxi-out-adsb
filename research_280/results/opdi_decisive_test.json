@@ -1,0 +1,67 @@
+{
+  "note": "one 10-day OPDI file (flight_events_20250105_20250115, 233 MB) measured before committing to ~9 GB",
+  "source": "https://www.eurocontrol.int/performance/data/download/OPDI/v002/flight_events/",
+  "europe_wide_exit_parking_events_10_days": 28134,
+  "coverage_at_our_airports": {
+    "LSZH": 11266,
+    "LEBL": 1498,
+    "EDDM": 204,
+    "LFPG": 24,
+    "EHAM": 11,
+    "EGLL": 6,
+    "EDDF": 2,
+    "LTFM": 1,
+    "LEMD": 0,
+    "LIRF": 0
+  },
+  "matching": "label-free: same airport and callsign, OPDI parking exit 0-60 min before the take-off time",
+  "main_lane": {
+    "departures_in_window": 10662,
+    "matched": 2691,
+    "coverage": 0.252,
+    "per_airport_out_of_sample": {
+      "LSZH": {
+        "coverage": 0.677,
+        "model_rmse": 146.9,
+        "combined_rmse": 139.1,
+        "gain_s": 7.74,
+        "error_correlation": 0.219
+      },
+      "LEBL": {
+        "coverage": 0.136,
+        "model_rmse": 126.7,
+        "combined_rmse": 125.3,
+        "gain_s": 1.32,
+        "error_correlation": 0.335
+      },
+      "EDDM": {
+        "coverage": 0.019,
+        "model_rmse": 135.3,
+        "combined_rmse": 135.5,
+        "gain_s": -0.18,
+        "error_correlation": 0.165
+      }
+    },
+    "pooled": {
+      "model_rmse": 142.8,
+      "opdi_rmse_after_debias": 265.1,
+      "error_correlation": 0.235,
+      "combined_rmse_out_of_sample": 136.6,
+      "gain_on_covered_rows_s": 6.21
+    }
+  },
+  "fallback_lane": {
+    "rows_in_window": 127,
+    "matched_by_callsign": 9,
+    "matched_after_applying_the_1236_pair_IATA_to_ICAO_prefix_map": 9,
+    "finding": "the rows that most need a physical off-block are the ones physical tracking cannot see, the same wall the ADS-B work hit (7 fallback rows on its day)"
+  },
+  "official_value": {
+    "if_2026_coverage_is_LSZH_plus_EDDF_at_25pct": 0.14,
+    "if_LSZH_only": 0.05,
+    "previous_estimate_06_09": 0.8,
+    "why_the_earlier_estimate_was_high": "it assumed the model scored 226 s on the covered rows; measured, the model scores 142.8 s there because OPDI covers our EASIEST airports, so there is far less to remove"
+  },
+  "verdict": "NOT WORTH BUILDING. OPDI carries genuinely independent information (error correlation only 0.235, and 7.74 s of gain on LSZH rows), but it covers the rows we already predict well and cannot see the rows we predict badly. About 0.14 s for ~9 GB, a second data pipeline and coverage that migrates between years (EDDF had 2 events in Jan-2025 and 4,399 in Jan-2026).",
+  "one_correction_to_the_record": "LSZH coverage is 67.7 %, not the 20 % recorded on 06.09; the earlier figure came from callsign matching without the ICAO normalisation."
+}

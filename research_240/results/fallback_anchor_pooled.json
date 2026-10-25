@@ -1,0 +1,516 @@
+{
+  "validation": "fallback-only six source-file month-pair screen; not full ensemble; mechanical score is NOT a leaderboard forecast",
+  "pairs": [
+    "1_7",
+    "2_8",
+    "3_9",
+    "4_10",
+    "5_11",
+    "6_12"
+  ],
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "rebuilt_rmse": 1759.2774594972313,
+      "reference_rmse": 1759.2774594972313,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "rebuilt_rmse": 1365.8532801384467,
+      "reference_rmse": 1365.8532801384467,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "rebuilt_rmse": 1104.6775044611127,
+      "reference_rmse": 1104.6775044611127,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "rebuilt_rmse": 784.0200284769749,
+      "reference_rmse": 784.0200284769749,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "rebuilt_rmse": 1912.549817631745,
+      "reference_rmse": 1912.549817631745,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "rebuilt_rmse": 1633.5378799633672,
+      "reference_rmse": 1633.5378675668649,
+      "passed": true
+    }
+  ],
+  "disrupted_threshold_seconds": 1800.0,
+  "min_neighbours": 5,
+  "windows_minutes": [
+    30,
+    60,
+    180
+  ],
+  "baseline_features": [
+    "ADEP_mvt",
+    "ADES_mvt",
+    "RUNWAY_mvt",
+    "AIRCRAFT_TYPE_mvt",
+    "MARKET_SEGMENT_flt",
+    "WK_TBL_CAT_flt",
+    "AIRCRAFT_OPERATOR_flt",
+    "FLIGHT_TYPE_flt",
+    "FLIGHT_RULE_mvt",
+    "ruf_pre",
+    "stunde",
+    "minute_tag",
+    "wtag",
+    "monat",
+    "auslast",
+    "strecke_m",
+    "ersatz_s",
+    "ersatz_eobt_s",
+    "versp_min",
+    "eobt_sched_min",
+    "hat_aobt",
+    "lage_50",
+    "lage_200",
+    "tag_versch",
+    "ruf_len",
+    "sched_sek",
+    "um_seit_ank",
+    "um_ver_ank",
+    "um_versp_ank",
+    "q_stand",
+    "q_stand_n",
+    "id_abw",
+    "id_abw2",
+    "ank_med_30min",
+    "ank_med_90min"
+  ],
+  "candidate_features": [
+    "ADEP_mvt",
+    "ADES_mvt",
+    "RUNWAY_mvt",
+    "AIRCRAFT_TYPE_mvt",
+    "MARKET_SEGMENT_flt",
+    "WK_TBL_CAT_flt",
+    "AIRCRAFT_OPERATOR_flt",
+    "FLIGHT_TYPE_flt",
+    "FLIGHT_RULE_mvt",
+    "ruf_pre",
+    "stunde",
+    "minute_tag",
+    "wtag",
+    "monat",
+    "auslast",
+    "strecke_m",
+    "ersatz_s",
+    "ersatz_eobt_s",
+    "versp_min",
+    "eobt_sched_min",
+    "hat_aobt",
+    "lage_50",
+    "lage_200",
+    "tag_versch",
+    "ruf_len",
+    "sched_sek",
+    "um_seit_ank",
+    "um_ver_ank",
+    "um_versp_ank",
+    "q_stand",
+    "q_stand_n",
+    "id_abw",
+    "id_abw2",
+    "ank_med_30min",
+    "ank_med_90min",
+    "nt_med30",
+    "nt_med60",
+    "nt_med180",
+    "nt_n60",
+    "nt_n180",
+    "nt_anchor"
+  ],
+  "seed": 0,
+  "jobs": 4,
+  "bootstrap_draws": 2000,
+  "code_sha256": {
+    "fallback_anchor_screen.py": "1860cac0351af043eb3e4dc766af25f26e72229813802c956512702e8d614f47",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+  },
+  "metrics": {
+    "v44_fallback": {
+      "rows": 22470,
+      "rmse": 1508.392870742287,
+      "mse": 2275249.0525061577,
+      "top5_sse_share": 0.5253943969862067,
+      "rmse_without_5_largest": 1039.271999141341,
+      "mse_gain_vs_v44": 0.0,
+      "mechanical_overall_rmse_if_transfer_from_v45": 269.4753,
+      "disrupted": {
+        "rows": 381,
+        "baseline_mse": 6142584.723850539,
+        "mse": 6142584.723850539,
+        "mse_gain": 0.0,
+        "relative_mse_change": 0.0
+      },
+      "ordinary": {
+        "rows": 22089,
+        "baseline_mse": 2208543.683735176,
+        "mse": 2208543.683735176,
+        "mse_gain": 0.0,
+        "relative_mse_change": 0.0
+      },
+      "folds": [
+        {
+          "fold": "1_7",
+          "rows": 5373,
+          "mse_gain": 0.0,
+          "disrupted_rows": 45
+        },
+        {
+          "fold": "2_8",
+          "rows": 3438,
+          "mse_gain": 0.0,
+          "disrupted_rows": 203
+        },
+        {
+          "fold": "3_9",
+          "rows": 3549,
+          "mse_gain": 0.0,
+          "disrupted_rows": 44
+        },
+        {
+          "fold": "4_10",
+          "rows": 2998,
+          "mse_gain": 0.0,
+          "disrupted_rows": 29
+        },
+        {
+          "fold": "5_11",
+          "rows": 2961,
+          "mse_gain": 0.0,
+          "disrupted_rows": 24
+        },
+        {
+          "fold": "6_12",
+          "rows": 4151,
+          "mse_gain": 0.0,
+          "disrupted_rows": 36
+        }
+      ],
+      "positive_folds": 0,
+      "airports": [
+        {
+          "airport": "EDDF",
+          "rows": 1956,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "EDDM",
+          "rows": 1010,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "EGLL",
+          "rows": 1414,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "EHAM",
+          "rows": 4084,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LEBL",
+          "rows": 1862,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LEMD",
+          "rows": 947,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LFPG",
+          "rows": 3773,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LIRF",
+          "rows": 1488,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LSZH",
+          "rows": 2291,
+          "mse_gain": 0.0
+        },
+        {
+          "airport": "LTFM",
+          "rows": 3645,
+          "mse_gain": 0.0
+        }
+      ],
+      "airport_day_bootstrap_mse_gain_95pct": [
+        0.0,
+        0.0
+      ]
+    },
+    "nt_features": {
+      "rows": 22470,
+      "rmse": 1476.362200195036,
+      "mse": 2179645.3461647276,
+      "top5_sse_share": 0.5298229623557885,
+      "rmse_without_5_largest": 1012.44618838897,
+      "mse_gain_vs_v44": 95603.70634143008,
+      "mechanical_overall_rmse_if_transfer_from_v45": 266.74020675897947,
+      "disrupted": {
+        "rows": 381,
+        "baseline_mse": 6142584.723850539,
+        "mse": 3832712.7786154607,
+        "mse_gain": 2309871.945235078,
+        "relative_mse_change": -0.37604234195846997
+      },
+      "ordinary": {
+        "rows": 22089,
+        "baseline_mse": 2208543.683735176,
+        "mse": 2151132.5709479353,
+        "mse_gain": 57411.11278724065,
+        "relative_mse_change": -0.02599500893282976
+      },
+      "folds": [
+        {
+          "fold": "1_7",
+          "rows": 5373,
+          "mse_gain": 13465.048452723771,
+          "disrupted_rows": 45
+        },
+        {
+          "fold": "2_8",
+          "rows": 3438,
+          "mse_gain": 291468.43924729805,
+          "disrupted_rows": 203
+        },
+        {
+          "fold": "3_9",
+          "rows": 3549,
+          "mse_gain": 47684.370199266355,
+          "disrupted_rows": 44
+        },
+        {
+          "fold": "4_10",
+          "rows": 2998,
+          "mse_gain": 65684.99773129867,
+          "disrupted_rows": 29
+        },
+        {
+          "fold": "5_11",
+          "rows": 2961,
+          "mse_gain": 1339.5484630670398,
+          "disrupted_rows": 24
+        },
+        {
+          "fold": "6_12",
+          "rows": 4151,
+          "mse_gain": 169519.92917091213,
+          "disrupted_rows": 36
+        }
+      ],
+      "positive_folds": 6,
+      "airports": [
+        {
+          "airport": "EDDF",
+          "rows": 1956,
+          "mse_gain": -3627.370644040813
+        },
+        {
+          "airport": "EDDM",
+          "rows": 1010,
+          "mse_gain": 20753.561350991775
+        },
+        {
+          "airport": "EGLL",
+          "rows": 1414,
+          "mse_gain": 38450.82971072849
+        },
+        {
+          "airport": "EHAM",
+          "rows": 4084,
+          "mse_gain": 1240.535091102458
+        },
+        {
+          "airport": "LEBL",
+          "rows": 1862,
+          "mse_gain": 1158.3843887949188
+        },
+        {
+          "airport": "LEMD",
+          "rows": 947,
+          "mse_gain": -2958.2263552186487
+        },
+        {
+          "airport": "LFPG",
+          "rows": 3773,
+          "mse_gain": 24461.692388659343
+        },
+        {
+          "airport": "LIRF",
+          "rows": 1488,
+          "mse_gain": 720143.4720528238
+        },
+        {
+          "airport": "LSZH",
+          "rows": 2291,
+          "mse_gain": 1479.1658225352876
+        },
+        {
+          "airport": "LTFM",
+          "rows": 3645,
+          "mse_gain": 249191.16897507728
+        }
+      ],
+      "airport_day_bootstrap_mse_gain_95pct": [
+        12297.034874687939,
+        196675.19015462714
+      ],
+      "decision": {
+        "a_pooled_gain_positive": true,
+        "b_ordinary_loss_within_1pct": true,
+        "c_disrupted_improves": true,
+        "complete_six_pairs": true,
+        "advance": true
+      }
+    },
+    "nt_anchor_normal": {
+      "rows": 22470,
+      "rmse": 1490.5222464749654,
+      "mse": 2221656.5672367774,
+      "top5_sse_share": 0.5345071791385678,
+      "rmse_without_5_largest": 1017.0522872495425,
+      "mse_gain_vs_v44": 53592.48526938027,
+      "mechanical_overall_rmse_if_transfer_from_v45": 267.94552986463964,
+      "disrupted": {
+        "rows": 381,
+        "baseline_mse": 6142584.723850539,
+        "mse": 3836418.915624372,
+        "mse_gain": 2306165.8082261668,
+        "relative_mse_change": -0.3754389905721193
+      },
+      "ordinary": {
+        "rows": 22089,
+        "baseline_mse": 2208543.683735176,
+        "mse": 2193804.493592173,
+        "mse_gain": 14739.190143003128,
+        "relative_mse_change": -0.006673714562021082
+      },
+      "folds": [
+        {
+          "fold": "1_7",
+          "rows": 5373,
+          "mse_gain": 14077.953445787542,
+          "disrupted_rows": 45
+        },
+        {
+          "fold": "2_8",
+          "rows": 3438,
+          "mse_gain": 227353.15014605876,
+          "disrupted_rows": 203
+        },
+        {
+          "fold": "3_9",
+          "rows": 3549,
+          "mse_gain": 26420.50563360448,
+          "disrupted_rows": 44
+        },
+        {
+          "fold": "4_10",
+          "rows": 2998,
+          "mse_gain": 7139.928683559294,
+          "disrupted_rows": 29
+        },
+        {
+          "fold": "5_11",
+          "rows": 2961,
+          "mse_gain": 4239.109878212679,
+          "disrupted_rows": 24
+        },
+        {
+          "fold": "6_12",
+          "rows": 4151,
+          "mse_gain": 52810.957576549146,
+          "disrupted_rows": 36
+        }
+      ],
+      "positive_folds": 6,
+      "airports": [
+        {
+          "airport": "EDDF",
+          "rows": 1956,
+          "mse_gain": -3220.582168635752
+        },
+        {
+          "airport": "EDDM",
+          "rows": 1010,
+          "mse_gain": 18638.558320932905
+        },
+        {
+          "airport": "EGLL",
+          "rows": 1414,
+          "mse_gain": 82460.56219062197
+        },
+        {
+          "airport": "EHAM",
+          "rows": 4084,
+          "mse_gain": 2073.1971173662896
+        },
+        {
+          "airport": "LEBL",
+          "rows": 1862,
+          "mse_gain": 961.6957788069121
+        },
+        {
+          "airport": "LEMD",
+          "rows": 947,
+          "mse_gain": -3997.038521716415
+        },
+        {
+          "airport": "LFPG",
+          "rows": 3773,
+          "mse_gain": 26062.603512993082
+        },
+        {
+          "airport": "LIRF",
+          "rows": 1488,
+          "mse_gain": 145299.3029411137
+        },
+        {
+          "airport": "LSZH",
+          "rows": 2291,
+          "mse_gain": -4516.905690474436
+        },
+        {
+          "airport": "LTFM",
+          "rows": 3645,
+          "mse_gain": 209721.44578922645
+        }
+      ],
+      "airport_day_bootstrap_mse_gain_95pct": [
+        11085.952022658417,
+        106273.3993819128
+      ],
+      "decision": {
+        "a_pooled_gain_positive": true,
+        "b_ordinary_loss_within_1pct": true,
+        "c_disrupted_improves": true,
+        "complete_six_pairs": true,
+        "advance": true
+      }
+    }
+  },
+  "seconds": 441.7300238609314
+}

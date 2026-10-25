@@ -1,0 +1,30 @@
+{
+  "prereg": "research_460_fallback_family/PREREG_fallback_family.md",
+  "rows": 22470,
+  "rmse_shipped": 1486.0818407269521,
+  "rmse_catboost_alone": 1620.0999426034764,
+  "rmse_blend": 1517.9716120349872,
+  "gain_per_row": -95798.57760569113,
+  "without_best_100": -213479.22770756416,
+  "pairs": {
+    "1_7": -74692.15748570353,
+    "2_8": 108360.46867692821,
+    "3_9": -394282.7923794169,
+    "4_10": 48691.05160720152,
+    "5_11": -208708.0915946533,
+    "6_12": -60828.19833595368
+  },
+  "months_1_7": {
+    "1": -23165.804827076554,
+    "7": -93468.26618685375
+  },
+  "official_scale_s": -2.8647837731534795,
+  "rules": {
+    "1_pooled_positive": false,
+    "2_without_best_100_positive": false,
+    "3_four_of_six_pairs": false,
+    "4_january_and_july_1_7": false,
+    "5_official_at_least_0_1_s": false
+  },
+  "verdict": "fail"
+}

@@ -1,0 +1,13 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_corrector_capacity.md",
+  "selection_jan_jul_rmse": {
+    "600x63": 200.99213047248654,
+    "600x255": 201.47732324604357,
+    "1200x63": 201.45629614456772,
+    "1200x255": 203.12557898559228,
+    "2400x63": 202.56639555087096,
+    "2400x255": 205.7466150776983
+  },
+  "chosen": "600x63",
+  "verdict": "default selected, nothing judged"
+}

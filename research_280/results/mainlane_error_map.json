@@ -1,0 +1,123 @@
+{
+  "note": "saved v47 main-lane January/July holdout, no training",
+  "rows": 339046,
+  "rmse": 216.7734634758806,
+  "concentration": {
+    "5": 0.008586634945810525,
+    "20": 0.02417927506547545,
+    "100": 0.06611787991971729,
+    "3390": 0.34616311190829113
+  },
+  "by_airport": [
+    {
+      "airport": "LIRF",
+      "rows": 26131,
+      "row_share": 0.07707213770402836,
+      "rmse": 357.5685212242418,
+      "sse_share": 0.2097025582431001,
+      "worst_20_share_of_own_sse": 0.08460679334029571,
+      "worst_1pct_share_of_own_sse": 0.40160434585433047,
+      "rmse_without_worst_1pct": 277.99263777618984,
+      "median_abs_error": 138.2658504490364
+    },
+    {
+      "airport": "LTFM",
+      "rows": 45882,
+      "row_share": 0.13532676981884464,
+      "rmse": 232.09398120000623,
+      "sse_share": 0.1551312310510323,
+      "worst_20_share_of_own_sse": 0.055090394972342666,
+      "worst_1pct_share_of_own_sse": 0.2597905598026011,
+      "rmse_without_worst_1pct": 200.68719860390837,
+      "median_abs_error": 116.64768344231743
+    },
+    {
+      "airport": "LFPG",
+      "rows": 38732,
+      "row_share": 0.11423818596886558,
+      "rmse": 238.8518136066799,
+      "sse_share": 0.13869351391909884,
+      "worst_20_share_of_own_sse": 0.08425025641617379,
+      "worst_1pct_share_of_own_sse": 0.33779810357944146,
+      "rmse_without_worst_1pct": 195.34591949816252,
+      "median_abs_error": 107.6625306768126
+    },
+    {
+      "airport": "EGLL",
+      "rows": 39744,
+      "row_share": 0.11722303168301647,
+      "rmse": 229.59199615316555,
+      "sse_share": 0.13149650316899922,
+      "worst_20_share_of_own_sse": 0.06553225996908796,
+      "worst_1pct_share_of_own_sse": 0.27640546196702326,
+      "rmse_without_worst_1pct": 196.2837553369774,
+      "median_abs_error": 119.3476816417168
+    },
+    {
+      "airport": "LEBL",
+      "rows": 28490,
+      "row_share": 0.0840298956483781,
+      "rmse": 215.38956272727364,
+      "sse_share": 0.08296041201372863,
+      "worst_20_share_of_own_sse": 0.06845222013282251,
+      "worst_1pct_share_of_own_sse": 0.3472229073657917,
+      "rmse_without_worst_1pct": 174.89708905760327,
+      "median_abs_error": 90.82390127176984
+    },
+    {
+      "airport": "EDDF",
+      "rows": 36231,
+      "row_share": 0.10686160579980297,
+      "rmse": 173.49120794064333,
+      "sse_share": 0.0684485739530457,
+      "worst_20_share_of_own_sse": 0.08369645965781432,
+      "worst_1pct_share_of_own_sse": 0.3133786704713194,
+      "rmse_without_worst_1pct": 144.48296387377425,
+      "median_abs_error": 86.25143594377164
+    },
+    {
+      "airport": "EHAM",
+      "rows": 40141,
+      "row_share": 0.11839396424084048,
+      "rmse": 161.43552001389304,
+      "sse_share": 0.06566221417354241,
+      "worst_20_share_of_own_sse": 0.08174430107770819,
+      "worst_1pct_share_of_own_sse": 0.2640517703698566,
+      "rmse_without_worst_1pct": 139.18835168518473,
+      "median_abs_error": 76.79468491003627
+    },
+    {
+      "airport": "LEMD",
+      "rows": 35019,
+      "row_share": 0.10328686962831002,
+      "rmse": 169.61592706538036,
+      "sse_share": 0.06323625512591342,
+      "worst_20_share_of_own_sse": 0.07136312391025477,
+      "worst_1pct_share_of_own_sse": 0.24560674970918867,
+      "rmse_without_worst_1pct": 148.0630666243605,
+      "median_abs_error": 89.40911027884363
+    },
+    {
+      "airport": "EDDM",
+      "rows": 26854,
+      "row_share": 0.07920459170731996,
+      "rmse": 162.87667376630037,
+      "sse_share": 0.04471527538868468,
+      "worst_20_share_of_own_sse": 0.09986827296084547,
+      "worst_1pct_share_of_own_sse": 0.2965681283031824,
+      "rmse_without_worst_1pct": 137.29284501372888,
+      "median_abs_error": 81.27422108305643
+    },
+    {
+      "airport": "LSZH",
+      "rows": 21822,
+      "row_share": 0.06436294780059343,
+      "rmse": 170.79115173118248,
+      "sse_share": 0.039953462962854715,
+      "worst_20_share_of_own_sse": 0.13952827064613801,
+      "worst_1pct_share_of_own_sse": 0.32456781340025287,
+      "rmse_without_worst_1pct": 141.07057444486622,
+      "median_abs_error": 84.0479177400085
+    }
+  ]
+}

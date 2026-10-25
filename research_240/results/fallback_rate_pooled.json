@@ -1,0 +1,147 @@
+{
+  "validation": "fallback-only six-pair screen; not full ensemble; not a leaderboard forecast",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "baseline_rmse": 1759.2774594972313,
+      "baseline_reference": 1759.2774594972313,
+      "anchor_gain": 14077.953445787542,
+      "anchor_reference": 14077.953445787542,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "baseline_rmse": 1365.8532801384467,
+      "baseline_reference": 1365.8532801384467,
+      "anchor_gain": 227353.15014605876,
+      "anchor_reference": 227353.15014605876,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "baseline_rmse": 1104.6775044611127,
+      "baseline_reference": 1104.6775044611127,
+      "anchor_gain": 26420.50563360448,
+      "anchor_reference": 26420.50563360448,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "baseline_rmse": 784.0200284769749,
+      "baseline_reference": 784.0200284769749,
+      "anchor_gain": 7139.928683559294,
+      "anchor_reference": 7139.928683559294,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "baseline_rmse": 1912.549817631745,
+      "baseline_reference": 1912.549817631745,
+      "anchor_gain": 4239.109878212679,
+      "anchor_reference": 4239.109878212679,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "baseline_rmse": 1633.5378799633672,
+      "baseline_reference": 1633.5378675668649,
+      "anchor_gain": 52810.957576549146,
+      "anchor_reference": 52810.957576549146,
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "fallback_rate_screen.py": "08b8ed4ac668dbe94fb380b06d290d61d30e1163f6e74290d7c01cb1c955e230",
+    "features_auslast_rate.py": "d959d54b87bfd2d5553e0f64ebebe9ea6a6864218b28696992d08bf2f72ad5a6",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56"
+  },
+  "rmse": {
+    "v44_fallback": 1508.392870742287,
+    "rate": 1505.6272113235084,
+    "anchor": 1490.5222464749654,
+    "anchor_rate": 1488.7019632665783
+  },
+  "comparisons": {
+    "rate_vs_v44_fallback": {
+      "pooled_mse_gain": 8335.753028353012,
+      "mse_gain_without_top100_rows": -111728.61927941044,
+      "positive_sse_mass": 3390965481.4929113,
+      "negative_sse_mass": -3203661110.94582,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -53903.35810785237,
+        73700.5484287396
+      ],
+      "pair_gains": {
+        "1_7": -85878.6131546703,
+        "2_8": 91307.44881324725,
+        "3_9": 53166.06764718866,
+        "4_10": 45154.249277837254,
+        "5_11": -30259.932840080317,
+        "6_12": 24176.342503454885
+      },
+      "january_gain_1_7": -44011.30820658717,
+      "july_gain_1_7": -101134.98253011453,
+      "airport_contributions_to_pooled_gain": {
+        "EDDF": 20.431939159718844,
+        "EDDM": 127.34880870873197,
+        "EGLL": -2099.6032122690926,
+        "EHAM": 97.57050716630604,
+        "LEBL": 87.18610459552627,
+        "LEMD": 61.26212305974835,
+        "LFPG": 465.6043167633368,
+        "LIRF": 15180.34805723242,
+        "LSZH": 19.032746313268024,
+        "LTFM": -5623.428362376931
+      },
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "anchor_rate_vs_anchor": {
+      "pooled_mse_gain": 5423.031803011807,
+      "mse_gain_without_top100_rows": -113700.62603664376,
+      "positive_sse_mass": 3314537260.5326233,
+      "negative_sse_mass": -3192681735.9189477,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -55198.24950738502,
+        69151.71786297635
+      ],
+      "pair_gains": {
+        "1_7": -98535.0737827193,
+        "2_8": 102087.862330119,
+        "3_9": 43720.452294867246,
+        "4_10": 44296.901770321754,
+        "5_11": -32869.55982340182,
+        "6_12": 26419.45923692152
+      },
+      "january_gain_1_7": -45046.96663864413,
+      "july_gain_1_7": -118026.04223161409,
+      "airport_contributions_to_pooled_gain": {
+        "EDDF": 146.91186473583255,
+        "EDDM": 290.217307111716,
+        "EGLL": -2559.3673392231362,
+        "EHAM": 84.88873250504011,
+        "LEBL": 31.16549378165109,
+        "LEMD": 66.29737337389533,
+        "LFPG": -595.951604928173,
+        "LIRF": 11443.525137124718,
+        "LSZH": 48.30853342691062,
+        "LTFM": -3532.9636948966463
+      },
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "seconds": 44.08969497680664
+}

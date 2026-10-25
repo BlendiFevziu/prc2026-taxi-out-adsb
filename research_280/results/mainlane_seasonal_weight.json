@@ -1,0 +1,56 @@
+{
+  "note": "proxy test: the scored months cannot be up-weighted because they are the holdout, so adjacent months stand in; shoulder months are the control. Single LightGBM, fixed rounds, holdout never fitted on.",
+  "near_months": [
+    12,
+    2,
+    6,
+    8
+  ],
+  "shoulder_months": [
+    4,
+    5,
+    10
+  ],
+  "leaves": 255,
+  "rounds": 1400,
+  "arms": [
+    {
+      "arm": "uniform",
+      "effective_rows": 1723531.0,
+      "hold_rmse": 226.63613550400567,
+      "seconds": 186.83788204193115
+    },
+    {
+      "arm": "near x2",
+      "effective_rows": 2399673.0,
+      "hold_rmse": 226.8507666307526,
+      "seconds": 210.8856508731842,
+      "mse_gain": -97.33240477015876,
+      "gain_without_best_100": -371.42435891244423
+    },
+    {
+      "arm": "near x3",
+      "effective_rows": 3075815.0,
+      "hold_rmse": 227.69320570589255,
+      "seconds": 225.77527332305908,
+      "mse_gain": -480.2580084358768,
+      "gain_without_best_100": -789.5127000253447
+    },
+    {
+      "arm": "near x5",
+      "effective_rows": 4428099.0,
+      "hold_rmse": 228.58214847591464,
+      "seconds": 314.5463881492615,
+      "mse_gain": -885.8606856750698,
+      "gain_without_best_100": -1234.0747123788747
+    },
+    {
+      "arm": "shoulder x3 (control)",
+      "effective_rows": 2806653.0,
+      "hold_rmse": 227.6427263011417,
+      "seconds": 3799.6770300865173,
+      "mse_gain": -457.2729216264944,
+      "gain_without_best_100": -769.0462421298344
+    }
+  ]
+}

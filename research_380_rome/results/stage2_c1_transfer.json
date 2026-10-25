@@ -1,0 +1,116 @@
+{
+  "prereg": "research_380_rome/PREREG_stage2.md",
+  "checks": {
+    "c1_models_as_tested": true,
+    "airport_flags_as_v56": true,
+    "c1_reverse_replay": true
+  },
+  "rows": 6796,
+  "base_rmse": 421.18586627883803,
+  "c1_rmse": 417.9911355735525,
+  "gain_mse": 2680.944534987231,
+  "without_best100": -8705.753206020278,
+  "share_of_gain_from_best100": 4.19948882120764,
+  "halves": {
+    "first": 2162.375705320911,
+    "second": 3190.736886065676
+  },
+  "by_day": {
+    "2025-07-03": 15499.184937041675,
+    "2025-07-06": -29352.435401616654,
+    "2025-07-07": 3381.3771967798657,
+    "2025-07-08": -3336.6597494293965,
+    "2025-07-10": 5175.271462469384,
+    "2025-07-12": -8983.551936673286,
+    "2025-07-13": 50799.00355057268,
+    "2025-07-14": -9903.74034803222,
+    "2025-07-15": -2522.224039104456,
+    "2025-07-17": 9297.968247930341,
+    "2025-07-21": 5515.995775389511,
+    "2025-07-22": 3396.6696809796126,
+    "2025-07-25": 12853.087793067598,
+    "2025-07-26": -4042.41968191611,
+    "2025-07-29": 8177.033923961072,
+    "2025-07-31": -6980.199595263684
+  },
+  "degraded": {
+    "rows": 4758,
+    "gain_mse": 2196.643658862279
+  },
+  "well_observed": {
+    "rows": 2038,
+    "gain_mse": 3811.6136069217387
+  },
+  "by_stratum": {
+    "dense/at_stand": {
+      "rows": 380,
+      "gain_mse": 19117.011687753056
+    },
+    "dense/late": {
+      "rows": 1278,
+      "gain_mse": 4567.6722337998335
+    },
+    "dense/near": {
+      "rows": 859,
+      "gain_mse": 3519.732623583645
+    },
+    "dense/no_stand": {
+      "rows": 21,
+      "gain_mse": -17565.973013016446
+    },
+    "medium/at_stand": {
+      "rows": 174,
+      "gain_mse": 181.72236790238136
+    },
+    "medium/late": {
+      "rows": 2940,
+      "gain_mse": 1565.9341733327572
+    },
+    "medium/near": {
+      "rows": 564,
+      "gain_mse": -1228.4466807394178
+    },
+    "medium/no_stand": {
+      "rows": 40,
+      "gain_mse": -37243.41412256615
+    },
+    "sparse/at_stand": {
+      "rows": 18,
+      "gain_mse": -19822.639393151876
+    },
+    "sparse/late": {
+      "rows": 480,
+      "gain_mse": -1297.2258533520342
+    },
+    "sparse/near": {
+      "rows": 35,
+      "gain_mse": 22724.47966805679
+    },
+    "sparse/no_stand": {
+      "rows": 7,
+      "gain_mse": 27774.01068227826
+    }
+  },
+  "reweighted_to_jan_2026": 2695.0233848334283,
+  "planning": {
+    "mse_per_scored_row": 52.88589014985982,
+    "full_s": 0.10241709148561995
+  },
+  "flight_bootstrap_within_day_95": [
+    -1867.712181034078,
+    7367.176420145118
+  ],
+  "codex_days_descriptive": {
+    "rows": 3439,
+    "gain_mse": 2366.8990841876507,
+    "without_best100": -7346.393713540682
+  },
+  "rules": {
+    "1_pooled_positive": true,
+    "2_best100_removed_positive": false,
+    "3_each_half_positive": true,
+    "4_degraded_and_well_observed_positive": true,
+    "5_reweighted_positive_and_at_least_0_1_s": true
+  },
+  "verdict": "fail"
+}

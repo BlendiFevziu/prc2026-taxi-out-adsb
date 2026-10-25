@@ -1,0 +1,88 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_stacker.md",
+  "rows": 339046,
+  "rmse": {
+    "stack": 218.8121628294805,
+    "mean_control": 237.6172579209187,
+    "stack0": 237.72853794719916,
+    "base": 236.44227884332923,
+    "one_stage_reference": 220.824
+  },
+  "rmse_gain_vs_control_s": 18.805095091438176,
+  "rmse_gain_vs_base_s": 17.63011601384872,
+  "share_of_one_stage_gain_kept": 1.1288129883389029,
+  "per_seed_mse_gain": {
+    "177": 8556.082489719403,
+    "277": 8610.31482976317
+  },
+  "months": {
+    "1": 8189.767781370503,
+    "7": 8903.948831233183
+  },
+  "without_best_100": 7946.758098559837,
+  "airport_day_bootstrap_95": [
+    7754.522033568187,
+    9492.94940384444
+  ],
+  "airports": {
+    "EDDF": {
+      "rows": 36231,
+      "vs_control": 13064.14282369156,
+      "vs_base": 13062.792628603953
+    },
+    "EDDM": {
+      "rows": 26854,
+      "vs_control": 14173.350655880857,
+      "vs_base": 14183.86951252075
+    },
+    "EGLL": {
+      "rows": 39744,
+      "vs_control": 6470.764658199447,
+      "vs_base": 5667.532957412986
+    },
+    "EHAM": {
+      "rows": 40141,
+      "vs_control": 16557.913970683057,
+      "vs_base": 16536.01191232024
+    },
+    "LEBL": {
+      "rows": 28490,
+      "vs_control": 13447.831044634411,
+      "vs_base": 13628.083856699828
+    },
+    "LEMD": {
+      "rows": 35019,
+      "vs_control": 2268.956276098721,
+      "vs_base": 2663.262292907605
+    },
+    "LFPG": {
+      "rows": 38732,
+      "vs_control": 487.29542522402414,
+      "vs_base": 397.84650379988335
+    },
+    "LIRF": {
+      "rows": 26131,
+      "vs_control": 11953.698386493648,
+      "vs_base": 6783.138300625579
+    },
+    "LSZH": {
+      "rows": 21822,
+      "vs_control": 15550.338988657215,
+      "vs_base": 15585.37677331007
+    },
+    "LTFM": {
+      "rows": 45882,
+      "vs_control": 25.608249590884494,
+      "vs_base": -789.8428341985579
+    }
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": true,
+    "2_both_months_positive": true,
+    "3_without_best_100_positive": true,
+    "4_airport_day_interval_above_zero": true,
+    "5_rmse_gain_vs_control_at_least_0_3_s": true,
+    "6_stack_beats_base": true
+  },
+  "verdict": "pass"
+}

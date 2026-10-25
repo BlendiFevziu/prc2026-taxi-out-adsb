@@ -1,0 +1,32 @@
+{
+  "submission": "upbeat-goblin_v65.parquet",
+  "official": {
+    "status": "Succeeded",
+    "file": "upbeat-goblin_v65.parquet",
+    "bucket": "prc-2026-upbeat-goblin",
+    "used_pairs": 344841,
+    "inputs": {
+      "test_set_bucket": "prc-2026-testsets",
+      "test_set_file": "truthing.parquet"
+    },
+    "score": 256.6145
+  },
+  "score": 256.6145,
+  "previous": {
+    "version": "v64",
+    "score": 257.0986
+  },
+  "gain_s": 0.4841,
+  "file_sha256": "7a801b44e90a237f15872de6ce255b173a111d0b28037454523a5481f64abbb0",
+  "recipe": "Exact scored v64 (NM-free) with the frozen partial-track correction C1 switched on for the 7,525 base-owned EDDM July partial rows, passing research_400_cells/PREREG_cells2.md; research_400_cells/build_v65.py, verified by verify_v65.py",
+  "prediction_fixed_before_upload": {
+    "assumptions": "sister-month per-stratum gains weighted to the 2026 mix (no same-month confirmation); central 0.8 of full transfer, worst 0.3, best 1.2 (v63 realised 1.46 and v64 1.16 of their stratum or registered values)",
+    "mse_per_scored_row_full": 283.0146707323572,
+    "central": 256.66,
+    "worst": 256.93,
+    "best": 256.44
+  },
+  "realised_mse_per_scored_row": 248.7,
+  "transfer_ratio_vs_full": 0.88,
+  "nm_policy": "NM-free: no third-party NM data, feature, prediction, weight or fitted parameter"
+}

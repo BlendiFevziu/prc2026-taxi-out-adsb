@@ -1,0 +1,76 @@
+{
+  "note": "stage-one January/July screen, production encoding, fallback rows only; map fitted on the learning months out of fold",
+  "learn_rows": 17097,
+  "hold_rows": 5373,
+  "arms": {
+    "prod": {
+      "rmse": 1756.9116687364553,
+      "mse_gain": 0.0,
+      "gain_without_best_100": 0.0,
+      "january_gain": 0.0,
+      "july_gain": 0.0
+    },
+    "iso": {
+      "rmse": 1775.832460032888,
+      "mse_gain": -66842.31436414357,
+      "gain_without_best_100": -281060.2019403262,
+      "january_gain": -53039.91544160159,
+      "july_gain": -71871.88329605007
+    },
+    "shrunk_0.9": {
+      "rmse": 1816.41412199237,
+      "mse_gain": -212621.65083099666,
+      "gain_without_best_100": -272555.7058206957,
+      "january_gain": -152040.18634508195,
+      "july_gain": -234697.4257261941
+    },
+    "shrunk_0.75": {
+      "rmse": 2009.0945263840904,
+      "mse_gain": -949722.204204197,
+      "gain_without_best_100": -1061077.2308863737,
+      "january_gain": -716579.2385279977,
+      "july_gain": -1034679.0746321674
+    },
+    "shrunk_0.6": {
+      "rmse": 2296.815852843183,
+      "mse_gain": -2188624.4501294433,
+      "gain_without_best_100": -2358047.709481213,
+      "january_gain": -1684892.8179092654,
+      "july_gain": -2372183.3359181574
+    },
+    "shrunk_0.5": {
+      "rmse": 2525.8813532256536,
+      "mse_gain": -3293337.9988307445,
+      "gain_without_best_100": -3505733.830521315,
+      "january_gain": -2554754.3859403054,
+      "july_gain": -3562476.516986605
+    },
+    "shrunk_0.35": {
+      "rmse": 2907.802436678207,
+      "mse_gain": -5368576.399009401,
+      "gain_without_best_100": -5646345.915979652,
+      "january_gain": -4196025.510652158,
+      "july_gain": -5795851.798905959
+    }
+  },
+  "checks": {
+    "1_pooled_gain_positive": false,
+    "2_survives_top100_removal": false,
+    "3_both_months_gain": false,
+    "4_beats_best_constant_shrinkage": true
+  },
+  "take_to_six_pairs": false,
+  "isotonic_map": {
+    "0.00": 0.0,
+    "0.10": 0.29517624250642155,
+    "0.20": 0.4136349236250457,
+    "0.30": 0.4136349236250457,
+    "0.40": 0.4136349236250457,
+    "0.50": 0.4136349236250457,
+    "0.60": 0.6248699117051233,
+    "0.70": 0.6248699117051233,
+    "0.80": 0.6248699117051233,
+    "0.90": 0.6248699117051233,
+    "1.00": 1.0
+  }
+}

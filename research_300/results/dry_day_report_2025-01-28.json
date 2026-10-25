@@ -1,0 +1,317 @@
+{
+  "note": "dry report, frozen detector and thresholds; no decision",
+  "current_geometry": {
+    "EDDM": "xplane_first",
+    "EHAM": "xplane_first",
+    "EDDF": "osm"
+  },
+  "days": {
+    "2025-01-28": {
+      "EDDM": {
+        "current": {
+          "departures": 343,
+          "main_lane": 342,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 0,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 13,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 0,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "only_moving_at_stand": 78,
+            "never_seen_parked": 49,
+            "gap_too_large": 22,
+            "parked_beyond_30m": 20,
+            "still_no_transition": 15,
+            "parked_elsewhere": 2,
+            "ambiguous_onsets": 2
+          },
+          "estimates": 142,
+          "coverage_all": 0.414,
+          "coverage_main": 0.4123,
+          "onset_error_s": {
+            "median": -24.24749994277954,
+            "mae": 35.00507043616872,
+            "rmse": 53.81380714399409,
+            "within_60": 131,
+            "within_120": 138,
+            "late_over_120": 3,
+            "early_over_120": 1,
+            "worst": [
+              -124.2350001335144,
+              353.460000038147
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 342,
+            "comparator_v45": 117.74784994974225,
+            "policy": 99.67327196535814,
+            "covered_rows": 141,
+            "detector_on_covered": 53.82401209233975,
+            "comparator_on_covered": 111.48483092431053
+          }
+        },
+        "v54_osm_reference": {
+          "departures": 343,
+          "main_lane": 342,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 0,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 13,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 24,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "parked_beyond_30m": 66,
+            "still_no_transition": 36,
+            "only_moving_at_stand": 31,
+            "never_seen_parked": 26,
+            "gap_too_large": 20,
+            "ambiguous_onsets": 4,
+            "parked_elsewhere": 1,
+            "arrival_transition": 1
+          },
+          "estimates": 121,
+          "coverage_all": 0.3528,
+          "coverage_main": 0.3509,
+          "onset_error_s": {
+            "median": -26.06500005722046,
+            "mae": 34.236404976568934,
+            "rmse": 46.14699409533582,
+            "within_60": 110,
+            "within_120": 120,
+            "late_over_120": 1,
+            "early_over_120": 0,
+            "worst": [
+              -117.9300000667572,
+              239.83500003814697
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 342,
+            "comparator_v45": 117.74784994974225,
+            "policy": 99.9464874327668,
+            "covered_rows": 120,
+            "detector_on_covered": 46.09174788047141,
+            "comparator_on_covered": 114.75595105678627
+          }
+        }
+      },
+      "EHAM": {
+        "current": {
+          "departures": 580,
+          "main_lane": 571,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 369,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 17,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 0,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "never_seen_parked": 57,
+            "only_moving_at_stand": 54,
+            "parked_beyond_30m": 25,
+            "gap_too_large": 5,
+            "still_no_transition": 4
+          },
+          "estimates": 49,
+          "coverage_all": 0.0845,
+          "coverage_main": 0.0858,
+          "onset_error_s": {
+            "median": 24.619999885559082,
+            "mae": 40.90081635299994,
+            "rmse": 60.3640488497188,
+            "within_60": 42,
+            "within_120": 44,
+            "late_over_120": 4,
+            "early_over_120": 1,
+            "worst": [
+              -123.09000015258789,
+              236.8199999332428
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 571,
+            "comparator_v45": 132.93911375952052,
+            "policy": 127.07585569679777,
+            "covered_rows": 49,
+            "detector_on_covered": 60.3640488497188,
+            "comparator_on_covered": 146.31922815196452
+          }
+        },
+        "v54_osm_reference": {
+          "departures": 580,
+          "main_lane": 571,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 369,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 17,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 7,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "never_seen_parked": 43,
+            "only_moving_at_stand": 38,
+            "parked_beyond_30m": 9,
+            "still_no_transition": 9,
+            "gap_too_large": 7
+          },
+          "estimates": 81,
+          "coverage_all": 0.1397,
+          "coverage_main": 0.1419,
+          "onset_error_s": {
+            "median": 17.164999961853027,
+            "mae": 91.55333335605668,
+            "rmse": 139.0814840309378,
+            "within_60": 52,
+            "within_120": 55,
+            "late_over_120": 4,
+            "early_over_120": 22,
+            "worst": [
+              -408.6050000190735,
+              236.8199999332428
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 571,
+            "comparator_v45": 132.93911375952052,
+            "policy": 134.40493449912634,
+            "covered_rows": 81,
+            "detector_on_covered": 139.0814840309378,
+            "comparator_on_covered": 128.7678454590462
+          }
+        }
+      },
+      "EDDF": {
+        "current": {
+          "departures": 468,
+          "main_lane": 468,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 290,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 4,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 4,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "never_seen_parked": 109,
+            "only_moving_at_stand": 29,
+            "gap_too_large": 6,
+            "parked_beyond_30m": 5,
+            "still_no_transition": 1
+          },
+          "estimates": 20,
+          "coverage_all": 0.0427,
+          "coverage_main": 0.0427,
+          "onset_error_s": {
+            "median": -18.292500019073486,
+            "mae": 81.21499994993209,
+            "rmse": 132.51187988732838,
+            "within_60": 13,
+            "within_120": 16,
+            "late_over_120": 0,
+            "early_over_120": 4,
+            "worst": [
+              -326.289999961853,
+              28.27999997138977
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 468,
+            "comparator_v45": 120.79106873065034,
+            "policy": 119.54977669982203,
+            "covered_rows": 20,
+            "detector_on_covered": 132.51187988732838,
+            "comparator_on_covered": 156.6537412013313
+          }
+        },
+        "v54_osm_reference": {
+          "departures": 468,
+          "main_lane": 468,
+          "completeness": {
+            "categorised": true,
+            "main_lane_missing_from_comparator": 0
+          },
+          "matching_failures": {
+            "no_callsign_in_feed": 290,
+            "callsign_not_at_airport": 0,
+            "no_visit_near_takeoff": 4,
+            "visit_claimed_twice": 0
+          },
+          "mapping_failures": {
+            "stand_unmapped": 4,
+            "stand_ambiguous": 0
+          },
+          "abstentions": {
+            "never_seen_parked": 109,
+            "only_moving_at_stand": 29,
+            "gap_too_large": 6,
+            "parked_beyond_30m": 5,
+            "still_no_transition": 1
+          },
+          "estimates": 20,
+          "coverage_all": 0.0427,
+          "coverage_main": 0.0427,
+          "onset_error_s": {
+            "median": -18.292500019073486,
+            "mae": 81.21499994993209,
+            "rmse": 132.51187988732838,
+            "within_60": 13,
+            "within_120": 16,
+            "late_over_120": 0,
+            "early_over_120": 4,
+            "worst": [
+              -326.289999961853,
+              28.27999997138977
+            ]
+          },
+          "held_out_rmse_main_lane": {
+            "rows": 468,
+            "comparator_v45": 120.79106873065034,
+            "policy": 119.54977669982203,
+            "covered_rows": 20,
+            "detector_on_covered": 132.51187988732838,
+            "comparator_on_covered": 156.6537412013313
+          }
+        }
+      }
+    }
+  }
+}

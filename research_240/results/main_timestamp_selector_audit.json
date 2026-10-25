@@ -1,0 +1,96 @@
+{
+  "note": "saved-model replay and post-screen diagnostics, no fits or new parameter selection",
+  "code_sha256": "27c95bd3dab66ec49f539d5e3191c0a1930b2f4d86e338aa167b0195ba899758",
+  "models": [
+    {
+      "family": "linear",
+      "train_source_month": 1,
+      "test_source_month": 7,
+      "training": {
+        "rows": 152271,
+        "baseline_rmse": 196.9504432985477,
+        "selector_rmse": 196.99040667725546,
+        "main_mse_gain": -15.743207376052807
+      },
+      "held_out": {
+        "rows": 186775,
+        "baseline_rmse": 231.68281605813425,
+        "selector_rmse": 232.40994664884644,
+        "main_mse_gain": -337.45604469240595
+      },
+      "replay_max_absolute_difference_s": 0.0
+    },
+    {
+      "family": "neural",
+      "train_source_month": 1,
+      "test_source_month": 7,
+      "training": {
+        "rows": 152271,
+        "baseline_rmse": 196.9504432985477,
+        "selector_rmse": 185.7950204744682,
+        "main_mse_gain": 4269.687482386388
+      },
+      "held_out": {
+        "rows": 186775,
+        "baseline_rmse": 231.68281605813425,
+        "selector_rmse": 243.40670166576624,
+        "main_mse_gain": -5569.8951591800615
+      },
+      "replay_max_absolute_difference_s": 4.547473508864641e-13
+    },
+    {
+      "family": "linear",
+      "train_source_month": 7,
+      "test_source_month": 1,
+      "training": {
+        "rows": 186775,
+        "baseline_rmse": 231.68281605813425,
+        "selector_rmse": 232.06764117396284,
+        "main_mse_gain": -178.46282341991744
+      },
+      "held_out": {
+        "rows": 152271,
+        "baseline_rmse": 196.9504432985477,
+        "selector_rmse": 197.31313436136716,
+        "main_mse_gain": -142.99587601249067
+      },
+      "replay_max_absolute_difference_s": 0.0
+    },
+    {
+      "family": "neural",
+      "train_source_month": 7,
+      "test_source_month": 1,
+      "training": {
+        "rows": 186775,
+        "baseline_rmse": 231.68281605813425,
+        "selector_rmse": 227.0138981995741,
+        "main_mse_gain": 2141.617280860646
+      },
+      "held_out": {
+        "rows": 152271,
+        "baseline_rmse": 196.9504432985477,
+        "selector_rmse": 198.95663518627643,
+        "main_mse_gain": -794.2655691506368
+      },
+      "replay_max_absolute_difference_s": 1.1368683772161603e-13
+    }
+  ],
+  "raw_clock_parity": {
+    "ersatz_s": {
+      "rows": 339046,
+      "max_absolute_difference_s": 0.0
+    },
+    "ersatz_eobt_s": {
+      "rows": 339046,
+      "max_absolute_difference_s": 0.0
+    },
+    "ersatz_lobt_s": {
+      "rows": 339046,
+      "max_absolute_difference_s": 0.0
+    },
+    "ersatz_iobt_s": {
+      "rows": 339046,
+      "max_absolute_difference_s": 0.0
+    }
+  }
+}

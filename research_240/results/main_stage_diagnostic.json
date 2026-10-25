@@ -1,0 +1,127 @@
+{
+  "validation": "single-LightGBM January/July main diagnostic, research encoding; not full ensemble or leaderboard",
+  "rows_train": 1723531,
+  "rows_valid": 339046,
+  "reference_level_share_valid": {
+    "2.0": 0.9132005686544009,
+    "1.0": 0.08679648189331242,
+    "0.0": 2.949452286710358e-06
+  },
+  "baseline": {
+    "rmse": 223.68022001367427,
+    "best_iteration": 1145,
+    "seconds": 922.1234288215637,
+    "queue_screen_rmse": 223.6976292444155,
+    "replicates_queue_screen": true
+  },
+  "candidate": {
+    "rmse": 223.93670520770272,
+    "best_iteration": 1186,
+    "seconds": 214.79792165756226
+  },
+  "rmse_gain": -0.2564851940284427,
+  "mse_gain": -114.80711391582538,
+  "mse_gain_without_top100_rows": -490.6331079179675,
+  "january_mse_gain": -89.26818314379567,
+  "july_mse_gain": -135.62809385204656,
+  "copied_rows": {
+    "rows": 15326,
+    "mse_gain_contribution": -4.375200122475885
+  },
+  "not_copied_rows": {
+    "rows": 323720,
+    "mse_gain_contribution": -110.43191379334952
+  },
+  "airport_mse_gain": {
+    "EDDF": {
+      "rows": 36231,
+      "mse_gain": -134.48255098627857,
+      "baseline_rmse": 177.4575187155871,
+      "candidate_rmse": 177.83602981308152
+    },
+    "EDDM": {
+      "rows": 26854,
+      "mse_gain": -171.2524197811548,
+      "baseline_rmse": 168.70602907262554,
+      "candidate_rmse": 169.21281471931943
+    },
+    "EGLL": {
+      "rows": 39744,
+      "mse_gain": -274.3549936279421,
+      "baseline_rmse": 234.3009673305165,
+      "candidate_rmse": 234.885713242938
+    },
+    "EHAM": {
+      "rows": 40141,
+      "mse_gain": -152.6256167008747,
+      "baseline_rmse": 166.3696172046833,
+      "candidate_rmse": 166.8276809930946
+    },
+    "LEBL": {
+      "rows": 28490,
+      "mse_gain": 204.76663845635596,
+      "baseline_rmse": 219.0590560712664,
+      "candidate_rmse": 218.59117870668499
+    },
+    "LEMD": {
+      "rows": 35019,
+      "mse_gain": -80.15783400780995,
+      "baseline_rmse": 175.13169216276307,
+      "candidate_rmse": 175.36039300195645
+    },
+    "LFPG": {
+      "rows": 38732,
+      "mse_gain": -365.95498269515383,
+      "baseline_rmse": 245.86496252029843,
+      "candidate_rmse": 246.6080590284975
+    },
+    "LIRF": {
+      "rows": 26131,
+      "mse_gain": -19.12863816601387,
+      "baseline_rmse": 373.49274068650834,
+      "candidate_rmse": 373.5183475864142
+    },
+    "LSZH": {
+      "rows": 21822,
+      "mse_gain": 346.8038771696491,
+      "baseline_rmse": 176.35231968901368,
+      "candidate_rmse": 175.3662931766719
+    },
+    "LTFM": {
+      "rows": 45882,
+      "mse_gain": -181.8539498455289,
+      "baseline_rmse": 240.72872216790753,
+      "candidate_rmse": 241.10614182645608
+    }
+  },
+  "stage_importance_gain_share": {
+    "ref_p10": 0.001281308335543329,
+    "ref_p50": 0.0016886773270254583,
+    "ref_log_n": 0.001414024389064606,
+    "ref_level": 0.0002811334528275193,
+    "ex_p10": 0.0714842958643773,
+    "ex_p50": 0.11841803671048447
+  },
+  "stage_importance_rank": {
+    "ref_p10": 49,
+    "ref_p50": 44,
+    "ref_log_n": 47,
+    "ref_level": 80,
+    "ex_p10": 6,
+    "ex_p50": 2
+  },
+  "code_sha256": {
+    "main_stage_diagnostic.py": "671c320b5640c1ed4e71b1429041c053ad5aee175c675237fe64c67a8805696d",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "candidate_features.py": "9a663d2fdda23cb035a28ef68668d16a6892e7c1b7696f02d13ba247ed6c154d"
+  },
+  "decision": {
+    "checks": {
+      "1_rmse_gain_at_least_0_3_s": false,
+      "2_survives_top100_removal": false,
+      "3_january_and_july_gain": false
+    },
+    "run_six_pair_screen": false
+  },
+  "seconds": 1142.708349943161
+}

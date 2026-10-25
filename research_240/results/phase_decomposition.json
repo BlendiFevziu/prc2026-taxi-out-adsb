@@ -1,0 +1,482 @@
+{
+  "note": "2025 main-lane departures with AOBT_3 and 0 < MVT - AOBT_3 <= 120 min. Measured: total = reporting gap + NM taxi. Estimated: reference (EUROCONTROL-style 10th percentile per airport, stand and runway) and additional time. Not measured phase durations.",
+  "percentile": 10.0,
+  "min_flights_at_or_below_reference": 10,
+  "main_lane_flights": 2062577,
+  "flights_used": 2061500,
+  "all_airports": {
+    "flights": 2061500,
+    "valid_reference_share": 0.9312010671840892,
+    "total_s": {
+      "p25": 719.0,
+      "p50": 911.0,
+      "p75": 1186.0
+    },
+    "total_mean_s": 986.7280373514432,
+    "reporting_gap_s": {
+      "p25": -183.0,
+      "p50": -52.0,
+      "p75": 122.0
+    },
+    "reporting_gap_mean_s": -18.54572010671841,
+    "reporting_gap_within_60s_share": 0.21031869997574582,
+    "copied_block_time_share": 0.04796070822216832,
+    "nm_taxi_s": {
+      "p25": 734.0,
+      "p50": 958.0,
+      "p75": 1201.0
+    },
+    "nm_taxi_mean_s": 1005.2737574581615,
+    "reference_s": {
+      "p25": 658.0,
+      "p50": 799.2,
+      "p75": 1025.0
+    },
+    "additional_s": {
+      "p25": 10.0,
+      "p50": 61.0,
+      "p75": 227.0,
+      "p90": 480.0
+    },
+    "additional_mean_s": 159.27860635459626,
+    "additional_spearman_runway_departures_10min_before": 0.22427987576537928,
+    "additional_spearman_airport_movements_10min_before": 0.18950084298418,
+    "not_distance_part_s": 698.6385815895567,
+    "distance_s_per_m": 0.07604357924015998,
+    "distance_fit_r2": 0.1451020599813484,
+    "distance_fit_groups": 4173,
+    "distance_part_median_s": 148.8086779434743
+  },
+  "airports": {
+    "EDDF": {
+      "flights": 228076,
+      "valid_reference_share": 0.9748987179712025,
+      "total_s": {
+        "p25": 648.0,
+        "p50": 836.0,
+        "p75": 1047.0
+      },
+      "total_mean_s": 862.4534278047669,
+      "reporting_gap_s": {
+        "p25": -197.0,
+        "p50": -88.0,
+        "p75": 44.0
+      },
+      "reporting_gap_mean_s": -54.66868499973693,
+      "reporting_gap_within_60s_share": 0.20984233325733528,
+      "copied_block_time_share": 0.012364299619425104,
+      "nm_taxi_s": {
+        "p25": 763.0,
+        "p50": 898.0,
+        "p75": 1095.0
+      },
+      "nm_taxi_mean_s": 917.1221128045038,
+      "reference_s": {
+        "p25": 677.5,
+        "p50": 797.2,
+        "p75": 968.0
+      },
+      "additional_s": {
+        "p25": 35.0,
+        "p50": 86.0,
+        "p75": 149.0,
+        "p90": 236.70000000000005
+      },
+      "additional_mean_s": 107.0130517897543,
+      "additional_spearman_runway_departures_10min_before": 0.17345028204910845,
+      "additional_spearman_airport_movements_10min_before": 0.21774805044919177,
+      "not_distance_part_s": 532.6237050576075,
+      "distance_s_per_m": 0.09824516170590061,
+      "distance_fit_r2": 0.5341549000024732,
+      "distance_fit_groups": 456,
+      "distance_part_median_s": 303.2609084985346
+    },
+    "EDDM": {
+      "flights": 166301,
+      "valid_reference_share": 0.9505835803753435,
+      "total_s": {
+        "p25": 611.0,
+        "p50": 774.0,
+        "p75": 910.0
+      },
+      "total_mean_s": 810.5212957228158,
+      "reporting_gap_s": {
+        "p25": -117.0,
+        "p50": 2.0,
+        "p75": 177.0
+      },
+      "reporting_gap_mean_s": 81.27283059031515,
+      "reporting_gap_within_60s_share": 0.25719027546436884,
+      "copied_block_time_share": 0.05015604235693111,
+      "nm_taxi_s": {
+        "p25": 659.0,
+        "p50": 721.0,
+        "p75": 838.0
+      },
+      "nm_taxi_mean_s": 729.2484651325007,
+      "reference_s": {
+        "p25": 542.9,
+        "p50": 655.0,
+        "p75": 715.0
+      },
+      "additional_s": {
+        "p25": 3.0,
+        "p50": 8.0,
+        "p75": 233.0,
+        "p90": 421.0
+      },
+      "additional_mean_s": 104.4570868485453,
+      "additional_spearman_runway_departures_10min_before": -0.05170252502692221,
+      "additional_spearman_airport_movements_10min_before": -0.04996508260210133,
+      "not_distance_part_s": 545.6096411891973,
+      "distance_s_per_m": 0.03163303877895228,
+      "distance_fit_r2": 0.0261684537291339,
+      "distance_fit_groups": 281,
+      "distance_part_median_s": 71.13303756133772
+    },
+    "EGLL": {
+      "flights": 238052,
+      "valid_reference_share": 0.987313696167224,
+      "total_s": {
+        "p25": 1088.0,
+        "p50": 1319.0,
+        "p75": 1560.0
+      },
+      "total_mean_s": 1363.018592576412,
+      "reporting_gap_s": {
+        "p25": -234.0,
+        "p50": -54.0,
+        "p75": 124.0
+      },
+      "reporting_gap_mean_s": -23.994589417438206,
+      "reporting_gap_within_60s_share": 0.1936089593870247,
+      "copied_block_time_share": 0.048976694167660845,
+      "nm_taxi_s": {
+        "p25": 1134.0,
+        "p50": 1324.0,
+        "p75": 1616.0
+      },
+      "nm_taxi_mean_s": 1387.0131819938501,
+      "reference_s": {
+        "p25": 894.0,
+        "p50": 962.7,
+        "p75": 1024.8
+      },
+      "additional_s": {
+        "p25": 173.0,
+        "p50": 362.6,
+        "p75": 606.0,
+        "p90": 901.0
+      },
+      "additional_mean_s": 424.19859022398475,
+      "additional_spearman_runway_departures_10min_before": 0.1909292044477363,
+      "additional_spearman_airport_movements_10min_before": 0.1939346172555525,
+      "not_distance_part_s": 807.2554371598198,
+      "distance_s_per_m": 0.07327170066236874,
+      "distance_fit_r2": 0.4280400468578769,
+      "distance_fit_groups": 487,
+      "distance_part_median_s": 152.74907564576884
+    },
+    "EHAM": {
+      "flights": 243765,
+      "valid_reference_share": 0.9352573174984103,
+      "total_s": {
+        "p25": 582.0,
+        "p50": 744.0,
+        "p75": 944.0
+      },
+      "total_mean_s": 787.6327528562344,
+      "reporting_gap_s": {
+        "p25": -241.0,
+        "p50": -107.0,
+        "p75": 3.0
+      },
+      "reporting_gap_mean_s": -153.22128689516543,
+      "reporting_gap_within_60s_share": 0.23681004245892562,
+      "copied_block_time_share": 0.012237195659754271,
+      "nm_taxi_s": {
+        "p25": 677.0,
+        "p50": 863.0,
+        "p75": 1102.0
+      },
+      "nm_taxi_mean_s": 940.8540397513999,
+      "reference_s": {
+        "p25": 562.2,
+        "p50": 616.0,
+        "p75": 832.9
+      },
+      "additional_s": {
+        "p25": 63.0,
+        "p50": 152.20000000000005,
+        "p75": 320.9,
+        "p90": 581.6
+      },
+      "additional_mean_s": 245.96922281705744,
+      "additional_spearman_runway_departures_10min_before": 0.2021928714643099,
+      "additional_spearman_airport_movements_10min_before": 0.13855882694751984,
+      "not_distance_part_s": 461.2946793078947,
+      "distance_s_per_m": 0.10951683267685831,
+      "distance_fit_r2": 0.8112208688958769,
+      "distance_fit_groups": 576,
+      "distance_part_median_s": 183.8204885454914
+    },
+    "LEBL": {
+      "flights": 177789,
+      "valid_reference_share": 0.9606668579045947,
+      "total_s": {
+        "p25": 714.0,
+        "p50": 905.0,
+        "p75": 1160.0
+      },
+      "total_mean_s": 955.6067135762055,
+      "reporting_gap_s": {
+        "p25": -65.0,
+        "p50": 54.0,
+        "p75": 179.0
+      },
+      "reporting_gap_mean_s": 66.64435932481761,
+      "reporting_gap_within_60s_share": 0.2636046099589963,
+      "copied_block_time_share": 0.0565333063350376,
+      "nm_taxi_s": {
+        "p25": 652.0,
+        "p50": 764.0,
+        "p75": 1223.0
+      },
+      "nm_taxi_mean_s": 888.9623542513879,
+      "reference_s": {
+        "p25": 608.0,
+        "p50": 727.0,
+        "p75": 1207.0
+      },
+      "additional_s": {
+        "p25": 10.0,
+        "p50": 26.0,
+        "p75": 42.0,
+        "p90": 54.0
+      },
+      "additional_mean_s": 33.622238721180736,
+      "additional_spearman_runway_departures_10min_before": -0.02753033775304197,
+      "additional_spearman_airport_movements_10min_before": -0.008780547811012477,
+      "not_distance_part_s": 420.8039960643955,
+      "distance_s_per_m": 0.21697412807749183,
+      "distance_fit_r2": 0.28397713861659024,
+      "distance_fit_groups": 225,
+      "distance_part_median_s": 459.2101871073401
+    },
+    "LEMD": {
+      "flights": 211243,
+      "valid_reference_share": 0.8901549400453506,
+      "total_s": {
+        "p25": 806.0,
+        "p50": 984.0,
+        "p75": 1185.0
+      },
+      "total_mean_s": 1014.2607897066412,
+      "reporting_gap_s": {
+        "p25": -120.0,
+        "p50": -2.0,
+        "p75": 122.0
+      },
+      "reporting_gap_mean_s": 33.10276790236836,
+      "reporting_gap_within_60s_share": 0.2625554456242337,
+      "copied_block_time_share": 0.04481568620025279,
+      "nm_taxi_s": {
+        "p25": 848.0,
+        "p50": 987.0,
+        "p75": 1121.0
+      },
+      "nm_taxi_mean_s": 981.1580218042728,
+      "reference_s": {
+        "p25": 788.0,
+        "p50": 961.0,
+        "p75": 1081.0
+      },
+      "additional_s": {
+        "p25": 10.599999999999909,
+        "p50": 27.100000000000023,
+        "p75": 44.89999999999998,
+        "p90": 60.0
+      },
+      "additional_mean_s": 43.46107089939074,
+      "additional_spearman_runway_departures_10min_before": -0.017624213334525747,
+      "additional_spearman_airport_movements_10min_before": -0.01872072752462074,
+      "not_distance_part_s": 647.1038347450149,
+      "distance_s_per_m": 0.12287439107896983,
+      "distance_fit_r2": 0.5494449330988739,
+      "distance_fit_groups": 547,
+      "distance_part_median_s": 339.3020148528855
+    },
+    "LFPG": {
+      "flights": 235588,
+      "valid_reference_share": 0.8405648844593103,
+      "total_s": {
+        "p25": 777.0,
+        "p50": 954.0,
+        "p75": 1151.0
+      },
+      "total_mean_s": 1016.8262984532319,
+      "reporting_gap_s": {
+        "p25": -123.0,
+        "p50": 4.0,
+        "p75": 182.0
+      },
+      "reporting_gap_mean_s": 32.45282017759818,
+      "reporting_gap_within_60s_share": 0.21960371496001493,
+      "copied_block_time_share": 0.04188243883389647,
+      "nm_taxi_s": {
+        "p25": 777.0,
+        "p50": 900.0,
+        "p75": 1135.0
+      },
+      "nm_taxi_mean_s": 984.3734782756337,
+      "reference_s": {
+        "p25": 657.0,
+        "p50": 775.0,
+        "p75": 837.0
+      },
+      "additional_s": {
+        "p25": 5.7000000000000455,
+        "p50": 66.0,
+        "p75": 307.0,
+        "p90": 666.0
+      },
+      "additional_mean_s": 217.3935607925701,
+      "additional_spearman_runway_departures_10min_before": 0.18408874348975393,
+      "additional_spearman_airport_movements_10min_before": 0.18384586570702835,
+      "not_distance_part_s": 558.908915539296,
+      "distance_s_per_m": 0.09406106264677351,
+      "distance_fit_r2": 0.5044594952346532,
+      "distance_fit_groups": 673,
+      "distance_part_median_s": 210.61389061732575
+    },
+    "LIRF": {
+      "flights": 159183,
+      "valid_reference_share": 0.959380084556768,
+      "total_s": {
+        "p25": 834.0,
+        "p50": 1024.0,
+        "p75": 1316.0
+      },
+      "total_mean_s": 1143.9415641117455,
+      "reporting_gap_s": {
+        "p25": -61.0,
+        "p50": 118.0,
+        "p75": 360.0
+      },
+      "reporting_gap_mean_s": 213.86688277014505,
+      "reporting_gap_within_60s_share": 0.18557886206441643,
+      "copied_block_time_share": 0.1781660101895303,
+      "nm_taxi_s": {
+        "p25": 782.0,
+        "p50": 900.0,
+        "p75": 1074.0
+      },
+      "nm_taxi_mean_s": 930.0746813416006,
+      "reference_s": {
+        "p25": 719.0,
+        "p50": 776.0,
+        "p75": 839.0
+      },
+      "additional_s": {
+        "p25": 50.099999999999966,
+        "p50": 119.0,
+        "p75": 188.89999999999998,
+        "p90": 304.0
+      },
+      "additional_mean_s": 135.66271775252383,
+      "additional_spearman_runway_departures_10min_before": 0.0758061801524292,
+      "additional_spearman_airport_movements_10min_before": 0.14824976047399774,
+      "not_distance_part_s": 282.8415788775651,
+      "distance_s_per_m": 0.2641081977377989,
+      "distance_fit_r2": 0.7990681716496623,
+      "distance_fit_groups": 169,
+      "distance_part_median_s": 476.4734435465501
+    },
+    "LSZH": {
+      "flights": 132559,
+      "valid_reference_share": 0.932098160064575,
+      "total_s": {
+        "p25": 570.0,
+        "p50": 712.0,
+        "p75": 879.0
+      },
+      "total_mean_s": 741.6349700887906,
+      "reporting_gap_s": {
+        "p25": -96.0,
+        "p50": 33.0,
+        "p75": 183.0
+      },
+      "reporting_gap_mean_s": 58.01903303434697,
+      "reporting_gap_within_60s_share": 0.24233737430125454,
+      "copied_block_time_share": 0.0110818578896944,
+      "nm_taxi_s": {
+        "p25": 579.0,
+        "p50": 677.0,
+        "p75": 755.0
+      },
+      "nm_taxi_mean_s": 683.6159370544436,
+      "reference_s": {
+        "p25": 545.0,
+        "p50": 633.0,
+        "p75": 674.0
+      },
+      "additional_s": {
+        "p25": 11.0,
+        "p50": 29.399999999999977,
+        "p75": 48.0,
+        "p90": 108.0
+      },
+      "additional_mean_s": 57.020368288837425,
+      "additional_spearman_runway_departures_10min_before": -0.04395685613659751,
+      "additional_spearman_airport_movements_10min_before": -0.013389181143042717,
+      "not_distance_part_s": 501.08184024368444,
+      "distance_s_per_m": 0.11296251354506424,
+      "distance_fit_r2": 0.35426577170900175,
+      "distance_fit_groups": 213,
+      "distance_part_median_s": 121.81496533428604
+    },
+    "LTFM": {
+      "flights": 268944,
+      "valid_reference_share": 0.9038498720923315,
+      "total_s": {
+        "p25": 786.0,
+        "p50": 963.0,
+        "p75": 1200.0
+      },
+      "total_mean_s": 1048.7962215182342,
+      "reporting_gap_s": {
+        "p25": -479.0,
+        "p50": -296.5,
+        "p75": -57.0
+      },
+      "reporting_gap_mean_s": -239.59994273900887,
+      "reporting_gap_within_60s_share": 0.08699208757213397,
+      "copied_block_time_share": 0.0515088642988875,
+      "nm_taxi_s": {
+        "p25": 1164.75,
+        "p50": 1201.0,
+        "p75": 1443.0
+      },
+      "nm_taxi_mean_s": 1288.396164257243,
+      "reference_s": {
+        "p25": 1135.0,
+        "p50": 1136.0,
+        "p75": 1137.0
+      },
+      "additional_s": {
+        "p25": 8.0,
+        "p50": 63.0,
+        "p75": 70.0,
+        "p90": 361.0
+      },
+      "additional_mean_s": 111.9445795407222,
+      "additional_spearman_runway_departures_10min_before": -0.0247038356782754,
+      "additional_spearman_airport_movements_10min_before": 0.041766176937236395,
+      "not_distance_part_s": 1042.5595455177415,
+      "distance_s_per_m": 0.08540027657339413,
+      "distance_fit_r2": 0.5479968501962087,
+      "distance_fit_groups": 546,
+      "distance_part_median_s": 99.47593303024857
+    }
+  }
+}

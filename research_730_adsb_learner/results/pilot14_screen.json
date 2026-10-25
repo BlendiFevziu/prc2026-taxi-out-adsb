@@ -1,0 +1,117 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_matched_months.md",
+  "feb_jun_judged": {
+    "rows": 323262,
+    "rmse": {
+      "new": 191.6210398368853,
+      "old": 193.58523044846933,
+      "base": 209.61152013134105
+    },
+    "rmse_gain_vs_old_s": 1.96419061158403,
+    "rmse_gain_vs_base_s": 17.99048029445575,
+    "per_seed_mse_gain": {
+      "177": 709.8624967216747,
+      "277": 803.3745825139267
+    },
+    "months": {
+      "2": 1347.6181112214679,
+      "6": 290.0023920244723
+    },
+    "months_rmse": {
+      "2": {
+        "new": 193.2092238161287,
+        "old": 196.66576285376257,
+        "base": 212.02162066022908
+      },
+      "6": {
+        "new": 190.35774890251164,
+        "old": 191.11796084946116,
+        "base": 207.6888991642298
+      }
+    },
+    "without_best_100": -30.270091339923013,
+    "airport_day_bootstrap_95": [
+      -86.36500512960689,
+      1777.4911359946648
+    ],
+    "checks": {
+      "1_every_seed_new_beats_old": true,
+      "2_each_month_positive": true,
+      "3_without_best_100_positive": false,
+      "4_airport_day_interval_above_zero": false,
+      "5_rmse_gain_at_least_0_3_s": true,
+      "6_new_beats_base": true
+    },
+    "verdict": "fail",
+    "airports_vs_cross": {
+      "EDDF": -126.76420808709871,
+      "EDDM": -124.50591052015525,
+      "EGLL": 569.0128485019974,
+      "EHAM": 94.20091147178472,
+      "LEBL": 220.97103219649512,
+      "LEMD": 1130.1471346386095,
+      "LFPG": -77.7083468065521,
+      "LIRF": 475.10458778313915,
+      "LSZH": 96.40650471927484,
+      "LTFM": 4184.681922160451
+    },
+    "matched_crc32_day_folds_rmse_reported": 191.15626068475288
+  },
+  "jan_jul_mirror_reported": {
+    "rows": 339046,
+    "rmse": {
+      "new": 201.1339825560883,
+      "old": 203.8980808320564,
+      "base": 216.7734634758806
+    },
+    "rmse_gain_vs_old_s": 2.764098275968081,
+    "rmse_gain_vs_base_s": 15.639480919792277,
+    "per_seed_mse_gain": {
+      "177": 1104.6540687882662,
+      "277": 1134.4427874576577
+    },
+    "months": {
+      "1": 1436.5473786981747,
+      "7": 861.1104829855491
+    },
+    "months_rmse": {
+      "1": {
+        "new": 179.2643372025747,
+        "old": 183.22731775414,
+        "base": 196.9504432985477
+      },
+      "7": {
+        "new": 217.34122223156416,
+        "old": 219.31328588139777,
+        "base": 231.68281605813425
+      }
+    },
+    "without_best_100": 600.9810019770784,
+    "airport_day_bootstrap_95": [
+      793.2641902119028,
+      1445.0414170287825
+    ],
+    "checks": {
+      "1_every_seed_new_beats_old": true,
+      "2_each_month_positive": true,
+      "3_without_best_100_positive": true,
+      "4_airport_day_interval_above_zero": true,
+      "5_rmse_gain_at_least_0_3_s": true,
+      "6_new_beats_base": true
+    },
+    "verdict": "pass",
+    "airports_vs_cross": {
+      "EDDF": 366.4074946410768,
+      "EDDM": -82.83193589212428,
+      "EGLL": 1429.2887105692064,
+      "EHAM": 225.8922655270436,
+      "LEBL": -28.588356367108638,
+      "LEMD": 1048.8848474774063,
+      "LFPG": 725.9683248048242,
+      "LIRF": 2822.143635808504,
+      "LSZH": -417.5739247280462,
+      "LTFM": 3792.043170893792
+    }
+  },
+  "verdict": "fail"
+}

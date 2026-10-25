@@ -1,0 +1,34 @@
+{
+  "v44_main": {
+    "rmse": 226.55400792287065,
+    "mse": 51326.718505916135,
+    "top5_sse_share": 0.00813068676607641,
+    "rmse_without_5_largest_errors": 225.6327720440306,
+    "best_iteration": 1045,
+    "seconds": 151.41392016410828
+  },
+  "units_replaced": {
+    "rmse": 225.89704181338874,
+    "mse": 51029.4735000399,
+    "top5_sse_share": 0.007926293745835903,
+    "rmse_without_5_largest_errors": 225.00165664831744,
+    "best_iteration": 1257,
+    "seconds": 198.7077612876892
+  },
+  "units_added": {
+    "rmse": 226.49516373903288,
+    "mse": 51300.05919717131,
+    "top5_sse_share": 0.007689784195090771,
+    "rmse_without_5_largest_errors": 225.62429732103666,
+    "best_iteration": 1097,
+    "seconds": 180.5825219154358
+  },
+  "units_and_context": {
+    "rmse": 226.23898787372335,
+    "mse": 51184.079634126734,
+    "top5_sse_share": 0.007801380369775806,
+    "rmse_without_5_largest_errors": 225.35643347238963,
+    "best_iteration": 1126,
+    "seconds": 194.56801390647888
+  }
+}

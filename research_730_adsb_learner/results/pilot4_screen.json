@@ -1,0 +1,165 @@
+{
+  "prereg": "research_730_adsb_learner/PREREG_allrows.md",
+  "rows": 344419,
+  "judged_rows": 344393,
+  "label_cap_s": 20000.0,
+  "all_rows": {
+    "rows": 344419,
+    "rmse_real": NaN,
+    "rmse_control": NaN,
+    "rmse_base": NaN,
+    "gain_vs_control_s": NaN,
+    "gain_vs_base_s": NaN,
+    "mse_gain_vs_control": NaN
+  },
+  "judged": {
+    "rows": 344393,
+    "rmse_real": NaN,
+    "rmse_control": NaN,
+    "rmse_base": NaN,
+    "gain_vs_control_s": NaN,
+    "gain_vs_base_s": NaN,
+    "mse_gain_vs_control": NaN
+  },
+  "fallback_judged": {
+    "rows": 5348,
+    "rmse_real": NaN,
+    "rmse_control": NaN,
+    "rmse_base": NaN,
+    "gain_vs_control_s": NaN,
+    "gain_vs_base_s": NaN,
+    "mse_gain_vs_control": NaN
+  },
+  "main_judged": {
+    "rows": 339045,
+    "rmse_real": 220.40529145230065,
+    "rmse_control": 236.42783201968643,
+    "rmse_base": 236.61197312017367,
+    "gain_vs_control_s": 16.02254056738579,
+    "gain_vs_base_s": 16.206681667873028,
+    "mse_gain_vs_control": 7319.627253355475
+  },
+  "fallback_all_labels": {
+    "rows": 5373,
+    "rmse_real": NaN,
+    "rmse_control": NaN,
+    "rmse_base": NaN,
+    "gain_vs_control_s": NaN,
+    "gain_vs_base_s": NaN,
+    "mse_gain_vs_control": NaN
+  },
+  "per_seed_mse_gain": {
+    "177": NaN,
+    "277": NaN
+  },
+  "months": {
+    "1": NaN,
+    "7": NaN
+  },
+  "without_best_100": NaN,
+  "airport_day_bootstrap_95": [
+    NaN,
+    NaN
+  ],
+  "airports_judged": {
+    "EDDF": {
+      "rows": 36830,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "EDDM": {
+      "rows": 27091,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "EGLL": {
+      "rows": 40210,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "EHAM": {
+      "rows": 40949,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LEBL": {
+      "rows": 28986,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LEMD": {
+      "rows": 35328,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LFPG": {
+      "rows": 39610,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LIRF": {
+      "rows": 26504,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LSZH": {
+      "rows": 22346,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    },
+    "LTFM": {
+      "rows": 46539,
+      "rmse_real": NaN,
+      "rmse_control": NaN,
+      "rmse_base": NaN,
+      "gain_vs_control_s": NaN,
+      "gain_vs_base_s": NaN,
+      "mse_gain_vs_control": NaN
+    }
+  },
+  "checks": {
+    "1_every_seed_beats_mean_control": false,
+    "2_both_months_positive": false,
+    "3_without_best_100_positive": false,
+    "4_airport_day_interval_above_zero": false,
+    "5_rmse_gain_vs_control_at_least_0_3_s": false,
+    "6_real_beats_the_base": false
+  },
+  "verdict": "fail"
+}

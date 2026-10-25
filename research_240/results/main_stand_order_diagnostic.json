@@ -1,0 +1,167 @@
+{
+  "validation": "single-LightGBM January/July main diagnostic, research encoding; not full ensemble or leaderboard",
+  "rows_train": 1723531,
+  "rows_valid": 339046,
+  "coverage": {
+    "so_s1": {
+      "train": 0.999202799369434,
+      "valid": 0.9959769470809271
+    },
+    "so_s2": {
+      "train": 0.9976072376998151,
+      "valid": 0.9890103407797172
+    },
+    "so_between": {
+      "train": 0.9976072376998151,
+      "valid": 0.9890103407797172
+    }
+  },
+  "baseline": {
+    "rmse": 223.68022001367427,
+    "source": "local path removed: row-level baseline predictions of main_stage_diagnostic.py, not committed"
+  },
+  "candidate": {
+    "rmse": 223.517029335963,
+    "best_iteration": 1175,
+    "seconds": 229.70329022407532
+  },
+  "rmse_gain": 0.16319067771127038,
+  "mse_gain": 72.9784221919673,
+  "mse_gain_without_top100_rows": -185.71163820561353,
+  "january_mse_gain": 20.520890856856756,
+  "july_mse_gain": 115.74517766742494,
+  "cell_mse_gain_contribution": {
+    "(-1800.0, -900.0] | b0": {
+      "rows": 328,
+      "contribution": 7.761047158729823
+    },
+    "(-1800.0, -900.0] | b1+": {
+      "rows": 862,
+      "contribution": -4.042227318838078
+    },
+    "(-1800.0, -900.0] | no2arr": {
+      "rows": 4,
+      "contribution": -0.12859486181954682
+    },
+    "(-300.0, 0.0] | b0": {
+      "rows": 857,
+      "contribution": 8.852861190337414
+    },
+    "(-300.0, 0.0] | b1+": {
+      "rows": 313,
+      "contribution": 5.4490152537662135
+    },
+    "(-3600.0, -1800.0] | b0": {
+      "rows": 2001,
+      "contribution": -5.044355274357242
+    },
+    "(-3600.0, -1800.0] | b1+": {
+      "rows": 62005,
+      "contribution": 20.87748475201394
+    },
+    "(-3600.0, -1800.0] | no2arr": {
+      "rows": 300,
+      "contribution": -0.7204527627584262
+    },
+    "(-900.0, -300.0] | b0": {
+      "rows": 512,
+      "contribution": 17.361831326717226
+    },
+    "(-900.0, -300.0] | b1+": {
+      "rows": 264,
+      "contribution": 8.782736051054851
+    },
+    "(-900.0, -300.0] | no2arr": {
+      "rows": 3,
+      "contribution": 0.0038605888404718873
+    },
+    "(-inf, -3600.0] | b0": {
+      "rows": 12683,
+      "contribution": 2.5958252147104246
+    },
+    "(-inf, -3600.0] | b1+": {
+      "rows": 223792,
+      "contribution": -65.00643503731206
+    },
+    "(-inf, -3600.0] | no2arr": {
+      "rows": 2030,
+      "contribution": -4.995869833011789
+    },
+    "(0.0, 300.0] | b0": {
+      "rows": 3275,
+      "contribution": 14.834555260324437
+    },
+    "(0.0, 300.0] | b1+": {
+      "rows": 1008,
+      "contribution": 8.659035514503158
+    },
+    "(0.0, 300.0] | no2arr": {
+      "rows": 2,
+      "contribution": 1.2593627428336682
+    },
+    "(300.0, 900.0] | b0": {
+      "rows": 13622,
+      "contribution": 26.69598456177701
+    },
+    "(300.0, 900.0] | b1+": {
+      "rows": 4345,
+      "contribution": 15.106270691740253
+    },
+    "(300.0, 900.0] | no2arr": {
+      "rows": 18,
+      "contribution": -0.16447323495691843
+    },
+    "(900.0, inf] | b0": {
+      "rows": 6791,
+      "contribution": 6.0481996182651745
+    },
+    "(900.0, inf] | b1+": {
+      "rows": 2662,
+      "contribution": 5.141432716729414
+    },
+    "(900.0, inf] | no2arr": {
+      "rows": 5,
+      "contribution": 0.005743024878246982
+    },
+    "nan | no2arr": {
+      "rows": 1364,
+      "contribution": 3.645584847799594
+    }
+  },
+  "airport_mse_gain": {
+    "EDDF": 24.048511473587826,
+    "EDDM": 82.8008314711732,
+    "EGLL": 57.19950491539054,
+    "EHAM": 187.7821863462161,
+    "LEBL": -150.185897795303,
+    "LEMD": -97.51340918159426,
+    "LFPG": 49.24161296551074,
+    "LIRF": 90.25074051426027,
+    "LSZH": 348.81339178474764,
+    "LTFM": 166.80505061950046
+  },
+  "importance_gain_share": {
+    "so_s1": 0.007557375393722734,
+    "so_s2": 0.0007016837189843406,
+    "so_between": 0.000133294093926851
+  },
+  "importance_rank": {
+    "so_s1": 18,
+    "so_s2": 59,
+    "so_between": 83
+  },
+  "code_sha256": {
+    "main_stand_order_diagnostic.py": "4ebf1f6dfc70b6a6eafdb8b7f12c54918e3bb2c5975774b34e680d161d47e95a",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "candidate_features.py": "9a663d2fdda23cb035a28ef68668d16a6892e7c1b7696f02d13ba247ed6c154d"
+  },
+  "decision": {
+    "checks": {
+      "1_rmse_gain_at_least_0_3_s": false,
+      "2_survives_top100_removal": false,
+      "3_january_and_july_gain": true
+    },
+    "run_six_pair_screen": false
+  },
+  "seconds": 239.78296089172363
+}

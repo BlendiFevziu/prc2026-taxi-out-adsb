@@ -1,0 +1,122 @@
+{
+  "note": "rate built on the ten learning months only, scored on the held-out January and July; no model was fitted",
+  "smoothing": 20,
+  "base_rate": 0.04855603839533777,
+  "by_airport": [
+    {
+      "airport": "EDDF",
+      "rows": 36231,
+      "copy_rate": 0.011537081504788717,
+      "auc_current_gate": 0.8758282155967795,
+      "auc_stand_rate": 0.592951464926064,
+      "auc_operator_rate": 0.5284441029873812,
+      "auc_gate_plus_stand": 0.7928530136005516,
+      "auc_gate_plus_both": 0.7532995689865365
+    },
+    {
+      "airport": "EDDM",
+      "rows": 26854,
+      "copy_rate": 0.04520741788932747,
+      "auc_current_gate": 0.8645182825434928,
+      "auc_stand_rate": 0.5518459721090656,
+      "auc_operator_rate": 0.5398766856769822,
+      "auc_gate_plus_stand": 0.769267879034766,
+      "auc_gate_plus_both": 0.7198660421705171
+    },
+    {
+      "airport": "EGLL",
+      "rows": 39744,
+      "copy_rate": 0.04201892109500805,
+      "auc_current_gate": 0.8097540276907969,
+      "auc_stand_rate": 0.5292349455629897,
+      "auc_operator_rate": 0.5369414635036278,
+      "auc_gate_plus_stand": 0.7253583944156652,
+      "auc_gate_plus_both": 0.682021144452703
+    },
+    {
+      "airport": "EHAM",
+      "rows": 40141,
+      "copy_rate": 0.010363468772576667,
+      "auc_current_gate": 0.8972971631892337,
+      "auc_stand_rate": 0.5343130960449243,
+      "auc_operator_rate": 0.5613433097739265,
+      "auc_gate_plus_stand": 0.7828580807958562,
+      "auc_gate_plus_both": 0.7634949109260784
+    },
+    {
+      "airport": "LEBL",
+      "rows": 28490,
+      "copy_rate": 0.06388206388206388,
+      "auc_current_gate": 0.7953664239772227,
+      "auc_stand_rate": 0.5601729007775127,
+      "auc_operator_rate": 0.5683926459741983,
+      "auc_gate_plus_stand": 0.7278634882178189,
+      "auc_gate_plus_both": 0.6961618293592422
+    },
+    {
+      "airport": "LEMD",
+      "rows": 35019,
+      "copy_rate": 0.042605442759644764,
+      "auc_current_gate": 0.8658836329824524,
+      "auc_stand_rate": 0.5751202404112535,
+      "auc_operator_rate": 0.5620966047851793,
+      "auc_gate_plus_stand": 0.7838632578232533,
+      "auc_gate_plus_both": 0.75242608874077
+    },
+    {
+      "airport": "LFPG",
+      "rows": 38732,
+      "copy_rate": 0.03617164102034493,
+      "auc_current_gate": 0.8714096175825917,
+      "auc_stand_rate": 0.5590958757345094,
+      "auc_operator_rate": 0.5338187816151174,
+      "auc_gate_plus_stand": 0.7766006368056309,
+      "auc_gate_plus_both": 0.7317011209652118
+    },
+    {
+      "airport": "LIRF",
+      "rows": 26131,
+      "copy_rate": 0.16486165856645363,
+      "auc_current_gate": 0.8695762088765905,
+      "auc_stand_rate": 0.6173492038652668,
+      "auc_operator_rate": 0.7143293827936427,
+      "auc_gate_plus_stand": 0.796099153181048,
+      "auc_gate_plus_both": 0.7912493914170865
+    },
+    {
+      "airport": "LSZH",
+      "rows": 21822,
+      "copy_rate": 0.010860599395105856,
+      "auc_current_gate": 0.8938251188266583,
+      "auc_stand_rate": 0.5864287885496354,
+      "auc_operator_rate": 0.5861079101462279,
+      "auc_gate_plus_stand": 0.805196021225085,
+      "auc_gate_plus_both": 0.7699209972545007
+    },
+    {
+      "airport": "LTFM",
+      "rows": 45882,
+      "copy_rate": 0.05124013774464932,
+      "auc_current_gate": 0.7809464873255912,
+      "auc_stand_rate": 0.5389331662428906,
+      "auc_operator_rate": 0.5331959415321941,
+      "auc_gate_plus_stand": 0.7077652342799634,
+      "auc_gate_plus_both": 0.6931332253568085
+    }
+  ],
+  "pooled": {
+    "rows": 339046,
+    "copy_rate": 0.04520625519840966,
+    "auc_current_gate": 0.8762813135775466,
+    "auc_stand_rate": 0.7111980307794583,
+    "auc_operator_rate": 0.714943158969265,
+    "auc_gate_plus_stand": 0.834280268609988,
+    "auc_gate_plus_both": 0.8076861371533061
+  },
+  "lirf_stand_spread": {
+    "stands": 119,
+    "min": 0.07534246575342465,
+    "max": 0.75,
+    "median": 0.16075156576200417
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "prereg": "research_590_stand_new/PREREG_drift_robust_c1_paris.md",
+  "test": {
+    "rows": 702,
+    "gain_mse": 15653.632929818397,
+    "without_best100": -10771.443435618505,
+    "blocks": {
+      "first_half": 22428.681105991094,
+      "second_half": 12478.714956047095
+    },
+    "seeds": {
+      "177": 15252.460154679817,
+      "277": 15212.416982070492,
+      "377": 16307.359046579766
+    },
+    "rules": {
+      "pooled": true,
+      "without_best100": false,
+      "both_blocks": true,
+      "every_seed": true
+    },
+    "pass": false
+  },
+  "months": {
+    "LFPG/07": {
+      "rows_2026": 1896,
+      "drift_flags_kept": [],
+      "admitted": false
+    },
+    "LFPG/01": {
+      "rows_2026": 1890,
+      "drift_flags_kept": [],
+      "admitted": false
+    }
+  },
+  "planning_s": 0.0,
+  "verdict": "fail"
+}

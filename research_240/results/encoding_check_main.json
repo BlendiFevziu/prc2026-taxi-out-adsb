@@ -1,0 +1,165 @@
+{
+  "validation": "single release LightGBM tree, pair 1_7, main lane; encoding comparison, not an ensemble result",
+  "features": 91,
+  "train_rows": 1723531,
+  "test_rows": 339046,
+  "replication_gate": {
+    "max_abs_difference_s": 0.0,
+    "passed": true
+  },
+  "production_fit_seconds": 179.43896412849426,
+  "research_fit_seconds": 146.26264023780823,
+  "categories": {
+    "ADEP_mvt": {
+      "production_train_categories": 10,
+      "research_train_categories": 10,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "ADES_mvt": {
+      "production_train_categories": 1513,
+      "research_train_categories": 1427,
+      "missing_share_train": 4.235490977533912e-05,
+      "missing_share_test": 2.0646166006972507e-05,
+      "research_test_rows_unseen_in_train": 69
+    },
+    "RUNWAY_mvt": {
+      "production_train_categories": 53,
+      "research_train_categories": 52,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "STAND_mvt": {
+      "production_train_categories": 1862,
+      "research_train_categories": 1845,
+      "missing_share_train": 5.802042434977961e-06,
+      "missing_share_test": 2.0646166006972507e-05,
+      "research_test_rows_unseen_in_train": 109
+    },
+    "AIRCRAFT_TYPE_mvt": {
+      "production_train_categories": 266,
+      "research_train_categories": 236,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 3
+    },
+    "MARKET_SEGMENT_flt": {
+      "production_train_categories": 8,
+      "research_train_categories": 8,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "WK_TBL_CAT_flt": {
+      "production_train_categories": 4,
+      "research_train_categories": 5,
+      "missing_share_train": 3.887368431435234e-05,
+      "missing_share_test": 2.0646166006972507e-05,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "AIRCRAFT_OPERATOR_flt": {
+      "production_train_categories": 669,
+      "research_train_categories": 669,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 21
+    },
+    "FLIGHT_TYPE_flt": {
+      "production_train_categories": 5,
+      "research_train_categories": 5,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "FLIGHT_RULE_mvt": {
+      "production_train_categories": 2,
+      "research_train_categories": 2,
+      "missing_share_train": 4.235490977533912e-05,
+      "missing_share_test": 0.0002654507058039322,
+      "research_test_rows_unseen_in_train": 0
+    },
+    "ruf_pre": {
+      "production_train_categories": 2266,
+      "research_train_categories": 2205,
+      "missing_share_train": 0.0,
+      "missing_share_test": 0.0,
+      "research_test_rows_unseen_in_train": 135
+    }
+  },
+  "main_rmse": {
+    "production": 223.87028973559006,
+    "research": 223.8280638171796,
+    "production_no_floor": 224.21489204318482,
+    "research_no_floor": 224.17792294816013
+  },
+  "prediction_difference": {
+    "rms_s": 27.411403651682743,
+    "max_abs_s": 487.82132082092994,
+    "share_over_60_s": 0.039581649687653
+  },
+  "by_airport": {
+    "EDDF": {
+      "rows": 36231,
+      "production": 177.37116538653453,
+      "research": 177.64067824994459
+    },
+    "EDDM": {
+      "rows": 26854,
+      "production": 168.69613032521107,
+      "research": 168.37153635970282
+    },
+    "EGLL": {
+      "rows": 39744,
+      "production": 234.22216649647586,
+      "research": 233.54122461699873
+    },
+    "EHAM": {
+      "rows": 40141,
+      "production": 166.5114462158253,
+      "research": 166.41808618074427
+    },
+    "LEBL": {
+      "rows": 28490,
+      "production": 219.49049914765243,
+      "research": 219.3745817747413
+    },
+    "LEMD": {
+      "rows": 35019,
+      "production": 175.51909620265775,
+      "research": 175.54682133959906
+    },
+    "LFPG": {
+      "rows": 38732,
+      "production": 246.83792412025088,
+      "research": 247.33051940869484
+    },
+    "LIRF": {
+      "rows": 26131,
+      "production": 373.74512887482456,
+      "research": 374.040887926394
+    },
+    "LSZH": {
+      "rows": 21822,
+      "production": 175.84505852801183,
+      "research": 175.81636660959214
+    },
+    "LTFM": {
+      "rows": 45882,
+      "production": 240.72277726585892,
+      "research": 240.4097593906765
+    }
+  },
+  "decision": {
+    "rmse_research_minus_production_s": -0.04222591841045187,
+    "bar_s": 0.3,
+    "caveat_closed": true
+  },
+  "seconds": 346.0431487560272,
+  "code_sha256": {
+    "encoding_check_main.py": "c1a7cb55e982010da1dfd33dd94c3dbec6ca4c4f38c7ae8a889ed1a7e649ccb5",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "candidate_features.py": "9a663d2fdda23cb035a28ef68668d16a6892e7c1b7696f02d13ba247ed6c154d"
+  }
+}

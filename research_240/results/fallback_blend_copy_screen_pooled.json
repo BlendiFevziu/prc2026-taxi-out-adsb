@@ -1,0 +1,233 @@
+{
+  "validation": "fallback-only six-pair screen against the scored v46 fallback recipe; not a leaderboard forecast",
+  "replication_gates": [
+    {
+      "pair": "1_7",
+      "prod_v44_max_diff": 7.275957614183426e-12,
+      "prod_anchor_max_diff": 7.275957614183426e-12,
+      "passed": true
+    },
+    {
+      "pair": "2_8",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "3_9",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "4_10",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "5_11",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    },
+    {
+      "pair": "6_12",
+      "prod_v44_max_diff": 0.0,
+      "prod_anchor_max_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "code_sha256": {
+    "fallback_blend_copy_screen.py": "9192daaf1743ce56f8162b6b3153959d71b592cc0bd8e06ff89d53b99391123a",
+    "main_model.py": "1370a0edf84efb1ae10b95a4cea96749f1026c94b4849256f28fe10d5f2ef12e",
+    "features_stand_rate.py": "5612653363d367369ae4dd402fb74e7d617ec56f87e95ef55687423199622c56",
+    "features_arrival_copy.py": "6378d95e726f30ca0ab0e7fd47843de9d0f2a5cd47a0eab142b8de768af74bce",
+    "features_neighbour_taxi.py": "3190b3a98664f8bdc510e1e1709469c1de01830574dbe0321183dac43a4a4042"
+  },
+  "grid": [
+    [
+      1.5,
+      0.0
+    ],
+    [
+      1.5,
+      0.15
+    ],
+    [
+      1.5,
+      0.3
+    ],
+    [
+      1.5,
+      0.5
+    ],
+    [
+      2.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.15
+    ],
+    [
+      2.0,
+      0.3
+    ],
+    [
+      2.0,
+      0.5
+    ],
+    [
+      2.5,
+      0.0
+    ],
+    [
+      2.5,
+      0.15
+    ],
+    [
+      2.5,
+      0.3
+    ],
+    [
+      2.5,
+      0.5
+    ],
+    [
+      3.0,
+      0.0
+    ],
+    [
+      3.0,
+      0.15
+    ],
+    [
+      3.0,
+      0.3
+    ],
+    [
+      3.0,
+      0.5
+    ],
+    [
+      4.0,
+      0.0
+    ],
+    [
+      4.0,
+      0.15
+    ],
+    [
+      4.0,
+      0.3
+    ],
+    [
+      4.0,
+      0.5
+    ]
+  ],
+  "selected_per_pair": {
+    "1_7": {
+      "hoch": 1.5,
+      "anteil_hm": 0.3
+    },
+    "2_8": {
+      "hoch": 1.5,
+      "anteil_hm": 0.5
+    },
+    "3_9": {
+      "hoch": 1.5,
+      "anteil_hm": 0.3
+    },
+    "4_10": {
+      "hoch": 1.5,
+      "anteil_hm": 0.3
+    },
+    "5_11": {
+      "hoch": 1.5,
+      "anteil_hm": 0.3
+    },
+    "6_12": {
+      "hoch": 1.5,
+      "anteil_hm": 0.3
+    }
+  },
+  "rmse": {
+    "prod_v44": 1504.21749708402,
+    "prod_anchor": 1486.0818407269521,
+    "T1_blend_loo": 1483.575156080067,
+    "A1_copy_classifier": 1484.5910019179842
+  },
+  "variants": {
+    "T1_blend_loo": {
+      "pooled_mse_gain": 7443.993600411559,
+      "mse_gain_without_top100_rows": -52790.53957721983,
+      "pair_gains": {
+        "1_7": 26074.046703198735,
+        "2_8": -144017.12707182788,
+        "3_9": 51203.6694111651,
+        "4_10": 19771.226519615087,
+        "5_11": 27684.556157040744,
+        "6_12": 48020.1482801437
+      },
+      "pairs_positive": 5,
+      "january_gain_1_7": -16510.165897504798,
+      "july_gain_1_7": 41591.65591650742,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -31967.59866396298,
+        41349.90810129865
+      ],
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    },
+    "A1_copy_classifier": {
+      "pooled_mse_gain": 4428.794362562834,
+      "mse_gain_without_top100_rows": -82862.90712064895,
+      "pair_gains": {
+        "1_7": 35411.960199877874,
+        "2_8": -48241.30111649921,
+        "3_9": 64568.77707200661,
+        "4_10": 2948.5540389334665,
+        "5_11": -93351.86548003201,
+        "6_12": 27347.785897486883
+      },
+      "pairs_positive": 4,
+      "january_gain_1_7": -53525.60299158976,
+      "july_gain_1_7": 67820.64561881035,
+      "airport_day_bootstrap_mse_gain_95pct": [
+        -43056.532270810545,
+        49912.447386054686
+      ],
+      "checks": {
+        "1_pooled_gain_positive": true,
+        "2_survives_top100_removal": false,
+        "3_at_least_4_of_6_pairs": true,
+        "4_january_and_july_gain_in_1_7": false
+      },
+      "advance": false
+    }
+  },
+  "copy_coverage": {
+    "held_out_2025": {
+      "1_7": 0.9549599851107389,
+      "2_8": 0.9447353112274578,
+      "3_9": 0.9478726401803325,
+      "4_10": 0.9523015343562375,
+      "5_11": 0.9463019250253293,
+      "6_12": 0.9491688749698868
+    },
+    "ranking_2026": 0.9517958412098299,
+    "passed": true
+  },
+  "decision": {
+    "advancing": [],
+    "candidate_for_2026": null
+  },
+  "seconds": 52.85125494003296
+}

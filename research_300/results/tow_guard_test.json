@@ -1,0 +1,227 @@
+{
+  "prereg": "research_300/PREREG_towguard.md",
+  "dates": [
+    "2025-01-20",
+    "2025-01-25",
+    "2025-01-04",
+    "2025-01-14",
+    "2025-07-22",
+    "2025-07-03",
+    "2025-07-27",
+    "2025-07-14"
+  ],
+  "geometry": {
+    "EHAM": "xplane_first",
+    "EDDM": "xplane_first",
+    "EDDF": "osm"
+  },
+  "label_check_max_diff_s": 0.0,
+  "main_lane_coverage": {
+    "EDDF": {
+      "unguarded": 0.027531083481349913,
+      "guarded": 0.02730905861456483
+    },
+    "EDDM": {
+      "unguarded": 0.1936046511627907,
+      "guarded": 0.1936046511627907
+    },
+    "EHAM": {
+      "unguarded": 0.09920248978797899,
+      "guarded": 0.09900797510212021
+    }
+  },
+  "comparison_1_guard_alone": {
+    "departures": 5141,
+    "changed_rows": 1,
+    "coverage": {
+      "unguarded": 0.09920248978797899,
+      "guarded": 0.09900797510212021
+    },
+    "accuracy[unguarded]": {
+      "n": 510,
+      "median_s": -27.15499997138977,
+      "mae_s": 40.05795097631567,
+      "within_60": 475,
+      "policy_rmse_on_covered": 75.64708865130639,
+      "comparator_rmse_on_covered": 171.00197625050197
+    },
+    "accuracy[guarded]": {
+      "n": 509,
+      "median_s": -27.204999923706055,
+      "mae_s": 40.090127697159595,
+      "within_60": 474,
+      "policy_rmse_on_covered": 75.71408695674909,
+      "comparator_rmse_on_covered": 150.9221003411424
+    },
+    "gain_per_departure": -645.5857708943524,
+    "gain_per_changed_row": -3318956.448167866,
+    "gain_per_changed_row_without_top5pct": NaN,
+    "airport_day_bootstrap_95": [
+      -1905.2654008853383,
+      0.0
+    ],
+    "months": {
+      "January": {
+        "departures": 2316,
+        "changed_rows": 0,
+        "gain_per_departure": 0.0
+      },
+      "July": {
+        "departures": 2825,
+        "changed_rows": 1,
+        "gain_per_departure": -1174.8518400594216
+      }
+    },
+    "official_scale_s": -0.13315384451425416,
+    "verdict": "insufficient"
+  },
+  "comparison_2_decision": {
+    "departures": 5141,
+    "changed_rows": 509,
+    "coverage": {
+      "production": 0.0,
+      "guarded": 0.09900797510212021
+    },
+    "accuracy[production]": {
+      "n": 0,
+      "median_s": null,
+      "mae_s": null,
+      "within_60": 0,
+      "policy_rmse_on_covered": null,
+      "comparator_rmse_on_covered": null
+    },
+    "accuracy[guarded]": {
+      "n": 509,
+      "median_s": -27.204999923706055,
+      "mae_s": 40.090127697159595,
+      "within_60": 474,
+      "policy_rmse_on_covered": 75.71408695674909,
+      "comparator_rmse_on_covered": 150.9221003411424
+    },
+    "gain_per_departure": 1687.5768178395324,
+    "gain_per_changed_row": 17044.857407687694,
+    "gain_per_changed_row_without_top5pct": 8758.382344555079,
+    "airport_day_bootstrap_95": [
+      1121.74214744575,
+      2239.2278494327015
+    ],
+    "months": {
+      "January": {
+        "departures": 2316,
+        "changed_rows": 176,
+        "gain_per_departure": 1455.1250274835838
+      },
+      "July": {
+        "departures": 2825,
+        "changed_rows": 333,
+        "gain_per_departure": 1878.1461440216124
+      }
+    },
+    "official_scale_s": 0.348384738415632,
+    "checks": {
+      "pooled_gain_positive": true,
+      "each_month_with_data_positive": true,
+      "without_top5pct_positive": true,
+      "airport_day_interval_above_zero": true
+    },
+    "verdict": "pass"
+  },
+  "descriptive_unguarded_vs_production": {
+    "departures": 5141,
+    "changed_rows": 510,
+    "coverage": {
+      "production": 0.0,
+      "unguarded": 0.09920248978797899
+    },
+    "accuracy[production]": {
+      "n": 0,
+      "median_s": null,
+      "mae_s": null,
+      "within_60": 0,
+      "policy_rmse_on_covered": null,
+      "comparator_rmse_on_covered": null
+    },
+    "accuracy[unguarded]": {
+      "n": 510,
+      "median_s": -27.15499997138977,
+      "mae_s": 40.05795097631567,
+      "within_60": 475,
+      "policy_rmse_on_covered": 75.64708865130639,
+      "comparator_rmse_on_covered": 171.00197625050197
+    },
+    "gain_per_departure": 2333.1625887338846,
+    "gain_per_changed_row": 23519.193860158626,
+    "gain_per_changed_row_without_top5pct": 8892.298855958576,
+    "airport_day_bootstrap_95": [
+      1298.8361985230954,
+      3493.3342114589977
+    ],
+    "months": {
+      "January": {
+        "departures": 2316,
+        "changed_rows": 176,
+        "gain_per_departure": 1455.1250274835838
+      },
+      "July": {
+        "departures": 2825,
+        "changed_rows": 334,
+        "gain_per_departure": 3052.997984081034
+      }
+    },
+    "official_scale_s": 0.48178168600668414,
+    "checks": {
+      "pooled_gain_positive": true,
+      "each_month_with_data_positive": true,
+      "without_top5pct_positive": true,
+      "airport_day_interval_above_zero": true
+    },
+    "verdict": "pass"
+  },
+  "withdrawn_rows": [
+    {
+      "date": "2025-07-22",
+      "airport": "EHAM",
+      "callsign": "AA221",
+      "STAND_mvt": "G04",
+      "guard": "long_stop",
+      "unguarded": 3757.7,
+      "err_unguarded": 23.7,
+      "rest_at_spot_s": 0.0,
+      "longest_stop_s": 2105.4
+    },
+    {
+      "date": "2025-07-22",
+      "airport": "EDDF",
+      "callsign": "LH780",
+      "STAND_mvt": "A69",
+      "guard": "false_onset",
+      "unguarded": 2149.3,
+      "err_unguarded": 331.3,
+      "rest_at_spot_s": 327.0,
+      "longest_stop_s": 332.2
+    }
+  ],
+  "unguarded_errors_over_2000_s_kept": [
+    {
+      "date": "2025-07-27",
+      "airport": "EDDF",
+      "callsign": "CA932",
+      "STAND_mvt": "B48",
+      "err_unguarded": 3348.1
+    }
+  ],
+  "per_airport_withdrawals": {
+    "EDDF": {
+      "covered": 124,
+      "withdrawn": 1
+    },
+    "EDDM": {
+      "covered": 666,
+      "withdrawn": 0
+    },
+    "EHAM": {
+      "covered": 510,
+      "withdrawn": 1
+    }
+  }
+}
